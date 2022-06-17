@@ -11,10 +11,8 @@ eleventyComputed:
   author: "{{ feed.maintainer }}"
 ---
 
-<p>ID: {{ feed.id }}</p>
-<p>By: {{ feed.maintainer }}</p>
-<p>baseUrl: {{ feed.baseUrl }}</p>
 <p>{{ feed.description }}</p>
+<p>Repo <a href="{{ feed.baseUrl }}">{{ feed.id }}</a> maintained by {{ feed.maintainer }}.</p>
 
 <h3>Macros:</h3>
 {% for macroId, macro in feed.macros %}

@@ -2,7 +2,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<title>{{ title }}</title>
+<title>{{ title | safe }}</title>
 
 {% if description %}
 <meta name="description" content="{{ description }}">
@@ -15,7 +15,7 @@
 <meta name="format-detection" content="telephone=no">
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="{{ title }}">
+<meta property="og:title" content="{{ title | safe  }}">
 <meta property="og:site_name" content="DependencyControl Browser">
 {% if author %}
 <meta property="article:author" content="{{author}}">

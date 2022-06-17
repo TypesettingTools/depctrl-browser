@@ -1,5 +1,6 @@
 const EleventyFetch = require("@11ty/eleventy-fetch");
 
+const ignoredFeeds = ['this', 'Flux'];
 var feedQueue = [['DependencyControl', 'https://raw.githubusercontent.com/TypesettingTools/DependencyControl/master/DependencyControl.json']];
 var procesesed = [];
 var feedData = {};
@@ -31,8 +32,10 @@ async function processFeed(name, url) {
   knownFeeds = feedJson['knownFeeds'] || {};
 
   // filter out "this" feed used here https://github.com/TypesettingTools/ffi-experiments/blob/master/DependencyControl.json
-  if (knownFeeds.hasOwnProperty('this')) {
-    delete knownFeeds['this']
+  for (ignored of ignoredFeeds) {
+    if (knownFeeds.hasOwnProperty(ignored)) {
+      delete knownFeeds[ignored];
+    }
   }
 
   feedQueue = feedQueue.concat(Object.entries(knownFeeds));
