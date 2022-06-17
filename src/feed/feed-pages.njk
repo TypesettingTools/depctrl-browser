@@ -12,7 +12,7 @@ eleventyComputed:
 ---
 
 <p>{{ feed.description }}</p>
-<p>Repo <a href="{{ feed.baseUrl }}">{{ feed.id }}</a> maintained by {{ feed.maintainer }}.</p>
+<p>Feed <a href="{{ feed.baseUrl }}">{{ feed.id }}</a> maintained by {{ feed.maintainer }}.</p>
 
 <h3>Macros:</h3>
 {% for macroId, macro in feed.macros %}

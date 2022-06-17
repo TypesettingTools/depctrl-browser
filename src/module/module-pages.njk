@@ -11,10 +11,8 @@ eleventyComputed:
   author: "{{ module.author }}"
 ---
 
-<p>ID: {{ module.id }}</p>
-<p>In Feed: {{ module.feedId }}</p>
-<p>By: {{ module.author }}</p>
 <p>{{ module.description }}</p>
+<p>Module <a href="{{ module.url }}">{{ module.id }}</a> in feed <a href="/feed/{{ module.feedId | slug }}">{{ module.feedId }}</a> by {{ module.author }}.</p>
 
 <h3>Channels:</h3>
 {% for channel, info in module.channels %}
@@ -22,19 +20,31 @@ eleventyComputed:
 <p>Version: {{ info.description }}</p>
 <p>Release Date: {{ info.released }}</p>
 <p>Default: {{ info.default }}</p>
-<details>
-  <summary>Files</summary>
+
+<details open>
+  <summary>Required Modules</summary>
   <p>
-    {% for file in info.files %}
-      <li><a href="{{ file.url }}">{{ file.name }}</a>: {{ file.sha1 }}</li>
+    {% for module in info.requiredModules %}
+      <li>
+        {% if module.feed %}
+          <a href="/feed/{{ module.feedId }}/module/{{ module.moduleName | slug }}">{{ module.moduleName }}</a>
+        {% else %}
+          {{ module.moduleName }}
+        {% endif %}
+        {% if module.version %} @ {{ module.version }}{% endif %}
+      </li>
+    {% else %}
+      No modules required
     {% endfor %}
   </p>
 </details>
 <details>
-  <summary>Required Modules</summary>
+  <summary>Files</summary>
   <p>
-    {% for module in info.requiredModules %}
-      <li><a href="{{ module.feed }}/module/{{ module.moduleName | slug }}">{{ module.moduleName }}</a> @ {{ module.version }}</li>
+    {% for file in info.files %}
+      <li><a href="{{ file.url }}">{{ file.name }}</a>: <code>{{ file.sha1 }}</code></li>
+    {% else %}
+      Module containes no files
     {% endfor %}
   </p>
 </details>
@@ -43,7 +53,7 @@ eleventyComputed:
 <details>
   <summary>Changelog</summary>
   <p>
-    {% for version, changelog in module.changelog %}
+    {% for version, changelog in module.changelog | changelogSort %}
       <p><b>{{ version }}:</b> <br>
       {% for changelogLine in changelog %}
         <li>{{ changelogLine | markdownify | safe }}</li>
