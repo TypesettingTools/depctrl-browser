@@ -55,7 +55,7 @@ body {
   display: grid;
   grid-template-columns:
     1fr min(45rem, 90%) 1fr;
-  margin: 0;
+  margin: 0 0 1.5rem 0;
 }
 
 body>* {
@@ -66,6 +66,7 @@ body>* {
 body>header {
   background: var(--accent-bg);
   border-bottom: 1px solid var(--border);
+  margin: 0 0 1.5rem 0;
   text-align: center;
   padding: 0 0.5rem 1rem 0.5rem;
   grid-column: 1 / -1;
@@ -103,7 +104,7 @@ h1 {
 
 h2 {
   font-size: 2.6rem;
-  margin: 2rem 0;
+  margin: 0 0 1.5rem 0;
 }
 
 h3 {
