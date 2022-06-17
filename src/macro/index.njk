@@ -3,7 +3,7 @@ layout: base.njk
 title: List of all Macros
 ---
 
-{% for macro in macros %}
+{% for macro in macros | sort(false, false, 'name') %}
   <li><a href="/feed/{{ macro.feedId | slug }}/macro/{{ macro.id | slug }}/">{{ macro.name }}</a> by {{ macro.author }}</li>
 {% else %}
   <li>No Items</li>

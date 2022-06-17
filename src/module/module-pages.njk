@@ -11,9 +11,46 @@ eleventyComputed:
   author: "{{ module.author }}"
 ---
 
-By {{ module.author }}
+<p>ID: {{ module.id }}</p>
+<p>In Feed: {{ module.feedId }}</p>
+<p>By: {{ module.author }}</p>
 <p>{{ module.description }}</p>
 
-<code>
-{{ module | dump }}
-</code>
+<h3>Channels:</h3>
+{% for channel, info in module.channels %}
+<h4>{{ channel }}:</h4>
+<p>Version: {{ info.description }}</p>
+<p>Release Date: {{ info.released }}</p>
+<p>Default: {{ info.default }}</p>
+<details>
+  <summary>Files</summary>
+  <p>
+    {% for file in info.files %}
+      <li><a href="{{ file.url }}">{{ file.name }}</a>: {{ file.sha1 }}</li>
+    {% endfor %}
+  </p>
+</details>
+<details>
+  <summary>Required Modules</summary>
+  <p>
+    {% for module in info.requiredModules %}
+      <li><a href="{{ module.feed }}/module/{{ module.moduleName | slug }}">{{ module.moduleName }}</a> @ {{ module.version }}</li>
+    {% endfor %}
+  </p>
+</details>
+{% endfor %}
+
+<details>
+  <summary>Changelog</summary>
+  <p>
+    {% for version, changelog in module.changelog %}
+      <p><b>{{ version }}:</b> <br>
+      {% for changelogLine in changelog %}
+        <li>{{ changelogLine | markdownify | safe }}</li>
+      {% endfor %}
+      </p>
+    {% else %}
+      No changelog Available
+    {% endfor %}
+  </p>
+</details>

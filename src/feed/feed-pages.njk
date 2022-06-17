@@ -11,7 +11,9 @@ eleventyComputed:
   author: "{{ feed.maintainer }}"
 ---
 
-By {{ feed.maintainer }}
+<p>ID: {{ feed.id }}</p>
+<p>By: {{ feed.maintainer }}</p>
+<p>baseUrl: {{ feed.baseUrl }}</p>
 <p>{{ feed.description }}</p>
 
 <h3>Macros:</h3>

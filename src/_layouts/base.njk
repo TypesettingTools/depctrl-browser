@@ -4,7 +4,18 @@
         {% include "head.njk" %}
     </head>
     <body>
-        {% if title %}<h1>{{ title }}</h1>{% endif %}
+        <header>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/feed/">Feeds</a>
+            <a href="/macro/">Macros</a>
+            <a href="/module/">Modules</a>
+            <a href="https://github.com/seproDev/depctrl-browser">Github</a>
+            <h1>DependencyControl Browser</h1>
+        </nav>
+        </header>
+        {% if title %}<h2>{{ title }}</h2>{% endif %}
         {{ content | safe }}
+        <p></p>
     </body>
 </html>
