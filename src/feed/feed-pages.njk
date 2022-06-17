@@ -4,9 +4,13 @@ pagination:
     size: 1
     alias: feed
 permalink: "feed/{{ feed.id | slug }}/"
+layout: base.njk
+eleventyComputed:
+  title: "{{ feed.name }}"
+  description: "{{ feed.description }}"
+  author: "{{ feed.maintainer }}"
 ---
 
-<h1>{{ feed.name }}</h1>
 By {{ feed.maintainer }}
 <p>{{ feed.description }}</p>
 

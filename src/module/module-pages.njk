@@ -4,9 +4,13 @@ pagination:
     size: 1
     alias: module
 permalink: "/feed/{{ module.feedId | slug }}/module/{{ module.id | slug }}/"
+layout: base.njk
+eleventyComputed:
+  title: "{{ module.name }}"
+  description: "{{ module.description }}"
+  author: "{{ module.author }}"
 ---
 
-<h1>{{ module.name }}</h1>
 By {{ module.author }}
 <p>{{ module.description }}</p>
 

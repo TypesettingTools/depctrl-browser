@@ -1,4 +1,8 @@
-<h1>List of feeds</h1>
+---
+layout: base.njk
+title: List of all Feeds
+---
+
 {% for feed in feeds %}
   <li><a href="/feed/{{ feed.id | slug }}/">{{ feed.name }}</a> by {{ feed.maintainer }}</li>
 {% else %}

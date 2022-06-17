@@ -4,9 +4,13 @@ pagination:
     size: 1
     alias: macro
 permalink: "/feed/{{ macro.feedId | slug }}/macro/{{ macro.id | slug }}/"
+layout: base.njk
+eleventyComputed:
+  title: "{{ macro.name }}"
+  description: "{{ macro.description }}"
+  author: "{{ macro.author }}"
 ---
 
-<h1>{{ macro.name }}</h1>
 By {{ macro.author }}
 <p>{{ macro.description }}</p>
 
