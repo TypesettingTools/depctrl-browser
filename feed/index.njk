@@ -1,0 +1,6 @@
+<h1>List of feeds</h1>
+{% for feed in feeds %}
+  <li><a href="/feed/{{ feed.id | slug }}/">{{ feed.name }}</a> by {{ feed.maintainer }}</li>
+{% else %}
+  <li>No Items</li>
+{% endfor %}

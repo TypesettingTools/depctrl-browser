@@ -1,0 +1,15 @@
+---
+pagination:
+    data: modules
+    size: 1
+    alias: module
+permalink: "/feed/{{ module.feedId | slug }}/module/{{ module.id | slug }}/"
+---
+
+<h1>{{ module.name }}</h1>
+By {{ module.author }}
+<p>{{ module.description }}</p>
+
+<code>
+{{ module | dump }}
+</code>

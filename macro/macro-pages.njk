@@ -1,0 +1,15 @@
+---
+pagination:
+    data: macros
+    size: 1
+    alias: macro
+permalink: "/feed/{{ macro.feedId | slug }}/macro/{{ macro.id | slug }}/"
+---
+
+<h1>{{ macro.name }}</h1>
+By {{ macro.author }}
+<p>{{ macro.description }}</p>
+
+<code>
+{{ macro | dump }}
+</code>

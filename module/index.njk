@@ -1,0 +1,6 @@
+<h1>List of all Modules</h1>
+{% for module in modules %}
+  <li><a href="/feed/{{ module.feedId | slug }}/module/{{ module.id | slug }}/">{{ module.name }}</a> by {{ module.author }}</li>
+{% else %}
+  <li>No Items</li>
+{% endfor %}
