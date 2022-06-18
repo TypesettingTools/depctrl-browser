@@ -1,5 +1,6 @@
 const depctrl = require('./depctrl.js');
 
+// exports an array of all modules
 module.exports = async function () {
   var feedData = await depctrl.getData();
   var allModules = [];

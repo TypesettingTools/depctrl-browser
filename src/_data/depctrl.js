@@ -11,8 +11,7 @@ async function processFeed(name, url) {
   try {
     var feedResponse = await EleventyFetch(url, {
       duration: "1d",
-      type: "text",
-      verbose: true
+      type: "text"
     });
     // remove trailing commas
     feedResponse = feedResponse.replace(/,[ \t\r\n]+}/, "}");
@@ -37,7 +36,7 @@ async function processFeed(name, url) {
 
 function fillTemplateVar(data, repDict = {}, depth = 0, parentKey = "") {
   // Fill in Regular Variables
-  switch(depth) {
+  switch (depth) {
     case 1:
       repDict['feedName'] = data['name'] || "";
       repDict['baseUrl'] = data['baseUrl'] || "";
@@ -66,7 +65,7 @@ function fillTemplateVar(data, repDict = {}, depth = 0, parentKey = "") {
     repDict['fileBaseUrl'] = repDict['fileBaseUrl'] || '';
     // Do template replacement on fileBaseUrl
     for (let [repName, repVal] of Object.entries(repDict)) {
-      data['fileBaseUrl'] = data['fileBaseUrl'].replace('@{' + repName +'}', repVal);
+      data['fileBaseUrl'] = data['fileBaseUrl'].replace('@{' + repName + '}', repVal);
     }
     // Write fileBaseUrl back to repDict
     repDict['fileBaseUrl'] = data['fileBaseUrl'];
@@ -74,24 +73,24 @@ function fillTemplateVar(data, repDict = {}, depth = 0, parentKey = "") {
 
   // Iterate through tree
   for (let [key, entry] of Object.entries(data)) {
-    switch(typeof(entry)) {
+    switch (typeof (entry)) {
       case 'string':
         for (let [repName, repVal] of Object.entries(repDict)) {
-          data[key] = data[key].replace('@{' + repName +'}', repVal);
+          data[key] = data[key].replace('@{' + repName + '}', repVal);
         }
         break;
       case 'object':
-        fillTemplateVar(data[key], {...repDict}, depth + 1, key);
+        fillTemplateVar(data[key], { ...repDict }, depth + 1, key);
         break;
     }
   }
 }
 
-module.exports.getData = async function() {
+module.exports.getData = async function () {
   while (feedQueue.length !== 0) {
     feed = feedQueue.pop();
     await processFeed(...feed);
   }
-  fillTemplateVar(feedData)
+  fillTemplateVar(feedData);
   return feedData;
 }
