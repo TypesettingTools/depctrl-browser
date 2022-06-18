@@ -5,7 +5,7 @@ var procesesed = [];
 var feedData = {};
 
 async function processFeed(name, url) {
-  if (procesesed.includes(name))
+  if (procesesed.includes(url))
     return;
 
   try {
@@ -25,14 +25,14 @@ async function processFeed(name, url) {
   } catch (error) {
     console.error(`json feed ${name} invalid: ${url}`);
     console.error(error);
-    procesesed.push(name);
+    procesesed.push(url);
     return;
   }
   feedData[name] = feedJson;
   knownFeeds = feedJson['knownFeeds'] || {};
 
   feedQueue = feedQueue.concat(Object.entries(knownFeeds));
-  procesesed.push(name);
+  procesesed.push(url);
 }
 
 function fillTemplateVar(data, repDict = {}, depth = 0, parentKey = "") {
