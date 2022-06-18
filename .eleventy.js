@@ -1,12 +1,15 @@
-const markdownIt = require("markdown-it");
-const markdownItRenderer = new markdownIt();
 const compareVersions = require('compare-versions');
+const eleventyPluginFilesMinifier = require("@sherby/eleventy-plugin-files-minifier");
+const markdownIt = require("markdown-it");
+
+const markdownItRenderer = new markdownIt();
+
 
 module.exports = function (eleventyConfig) {
-    eleventyConfig.addPassthroughCopy('src/static');
     eleventyConfig.addFilter('markdownify', (str) => {
         return markdownItRenderer.renderInline(str);
     });
+
     eleventyConfig.addFilter("changelogSort", function (changelog) {
         if (changelog) {
             var items = Object.entries(changelog);
@@ -21,6 +24,8 @@ module.exports = function (eleventyConfig) {
         }
     });
 
+    eleventyConfig.addPlugin(eleventyPluginFilesMinifier);
+
     return {
         dir: {
             input: "src/",
@@ -28,7 +33,6 @@ module.exports = function (eleventyConfig) {
             includes: "_includes",
             layouts: "_layouts"
         },
-        passthroughFileCopy: true,
         templateFormats: ["html", "md", "njk"],
         htmlTemplateEngine: "njk",
     };
