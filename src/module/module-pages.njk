@@ -16,41 +16,46 @@ eleventyComputed:
 
 <h3>Channels:</h3>
 {% for channel, info in module.channels %}
-<h4>{{ channel }}:</h4>
-<p>Version: {{ info.description }}</p>
-<p>Release Date: {{ info.released }}</p>
-<p>Default: {{ info.default }}</p>
-
-<details open>
+<article>
+<h4>{{ channel }}{% if info.default %}<small> (Default)</small>{% endif %}:</h4>
+<p>Version {{ info.version }}
+{% if info.released %} released {{ info.released }}{% endif %}
+{% if info.platforms %} for {{ info.platforms | join(', ') }}{% endif %}
+</p>
+<details {% if info.default %}open{% endif %}>
   <summary>Required Modules</summary>
   <p>
     {% for module in info.requiredModules %}
       <li>
-        {% if module.feed %}
-          <a href="/feed/{{ module.feedId }}/module/{{ module.moduleName | slug }}">{{ module.moduleName }}</a>
-        {% else %}
-          {{ module.moduleName }}
-        {% endif %}
-        {% if module.version %} @ {{ module.version }}{% endif %}
+        <tt>{{ module.moduleName }}{% if module.version %}@{{ module.version }}{% endif %}</tt>
+        {% if module.name %}({{ module.name }}){% endif %}
+        {% if module.url %} <small>[<a href="{{ module.url }}">URL</a>]</small> {% endif %}
+        {% if module.feed %} <small>[<a href="{{ module.feed }}">Feed</a>]</small> {% endif %}
       </li>
     {% else %}
       No modules required
     {% endfor %}
   </p>
 </details>
-<details>
+<details {% if info.default %}open{% endif %}>
   <summary>Files</summary>
   <p>
     {% for file in info.files %}
-      <li><a href="{{ file.url }}">{{ file.name }}</a>: <code>{{ file.sha1 }}</code></li>
+      {% if not file.delete %}<li>
+        <a href="{{ file.url }}">{{ file.name }}</a>:
+        {% if file.type %} <small>[{{ file.type }}]</small> {% endif %}
+        {% if file.platform %} <small>[{{ file.platform }}]</small> {% endif %}
+        <small><code>{{ file.sha1 }}</code></small>
+      </li>{% endif %}
     {% else %}
       Module containes no files
     {% endfor %}
   </p>
 </details>
+</article>
 {% endfor %}
 
-<details>
+<details open>
   <summary>Changelog</summary>
   <p>
     {% for version, changelog in module.changelog | changelogSort %}
