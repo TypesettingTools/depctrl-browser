@@ -1,0 +1,11 @@
+---
+layout: base.njk
+title: List of all Macros
+permalink: "macros/"
+---
+
+{% for macro in macros | sort(false, false, 'name') %}
+  <li><a href="/feed/{{ macro._feedIdentifier }}/macro/{{ macro._namespace | slug }}/">{{ macro.name }}</a> by {{ macro.author }}</li>
+{% else %}
+  <li>No Items</li>
+{% endfor %}

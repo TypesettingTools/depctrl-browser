@@ -1,4 +1,5 @@
 const EleventyFetch = require("@11ty/eleventy-fetch");
+const crypto = require('crypto');
 
 const seedFeed = ["DependencyControl", "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/master/DependencyControl.json"];
 var procesesed = [];
@@ -19,6 +20,7 @@ const fetchFeed = (name, url) => {
     feedJson = JSON.parse(feedResponse);
     feedJson["_sourceUrl"] = url;
     feedJson["_sourceName"] = name;
+    feedJson["_identifier"] = crypto.createHash("sha1").update(url).digest('hex').slice(0, 7);
 
     return feedJson;
   })
@@ -27,12 +29,12 @@ const fetchFeed = (name, url) => {
 // recursively fetch all feeds
 const fetchAllFeeds = (feed) => {
   let [name, url] = feed;
-  procesesed.push(name);
+  procesesed.push(url);
   return fetchFeed(name, url).then(async (feedJson) => {
     // fetch unprocessed new feeds
     let otherFeeds = await Promise.all(
       Object.entries(feedJson["knownFeeds"] || {})
-        .filter((f) => !procesesed.includes(f[0]))
+        .filter((f) => !procesesed.includes(f[1]))
         .map(fetchAllFeeds));
     otherFeeds = otherFeeds.flatMap(x => x);
     return [feedJson, ...otherFeeds]

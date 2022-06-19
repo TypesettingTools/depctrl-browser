@@ -3,7 +3,7 @@ pagination:
     data: macros
     size: 1
     alias: macro
-permalink: "/feed/{{ macro._originFeed | slug }}/macro/{{ macro._namespace | slug }}/"
+permalink: "/feed/{{ macro._feedIdentifier }}/macro/{{ macro._namespace | slug }}/"
 layout: base.njk
 eleventyComputed:
   title: "{{ macro.name }}"
@@ -12,7 +12,7 @@ eleventyComputed:
 ---
 
 <p>{{ macro.description }}</p>
-<p>Macro <a href="{{ macro.url }}">{{ macro._namespace }}</a> in feed <a href="/feed/{{ macro._originFeed | slug }}">{{ macro._originFeed | slug }}</a> by {{ macro.author }}.</p>
+<p>Macro <a href="{{ macro.url }}">{{ macro._namespace }}</a> in feed <a href="/feed/{{ macro._feedIdentifier }}">{{ macro._feedName }}</a> by {{ macro.author }}.</p>
 
 <h3>Channels:</h3>
 {% for channel, info in macro.channels %}
