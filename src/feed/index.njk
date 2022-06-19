@@ -4,7 +4,7 @@ title: List of all Feeds
 ---
 
 {% for feed in feeds  | sort(false, false, 'name') %}
-  <li><a href="/feed/{{ feed.id | slug }}/">{{ feed.name }}</a> by {{ feed.maintainer }}</li>
+  <li><a href="/feed/{{ feed._sourceName | slug }}/">{{ feed.name }}</a> by {{ feed.maintainer }}</li>
 {% else %}
   <li>No Items</li>
 {% endfor %}

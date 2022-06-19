@@ -1,4 +1,4 @@
-const compareVersions = require('compare-versions');
+const compareVersions = require("compare-versions");
 const eleventyPluginFilesMinifier = require("@sherby/eleventy-plugin-files-minifier");
 const markdownIt = require("markdown-it");
 
@@ -6,7 +6,7 @@ const markdownItRenderer = new markdownIt();
 
 
 module.exports = function (eleventyConfig) {
-    eleventyConfig.addFilter('markdownify', (str) => {
+    eleventyConfig.addFilter("markdownify", (str) => {
         return markdownItRenderer.renderInline(str);
     });
 

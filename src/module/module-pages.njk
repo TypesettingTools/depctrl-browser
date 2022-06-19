@@ -3,7 +3,7 @@ pagination:
     data: modules
     size: 1
     alias: module
-permalink: "/feed/{{ module.feedId | slug }}/module/{{ module.id | slug }}/"
+permalink: "/feed/{{ module._originFeed | slug }}/module/{{ module._namespace | slug }}/"
 layout: base.njk
 eleventyComputed:
   title: "{{ module.name }}"
@@ -12,7 +12,7 @@ eleventyComputed:
 ---
 
 <p>{{ module.description }}</p>
-<p>Module <a href="{{ module.url }}">{{ module.id }}</a> in feed <a href="/feed/{{ module.feedId | slug }}">{{ module.feedId }}</a> by {{ module.author }}.</p>
+<p>Module <a href="{{ module.url }}">{{ module._namespace }}</a> in feed <a href="/feed/{{ module._originFeed | slug }}">{{ module._originFeed | slug }}</a> by {{ module.author }}.</p>
 
 <h3>Channels:</h3>
 {% for channel, info in module.channels %}

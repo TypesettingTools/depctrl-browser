@@ -1,17 +1,14 @@
-const depctrl = require('./depctrl.js');
+const depctrl = require("./depctrl.js");
 
 // exports an array of all macros
-module.exports = async function () {
-  var feedData = await depctrl.getData();
-  var allMacros = [];
-  for (feedId of Object.keys(feedData)) {
-    feed = feedData[feedId];
-    for (macroId of Object.keys(feed['macros'] || {})) {
-      macro = feed['macros'][macroId];
-      macro['feedId'] = feedId;
-      macro['id'] = macroId;
-      allMacros.push(macro);
-    }
-  }
-  return allMacros;
-};
+module.exports = () => {
+  return depctrl.getData()
+    .then(feedData => feedData.flatMap(feed => {
+      let macros = Object.entries(feed["macros"] || {});
+      return macros.map(singleMacro => {
+        singleMacro[1]["_originFeed"] = feed["_sourceName"];
+        singleMacro[1]["_namespace"] = singleMacro[0];
+        return singleMacro[1];
+      });
+    }));
+}

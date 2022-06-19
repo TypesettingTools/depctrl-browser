@@ -1,96 +1,101 @@
 const EleventyFetch = require("@11ty/eleventy-fetch");
 
-var feedQueue = [['DependencyControl', 'https://raw.githubusercontent.com/TypesettingTools/DependencyControl/master/DependencyControl.json']];
+const seedFeed = ["DependencyControl", "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/master/DependencyControl.json"];
 var procesesed = [];
-var feedData = {};
 
-async function processFeed(name, url) {
-  if (procesesed.includes(url))
-    return;
-
-  try {
-    var feedResponse = await EleventyFetch(url, {
-      duration: "1d",
-      type: "text"
-    });
+// fetch single feed
+const fetchFeed = (name, url) => {
+  return EleventyFetch(url, {
+    duration: "1d",
+    type: "text"
+  }).then((feedResponse) => {
     // remove trailing commas
     feedResponse = feedResponse.replace(/,[ \t\r\n]+}/, "}");
     feedResponse = feedResponse.replace(/,[ \t\r\n]+\]/, "]");
+
     // remove UTF-8 Bom
     feedResponse = feedResponse.replace(/^\uFEFF/gm, "");
+
     feedJson = JSON.parse(feedResponse);
-    feedJson['_sourceUrl'] = url;
+    feedJson["_sourceUrl"] = url;
+    feedJson["_sourceName"] = name;
 
-  } catch (error) {
-    console.error(`json feed ${name} invalid: ${url}`);
-    console.error(error);
-    procesesed.push(url);
-    return;
-  }
-  feedData[name] = feedJson;
-  knownFeeds = feedJson['knownFeeds'] || {};
+    return feedJson;
+  })
+};
 
-  feedQueue = feedQueue.concat(Object.entries(knownFeeds));
-  procesesed.push(url);
+// recursively fetch all feeds
+const fetchAllFeeds = (feed) => {
+  let [name, url] = feed;
+  procesesed.push(name);
+  return fetchFeed(name, url).then(async (feedJson) => {
+    // fetch unprocessed new feeds
+    let otherFeeds = await Promise.all(
+      Object.entries(feedJson["knownFeeds"] || {})
+        .filter((f) => !procesesed.includes(f[0]))
+        .map(fetchAllFeeds));
+    otherFeeds = otherFeeds.flatMap(x => x);
+    return [feedJson, ...otherFeeds]
+  });
 }
 
-function fillTemplateVar(data, repDict = {}, depth = 0, parentKey = "") {
-  // Fill in Regular Variables
+function fillTemplateVar(data, repDict = {}, parentKey = "", depth = 0) {
+  // Collect Regular Variables
+  // Implemented after info at https://github.com/TypesettingTools/DependencyControl#template-variables
   switch (depth) {
-    case 1:
-      repDict['feedName'] = data['name'] || "";
-      repDict['baseUrl'] = data['baseUrl'] || "";
-      for (let [extFeedId, extFeedURL] of Object.entries(data['knownFeeds'] || {})) {
-        repDict['feed:' + extFeedId] = extFeedURL;
+    case 1: // Feed Information
+      repDict["feedName"] = data["name"] || "";
+      repDict["baseUrl"] = data["baseUrl"] || "";
+      for (let [extFeedId, extFeedURL] of Object.entries(data["knownFeeds"] || {})) {
+        repDict["feed:" + extFeedId] = extFeedURL;
       }
       break;
-    case 3:
-      repDict['namespace'] = parentKey;
-      repDict['namespacePath'] = parentKey.replace('.', '/');
-      repDict['scriptName'] = data['name'] || "";
+    case 3: // Script Information
+      repDict["namespace"] = parentKey;
+      repDict["namespacePath"] = parentKey.replace(".", "/");
+      repDict["scriptName"] = data["name"] || "";
       break;
-    case 5:
-      repDict['channel'] = parentKey;
-      repDict['version'] = data['version'] || "";
+    case 5: // Version Information
+      repDict["channel"] = parentKey;
+      repDict["version"] = data["version"] || "";
       break;
-    case 7:
-      repDict['platform'] = data['version'] || "";
-      repDict['fileName'] = data['name'] || "";
+    case 7: // File Information
+      repDict["platform"] = data["version"] || "";
+      repDict["fileName"] = data["name"] || "";
       break;
   }
 
-  // Fill in "Rolling" Variables
-  if ('fileBaseUrl' in data) {
+  // Collect "Rolling" Variables
+  if ("fileBaseUrl" in data) {
     // Create repDict entry if not already existant
-    repDict['fileBaseUrl'] = repDict['fileBaseUrl'] || '';
+    repDict["fileBaseUrl"] = repDict["fileBaseUrl"] || "";
     // Do template replacement on fileBaseUrl
     for (let [repName, repVal] of Object.entries(repDict)) {
-      data['fileBaseUrl'] = data['fileBaseUrl'].replace('@{' + repName + '}', repVal);
+      data["fileBaseUrl"] = data["fileBaseUrl"].replace("@{" + repName + "}", repVal);
     }
     // Write fileBaseUrl back to repDict
-    repDict['fileBaseUrl'] = data['fileBaseUrl'];
+    repDict["fileBaseUrl"] = data["fileBaseUrl"];
   }
 
-  // Iterate through tree
+  // Go through data object
   for (let [key, entry] of Object.entries(data)) {
     switch (typeof (entry)) {
-      case 'string':
+      case "string":
+        // Do template replacement
         for (let [repName, repVal] of Object.entries(repDict)) {
-          data[key] = data[key].replace('@{' + repName + '}', repVal);
+          data[key] = data[key].replace("@{" + repName + "}", repVal);
         }
         break;
-      case 'object':
-        fillTemplateVar(data[key], { ...repDict }, depth + 1, key);
+      case "object":
+        // Recursively walk through tree
+        data[key] = fillTemplateVar(data[key], { ...repDict }, key, depth + 1);
         break;
     }
   }
+  return data;
 }
 
-module.exports.getData = async function () {
-  while (feedQueue.length !== 0) {
-    feed = feedQueue.pop();
-    await processFeed(...feed);
-  }
-  fillTemplateVar(feedData);
-  return feedData;
-}
+// store data locally to not compute feeds multiple times
+const data = fetchAllFeeds(seedFeed).then(fillTemplateVar);
+
+module.exports.getData = () => data;

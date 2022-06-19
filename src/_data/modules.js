@@ -1,17 +1,14 @@
-const depctrl = require('./depctrl.js');
+const depctrl = require("./depctrl.js");
 
 // exports an array of all modules
-module.exports = async function () {
-  var feedData = await depctrl.getData();
-  var allModules = [];
-  for (feedId of Object.keys(feedData)) {
-    feed = feedData[feedId];
-    for (moduleId of Object.keys(feed['modules'] || {})) {
-      dcModule = feed['modules'][moduleId];
-      dcModule['feedId'] = feedId;
-      dcModule['id'] = moduleId;
-      allModules.push(dcModule);
-    }
-  }
-  return allModules;
-};
+module.exports = () => {
+  return depctrl.getData()
+    .then(feedData => feedData.flatMap(feed => {
+      let modules = Object.entries(feed["modules"] || {});
+      return modules.map(singleModule => {
+        singleModule[1]["_originFeed"] = feed["_sourceName"];
+        singleModule[1]["_namespace"] = singleModule[0];
+        return singleModule[1];
+      });
+    }));
+}
