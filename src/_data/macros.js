@@ -11,5 +11,15 @@ module.exports = () => {
         singleMacro[1]["_namespace"] = singleMacro[0];
         return singleMacro[1];
       });
-    }));
+    })
+    .reduce((acc, d) => {
+      const found = acc.find(a => a[0]["_namespace"] === d["_namespace"]);
+      if (!found) {
+        acc.push([d])
+      }
+      else {
+        found.push(d)
+      }
+      return acc;
+    }, []));
 }

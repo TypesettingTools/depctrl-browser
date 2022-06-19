@@ -3,27 +3,27 @@ pagination:
     data: feeds
     size: 1
     alias: feed
-permalink: "feed/{{ feed._identifier }}/"
+permalink: "feeds/{{ feed._identifier }}/"
 layout: base.njk
 eleventyComputed:
   title: "{{ feed.name }}"
   description: "{{ feed.description }}"
   author: "{{ feed.maintainer }}"
 ---
-
+<h2>{{ feed.name }}</h2>
 <p>{{ feed.description }}</p>
 <p>Feed <a href="{{ feed.url }}">{{ feed.name }}</a> maintained by {{ feed.maintainer }} with format version {{ feed.dependencyControlFeedFormatVersion }}.</p>
 <p>URL: <a href="{{ feed._sourceUrl }}">{{ feed._sourceUrl }}</a></p>
 <h3>Macros:</h3>
 {% for macroId, macro in feed.macros %}
-  <li><a href="/feed/{{ feed._identifier }}/macro/{{ macroId | slug }}/">{{ macro.name }}</a> by {{ macro.author }}</li>
+  <li><a href="/macros/{{ macroId | slug }}/">{{ macro.name }}</a> by {{ macro.author }}</li>
 {% else %}
   <li>No Items</li>
 {% endfor %}
 
 <h3>Modules:</h3>
 {% for moduleId, module in feed.modules %}
-  <li><a href="/feed/{{ module._feedIdentifier }}/module/{{ moduleId | slug }}/">{{ module.name }}</a> by {{ module.author }}</li>
+  <li><a href="/modules/{{ moduleId | slug }}/">{{ module.name }}</a> by {{ module.author }}</li>
 {% else %}
   <li>No Items</li>
 {% endfor %}

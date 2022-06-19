@@ -1,0 +1,17 @@
+---
+layout: base.njk
+title: List of all Modules
+permalink: "modules/"
+---
+<h2>List of all Modules</h2>
+{% for module in modules | sort(false, false, 'name') %}
+  {% if (module | length) == 1 %}
+    {% set module = module | first %}
+    <li><a href="/modules/{{ module._namespace | slug }}/">{{ module.name }}</a> by {{ module.author }}</li>
+  {% else %}
+    {% set module = module | first %}
+    <li><a href="/modules/{{ module._namespace | slug }}/">{{ module._namespace }}</a> <span style="color:red">(Collision)</span></li>
+  {% endif %}
+{% else %}
+  <li>No Items</li>
+{% endfor %}

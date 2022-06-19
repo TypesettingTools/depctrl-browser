@@ -477,8 +477,10 @@ input[type="file"] {
 
 /* Misc body elements */
 hr {
-  color: var(--border);
-  border-top: 1px;
+  width: 100%;
+  border: var(--text-light) solid 2px;
+  border-radius: 4px;
+  background: var(--text-light);
   margin: 1rem auto;
 }
 
