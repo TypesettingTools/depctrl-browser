@@ -17,7 +17,13 @@ const fetchFeed = (name, url) => {
     // remove UTF-8 Bom
     feedResponse = feedResponse.replace(/^\uFEFF/gm, "");
 
-    feedJson = JSON.parse(feedResponse);
+    try {
+      feedJson = JSON.parse(feedResponse);
+    } catch (error) {
+      console.error(error);
+      feedJson = {'_invalid': true}
+    }
+    
     feedJson["_sourceUrl"] = url;
     feedJson["_sourceName"] = name;
     feedJson["_identifier"] = crypto.createHash("sha1").update(url).digest('hex').slice(0, 7);
