@@ -1,0 +1,8 @@
+---
+pagination:
+    data: feeds
+    size: 1
+    alias: feed
+permalink: "/feeds/{{ feed._identifier }}.json"
+---
+{{ feed | dump | safe }}
