@@ -12,14 +12,14 @@ module.exports = () => {
         return singleModule[1];
       });
     })
-    .reduce((acc, d) => {
-      const found = acc.find(a => a[0]["_namespace"] === d["_namespace"]);
-      if (!found) {
-        acc.push([d])
-      }
-      else {
-        found.push(d)
-      }
-      return acc;
-    }, []));
+      .reduce((acc, d) => {
+        const found = acc.find(a => a[0]["_namespace"] === d["_namespace"]);
+        if (!found) {
+          acc.push([d])
+        } else {
+          found.push(d)
+        }
+        return acc;
+      }, [])
+    );
 }

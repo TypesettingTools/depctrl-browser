@@ -3,6 +3,6 @@ pagination:
     data: modules
     size: 1
     alias: moduleList
-permalink: "/modules/{{ (moduleList | first)._namespace | slug }}.json"
+permalink: "/modules/{{ (moduleList | first)._namespace }}.json"
 ---
 {{ moduleList | dump | safe }}

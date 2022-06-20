@@ -3,7 +3,7 @@ pagination:
     data: modules
     size: 1
     alias: moduleList
-permalink: "/modules/{{ (moduleList | first)._namespace | slug }}/"
+permalink: "/modules/{{ (moduleList | first)._namespace }}/"
 layout: base.njk
 eleventyComputed:
   title: "{{ (moduleList | first).name }}"

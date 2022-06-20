@@ -3,6 +3,6 @@ pagination:
     data: macros
     size: 1
     alias: macroList
-permalink: "/macros/{{ (macroList | first)._namespace | slug }}.json"
+permalink: "/macros/{{ (macroList | first)._namespace }}.json"
 ---
 {{ macroList | dump |safe }}

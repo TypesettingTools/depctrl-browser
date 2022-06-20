@@ -1,5 +1,5 @@
 const EleventyFetch = require("@11ty/eleventy-fetch");
-const crypto = require('crypto');
+const crypto = require("crypto");
 
 const seedFeed = ["DependencyControl", "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/master/DependencyControl.json"];
 var procesesed = [];
@@ -21,12 +21,12 @@ const fetchFeed = (name, url) => {
       feedJson = JSON.parse(feedResponse);
     } catch (error) {
       console.error(error);
-      feedJson = {'_invalid': true}
+      feedJson = { "_invalid": true }
     }
-    
+
     feedJson["_sourceUrl"] = url;
     feedJson["_sourceName"] = name;
-    feedJson["_identifier"] = crypto.createHash("sha1").update(url).digest('hex').slice(0, 7);
+    feedJson["_identifier"] = crypto.createHash("sha1").update(url).digest("hex").slice(0, 7);
 
     return feedJson;
   })

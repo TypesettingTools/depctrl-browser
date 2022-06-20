@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+title: DependencyControl Browser
 ---
 
 [DependencyControl](https://github.com/TypesettingTools/DependencyControl) provides versioning, automatic script update, dependency management and script management services to [Aegisub](https://github.com/Aegisub/Aegisub) macros and modules.

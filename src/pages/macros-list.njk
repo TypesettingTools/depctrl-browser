@@ -4,13 +4,13 @@ title: List of all Macros
 permalink: "macros/"
 ---
 <h2>List of all Macros</h2>
-{% for macro in macros | sort(false, false, 'name') %}
-  {% if (macro | length) == 1 %}
-    {% set macro = macro | first %}
-    <li><a href="/macros/{{ macro._namespace | slug }}/">{{ macro.name }}</a> by {{ macro.author }}</li>
+{% for macroList in macros | sort(false, false, 'name') %}
+  {% if (macroList | length) == 1 %}
+    {% set macro = macroList | first %}
+    <li><a href="/macros/{{ macro._namespace }}/">{{ macro.name }}</a> by {{ macro.author }}</li>
   {% else %}
-    {% set macro = macro | first %}
-    <li><a href="/macros/{{ macro._namespace | slug }}/">{{ macro._namespace }}</a> <span style="color:red">(Collision)</span></li>
+    {% set macro = macroList | first %}
+    <li><a href="/macros/{{ macro._namespace }}/">{{ macro._namespace }}</a> <span style="color:red">({{macroList | length }} feeds)</span></li>
   {% endif %}
 {% else %}
   <li>No Items</li>
