@@ -13,7 +13,7 @@ eleventyComputed:
 {% for macro in macroList %}
   <h2>{{ macro.name }}</h2>
   <p>{{ macro.description }}</p>
-  <p>Macro <a href="{{ macro.url }}">{{ macro._namespace }}</a> in feed <a href="/feeds/{{ macro._feedIdentifier }}">{{ macro._feedName }}</a> <small>[{{ macro._feedIdentifier }}]</small> by {{ macro.author }}.</p>
+  <p>Macro <a href="{{ macro.url }}">{{ macro._namespace }}</a> in feed <a href="{{ ["/feeds/" , macro._feedIdentifier, "/"] | join | url }}">{{ macro._feedName }}</a> <small>[{{ macro._feedIdentifier }}]</small> by {{ macro.author }}.</p>
 
   <h3>Channels:</h3>
   {% for channel, info in macro.channels %}

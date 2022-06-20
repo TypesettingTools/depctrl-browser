@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "env NODE_ENV=production npx eleventy --pathprefix 'depctrl-browser'",
     "start": "npx eleventy --serve"
   },
   "keywords": [],

@@ -13,7 +13,7 @@ eleventyComputed:
 {% for module in moduleList %}
   <h2>{{ module.name }}</h2>
   <p>{{ module.description }}</p>
-  <p>Module <a href="{{ module.url }}">{{ module._namespace }}</a> in feed <a href="/feeds/{{ module._feedIdentifier }}">{{ module._feedName }}</a> <small>[{{ module._feedIdentifier }}]</small> by {{ module.author }}.</p>
+  <p>Module <a href="{{ module.url }}">{{ module._namespace }}</a> in feed <a href="{{ ["/feeds/" , module._feedIdentifier, "/"] | join | url }}">{{ module._feedName }}</a> <small>[{{ module._feedIdentifier }}]</small> by {{ module.author }}.</p>
 
   <h3>Channels:</h3>
   {% for channel, info in module.channels %}

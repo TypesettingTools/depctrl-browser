@@ -7,10 +7,10 @@ permalink: "modules/"
 {% for moduleList in modules | automationListSort %}
   {% if (moduleList | length) == 1 %}
     {% set module = moduleList | first %}
-    <li><a href="/modules/{{ module._namespace }}/">{{ module.name }}</a> by {{ module.author }}</li>
+    <li><a href="{{ ["/modules/" , module._namespace, "/"] | join | url }}">{{ module.name }}</a> by {{ module.author }}</li>
   {% else %}
     {% set module = moduleList | first %}
-    <li><a href="/modules/{{ module._namespace }}/">{{ module._namespace }}</a> <span style="color:red">({{moduleList | length }} feeds)</span></li>
+    <li><a href="{{ ["/modules/" , module._namespace, "/"] | join | url }}">{{ module._namespace }}</a> <span style="color:red">({{moduleList | length }} feeds)</span></li>
   {% endif %}
 {% else %}
   <li>No Items</li>

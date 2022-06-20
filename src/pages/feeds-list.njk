@@ -6,9 +6,9 @@ permalink: "feeds/"
 <h2>List of all Feeds</h2>
 {% for feed in feeds  | sort(false, false, 'name') %}
   {% if feed._invalid %}
-    <li><a href="/feeds/{{ feed._identifier }}/">{{ feed._identifier }}</a> <span style="color:red">(Invalid JSON)</span>
+    <li><a href="{{ ["/feeds/" , feed._identifier, "/"] | join | url }}">{{ feed._identifier }}</a> <span style="color:red">(Invalid JSON)</span>
   {% else %}
-    <li><a href="/feeds/{{ feed._identifier }}/">{{ feed.name }}</a> by {{ feed.maintainer }}</li>
+    <li><a href="{{ ["/feeds/" , feed._identifier, "/"] | join | url }}">{{ feed.name }}</a> by {{ feed.maintainer }}</li>
   {% endif %}
 {% else %}
   <li>No Items</li>
