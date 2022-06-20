@@ -4,7 +4,7 @@ title: List of all Macros
 permalink: "macros/"
 ---
 <h2>List of all Macros</h2>
-{% for macroList in macros | sort(false, false, 'name') %}
+{% for macroList in macros | automationListSort %}
   {% if (macroList | length) == 1 %}
     {% set macro = macroList | first %}
     <li><a href="/macros/{{ macro._namespace }}/">{{ macro.name }}</a> by {{ macro.author }}</li>

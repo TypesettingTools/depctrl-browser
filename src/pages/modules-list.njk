@@ -4,7 +4,7 @@ title: List of all Modules
 permalink: "modules/"
 ---
 <h2>List of all Modules</h2>
-{% for moduleList in modules | sort(false, false, 'name') %}
+{% for moduleList in modules | automationListSort %}
   {% if (moduleList | length) == 1 %}
     {% set module = moduleList | first %}
     <li><a href="/modules/{{ module._namespace }}/">{{ module.name }}</a> by {{ module.author }}</li>

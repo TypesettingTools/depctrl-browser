@@ -24,6 +24,10 @@ module.exports = function (eleventyConfig) {
         }
     });
 
+    eleventyConfig.addFilter("automationListSort", function (obj) {
+        return obj.sort((a, b) => a[0]['name'].localeCompare(b[0]['name']));
+    });
+
     eleventyConfig.addPlugin(eleventyPluginFilesMinifier);
 
     return {
