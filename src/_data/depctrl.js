@@ -10,18 +10,32 @@ const fetchFeed = (name, url) => {
     duration: "1d",
     type: "text"
   }).then((feedResponse) => {
-    // remove trailing commas
-    feedResponse = feedResponse.replace(/,[ \t\r\n]+}/, "}");
-    feedResponse = feedResponse.replace(/,[ \t\r\n]+\]/, "]");
+    // remove trailing commas. Not ideal as there can be false positives
+    if (feedResponse.match(/\,(?=\s*?[\}\]])/g)) {
+      feedResponse = feedResponse.replaceAll(/\,(?=\s*?[\}\]])/g, "");
+      var defective = true;
+      var defectInfo = "Trailing Comma"
+    }
+    
 
     // remove UTF-8 Bom
-    feedResponse = feedResponse.replace(/^\uFEFF/gm, "");
+    if (feedResponse.match(/^\uFEFF/gm)) {
+      feedResponse = feedResponse.replace(/^\uFEFF/g, "");
+      var defective = true;
+      var defectInfo = "UTF-8 BOM"
+    }
+    
 
     try {
       feedJson = JSON.parse(feedResponse);
     } catch (error) {
       console.error(error);
       feedJson = { "_invalid": true }
+    }
+
+    if (defective) {
+      feedJson["_defective"] = defective;
+      feedJson["_defectInfo"] = defectInfo;
     }
 
     feedJson["_sourceUrl"] = url;

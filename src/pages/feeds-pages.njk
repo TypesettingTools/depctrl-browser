@@ -14,6 +14,9 @@ eleventyComputed:
 <p>{{ feed.description }}</p>
 <p>Feed <a href="{{ feed.url }}">{{ feed.name }}</a> maintained by {{ feed.maintainer }} with format version {{ feed.dependencyControlFeedFormatVersion }}.</p>
 <p>URL: <a href="{{ feed._sourceUrl }}">{{ feed._sourceUrl }}</a></p>
+{% if feed._defective %}
+  <p> <span style="color:orange">Warning:</span> Feed may not be JSON compliant due to {{ feed._defectInfo}}</p>
+{% endif %}
 <h3>Macros:</h3>
 {% for macroId, macro in feed.macros %}
   <li><a href="{{ ["/macros/" , macroId, "/"] | join | url }}">{{ macro.name }}</a> by {{ macro.author }}</li>
