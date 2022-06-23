@@ -71,4 +71,6 @@ eleventyComputed:
     </p>
   </details>
   {% if not loop.last %}<hr>{% endif %}
+
+  <br><br><p><small style="color: DimGrey;">Last fetched: {{ module._fetchTime | datetime }}</small></p>
 {% endfor %}

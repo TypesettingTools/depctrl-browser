@@ -30,3 +30,5 @@ eleventyComputed:
 {% else %}
   <li>No Items</li>
 {% endfor %}
+
+<br><br><p><small style="color: DimGrey;">Last fetched: {{ feed._fetchTime | datetime }}</small></p>

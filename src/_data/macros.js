@@ -8,6 +8,7 @@ module.exports = () => {
       return macros.map(singleMacro => {
         singleMacro[1]["_feedName"] = feed["name"];
         singleMacro[1]["_feedIdentifier"] = feed["_identifier"];
+        singleMacro[1]["_fetchTime"] = feed["_fetchTime"];
         singleMacro[1]["_namespace"] = singleMacro[0];
         return singleMacro[1];
       });

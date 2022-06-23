@@ -41,6 +41,7 @@ const fetchFeed = (name, url) => {
     feedJson["_sourceUrl"] = url;
     feedJson["_sourceName"] = name;
     feedJson["_identifier"] = crypto.createHash("sha1").update(url).digest("hex").slice(0, 7);
+    feedJson["_fetchTime"] = Date.now();
 
     return feedJson;
   })

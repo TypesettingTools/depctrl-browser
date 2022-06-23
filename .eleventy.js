@@ -10,6 +10,10 @@ module.exports = function (eleventyConfig) {
         return markdownItRenderer.renderInline(str);
     });
 
+    eleventyConfig.addFilter("datetime", (timestamp) => {
+        return new Date(timestamp).toLocaleString('en-US', { timeZone : 'UTC', dateStyle: 'medium', timeStyle: 'long', 'hour12': false});
+    });
+
     eleventyConfig.addFilter("changelogSort", function (changelog) {
         if (changelog) {
             var items = Object.entries(changelog);
