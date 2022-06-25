@@ -5,7 +5,7 @@ const pLimit = require('p-limit');
 // limit to 5 fetches
 const limit = pLimit(5);
 
-const seedFeed = ["DependencyControl", "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/master/DependencyControl.json"];
+const seedFeed = "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/master/DependencyControl.json";
 var procesesed = [];
 
 const limitedWebRequest = async (url, type) => {
@@ -42,7 +42,7 @@ const checkFileIntegrity = async (feeds) => {
 
 
 // fetch single feed
-const fetchFeed = (name, url) => {
+const fetchFeed = (url) => {
   return limitedWebRequest(url, "text")
     .then((feedResponse) => {
       // remove trailing commas. Not ideal as there can be false positives
@@ -72,7 +72,6 @@ const fetchFeed = (name, url) => {
       }
 
       feedJson["_sourceUrl"] = url;
-      feedJson["_sourceName"] = name;
       feedJson["_identifier"] = crypto.createHash("sha1").update(url).digest("hex").slice(0, 7);
       feedJson["_fetchTime"] = Date.now();
 
@@ -82,13 +81,12 @@ const fetchFeed = (name, url) => {
 
 // recursively fetch all feeds
 const fetchAllFeeds = (feed) => {
-  let [name, url] = feed;
-  procesesed.push(url);
-  return fetchFeed(name, url).then(async (feedJson) => {
+  procesesed.push(feed);
+  return fetchFeed(feed).then(async (feedJson) => {
     // fetch unprocessed new feeds
     let otherFeeds = await Promise.all(
-      Object.entries(feedJson["knownFeeds"] || {})
-        .filter((f) => !procesesed.includes(f[1]))
+      Object.values(feedJson["knownFeeds"] || {})
+        .filter((f) => !procesesed.includes(f))
         .map(fetchAllFeeds));
     otherFeeds = otherFeeds.flatMap(x => x);
     return [feedJson, ...otherFeeds]
