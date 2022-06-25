@@ -17,16 +17,21 @@ eleventyComputed:
 {% if feed._defective %}
   <p> <span style="color:orange">Warning:</span> Feed may not be JSON compliant due to {{ feed._defectInfo}}</p>
 {% endif %}
+
 <h3>Macros:</h3>
 {% for macroId, macro in feed.macros %}
-  <li><a href="{{ ["/macros/" , macroId, "/"] | join | url }}">{{ macro.name }}</a> by {{ macro.author }}</li>
+  <li><a href="{{ ["/macros/" , macroId, "/"] | join | url }}">{{ macro.name }}</a> by {{ macro.author }}
+  {% if macro._validHash %} ✅ {% else %} ❌ {% endif %}
+  </li>
 {% else %}
   <li>No Items</li>
 {% endfor %}
 
 <h3>Modules:</h3>
 {% for moduleId, module in feed.modules %}
-  <li><a href="{{ ["/modules/" , moduleId, "/"] | join | url }}">{{ module.name }}</a> by {{ module.author }}</li>
+  <li><a href="{{ ["/modules/" , moduleId, "/"] | join | url }}">{{ module.name }}</a> by {{ module.author }}
+  {% if module._validHash %} ✅ {% else %} ❌ {% endif %}
+  </li>
 {% else %}
   <li>No Items</li>
 {% endfor %}

@@ -47,6 +47,7 @@ eleventyComputed:
           {% if file.type %} <small>[{{ file.type }}]</small> {% endif %}
           {% if file.platform %} <small>[{{ file.platform }}]</small> {% endif %}
           <small><code>{{ file.sha1 }}</code></small>
+          {% if file._validHash %} ✅ {% else %} ❌ {% endif %}
         </li>{% endif %}
       {% else %}
         Module containes no files

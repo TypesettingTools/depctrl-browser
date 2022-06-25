@@ -7,10 +7,12 @@ permalink: "feeds/"
 {% for feed in feeds  | sort(false, false, 'name') %}
   {% if feed._invalid %}
     <li><a href="{{ ["/feeds/" , feed._identifier, "/"] | join | url }}">{{ feed._identifier }}</a> <span style="color:red">(Invalid JSON)</span>
-  {% elif feed._defective %}
-    <li><a href="{{ ["/feeds/" , feed._identifier, "/"] | join | url }}">{{ feed.name }}</a> by {{ feed.maintainer }} <span style="color:orange">(Warning: {{ feed._defectInfo}})</span>
   {% else %}
-    <li><a href="{{ ["/feeds/" , feed._identifier, "/"] | join | url }}">{{ feed.name }}</a> by {{ feed.maintainer }}</li>
+  
+    <li><a href="{{ ["/feeds/" , feed._identifier, "/"] | join | url }}">{{ feed.name }}</a> by {{ feed.maintainer }}
+    {% if feed._defective %} <span style="color:orange">(Warning: {{ feed._defectInfo}})</span> {% endif %}
+    {% if feed._validHash %} ✅ {% else %} ❌ {% endif %}
+    </li>
   {% endif %}
 {% else %}
   <li>No Items</li>

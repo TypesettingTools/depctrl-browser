@@ -1,50 +1,83 @@
 const EleventyFetch = require("@11ty/eleventy-fetch");
 const crypto = require("crypto");
+const pLimit = require('p-limit');
+
+// limit to 5 fetches
+const limit = pLimit(5);
 
 const seedFeed = ["DependencyControl", "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/master/DependencyControl.json"];
 var procesesed = [];
 
+const limitedWebRequest = async (url, type) => {
+  return limit((url, type) => EleventyFetch(url, {
+    duration: "1d",
+    type: type
+  }), url, type);
+}
+
+const checkFileIntegrity = async (feeds) => {
+  for (var feed of feeds) {
+    var feedHashesValid = true;
+    for (var automation of Object.values({ ...feed.macros, ...feed.modules })) {
+      var automationHashesValid = true;
+      for (var channel of Object.values(automation.channels)) {
+        for (var file of channel.files) {
+          if (!file.delete) {
+            await limitedWebRequest(file.url, "buffer")
+              .then((fileResponse) => crypto.createHash('sha1').update(fileResponse).digest('hex'))
+              .then((fileHash) => {
+                file["_validHash"] = (fileHash.toUpperCase() === file.sha1.toUpperCase());
+                feedHashesValid = feedHashesValid && file["_validHash"];
+                automationHashesValid = automationHashesValid && file["_validHash"];
+              });
+          }
+        }
+      }
+      automation["_validHash"] = automationHashesValid;
+    }
+    feed["_validHash"] = feedHashesValid;
+  }
+  return feeds;
+}
+
+
 // fetch single feed
 const fetchFeed = (name, url) => {
-  return EleventyFetch(url, {
-    duration: "1d",
-    type: "text"
-  }).then((feedResponse) => {
-    // remove trailing commas. Not ideal as there can be false positives
-    if (feedResponse.match(/\,(?=\s*?[\}\]])/g)) {
-      feedResponse = feedResponse.replaceAll(/\,(?=\s*?[\}\]])/g, "");
-      var defective = true;
-      var defectInfo = "Trailing Comma"
-    }
-    
+  return limitedWebRequest(url, "text")
+    .then((feedResponse) => {
+      // remove trailing commas. Not ideal as there can be false positives
+      if (feedResponse.match(/\,(?=\s*?[\}\]])/g)) {
+        feedResponse = feedResponse.replaceAll(/\,(?=\s*?[\}\]])/g, "");
+        var defective = true;
+        var defectInfo = "Trailing Comma"
+      }
 
-    // remove UTF-8 Bom
-    if (feedResponse.match(/^\uFEFF/gm)) {
-      feedResponse = feedResponse.replace(/^\uFEFF/g, "");
-      var defective = true;
-      var defectInfo = "UTF-8 BOM"
-    }
-    
+      // remove UTF-8 Bom
+      if (feedResponse.match(/^\uFEFF/gm)) {
+        feedResponse = feedResponse.replace(/^\uFEFF/g, "");
+        var defective = true;
+        var defectInfo = "UTF-8 BOM"
+      }
 
-    try {
-      feedJson = JSON.parse(feedResponse);
-    } catch (error) {
-      console.error(error);
-      feedJson = { "_invalid": true }
-    }
+      try {
+        feedJson = JSON.parse(feedResponse);
+      } catch (error) {
+        console.error(error);
+        feedJson = { "_invalid": true }
+      }
 
-    if (defective) {
-      feedJson["_defective"] = defective;
-      feedJson["_defectInfo"] = defectInfo;
-    }
+      if (defective) {
+        feedJson["_defective"] = defective;
+        feedJson["_defectInfo"] = defectInfo;
+      }
 
-    feedJson["_sourceUrl"] = url;
-    feedJson["_sourceName"] = name;
-    feedJson["_identifier"] = crypto.createHash("sha1").update(url).digest("hex").slice(0, 7);
-    feedJson["_fetchTime"] = Date.now();
+      feedJson["_sourceUrl"] = url;
+      feedJson["_sourceName"] = name;
+      feedJson["_identifier"] = crypto.createHash("sha1").update(url).digest("hex").slice(0, 7);
+      feedJson["_fetchTime"] = Date.now();
 
-    return feedJson;
-  })
+      return feedJson;
+    });
 };
 
 // recursively fetch all feeds
@@ -119,6 +152,8 @@ function fillTemplateVar(data, repDict = {}, parentKey = "", depth = 0) {
 }
 
 // store data locally to not compute feeds multiple times
-const data = fetchAllFeeds(seedFeed).then(fillTemplateVar);
+const data = fetchAllFeeds(seedFeed)
+  .then(fillTemplateVar)
+  .then(checkFileIntegrity);
 
 module.exports.getData = () => data;

@@ -7,7 +7,9 @@ permalink: "macros/"
 {% for macroList in macros | automationListSort %}
   {% if (macroList | length) == 1 %}
     {% set macro = macroList | first %}
-    <li><a href="{{ ["/macros/" , macro._namespace, "/"] | join | url }}">{{ macro.name }}</a> by {{ macro.author }}</li>
+    <li><a href="{{ ["/macros/" , macro._namespace, "/"] | join | url }}">{{ macro.name }}</a> by {{ macro.author }}
+    {% if macro._validHash %} ✅ {% else %} ❌ {% endif %}
+    </li>
   {% else %}
     {% set macro = macroList | first %}
     <li><a href="{{ ["/macros/" , macro._namespace, "/"] | join | url }}">{{ macro._namespace }}</a> <span style="color:red">({{macroList | length }} feeds)</span></li>
