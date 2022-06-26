@@ -26,6 +26,10 @@
                             <a class="nav-link" href="https://github.com/seproDev/depctrl-browser">GitHub</a>
                         </li>
                     </ul>
+                    <form class="d-flex" role="search">
+                        <input id="search" class="form-control me-2 is-search" type="search" placeholder="Search..." aria-label="Search" autocomplete="off">
+                        <div id="suggestions" class="shadow bg-white rounded d-none"></div>
+                    </form>
                 </div>
             </nav>
         </header>
@@ -45,5 +49,6 @@
                 </div>
             </footer>
         </div>
+        <script src="{{ "/assets/app.js" | url }}"></script>
     </body>
 </html>

@@ -1,0 +1,125 @@
+---
+permalink: /_esbuild/app.js
+---
+const { Index, Document, Worker } = require("flexsearch");
+
+// Code largly copied from Doks https://github.com/h-enk/doks
+
+var suggestions = document.getElementById('suggestions');
+var search = document.getElementById('search');
+
+document.addEventListener('click', function(event) {
+
+  var isClickInsideElement = suggestions.contains(event.target);
+
+  if (!isClickInsideElement) {
+    suggestions.classList.add('d-none');
+  }
+
+});
+
+
+(function(){
+
+  var index = new Document({
+    tokenize: "forward",
+    cache: 100,
+    document: {
+      id: 'id',
+      store: [
+        "href", "name", "description"
+      ],
+      index: ["name", "description"]
+    },
+    language: "en"
+  });
+
+  var i = 0;
+  {% for macroList in macros %}
+    {% for macro in macroList %}
+    index.add(
+      {
+        id: i++,
+        href: "{{ ["/macros/" , macro._namespace, "/"] | join | url }}",
+        name: "{{ macro.name | safe }}",
+        description: "{{ macro.description | safe }}",
+      }
+    );
+    {% endfor %}
+  {% endfor %}
+
+  {% for moduleList in modules %}
+    {% for macro in macroList %}
+    index.add(
+      {
+        id: i++,
+        href: "{{ ["/modules/" , module._namespace, "/"] | join | url }}",
+        name: "{{ module.name | safe }}",
+        description: "{{ module.description | safe }}",
+      }
+    );
+    {% endfor %}
+  {% endfor %}
+
+  {% for feed in feeds %}
+  index.add(
+    {
+      id: i++,
+      href: "{{ ["/feeds/" , feed._identifier, "/"] | join | url }}",
+      name: "{{ feed.name | safe }}",
+      description: "{{ feed.description | safe }}",
+    }
+  );
+  {% endfor %}
+
+  search.addEventListener('input', show_results, true);
+
+  function show_results(){
+    const maxResult = 5;
+    var searchQuery = this.value;
+    var results = index.search(searchQuery, {limit: maxResult, enrich: true});
+
+    // flatten results since index.search() returns results for each indexed field
+    const flatResults = new Map(); // keyed by href to dedupe results
+    for (const result of results.flatMap(r => r.result)) {
+      if (flatResults.has(result.doc.href)) continue;
+      flatResults.set(result.doc.href, result.doc);
+    }
+
+    suggestions.innerHTML = "";
+    suggestions.classList.remove('d-none');
+
+    // inform user that no results were found
+    if (flatResults.size === 0 && searchQuery) {
+      const noResultsMessage = document.createElement('div')
+      noResultsMessage.innerHTML = `No results for "<strong>${searchQuery}</strong>"`
+      noResultsMessage.classList.add("suggestion__no-results");
+      suggestions.appendChild(noResultsMessage);
+      return;
+    }
+
+    // construct a list of suggestions
+    for(const [href, doc] of flatResults) {
+        const entry = document.createElement('div');
+        suggestions.appendChild(entry);
+
+        const a = document.createElement('a');
+        a.href = href;
+        entry.appendChild(a);
+
+        const title = document.createElement('span');
+        title.textContent = doc.name;
+        title.classList.add("suggestion__title");
+        a.appendChild(title);
+
+        const description = document.createElement('span');
+        description.textContent = doc.description;
+        description.classList.add("suggestion__description");
+        a.appendChild(description);
+
+        suggestions.appendChild(entry);
+
+        if(suggestions.childElementCount == maxResult) break;
+    }
+  }
+}());

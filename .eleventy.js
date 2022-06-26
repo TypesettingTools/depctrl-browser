@@ -1,4 +1,3 @@
-const eleventyPluginFilesMinifier = require("@sherby/eleventy-plugin-files-minifier");
 const filters = require("./utils/filters.js")
 const esbuild = require("esbuild");
 const { sassPlugin } = require("esbuild-sass-plugin");
@@ -17,17 +16,19 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter(filterName, filters[filterName])
   })
 
-  eleventyConfig.addPlugin(eleventyPluginFilesMinifier);
   eleventyConfig.on("afterBuild", () => {
     return esbuild.build({
-      entryPoints: ["src/sass/app.scss"],
+      entryPoints: ["_site/_esbuild/app.scss", "_site/_esbuild/app.js"],
       outdir: "_site/assets",
+      bundle: true,
       minify: process.env.NODE_ENV === "production",
       sourcemap: process.env.NODE_ENV !== "production",
       plugins: [sassPlugin()]
     });
   });
+  
   eleventyConfig.addWatchTarget("./src/sass/");
+  eleventyConfig.addWatchTarget("./src/js/");
 
   return {
     dir: {

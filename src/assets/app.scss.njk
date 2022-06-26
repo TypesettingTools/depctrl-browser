@@ -1,0 +1,147 @@
+---
+permalink: /_esbuild/app.scss
+---
+
+@import "../../node_modules/bootstrap/scss/functions";
+
+// variable overrides
+
+
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/root";
+
+// Optional parts
+@import "../../node_modules/bootstrap/scss/utilities";
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/images";
+@import "../../node_modules/bootstrap/scss/containers";
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/tables";
+@import "../../node_modules/bootstrap/scss/buttons";
+@import "../../node_modules/bootstrap/scss/nav";
+@import "../../node_modules/bootstrap/scss/navbar";
+@import "../../node_modules/bootstrap/scss/badge";
+@import "../../node_modules/bootstrap/scss/alert";
+@import "../../node_modules/bootstrap/scss/forms";
+@import "../../node_modules/bootstrap/scss/helpers";
+@import "../../node_modules/bootstrap/scss/utilities/api";
+
+
+
+// Custom code
+main {
+    padding-top: 4.5rem;
+}
+
+details {
+    margin: 0.5rem 0 1rem 0;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+}
+
+details summary::before { 
+    content: "Show";
+    font-weight: 500;
+}
+
+details[open] summary::before { 
+    content: "Hide"; 
+}
+
+// Code from Doks https://github.com/h-enk/doks
+
+.navbar-form {
+  position: relative;
+}
+
+#suggestions {
+  position: absolute;
+  right: 0;
+  margin-top: 3rem;
+  width: calc(100vw - 3rem);
+  max-width: calc(400px - 3rem);
+  z-index: $zindex-dropdown;
+
+  @include media-breakpoint-up(md) {
+    right: -2rem;
+  }
+
+  @include media-breakpoint-up(lg) {
+    right: 0;
+  }
+}
+
+#suggestions a,
+.suggestion__no-results {
+  padding: 0.75rem;
+  margin: 0 0.5rem;
+}
+
+#suggestions a {
+  display: block;
+  text-decoration: none;
+}
+
+#suggestions a:focus {
+  background: $gray-100;
+  outline: 0;
+}
+
+#suggestions div:not(:first-child) {
+  border-top: 1px dashed $gray-200;
+}
+
+#suggestions div:first-child {
+  margin-top: 0.5rem;
+}
+
+#suggestions div:last-child {
+  margin-bottom: 0.5rem;
+}
+
+#suggestions a:hover {
+  background: $gray-100;
+}
+
+#suggestions span {
+  display: flex;
+  font-size: $font-size-base;
+}
+
+.suggestion__title {
+  font-weight: $headings-font-weight;
+  color: $black;
+}
+
+.suggestion__description,
+.suggestion__no-results {
+  color: $gray-700;
+}
+
+@include media-breakpoint-up(lg) {
+  #suggestions {
+    width: 31.125rem;
+    max-width: 31.125rem;
+  }
+
+  #suggestions a {
+    display: flex;
+  }
+
+  .suggestion__title {
+    width: 9rem;
+    padding-right: 1rem;
+    border-right: 1px solid $gray-200;
+    display: inline-block;
+    text-align: right;
+  }
+
+  .suggestion__description {
+    width: 19rem;
+    padding-left: 1rem;
+  }
+}
