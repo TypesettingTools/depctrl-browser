@@ -1,1 +1,184 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width,initial-scale=1" name="viewport"><title>SplitTimer | DepCtrl Brwoser</title><link href="/depctrl-browser/assets/app.css" rel="stylesheet"><meta content="no-referrer" name="referrer"><meta content="telephone=no" name="format-detection"><meta content="website" property="og:type"><meta content="SplitTimer | DepCtrl Brwoser" property="og:title"><meta content="DepCtrl Browser" property="og:site_name"><meta content="petzku" property="article:author"><meta content="Split lines in selection to shorter segments" name="description"><meta content="Split lines in selection to shorter segments" property="og:description"></head><body class="d-flex flex-column h-100"><header><nav class="bg-dark fixed-top navbar navbar-dark navbar-expand-md shadow"><div class="container-fluid"><a href="/depctrl-browser/" class="navbar-brand">DepCtrl Browser</a><ul class="mb-md-0 mb-2 me-auto navbar-nav"><li class="nav-item"><a href="/depctrl-browser/" class="nav-link">Home</a></li><li class="nav-item"><a href="/depctrl-browser/feeds/" class="nav-link">Feeds</a></li><li class="nav-item"><a href="/depctrl-browser/macros/" class="nav-link">Macros</a></li><li class="nav-item"><a href="/depctrl-browser/modules/" class="nav-link">Modules</a></li><li class="nav-item"><a href="https://github.com/seproDev/depctrl-browser" class="nav-link">GitHub</a></li></ul></div></nav></header><main class="flex-shrink-0"><div class="container"><h1>SplitTimer</h1><p>Split lines in selection to shorter segments</p><p>Macro <a href="https://github.com/petzku/Aegisub-Scripts#petzku.SplitTimer">petzku.SplitTimer</a> in feed <a href="/depctrl-browser/feeds/7161932/">petzku's Automation Scripts</a> <a href="/depctrl-browser/feeds/7161932/" class="badge btn btn-secondary" role="button">7161932</a> by petzku.</p><h2>Channels:</h2><h4>stable<small> (Default)</small>:</h4><p>Version: 1.1.1</p><p>Release Date: 2021-03-26</p><h5>Required Modules:</h5><p></p><ul><li><span class="font-monospace">petzku.util@0.3.0</span> (petzkuLib) <a href="https://github.com/petzku/Aegisub-Scripts" class="badge btn btn-primary" role="button">URL</a></li></ul><p></p><h5>Files:</h5><p></p><ul><li><a href="https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/macros/petzku.SplitTimer.moon">.moon</a>: <code>22d28ca1f43d408bf24085adb14ca3c494094a74</code> ✅</li></ul><p></p><h2>Changelog:</h2><p></p><p></p><h4>1.1.1:</h4><ul><li>Fix error in requires for non-depctrl</li></ul><p></p><p></p><h4>1.1.0:</h4><ul><li>Add by-frame splitting functionality</li><li>Retime transforms while splitting</li><li>Rename from Lookback Splitter</li></ul><p></p><p></p><h4>1.0.0:</h4><ul><li>Initial release</li></ul><p></p><p></p></div></main><div class="container"><footer class="d-flex align-items-center border-top flex-wrap justify-content-between my-4 py-3"><div class="d-flex align-items-center col-md-4"><span class="mb-md-0 mb-3 text-muted">Made by sepro</span></div><div class="d-flex col-md-4 justify-content-end"><span class="mb-md-0 mb-3 text-muted">Last fetched: 26 Jun 2022, 03:00:22 UTC</span></div></footer></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>SplitTimer | DepCtrl Brwoser</title>
+
+<link rel="stylesheet" href="/depctrl-browser/assets/app.css">
+
+<meta name="referrer" content="no-referrer">
+<meta name="format-detection" content="telephone=no">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="SplitTimer | DepCtrl Brwoser">
+<meta property="og:site_name" content="DepCtrl Browser">
+
+<meta property="article:author" content="petzku">
+
+
+<meta name="description" content="Split lines in selection to shorter segments">
+<meta property="og:description" content="Split lines in selection to shorter segments">
+
+
+    </head>
+    <body class="d-flex flex-column h-100">
+        <header>
+            <!-- Fixed navbar -->
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark shadow">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/depctrl-browser/">DepCtrl Browser</a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                        aria-controls="navbarCollapse"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/depctrl-browser/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/depctrl-browser/feeds/">Feeds</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/depctrl-browser/macros/">Macros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/depctrl-browser/modules/">Modules</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/seproDev/depctrl-browser">GitHub</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                        <input
+                            id="search"
+                            class="form-control me-2 is-search"
+                            type="search"
+                            placeholder="Search..."
+                            aria-label="Search"
+                            autocomplete="off">
+                        <div id="suggestions" class="shadow bg-white rounded d-none"></div>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Begin page content -->
+        <main class="flex-shrink-0">
+            <div class="container">
+                
+
+  <h1>SplitTimer</h1>
+  <p>Split lines in selection to shorter segments</p>
+  <p>Macro <a href="https://github.com/petzku/Aegisub-Scripts#petzku.SplitTimer">petzku.SplitTimer</a>
+  in feed <a href="/depctrl-browser/feeds/7161932/">petzku&#39;s Automation Scripts</a>
+  <a role="button" class="badge btn btn-secondary" href="/depctrl-browser/feeds/7161932/">7161932</a>
+  by petzku.</p>
+
+  <h2>Channels:</h2>
+  
+  <h4>stable<small> (Default)</small>:</h4>
+  
+
+  <p>Version: 1.1.1</p>
+
+  <p>
+  Release Date: 2021-03-26
+  </p>
+  
+  
+    <h5>Required Modules:</h5>
+    <p>
+      
+      <ul>
+      
+        <li>
+          <span class="font-monospace">petzku.util@0.3.0</span>
+          (petzkuLib)
+          
+          <a role="button" class="badge btn btn-primary" href="https://github.com/petzku/Aegisub-Scripts">URL</a>
+          
+          
+        </li>
+      
+      </ul>
+      
+    </p>
+    <h5>Files:</h5>
+    <p>
+      
+      <ul>
+      
+        <li>
+          <a href="https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/macros/petzku.SplitTimer.moon">.moon</a>:
+          
+          
+          <code>22d28ca1f43d408bf24085adb14ca3c494094a74</code>
+          ✅
+        </li>
+      
+      </ul>
+      
+    </p>
+  
+  
+
+  <h2>Changelog:</h2>
+  <p>
+    
+      <p><h4>1.1.1:</h4>
+      <ul>
+      
+        <li>Fix error in requires for non-depctrl</li>
+      
+      </ul>
+      </p>
+    
+      <p><h4>1.1.0:</h4>
+      <ul>
+      
+        <li>Add by-frame splitting functionality</li>
+      
+        <li>Retime transforms while splitting</li>
+      
+        <li>Rename from Lookback Splitter</li>
+      
+      </ul>
+      </p>
+    
+      <p><h4>1.0.0:</h4>
+      <ul>
+      
+        <li>Initial release</li>
+      
+      </ul>
+      </p>
+    
+  </p>
+  
+
+
+
+            </div>
+        </main>
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <span class="mb-3 mb-md-0 text-muted">Made by sepro</span>
+                </div>
+                <div class="col-md-4 d-flex justify-content-end">
+                    <span class="mb-3 mb-md-0 text-muted">Last fetched: 26 Jun 2022, 05:13:58 UTC</span>
+                </div>
+            </footer>
+        </div>
+        <script src="/depctrl-browser/assets/app.js"></script>
+    </body>
+</html>

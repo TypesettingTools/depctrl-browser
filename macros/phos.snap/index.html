@@ -1,1 +1,155 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width,initial-scale=1" name="viewport"><title>Bidirectional Snapping | DepCtrl Brwoser</title><link href="/depctrl-browser/assets/app.css" rel="stylesheet"><meta content="no-referrer" name="referrer"><meta content="telephone=no" name="format-detection"><meta content="website" property="og:type"><meta content="Bidirectional Snapping | DepCtrl Brwoser" property="og:title"><meta content="DepCtrl Browser" property="og:site_name"><meta content="PhosCity" property="article:author"><meta content="Snap to close keyframes during timing" name="description"><meta content="Snap to close keyframes during timing" property="og:description"></head><body class="d-flex flex-column h-100"><header><nav class="bg-dark fixed-top navbar navbar-dark navbar-expand-md shadow"><div class="container-fluid"><a href="/depctrl-browser/" class="navbar-brand">DepCtrl Browser</a><ul class="mb-md-0 mb-2 me-auto navbar-nav"><li class="nav-item"><a href="/depctrl-browser/" class="nav-link">Home</a></li><li class="nav-item"><a href="/depctrl-browser/feeds/" class="nav-link">Feeds</a></li><li class="nav-item"><a href="/depctrl-browser/macros/" class="nav-link">Macros</a></li><li class="nav-item"><a href="/depctrl-browser/modules/" class="nav-link">Modules</a></li><li class="nav-item"><a href="https://github.com/seproDev/depctrl-browser" class="nav-link">GitHub</a></li></ul></div></nav></header><main class="flex-shrink-0"><div class="container"><h1>Bidirectional Snapping</h1><p>Snap to close keyframes during timing</p><p>Macro <a href="https://github.com/PhosCity/Aegisub-Scripts#phos.snap">phos.snap</a> in feed <a href="/depctrl-browser/feeds/8fe234d/">PhosCity's Aegisub Scripts</a> <a href="/depctrl-browser/feeds/8fe234d/" class="badge btn btn-secondary" role="button">8fe234d</a> by PhosCity.</p><h2>Channels:</h2><h4>main<small> (Default)</small>:</h4><p>Version: 1.0.3</p><p>Release Date: 2022-04-24</p><h5>Required Modules:</h5><p></p><div class="alert alert-secondary" role="alert">No Modules Required</div><p></p><h5>Files:</h5><p></p><ul><li><a href="https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.snap.lua">.lua</a>: <code>2e433a462272074aa815a7e0fbc5139c632d8e6b</code> ✅</li></ul><p></p><h2>Changelog:</h2><p></p><p></p><h4>1.0.0:</h4><ul><li>Initial Release</li></ul><p></p><p></p></div></main><div class="container"><footer class="d-flex align-items-center border-top flex-wrap justify-content-between my-4 py-3"><div class="d-flex align-items-center col-md-4"><span class="mb-md-0 mb-3 text-muted">Made by sepro</span></div><div class="d-flex col-md-4 justify-content-end"><span class="mb-md-0 mb-3 text-muted">Last fetched: 26 Jun 2022, 03:00:22 UTC</span></div></footer></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Bidirectional Snapping | DepCtrl Brwoser</title>
+
+<link rel="stylesheet" href="/depctrl-browser/assets/app.css">
+
+<meta name="referrer" content="no-referrer">
+<meta name="format-detection" content="telephone=no">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Bidirectional Snapping | DepCtrl Brwoser">
+<meta property="og:site_name" content="DepCtrl Browser">
+
+<meta property="article:author" content="PhosCity">
+
+
+<meta name="description" content="Snap to close keyframes during timing">
+<meta property="og:description" content="Snap to close keyframes during timing">
+
+
+    </head>
+    <body class="d-flex flex-column h-100">
+        <header>
+            <!-- Fixed navbar -->
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark shadow">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="/depctrl-browser/">DepCtrl Browser</a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                        aria-controls="navbarCollapse"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/depctrl-browser/">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/depctrl-browser/feeds/">Feeds</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/depctrl-browser/macros/">Macros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/depctrl-browser/modules/">Modules</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/seproDev/depctrl-browser">GitHub</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                        <input
+                            id="search"
+                            class="form-control me-2 is-search"
+                            type="search"
+                            placeholder="Search..."
+                            aria-label="Search"
+                            autocomplete="off">
+                        <div id="suggestions" class="shadow bg-white rounded d-none"></div>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Begin page content -->
+        <main class="flex-shrink-0">
+            <div class="container">
+                
+
+  <h1>Bidirectional Snapping</h1>
+  <p>Snap to close keyframes during timing</p>
+  <p>Macro <a href="https://github.com/PhosCity/Aegisub-Scripts#phos.snap">phos.snap</a>
+  in feed <a href="/depctrl-browser/feeds/8fe234d/">PhosCity&#39;s Aegisub Scripts</a>
+  <a role="button" class="badge btn btn-secondary" href="/depctrl-browser/feeds/8fe234d/">8fe234d</a>
+  by PhosCity.</p>
+
+  <h2>Channels:</h2>
+  
+  <h4>main<small> (Default)</small>:</h4>
+  
+
+  <p>Version: 1.0.3</p>
+
+  <p>
+  Release Date: 2022-04-24
+  </p>
+  
+  
+    <h5>Required Modules:</h5>
+    <p>
+      
+      <div class="alert alert-secondary" role="alert">
+        No Modules Required
+      </div>
+      
+    </p>
+    <h5>Files:</h5>
+    <p>
+      
+      <ul>
+      
+        <li>
+          <a href="https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.snap.lua">.lua</a>:
+          
+          
+          <code>2e433a462272074aa815a7e0fbc5139c632d8e6b</code>
+          ✅
+        </li>
+      
+      </ul>
+      
+    </p>
+  
+  
+
+  <h2>Changelog:</h2>
+  <p>
+    
+      <p><h4>1.0.0:</h4>
+      <ul>
+      
+        <li>Initial Release</li>
+      
+      </ul>
+      </p>
+    
+  </p>
+  
+
+
+
+            </div>
+        </main>
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <span class="mb-3 mb-md-0 text-muted">Made by sepro</span>
+                </div>
+                <div class="col-md-4 d-flex justify-content-end">
+                    <span class="mb-3 mb-md-0 text-muted">Last fetched: 26 Jun 2022, 05:13:58 UTC</span>
+                </div>
+            </footer>
+        </div>
+        <script src="/depctrl-browser/assets/app.js"></script>
+    </body>
+</html>
