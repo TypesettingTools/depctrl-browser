@@ -3,17 +3,47 @@
     <head>
         {% include "head.njk" %}
     </head>
-    <body>
+    <body class="d-flex flex-column h-100">
         <header>
-        <nav>
-            <a href="{{ "/" | url }}">Home</a>
-            <a href="{{ "/feeds/" | url }}">Feeds</a>
-            <a href="{{ "/macros/" | url }}">Macros</a>
-            <a href="{{ "/modules/" | url }}">Modules</a>
-            <a href="https://github.com/seproDev/depctrl-browser">Github</a>
-            <h1>DependencyControl Browser</h1>
-        </nav>
+            <!-- Fixed navbar -->
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark shadow">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="{{ "/" | url }}">DepCtrl Browser</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link{% if '/' === page.url %} active{% endif %}" href="{{ "/" | url }}">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link{% if '/feeds/' === page.url %} active{% endif %}" href="{{ "/feeds/" | url }}">Feeds</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link{% if '/macros/' === page.url %} active{% endif %}" href="{{ "/macros/" | url }}">Macros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link{% if '/modules/' === page.url %} active{% endif %}" href="{{ "/modules/" | url }}">Modules</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/seproDev/depctrl-browser">Github</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </header>
-        {{ content | safe }}
+        <!-- Begin page content -->
+        <main class="flex-shrink-0">
+            <div class="container">
+                {{ content | safe }}
+            </div>
+        </main>
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <span class="mb-3 mb-md-0 text-muted">Made by sepro</span>
+                </div>
+                <div class="col-md-4 d-flex justify-content-end">
+                    <span class="mb-3 mb-md-0 text-muted">Build time: {{ generated }}</span>
+                </div>
+            </footer>
+        </div>
     </body>
 </html>

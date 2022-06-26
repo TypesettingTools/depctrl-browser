@@ -48,15 +48,13 @@ const fetchFeed = (url) => {
       // remove trailing commas. Not ideal as there can be false positives
       if (feedResponse.match(/\,(?=\s*?[\}\]])/g)) {
         feedResponse = feedResponse.replaceAll(/\,(?=\s*?[\}\]])/g, "");
-        var defective = true;
-        var defectInfo = "Trailing Comma"
+        var defective = "Trailing Comma"
       }
 
       // remove UTF-8 Bom
       if (feedResponse.match(/^\uFEFF/gm)) {
         feedResponse = feedResponse.replace(/^\uFEFF/g, "");
-        var defective = true;
-        var defectInfo = "UTF-8 BOM"
+        var defective = "UTF-8 BOM"
       }
 
       try {
@@ -68,7 +66,6 @@ const fetchFeed = (url) => {
 
       if (defective) {
         feedJson["_defective"] = defective;
-        feedJson["_defectInfo"] = defectInfo;
       }
 
       feedJson["_sourceUrl"] = url;

@@ -6,72 +6,102 @@ pagination:
 permalink: "/modules/{{ (moduleList | first)._namespace }}/"
 layout: base.njk
 eleventyComputed:
-  title: "{{ (moduleList | first).name }}"
-  description: "{{ (moduleList | first).description }}"
-  author: "{{ (moduleList | first).author }}"
+  title: "{{ moduleList | singleValue('name') }}"
+  description: "{{ moduleList | singleValue('description') }}"
+  author: "{{ moduleList | singleValue('author') }}"
 ---
+{% if (moduleList | length) !== 1 %}
+<div class="alert alert-warning" role="alert">
+  There is a namespace collision between the following modules:
+</div>
+{% endif %}
 {% for module in moduleList %}
-  <h2>{{ module.name }}</h2>
+  <h1>{{ module.name }}</h1>
   <p>{{ module.description }}</p>
-  <p>Module <a href="{{ module.url }}">{{ module._namespace }}</a> in feed <a href="{{ ["/feeds/" , module._feedIdentifier, "/"] | join | url }}">{{ module._feedName }}</a> <small>[{{ module._feedIdentifier }}]</small> by {{ module.author }}.</p>
+  <p>Module <a href="{{ module.url }}">{{ module._namespace }}</a>
+  in feed <a href="{{ ["/feeds/" , module._feedIdentifier, "/"] | join | url }}">{{ module._feedName }}</a>
+  <a role="button" class="badge btn btn-secondary" href="{{ ["/feeds/" , module._feedIdentifier, "/"] | join | url }}">{{ module._feedIdentifier}}</a>
+  by {{ module.author }}.</p>
 
-  <h3>Channels:</h3>
+  <h2>Channels:</h2>
   {% for channel, info in module.channels %}
-  <article>
   <h4>{{ channel }}{% if info.default %}<small> (Default)</small>{% endif %}:</h4>
-  <p>Version {{ info.version }}
-  {% if info.released %} released {{ info.released }}{% endif %}
-  {% if info.platforms %} for {{ info.platforms | join(', ') }}{% endif %}
-  </p>
-  <details {% if info.default %}open{% endif %}>
-    <summary>Required Modules</summary>
+  {% if not info.default %}<details><summary></summary>{% endif %}
+
+  <p>Version: {{ info.version }}</p>
+
+  {% if info.released %}<p>
+  Release Date: {{ info.released }}
+  </p>{% endif %}
+  
+  {% if info.platforms %} <p>
+  Platforms:
+  {% for platform in info.platforms  %}
+  <span class="badge rounded-pill text-bg-primary">{{ platform}}</span>
+  {% endfor %}
+  </p>{% endif %}
+    <h5>Required Modules:</h5>
     <p>
+      {% if (info.requiredModules | length) !== 0 %}
+      <ul>
       {% for module in info.requiredModules %}
         <li>
-          <tt>{{ module.moduleName }}{% if module.version %}@{{ module.version }}{% endif %}</tt>
+          <span class="font-monospace">{{ module.moduleName }}{% if module.version %}@{{ module.version }}{% endif %}</span>
           {% if module.name %}({{ module.name }}){% endif %}
-          {% if module.url %} <small>[<a href="{{ module.url }}">URL</a>]</small> {% endif %}
-          {% if module.feed %} <small>[<a href="{{ module.feed }}">Feed</a>]</small> {% endif %}
+          {% if module.url %}
+          <a role="button" class="badge btn btn-primary" href="{{ module.url }}">URL</a>
+          {% endif %}
+          {% if module.feed %}
+          <a role="button" class="badge btn btn-secondary" href="{{ ["/feeds/" , ( module.feed | toFeedIdentifier ), "/"] | join | url }}">{{ module.feed | toFeedIdentifier }}</a>
+          {% endif %}
         </li>
-      {% else %}
-        No modules required
       {% endfor %}
+      </ul>
+      {% else %}
+      <div class="alert alert-secondary" role="alert">
+        No Modules Required
+      </div>
+      {% endif %}
     </p>
-  </details>
-  <details {% if info.default %}open{% endif %}>
-    <summary>Files</summary>
+    <h5>Files:</h5>
     <p>
+      {% if (info.files | length) !== 0 %}
+      <ul>
       {% for file in info.files %}
         {% if not file.delete %}<li>
           <a href="{{ file.url }}">{{ file.name }}</a>:
-          {% if file.type %} <small>[{{ file.type }}]</small> {% endif %}
-          {% if file.platform %} <small>[{{ file.platform }}]</small> {% endif %}
-          <small><code>{{ file.sha1 }}</code></small>
-          {% if file._validHash %} ✅ {% else %} ❌ {% endif %}
+          {% if file.type %}<span class="badge rounded-pill text-bg-info">{{ file.type | capitalize}}</span>{% endif %}
+          {% if file.platform %}<span class="badge rounded-pill text-bg-primary">{{ file.platform }}</span>{% endif %}
+          <code>{{ file.sha1 }}</code>
+          {% if file._validHash %}✅{% else %}❌{% endif %}
         </li>{% endif %}
-      {% else %}
-        Module containes no files
       {% endfor %}
+      </ul>
+      {% else %}
+      <div class="alert alert-warning" role="alert">
+        No Files in Module
+      </div>
+      {% endif %}
     </p>
-  </details>
-  </article>
+  {% if not info.default %}</details>{% endif %}
   {% endfor %}
 
-  <details open>
-    <summary>Changelog</summary>
-    <p>
-      {% for version, changelog in module.changelog | changelogSort %}
-        <p><b>{{ version }}:</b> <br>
-        {% for changelogLine in changelog %}
-          <li>{{ changelogLine | markdownify | safe }}</li>
-        {% endfor %}
-        </p>
-      {% else %}
-        No changelog Available
+  <h2>Changelog:</h2>
+  <p>
+    {% for version, changelog in module.changelog | changelogSort %}
+      <p><h4>{{ version }}:</h4>
+      <ul>
+      {% for changelogLine in changelog %}
+        <li>{{ changelogLine | markdownify | safe }}</li>
       {% endfor %}
-    </p>
-  </details>
+      </ul>
+      </p>
+    {% else %}
+    <div class="alert alert-secondary" role="alert">
+      No changelog Available
+    </div>
+    {% endfor %}
+  </p>
   {% if not loop.last %}<hr>{% endif %}
 
-  <br><br><p><small style="color: DimGrey;">Last fetched: {{ module._fetchTime | datetime }}</small></p>
 {% endfor %}

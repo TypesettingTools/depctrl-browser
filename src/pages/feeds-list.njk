@@ -3,17 +3,45 @@ layout: base.njk
 title: List of all Feeds
 permalink: "feeds/"
 ---
-<h2>List of all Feeds</h2>
-{% for feed in feeds  | sort(false, false, 'name') %}
-  {% if feed._invalid %}
-    <li><a href="{{ ["/feeds/" , feed._identifier, "/"] | join | url }}">{{ feed._identifier }}</a> <span style="color:red">(Invalid JSON)</span>
-  {% else %}
-  
-    <li><a href="{{ ["/feeds/" , feed._identifier, "/"] | join | url }}">{{ feed.name }}</a> by {{ feed.maintainer }}
-    {% if feed._defective %} <span style="color:orange">(Warning: {{ feed._defectInfo}})</span> {% endif %}
-    {% if feed._validHash %} ✅ {% else %} ❌ {% endif %}
-    </li>
-  {% endif %}
+<h1>List of all Feeds</h1>
+{% if (feeds | length) !== 0 %}
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Feed</th>
+      <th scope="col">Maintainer</th>
+      <th scope="col">Macros</th>
+      <th scope="col">Modules</th>
+      <th scope="col">File Hash</th>
+      <th scope="col">Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for feed in feeds | sort(false, false, 'name') %}
+    {% if feed._invalid %}
+    <tr class="table-danger">
+      <th><a href="{{ ["/feeds/" , feed._identifier, "/"] | join | url }}">Unknown</a> <a role="button" class="badge btn btn-secondary" href="{{ ["/feeds/" , feed._identifier, "/"] | join | url }}">{{ feed._identifier}}</a></th>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>JSON could not be parsed</td>
+    </tr>
+    {% else %}
+    <tr {% if feed._defective or not feed._validHash %} class="table-warning"{% endif %}>
+      <th><a href="{{ ["/feeds/" , feed._identifier, "/"] | join | url }}">{{ feed.name }}</a> <a role="button" class="badge btn btn-secondary" href="{{ ["/feeds/" , feed._identifier, "/"] | join | url }}">{{ feed._identifier}}</a></th>
+      <td>{{ feed.maintainer }}</td>
+      <td>{{ feed.macros | length }}</td>
+      <td>{{ feed.modules | length }}</td>
+      <td>{% if feed._validHash %}✅{% else %}❌{% endif %}</td>
+      <td>{{ feed._defective}}</td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
 {% else %}
-  <li>No Items</li>
-{% endfor %}
+<div class="alert alert-danger" role="alert">
+  No feeds found!
+</div>
+{% endif %}

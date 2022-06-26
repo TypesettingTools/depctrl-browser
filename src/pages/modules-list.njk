@@ -3,17 +3,48 @@ layout: base.njk
 title: List of all Modules
 permalink: "modules/"
 ---
-<h2>List of all Modules</h2>
-{% for moduleList in modules | automationListSort %}
-  {% if (moduleList | length) == 1 %}
-    {% set module = moduleList | first %}
-    <li><a href="{{ ["/modules/" , module._namespace, "/"] | join | url }}">{{ module.name }}</a> by {{ module.author }}
-    {% if module._validHash %} ✅ {% else %} ❌ {% endif %}
-    </li>
-  {% else %}
-    {% set module = moduleList | first %}
-    <li><a href="{{ ["/modules/" , module._namespace, "/"] | join | url }}">{{ module._namespace }}</a> <span style="color:red">({{moduleList | length }} feeds)</span></li>
-  {% endif %}
+<h1>List of all Modules</h1>
+{% if (modules | length) !== 0 %}
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Module</th>
+      <th scope="col">Namespace</th>
+      <th scope="col">Author</th>
+      <th scope="col">Feed</th>
+      <th scope="col">File Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for moduleList in modules | automationListSort %}
+      {% if (moduleList | length) === 1 %}
+        {% set module = moduleList | first %}
+        <tr {% if not module._validHash %} class="table-warning"{% endif %}>
+          <th><a href="{{ ["/modules/" , module._namespace, "/"] | join | url }}">{{ module.name }}</a></th>
+          <td>{{ module._namespace }}</td>
+          <td>{{ module.author }}</td>
+          <td><a href="{{ ["/feeds/" , module._feedIdentifier, "/"] | join | url }}">{{ module._feedName }}</a> <a role="button" class="badge btn btn-secondary" href="{{ ["/feeds/" , module._feedIdentifier, "/"] | join | url }}">{{ module._feedIdentifier}}</a></td>
+          <td>{% if module._validHash %}✅{% else %}❌{% endif %}</td>
+        </tr>
+      {% else %}
+        {% set firstModule = moduleList | first %}
+        <tr class="table-warning">
+          <th><a href="{{ ["/modules/" , firstModule._namespace, "/"] | join | url }}">{{ moduleList | singleValue("name") }}</a></th>
+          <td>{{ firstModule._namespace }}</td>
+          <td>{{ moduleList | singleValue("author") }}</td>
+          <td>Multiple:
+          {% for module in moduleList %}
+            <a role="button" class="badge btn btn-secondary" href="{{ ["/feeds/" , module._feedIdentifier, "/"] | join | url }}">{{ module._feedIdentifier}}</a>
+          {% endfor %}
+          </td>
+          <td>{% if (moduleList | singleValue("_validHash") === true ) and firstModule._validHash %}✅{% else %}❌{% endif %}</td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
 {% else %}
-  <li>No Items</li>
-{% endfor %}
+<div class="alert alert-danger" role="alert">
+  No Modules found!
+</div>
+{% endif %}

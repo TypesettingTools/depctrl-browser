@@ -10,30 +10,75 @@ eleventyComputed:
   description: "{{ feed.description }}"
   author: "{{ feed.maintainer }}"
 ---
-<h2>{{ feed.name }}</h2>
+<h1>{{ feed.name }}</h1>
 <p>{{ feed.description }}</p>
 <p>Feed <a href="{{ feed.url }}">{{ feed.name }}</a> maintained by {{ feed.maintainer }} with format version {{ feed.dependencyControlFeedFormatVersion }}.</p>
-<p>URL: <a href="{{ feed._sourceUrl }}">{{ feed._sourceUrl }}</a></p>
+<p>Fetched from: <a href="{{ feed._sourceUrl }}">{{ feed._sourceUrl }}</a></p>
+{% if feed.invalid %}
+<div class="alert alert-danger" role="alert">
+Feed is invalid!
+</div>
+{% endif %}
 {% if feed._defective %}
-  <p> <span style="color:orange">Warning:</span> Feed may not be JSON compliant due to {{ feed._defectInfo}}</p>
+<div class="alert alert-warning" role="alert">
+Feed may not be JSON compliant due to {{ feed._defective }}
+</div>
 {% endif %}
 
-<h3>Macros:</h3>
-{% for macroId, macro in feed.macros %}
-  <li><a href="{{ ["/macros/" , macroId, "/"] | join | url }}">{{ macro.name }}</a> by {{ macro.author }}
-  {% if macro._validHash %} ✅ {% else %} ❌ {% endif %}
-  </li>
+<h2>Macros:</h2>
+{% set macros = feed.macros %}
+{% if (macros | length) !== 0 %}
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Macro</th>
+      <th scope="col">Namespace</th>
+      <th scope="col">Author</th>
+      <th scope="col">File Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for macroNamespace, macro in feed.macros %}
+      <tr {% if not macro._validHash %} class="table-warning"{% endif %}>
+        <th><a href="{{ ["/macros/" , macroNamespace, "/"] | join | url }}">{{ macro.name }}</a></th>
+        <td>{{ macroNamespace }}</td>
+        <td>{{ macro.author }}</td>
+        <td>{% if macro._validHash %}✅{% else %}❌{% endif %}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
 {% else %}
-  <li>No Items</li>
-{% endfor %}
+<div class="alert alert-secondary" role="alert">
+  No Macros found!
+</div>
+{% endif %}
 
-<h3>Modules:</h3>
-{% for moduleId, module in feed.modules %}
-  <li><a href="{{ ["/modules/" , moduleId, "/"] | join | url }}">{{ module.name }}</a> by {{ module.author }}
-  {% if module._validHash %} ✅ {% else %} ❌ {% endif %}
-  </li>
+<h2>Modules:</h2>
+{% set modules = feed.modules %}
+{% if (modules | length) !== 0 %}
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Macro</th>
+      <th scope="col">Namespace</th>
+      <th scope="col">Author</th>
+      <th scope="col">File Hash</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for modulesNamespace, module in feed.modules %}
+      <tr {% if not module._validHash %} class="table-warning"{% endif %}>
+        <th><a href="{{ ["/modules/" , modulesNamespace, "/"] | join | url }}">{{ module.name }}</a></th>
+        <td>{{ modulesNamespace }}</td>
+        <td>{{ module.author }}</td>
+        <td>{% if module._validHash %}✅{% else %}❌{% endif %}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
 {% else %}
-  <li>No Items</li>
-{% endfor %}
-
-<br><br><p><small style="color: DimGrey;">Last fetched: {{ feed._fetchTime | datetime }}</small></p>
+<div class="alert alert-secondary" role="alert">
+  No Modules found!
+</div>
+{% endif %}
