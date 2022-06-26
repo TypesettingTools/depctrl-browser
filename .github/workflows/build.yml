@@ -6,6 +6,8 @@ on:
       - main
   schedule:
     - cron: '0 0 * * *'
+  repository_dispatch:
+    types: [feed-update-detected]
 
 jobs:
   build:
