@@ -22,8 +22,8 @@ module.exports = function (eleventyConfig) {
     return esbuild.build({
       entryPoints: ["src/sass/app.scss"],
       outdir: "_site/assets",
-      minify: process.env.ELEVENTY_ENV === "production",
-      sourcemap: process.env.ELEVENTY_ENV !== "production",
+      minify: process.env.NODE_ENV === "production",
+      sourcemap: process.env.NODE_ENV !== "production",
       plugins: [sassPlugin()]
     });
   });
