@@ -39,7 +39,7 @@ Feed may not be JSON compliant due to {{ feed._defective }}
   </thead>
   <tbody>
     {% for macroNamespace, macro in feed.macros %}
-      <tr {% if not macro._validHash %} class="table-warning"{% endif %}>
+      <tr>
         <th><a href="{{ ["/macros/" , macroNamespace, "/"] | join | url }}">{{ macro.name }}</a></th>
         <td>{{ macroNamespace }}</td>
         <td>{{ macro.author }}</td>
@@ -68,7 +68,7 @@ Feed may not be JSON compliant due to {{ feed._defective }}
   </thead>
   <tbody>
     {% for modulesNamespace, module in feed.modules %}
-      <tr {% if not module._validHash %} class="table-warning"{% endif %}>
+      <tr>
         <th><a href="{{ ["/modules/" , modulesNamespace, "/"] | join | url }}">{{ module.name }}</a></th>
         <td>{{ modulesNamespace }}</td>
         <td>{{ module.author }}</td>

@@ -19,7 +19,7 @@ permalink: "modules/"
     {% for moduleList in modules | automationListSort %}
       {% if (moduleList | length) === 1 %}
         {% set module = moduleList | first %}
-        <tr {% if not module._validHash %} class="table-warning"{% endif %}>
+        <tr {% if not module._validHash %} class="table-danger"{% endif %}>
           <th><a href="{{ ["/modules/" , module._namespace, "/"] | join | url }}">{{ module.name }}</a></th>
           <td>{{ module._namespace }}</td>
           <td>{{ module.author }}</td>
@@ -28,7 +28,7 @@ permalink: "modules/"
         </tr>
       {% else %}
         {% set firstModule = moduleList | first %}
-        <tr class="table-warning">
+        <tr {% if (moduleList | singleValue("_validHash") === false ) and not firstModule._validHash %}class="table-danger"{% endif %}>
           <th><a href="{{ ["/modules/" , firstModule._namespace, "/"] | join | url }}">{{ moduleList | singleValue("name") }}</a></th>
           <td>{{ firstModule._namespace }}</td>
           <td>{{ moduleList | singleValue("author") }}</td>

@@ -13,7 +13,7 @@ permalink: "feeds/"
       <th scope="col">Macros</th>
       <th scope="col">Modules</th>
       <th scope="col">File Hash</th>
-      <th scope="col">Notes</th>
+      <th scope="col">Issues</th>
     </tr>
   </thead>
   <tbody>
@@ -25,16 +25,16 @@ permalink: "feeds/"
       <td></td>
       <td></td>
       <td></td>
-      <td>JSON could not be parsed</td>
+      <td>⚠️ JSON could not be parsed</td>
     </tr>
     {% else %}
-    <tr {% if feed._defective or not feed._validHash %} class="table-warning"{% endif %}>
+    <tr>
       <th><a href="{{ ["/feeds/" , feed._identifier, "/"] | join | url }}">{{ feed.name }}</a> <a role="button" class="badge btn btn-secondary" href="{{ ["/feeds/" , feed._identifier, "/"] | join | url }}">{{ feed._identifier}}</a></th>
       <td>{{ feed.maintainer }}</td>
       <td>{{ feed.macros | length }}</td>
       <td>{{ feed.modules | length }}</td>
       <td>{% if feed._validHash %}✅{% else %}❌{% endif %}</td>
-      <td>{{ feed._defective}}</td>
+      <td>{% if feed._defective %}⚠️ {{ feed._defective}}{% endif %}</td>
     </tr>
     {% endif %}
     {% endfor %}

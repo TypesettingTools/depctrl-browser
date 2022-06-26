@@ -19,7 +19,7 @@ permalink: "macros/"
     {% for macroList in macros | automationListSort %}
       {% if (macroList | length) === 1 %}
         {% set macro = macroList | first %}
-        <tr {% if not macro._validHash %} class="table-warning"{% endif %}>
+        <tr {% if not macro._validHash %}class="table-danger"{% endif %}>
           <th><a href="{{ ["/macros/" , macro._namespace, "/"] | join | url }}">{{ macro.name }}</a></th>
           <td>{{ macro._namespace }}</td>
           <td>{{ macro.author }}</td>
@@ -28,7 +28,7 @@ permalink: "macros/"
         </tr>
       {% else %}
         {% set firstMacro = macroList | first %}
-        <tr class="table-warning">
+        <tr {% if (macroList | singleValue("_validHash") === false ) and not firstMacro._validHash %}class="table-danger"{% endif %}>
           <th><a href="{{ ["/macros/" , firstMacro._namespace, "/"] | join | url }}">{{ macroList | singleValue("name") }}</a></th>
           <td>{{ firstMacro._namespace }}</td>
           <td>{{ macroList | singleValue("author") }}</td>
