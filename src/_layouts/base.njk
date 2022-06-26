@@ -9,27 +9,45 @@
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark shadow">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="{{ "/" | url }}">DepCtrl Browser</a>
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link{% if '/' === page.url %} active{% endif %}" href="{{ "/" | url }}">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link{% if '/feeds/' === page.url %} active{% endif %}" href="{{ "/feeds/" | url }}">Feeds</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link{% if '/macros/' === page.url %} active{% endif %}" href="{{ "/macros/" | url }}">Macros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link{% if '/modules/' === page.url %} active{% endif %}" href="{{ "/modules/" | url }}">Modules</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://github.com/seproDev/depctrl-browser">GitHub</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input id="search" class="form-control me-2 is-search" type="search" placeholder="Search..." aria-label="Search" autocomplete="off">
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                        aria-controls="navbarCollapse"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item">
+                                <a class="nav-link{% if '/' === page.url %} active{% endif %}" href="{{ "/" | url }}">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link{% if '/feeds/' === page.url %} active{% endif %}" href="{{ "/feeds/" | url }}">Feeds</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link{% if '/macros/' === page.url %} active{% endif %}" href="{{ "/macros/" | url }}">Macros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link{% if '/modules/' === page.url %} active{% endif %}" href="{{ "/modules/" | url }}">Modules</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/seproDev/depctrl-browser">GitHub</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                        <input
+                            id="search"
+                            class="form-control me-2 is-search"
+                            type="search"
+                            placeholder="Search..."
+                            aria-label="Search"
+                            autocomplete="off">
                         <div id="suggestions" class="shadow bg-white rounded d-none"></div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </nav>
         </header>
