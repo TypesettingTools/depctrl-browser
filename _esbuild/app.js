@@ -928,61 +928,358 @@ document.addEventListener('click', function(event) {
 
   
     
-  
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/l0.DependencyControl/",
+        name: "DependencyControl",
+        description: "Dependency manager and automatic script updater for Aegisub macros and modules.",
+      }
+    );
     
   
     
-  
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/a-mo.ConfigHandler/",
+        name: "ConfigHandler",
+        description: "A class for mapping dialogs to persistent configuration.",
+      }
+    );
     
   
     
-  
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/a-mo.DataHandler/",
+        name: "DataHandler",
+        description: "A class for parsing After Effects motion data.",
+      }
+    );
     
   
     
-  
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/a-mo.DataWrapper/",
+        name: "DataWrapper",
+        description: "A class for wrapping motion data.",
+      }
+    );
     
   
     
-  
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/a-mo.Line/",
+        name: "Line",
+        description: "A class for containing and manipulating a line.",
+      }
+    );
     
   
     
-  
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/a-mo.LineCollection/",
+        name: "LineCollection",
+        description: "A class for handling collections of lines.",
+      }
+    );
     
   
     
-  
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/a-mo.Log/",
+        name: "Log",
+        description: "A collection of methods for dumping text everywhere.",
+      }
+    );
     
   
     
-  
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/a-mo.Math/",
+        name: "Math",
+        description: "Extra math functions.",
+      }
+    );
     
   
     
-  
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/a-mo.MotionHandler/",
+        name: "MotionHandler",
+        description: "A class for applying motion data to a LineCollection.",
+      }
+    );
     
   
     
-  
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/a-mo.ShakeShapeHandler/",
+        name: "ShakeShapeHandler",
+        description: "A class for parsing shake shape motion data.",
+      }
+    );
     
   
     
-  
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/a-mo.Statistics/",
+        name: "Statistics",
+        description: "A class for STATS.",
+      }
+    );
     
   
     
-  
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/a-mo.Tags/",
+        name: "Tags",
+        description: "A mess for manipulating tags.",
+      }
+    );
     
   
     
-  
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/a-mo.Transform/",
+        name: "Transform",
+        description: "A class for managing the transform tag.",
+      }
+    );
     
   
     
-  
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/a-mo.TrimHandler/",
+        name: "TrimHandler",
+        description: "A class for encoding video clips.",
+      }
+    );
     
   
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/SubInspector.Inspector/",
+        name: "SubInspector",
+        description: "Provides low level inspection and analysis of subtitles post-rasterization.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/BM.BadMutex/",
+        name: "BadMutex",
+        description: "A bad, global mutex.",
+      }
+    );
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/BM.BadMutex/",
+        name: "BadMutex",
+        description: "A bad, global mutex.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/PT.PreciseTimer/",
+        name: "PreciseTimer",
+        description: "A precise timer.",
+      }
+    );
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/PT.PreciseTimer/",
+        name: "PreciseTimer",
+        description: "A precise timer.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/DM.DownloadManager/",
+        name: "DownloadManager",
+        description: "Nonblocking downloads with libcurl.",
+      }
+    );
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/DM.DownloadManager/",
+        name: "DownloadManager",
+        description: "Nonblocking downloads with libcurl.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/requireffi.requireffi/",
+        name: "requireffi",
+        description: "Load C libraries with ease.",
+      }
+    );
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/requireffi.requireffi/",
+        name: "requireffi",
+        description: "Load C libraries with ease.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/l0.ASSFoundation/",
+        name: "ASSFoundation",
+        description: "General purpose ASS processing library.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/lyger.LibLyger/",
+        name: "LibLyger",
+        description: "Library of commonly used functions across all of lyger's automation scripts.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/Flux.ScrollHandler/",
+        name: "ScrollHandler",
+        description: "Library to store and load scrollbar positions on Windows",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/myaa.ASSParser/",
+        name: "ASS Parser",
+        description: "An ASS parser for Aegisub automations.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/myaa.pl/",
+        name: "Penlight",
+        description: "Python-inspired utility library.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/l0.Functional/",
+        name: "(Almost) Functional Suite",
+        description: "Collection of commonly used functions",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/petzku.easings/",
+        name: "Easings",
+        description: "A library of easy-to-use easing functions for transforms",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/petzku.util/",
+        name: "petzkuLib",
+        description: "Various utility functions for use with petzku's Aegisub macros",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/zah.png/",
+        name: "png",
+        description: "Pure lua png implementation",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/zah.deflatelua/",
+        name: "deflatelua",
+        description: "Module for png",
+      }
+    );
     
   
 
@@ -1026,6 +1323,15 @@ document.addEventListener('click', function(event) {
   index.add(
     {
       id: i++,
+      href: "/depctrl-browser/feeds/1fe3ac7/",
+      name: "FFI Experiments",
+      description: "Experiments combining C++ with luajit FFI",
+    }
+  );
+  
+  index.add(
+    {
+      id: i++,
       href: "/depctrl-browser/feeds/92c766d/",
       name: "ASSFoundation",
       description: "ASSFoundation and ancillary modules.",
@@ -1044,27 +1350,9 @@ document.addEventListener('click', function(event) {
   index.add(
     {
       id: i++,
-      href: "/depctrl-browser/feeds/1fe3ac7/",
-      name: "FFI Experiments",
-      description: "Experiments combining C++ with luajit FFI",
-    }
-  );
-  
-  index.add(
-    {
-      id: i++,
       href: "/depctrl-browser/feeds/41828c0/",
       name: "lyger's Automation Scripts",
       description: "Main repository for all of lyger's automation scripts.",
-    }
-  );
-  
-  index.add(
-    {
-      id: i++,
-      href: "/depctrl-browser/feeds/c5d5896/",
-      name: "Functional",
-      description: "The official Functional repository.",
     }
   );
   
@@ -1092,6 +1380,15 @@ document.addEventListener('click', function(event) {
       href: "/depctrl-browser/feeds/d5b4bc1/",
       name: "Myaamori's Aegisub scripts",
       description: "Main repository for Myaamori's automation macros.",
+    }
+  );
+  
+  index.add(
+    {
+      id: i++,
+      href: "/depctrl-browser/feeds/c5d5896/",
+      name: "Functional",
+      description: "The official Functional repository.",
     }
   );
   
