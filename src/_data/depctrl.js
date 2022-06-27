@@ -25,6 +25,10 @@ const checkFileIntegrity = async (feeds) => {
           if (!file.delete) {
             await limitedWebRequest(file.url, "buffer")
               .then((fileResponse) => crypto.createHash('sha1').update(fileResponse).digest('hex'))
+              .catch((error) => {
+                console.log(error);
+                return "";
+              })
               .then((fileHash) => {
                 file["_validHash"] = (fileHash.toUpperCase() === file.sha1.toUpperCase());
                 feedHashesValid = feedHashesValid && file["_validHash"];
@@ -103,7 +107,7 @@ function fillTemplateVar(data, repDict = {}, parentKey = "", depth = 0) {
       break;
     case 3: // Script Information
       repDict["namespace"] = parentKey;
-      repDict["namespacePath"] = parentKey.replace(".", "/");
+      repDict["namespacePath"] = parentKey.replaceAll(".", "/");
       repDict["scriptName"] = data["name"] || "";
       break;
     case 5: // Version Information
@@ -122,7 +126,7 @@ function fillTemplateVar(data, repDict = {}, parentKey = "", depth = 0) {
     repDict["fileBaseUrl"] = repDict["fileBaseUrl"] || "";
     // Do template replacement on fileBaseUrl
     for (let [repName, repVal] of Object.entries(repDict)) {
-      data["fileBaseUrl"] = data["fileBaseUrl"].replace("@{" + repName + "}", repVal);
+      data["fileBaseUrl"] = data["fileBaseUrl"].replaceAll("@{" + repName + "}", repVal);
     }
     // Write fileBaseUrl back to repDict
     repDict["fileBaseUrl"] = data["fileBaseUrl"];
@@ -134,7 +138,7 @@ function fillTemplateVar(data, repDict = {}, parentKey = "", depth = 0) {
       case "string":
         // Do template replacement
         for (let [repName, repVal] of Object.entries(repDict)) {
-          data[key] = data[key].replace("@{" + repName + "}", repVal);
+          data[key] = data[key].replaceAll("@{" + repName + "}", repVal);
         }
         break;
       case "object":
