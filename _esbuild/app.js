@@ -1026,6 +1026,15 @@ document.addEventListener('click', function(event) {
   index.add(
     {
       id: i++,
+      href: "/depctrl-browser/feeds/1fe3ac7/",
+      name: "FFI Experiments",
+      description: "Experiments combining C++ with luajit FFI",
+    }
+  );
+  
+  index.add(
+    {
+      id: i++,
       href: "/depctrl-browser/feeds/92c766d/",
       name: "ASSFoundation",
       description: "ASSFoundation and ancillary modules.",
@@ -1036,15 +1045,6 @@ document.addEventListener('click', function(event) {
     {
       id: i++,
       href: "/depctrl-browser/feeds/2d000a9/",
-      name: "FFI Experiments",
-      description: "Experiments combining C++ with luajit FFI",
-    }
-  );
-  
-  index.add(
-    {
-      id: i++,
-      href: "/depctrl-browser/feeds/1fe3ac7/",
       name: "FFI Experiments",
       description: "Experiments combining C++ with luajit FFI",
     }
