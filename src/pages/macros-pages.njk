@@ -102,6 +102,56 @@ eleventyComputed:
     </div>
     {% endfor %}
   </p>
+
+  {% if macro._scriptData %}
+  <h2>Script Data:</h2>
+  <p>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">Property</th>
+        <th scope="col">Feed Data</th>
+        <th scope="col">Script Data</th>
+        <th scope="col">Matches</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Name</th>
+        <td>{{ macro.name }}</td>
+        <td>{{ macro._scriptData.name }}</td>
+        <td>{% if macro._scriptData.name %}{% if macro.name === macro._scriptData.name %}✅{% else %}❌{% endif %}{% else %}❓{% endif %}</td>
+      </tr>
+      <tr>
+        <th>Description</th>
+        <td>{{ macro.description }}</td>
+        <td>{{ macro._scriptData.description }}</td>
+        <td>{% if macro._scriptData.description %}{% if macro.description === macro._scriptData.description %}✅{% else %}❌{% endif %}{% else %}❓{% endif %}</td>
+      </tr>
+      <tr>
+        <th>Author</th>
+        <td>{{ macro.author }}</td>
+        <td>{{ macro._scriptData.author }}</td>
+        <td>{% if macro._scriptData.author %}{% if macro.author === macro._scriptData.author %}✅{% else %}❌{% endif %}{% else %}❓{% endif %}</td>
+      </tr>
+      <tr>
+        <th>Version</th>
+        <td>{{ macro._defaultVersion }}</td>
+        <td>{{ macro._scriptData.version }}</td>
+        <td>{% if macro._scriptData.version %}{% if macro._defaultVersion === macro._scriptData.version %}✅{% else %}❌{% endif %}{% else %}❓{% endif %}</td>
+      </tr>
+      <tr>
+        <th>Namespace</th>
+        <td>{{ macro._namespace }}</td>
+        <td>{{ macro._scriptData.namespace }}</td>
+        <td>{% if macro._scriptData.namespace %}{% if macro._namespace === macro._scriptData.namespace %}✅{% else %}❌{% endif %}{% else %}❓{% endif %}</td>
+      </tr>
+    </tbody>
+  </table>
+  </p>
+
+  {% endif %}
+
   {% if not loop.last %}<hr>{% endif %}
 
 {% endfor %}

@@ -15,6 +15,7 @@ const limitedWebRequest = async (url, type) => {
   }), url, type);
 }
 
+// check hashes of all files in a feed
 const checkFileIntegrity = async (feeds) => {
   for (var feed of feeds) {
     var feedHashesValid = true;
@@ -44,6 +45,46 @@ const checkFileIntegrity = async (feeds) => {
   return feeds;
 }
 
+const extractProperty = (script, property) => {
+  var match = Array.from(script.matchAll(new RegExp(`\\s*${property}\\s*=\\s*(?:tr)?(?:"([^"]*)"|'([^']*)')`, 'g')));
+  if (match.length === 1) {
+    return (match[0][1] || "") + (match[0][2] || "");
+  }
+  return null;
+}
+
+// extracts data from lua or moon macros and saves it alongside feed data
+const extractScriptData = async (feeds) => {
+  for (var feed of feeds) {
+    for (var [macroID, macro] of Object.entries(feed.macros || {})) {
+      var defaultChannel = Object.values(macro.channels).filter((c) => c.default)[0];
+      macro["_defaultVersion"] = defaultChannel.version;
+
+      var urls = Object.values(defaultChannel.files)
+        .filter((f) => f.type !== "test" && !f.delete)
+        .map((f) => f.url);
+      if (urls.length !== 1) {
+        continue;
+      }
+
+      var url = urls[0];
+      if (url.endsWith(".lua") || url.endsWith(".moon")) {
+        var script = (await limitedWebRequest(url, "buffer")).toString();
+        var scriptData = {
+          "name": extractProperty(script, "script_name"),
+          "description": extractProperty(script, "script_description"),
+          "author": extractProperty(script, "script_author"),
+          "version": extractProperty(script, "script_version"),
+          "namespace": extractProperty(script, "script_namespace")
+        }
+        macro["_scriptData"] = scriptData;
+      } else {
+        continue;
+      }
+    }
+  }
+  return feeds;
+}
 
 // fetch single feed
 const fetchFeed = (url) => {
@@ -153,6 +194,7 @@ function fillTemplateVar(data, repDict = {}, parentKey = "", depth = 0) {
 // store data locally to not compute feeds multiple times
 const data = fetchAllFeeds(seedFeed)
   .then(fillTemplateVar)
-  .then(checkFileIntegrity);
+  .then(checkFileIntegrity)
+  .then(extractScriptData);
 
 module.exports.getData = () => data;
