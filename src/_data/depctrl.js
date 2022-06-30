@@ -53,6 +53,18 @@ const extractProperty = (script, property) => {
   return null;
 }
 
+const extractFeedData = (script) => {
+  var match = Array.from(script.matchAll(/\n(?:[^-][^-].*)?(?:DependencyControl|require\('l0\.DependencyControl'\))\s*\(?\s?{((?:[^{}]+|{(?:[^{}]+|{[^{}]*})*})*)}/g));
+  if (match.length === 1) {
+    feedData = match[0][1];
+    var feed = Array.from(feedData.matchAll(/^[^{]*feed\s*[:=]\s*["']([^"']+)["']/g));
+    if (feed.length === 1) {
+      return {feed: feed[0][1]}
+    }
+  }
+  return null;
+}
+
 // extracts data from lua or moon macros and saves it alongside feed data
 const extractScriptData = async (feeds) => {
   for (var feed of feeds) {
@@ -78,6 +90,7 @@ const extractScriptData = async (feeds) => {
           "namespace": extractProperty(script, "script_namespace")
         }
         macro["_scriptData"] = scriptData;
+        macro["_scriptData"]["_feedData"] = extractFeedData(script);
       } else {
         continue;
       }

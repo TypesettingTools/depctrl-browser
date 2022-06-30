@@ -9,6 +9,7 @@ module.exports = () => {
         singleModule[1]["_feedName"] = feed["name"];
         singleModule[1]["_feedIdentifier"] = feed["_identifier"];
         singleModule[1]["_fetchTime"] = feed["_fetchTime"];
+        singleModule[1]["_sourceUrl"] = feed["_sourceUrl"];
         singleModule[1]["_namespace"] = singleModule[0];
         return singleModule[1];
       });

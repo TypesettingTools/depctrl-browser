@@ -146,6 +146,12 @@ eleventyComputed:
         <td>{{ macro._scriptData.namespace }}</td>
         <td>{% if macro._scriptData.namespace %}{% if macro._namespace === macro._scriptData.namespace %}✅{% else %}❌{% endif %}{% else %}❓{% endif %}</td>
       </tr>
+      <tr>
+        <th>Feed</th>
+        <td>{{ macro._sourceUrl }}</td>
+        <td>{{ macro._scriptData._feedData.feed }}</td>
+        <td>{% if macro._scriptData._feedData.feed %}{% if macro._sourceUrl === macro._scriptData._feedData.feed %}✅{% else %}❌{% endif %}{% else %}❓{% endif %}</td>
+      </tr>
     </tbody>
   </table>
   </p>
