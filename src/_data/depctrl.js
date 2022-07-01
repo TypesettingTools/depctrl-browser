@@ -99,6 +99,28 @@ const extractScriptData = async (feeds) => {
   return feeds;
 }
 
+
+const resolveReverseDependencies = async (feeds) => {
+  const reverseDependencies = feeds.flatMap((x) => [].concat(Object.entries(x.macros || {}), Object.entries(x.modules || {})))
+    .flatMap(([namepsace, automation]) => {
+      let defaultChannel = Object.values(automation.channels).filter((c) => c.default)[0];
+      let dependencies = (defaultChannel.requiredModules || []).map((m) => m.moduleName);
+      return dependencies.map(d => [d, namepsace]);
+    }).reduce((acc, [dependency, namepsace]) => {
+      acc[dependency] = acc[dependency] || [];
+      acc[dependency].push(namepsace);
+      return acc;
+    }, {});
+  console.log(reverseDependencies);
+
+  for (var feed of feeds) {
+    for (var [moduleID, module] of Object.entries(feed.modules || {})) {
+      module["_reverseDependency"] = reverseDependencies[moduleID] || [];
+    }
+  }
+  return feeds;
+}
+
 // fetch single feed
 const fetchFeed = (url) => {
   return limitedWebRequest(url, "text")
@@ -208,6 +230,7 @@ function fillTemplateVar(data, repDict = {}, parentKey = "", depth = 0) {
 const data = fetchAllFeeds(seedFeed)
   .then(fillTemplateVar)
   .then(checkFileIntegrity)
-  .then(extractScriptData);
+  .then(extractScriptData)
+  .then(resolveReverseDependencies);
 
 module.exports.getData = () => data;

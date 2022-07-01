@@ -102,6 +102,23 @@ eleventyComputed:
     </div>
     {% endfor %}
   </p>
+
+  <h2>Reverse Dependencies:</h2>
+  <p>
+    {% if (module._reverseDependency | length) !== 0 %}
+      <ul>
+      {% for dependency in module._reverseDependency %}
+        <li><span class="font-monospace">{{ dependency }}</span></li>
+      {% endfor %}
+      </ul>
+      </p>
+    {% else %}
+    <div class="alert alert-secondary" role="alert">
+      No known Macros/Modules depend on this Module.
+    </div>
+    {% endif %}
+  </p>
+  
   {% if not loop.last %}<hr>{% endif %}
 
 {% endfor %}
