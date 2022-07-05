@@ -3,4 +3,5 @@ Website for browsing [DependencyControl](https://github.com/TypesettingTools/Dep
 
 Build with [Eleventy](https://www.11ty.dev/) and [Bootstrap](https://getbootstrap.com/).
 
-[depctrl.sepr0.com](https://depctrl.sepr0.com/) is deployed on Cloudflare Pages. With Cloudflare Workers triggering a rebuild every 24 hours and on feed  updates (fetched every 5 minutes).
+[typesettingtools.github.io/depctrl-browser/](https://typesettingtools.github.io/depctrl-browser/) is hosted on GitHub Pages with a rebuild being triggered every 24 hours.
+In addition a Cloudflare Worker checks for feed updates every 5 minutes which also triggers a rebuild.
