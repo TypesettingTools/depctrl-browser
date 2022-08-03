@@ -70,6 +70,9 @@ const extractScriptData = async (feeds) => {
   for (var feed of feeds) {
     for (var [macroID, macro] of Object.entries(feed.macros || {})) {
       var defaultChannel = Object.values(macro.channels).filter((c) => c.default)[0];
+      if (defaultChannel === undefined) {
+        defaultChannel = Object.values(macro.channels)[0];
+      }
       macro["_defaultVersion"] = defaultChannel.version;
 
       var urls = Object.values(defaultChannel.files)
@@ -104,6 +107,9 @@ const resolveReverseDependencies = async (feeds) => {
   const reverseDependencies = feeds.flatMap((x) => [].concat(Object.entries(x.macros || {}), Object.entries(x.modules || {})))
     .flatMap(([namepsace, automation]) => {
       let defaultChannel = Object.values(automation.channels).filter((c) => c.default)[0];
+      if (defaultChannel === undefined) {
+        defaultChannel = Object.values(automation.channels)[0];
+      }
       let dependencies = (defaultChannel.requiredModules || []).map((m) => m.moduleName);
       return dependencies.map(d => [d, namepsace]);
     }).reduce((acc, [dependency, namepsace]) => {
@@ -111,7 +117,6 @@ const resolveReverseDependencies = async (feeds) => {
       acc[dependency].push(namepsace);
       return acc;
     }, {});
-  console.log(reverseDependencies);
 
   for (var feed of feeds) {
     for (var [moduleID, module] of Object.entries(feed.modules || {})) {
