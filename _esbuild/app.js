@@ -1096,86 +1096,6 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
-        href: "/depctrl-browser/modules/BM.BadMutex/",
-        name: "BadMutex",
-        description: "A bad, global mutex.",
-      }
-    );
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/BM.BadMutex/",
-        name: "BadMutex",
-        description: "A bad, global mutex.",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/PT.PreciseTimer/",
-        name: "PreciseTimer",
-        description: "A precise timer.",
-      }
-    );
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/PT.PreciseTimer/",
-        name: "PreciseTimer",
-        description: "A precise timer.",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/DM.DownloadManager/",
-        name: "DownloadManager",
-        description: "Nonblocking downloads with libcurl.",
-      }
-    );
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/DM.DownloadManager/",
-        name: "DownloadManager",
-        description: "Nonblocking downloads with libcurl.",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/requireffi.requireffi/",
-        name: "requireffi",
-        description: "Load C libraries with ease.",
-      }
-    );
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/requireffi.requireffi/",
-        name: "requireffi",
-        description: "Load C libraries with ease.",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
         href: "/depctrl-browser/modules/l0.ASSFoundation/",
         name: "ASSFoundation",
         description: "General purpose ASS processing library.",
@@ -1187,9 +1107,18 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
-        href: "/depctrl-browser/modules/lyger.LibLyger/",
-        name: "LibLyger",
-        description: "Library of commonly used functions across all of lyger's automation scripts.",
+        href: "/depctrl-browser/modules/BM.BadMutex/",
+        name: "BadMutex",
+        description: "A bad, global mutex.",
+      }
+    );
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/BM.BadMutex/",
+        name: "BadMutex",
+        description: "A bad, global mutex.",
       }
     );
     
@@ -1198,9 +1127,69 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
-        href: "/depctrl-browser/modules/l0.Functional/",
-        name: "(Almost) Functional Suite",
-        description: "Collection of commonly used functions",
+        href: "/depctrl-browser/modules/PT.PreciseTimer/",
+        name: "PreciseTimer",
+        description: "A precise timer.",
+      }
+    );
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/PT.PreciseTimer/",
+        name: "PreciseTimer",
+        description: "A precise timer.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/DM.DownloadManager/",
+        name: "DownloadManager",
+        description: "Nonblocking downloads with libcurl.",
+      }
+    );
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/DM.DownloadManager/",
+        name: "DownloadManager",
+        description: "Nonblocking downloads with libcurl.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/requireffi.requireffi/",
+        name: "requireffi",
+        description: "Load C libraries with ease.",
+      }
+    );
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/requireffi.requireffi/",
+        name: "requireffi",
+        description: "Load C libraries with ease.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/lyger.LibLyger/",
+        name: "LibLyger",
+        description: "Library of commonly used functions across all of lyger's automation scripts.",
       }
     );
     
@@ -1256,6 +1245,17 @@ document.addEventListener('click', function(event) {
         href: "/depctrl-browser/modules/petzku.util/",
         name: "petzkuLib",
         description: "Various utility functions for use with petzku's Aegisub macros",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/l0.Functional/",
+        name: "(Almost) Functional Suite",
+        description: "Collection of commonly used functions",
       }
     );
     
@@ -1323,15 +1323,6 @@ document.addEventListener('click', function(event) {
   index.add(
     {
       id: i++,
-      href: "/depctrl-browser/feeds/1fe3ac7/",
-      name: "FFI Experiments",
-      description: "Experiments combining C++ with luajit FFI",
-    }
-  );
-  
-  index.add(
-    {
-      id: i++,
       href: "/depctrl-browser/feeds/92c766d/",
       name: "ASSFoundation",
       description: "ASSFoundation and ancillary modules.",
@@ -1350,18 +1341,18 @@ document.addEventListener('click', function(event) {
   index.add(
     {
       id: i++,
-      href: "/depctrl-browser/feeds/41828c0/",
-      name: "lyger's Automation Scripts",
-      description: "Main repository for all of lyger's automation scripts.",
+      href: "/depctrl-browser/feeds/1fe3ac7/",
+      name: "FFI Experiments",
+      description: "Experiments combining C++ with luajit FFI",
     }
   );
   
   index.add(
     {
       id: i++,
-      href: "/depctrl-browser/feeds/c5d5896/",
-      name: "Functional",
-      description: "The official Functional repository.",
+      href: "/depctrl-browser/feeds/41828c0/",
+      name: "lyger's Automation Scripts",
+      description: "Main repository for all of lyger's automation scripts.",
     }
   );
   
@@ -1398,6 +1389,15 @@ document.addEventListener('click', function(event) {
       href: "/depctrl-browser/feeds/7161932/",
       name: "petzku's Automation Scripts",
       description: "Main repository for all of petzku's automation scripts.",
+    }
+  );
+  
+  index.add(
+    {
+      id: i++,
+      href: "/depctrl-browser/feeds/c5d5896/",
+      name: "Functional",
+      description: "The official Functional repository.",
     }
   );
   
