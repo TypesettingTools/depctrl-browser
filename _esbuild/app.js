@@ -819,6 +819,17 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/macros/petzku.Phantom/",
+        name: "Phantom",
+        description: "Align line content to match others by adding text and abusing transparency",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/macros/petzku.PosToMargin/",
         name: "Margin Position",
         description: "Transforms \pos-based positioning into margin and vice versa",
@@ -1096,89 +1107,89 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
-        href: "/depctrl-browser/modules/BM.BadMutex/",
-        name: "BadMutex",
-        description: "A bad, global mutex.",
-      }
-    );
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/BM.BadMutex/",
-        name: "BadMutex",
-        description: "A bad, global mutex.",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/PT.PreciseTimer/",
-        name: "PreciseTimer",
-        description: "A precise timer.",
-      }
-    );
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/PT.PreciseTimer/",
-        name: "PreciseTimer",
-        description: "A precise timer.",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/DM.DownloadManager/",
-        name: "DownloadManager",
-        description: "Nonblocking downloads with libcurl.",
-      }
-    );
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/DM.DownloadManager/",
-        name: "DownloadManager",
-        description: "Nonblocking downloads with libcurl.",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/requireffi.requireffi/",
-        name: "requireffi",
-        description: "Load C libraries with ease.",
-      }
-    );
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/requireffi.requireffi/",
-        name: "requireffi",
-        description: "Load C libraries with ease.",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
         href: "/depctrl-browser/modules/l0.ASSFoundation/",
         name: "ASSFoundation",
         description: "General purpose ASS processing library.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/BM.BadMutex/",
+        name: "BadMutex",
+        description: "A bad, global mutex.",
+      }
+    );
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/BM.BadMutex/",
+        name: "BadMutex",
+        description: "A bad, global mutex.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/PT.PreciseTimer/",
+        name: "PreciseTimer",
+        description: "A precise timer.",
+      }
+    );
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/PT.PreciseTimer/",
+        name: "PreciseTimer",
+        description: "A precise timer.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/DM.DownloadManager/",
+        name: "DownloadManager",
+        description: "Nonblocking downloads with libcurl.",
+      }
+    );
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/DM.DownloadManager/",
+        name: "DownloadManager",
+        description: "Nonblocking downloads with libcurl.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/requireffi.requireffi/",
+        name: "requireffi",
+        description: "Load C libraries with ease.",
+      }
+    );
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/requireffi.requireffi/",
+        name: "requireffi",
+        description: "Load C libraries with ease.",
       }
     );
     
@@ -1323,15 +1334,6 @@ document.addEventListener('click', function(event) {
   index.add(
     {
       id: i++,
-      href: "/depctrl-browser/feeds/1fe3ac7/",
-      name: "FFI Experiments",
-      description: "Experiments combining C++ with luajit FFI",
-    }
-  );
-  
-  index.add(
-    {
-      id: i++,
       href: "/depctrl-browser/feeds/92c766d/",
       name: "ASSFoundation",
       description: "ASSFoundation and ancillary modules.",
@@ -1342,6 +1344,15 @@ document.addEventListener('click', function(event) {
     {
       id: i++,
       href: "/depctrl-browser/feeds/2d000a9/",
+      name: "FFI Experiments",
+      description: "Experiments combining C++ with luajit FFI",
+    }
+  );
+  
+  index.add(
+    {
+      id: i++,
+      href: "/depctrl-browser/feeds/1fe3ac7/",
       name: "FFI Experiments",
       description: "Experiments combining C++ with luajit FFI",
     }
