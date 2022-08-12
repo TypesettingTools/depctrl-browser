@@ -45,10 +45,27 @@ const checkFileIntegrity = async (feeds) => {
   return feeds;
 }
 
+const unescapeLuaString = (string) => {
+  // Source https://www.lua.org/pil/2.4.html
+  string = string.replaceAll("\\a", "");    // bell
+  string = string.replaceAll("\\b", "\b");  // back space
+  string = string.replaceAll("\\f", "\f");  // form feed
+  string = string.replaceAll("\\n", "\n");  // newline
+  string = string.replaceAll("\\r", "\r");  // carriage return
+  string = string.replaceAll("\\t", "\t");  // horizontal tab
+  string = string.replaceAll("\\v", "\v");  // vertical tab
+  string = string.replaceAll("\\\"", "\""); // double quote
+  string = string.replaceAll("\\'", "'");   // single quote
+  string = string.replaceAll("\\[", "[");   // left square bracket
+  string = string.replaceAll("\\]", "]");   // right square bracket
+  string = string.replaceAll("\\\\", "\\"); // backslash
+  return string
+}
+
 const extractProperty = (script, property) => {
   var match = Array.from(script.matchAll(new RegExp(`\\s*${property}\\s*=\\s*(?:tr)?(?:"([^"]*)"|'([^']*)')`, 'g')));
   if (match.length === 1) {
-    return (match[0][1] || "") + (match[0][2] || "");
+    return unescapeLuaString((match[0][1] || "") + (match[0][2] || ""));
   }
   return null;
 }
@@ -59,7 +76,7 @@ const extractFeedData = (script) => {
     feedData = match[0][1];
     var feed = Array.from(feedData.matchAll(/^[^{]*feed\s*[:=]\s*["']([^"']+)["']/g));
     if (feed.length === 1) {
-      return {feed: feed[0][1]}
+      return { feed: feed[0][1] }
     }
   }
   return null;
