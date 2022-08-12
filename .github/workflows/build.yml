@@ -5,13 +5,13 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 0 * * 0'
+    - cron: "0 0 * * 0"
   repository_dispatch:
     types: [feed-update-detected]
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
@@ -28,10 +28,28 @@ jobs:
       - name: Install dependencies & build
         run: |
           npm ci
-          npm run build          
+          npm run build
 
-      - name: Deploy
+      - name: Push Deploy
+        if: ${{ github.event_name == 'push' }}
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: ./_site
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: "Rebuild on Push"
+
+      - name: Scheduled Deploy
+        if: ${{ github.event_name == 'schedule' }}
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: ./_site
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: "Scheduled Rebuild"
+
+      - name: Triggered Deploy
+        if: ${{ github.event_name == 'repository_dispatch' }}
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: ./_site
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: "Triggered Rebuild: ${{ github.event.client_payload.reason }}"
