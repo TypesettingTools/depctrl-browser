@@ -5,4 +5,4 @@ pagination:
     alias: moduleList
 permalink: "/modules/{{ (moduleList | first)._namespace }}.json"
 ---
-{{ moduleList | dump | safe }}
+{{ moduleList | dump(2) | safe }}

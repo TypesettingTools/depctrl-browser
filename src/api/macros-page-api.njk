@@ -5,4 +5,4 @@ pagination:
     alias: macroList
 permalink: "/macros/{{ (macroList | first)._namespace }}.json"
 ---
-{{ macroList | dump |safe }}
+{{ macroList | dump(2) |safe }}
