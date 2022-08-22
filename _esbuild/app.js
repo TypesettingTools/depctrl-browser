@@ -1209,6 +1209,17 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/modules/l0.Functional/",
+        name: "(Almost) Functional Suite",
+        description: "Collection of commonly used functions",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/modules/Flux.ScrollHandler/",
         name: "ScrollHandler",
         description: "Library to store and load scrollbar positions on Windows",
@@ -1234,17 +1245,6 @@ document.addEventListener('click', function(event) {
         href: "/depctrl-browser/modules/myaa.pl/",
         name: "Penlight",
         description: "Python-inspired utility library.",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/l0.Functional/",
-        name: "(Almost) Functional Suite",
-        description: "Collection of commonly used functions",
       }
     );
     
@@ -1370,6 +1370,15 @@ document.addEventListener('click', function(event) {
   index.add(
     {
       id: i++,
+      href: "/depctrl-browser/feeds/c5d5896/",
+      name: "Functional",
+      description: "The official Functional repository.",
+    }
+  );
+  
+  index.add(
+    {
+      id: i++,
       href: "/depctrl-browser/feeds/720a751/",
       name: "unanimated's Automation Scripts",
       description: "Secondary repository for most of unanimated's automation scripts.",
@@ -1391,15 +1400,6 @@ document.addEventListener('click', function(event) {
       href: "/depctrl-browser/feeds/d5b4bc1/",
       name: "Myaamori's Aegisub scripts",
       description: "Main repository for Myaamori's automation macros.",
-    }
-  );
-  
-  index.add(
-    {
-      id: i++,
-      href: "/depctrl-browser/feeds/c5d5896/",
-      name: "Functional",
-      description: "The official Functional repository.",
     }
   );
   

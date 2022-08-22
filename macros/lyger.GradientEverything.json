@@ -1,1 +1,78 @@
-[{"url":"https://github.com/TypesettingTools/lyger-Aegisub-Scripts#lyger.GradientEverything","author":"lyger","name":"Gradient Everything","description":"This will gradient everything.","channels":{"master":{"version":"2.0.3","released":"2016-04-11","default":true,"files":[{"name":".moon","url":"https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/macros/lyger.GradientEverything.moon","sha1":"37945D7C41FBD263C133E14F0232C45006B63631","_validHash":true}],"requiredModules":[{"moduleName":"lyger.LibLyger","name":"LibLyger","url":"https://github.com/TypesettingTools/lyger-Aegisub-Scripts","version":"2.0.1"},{"moduleName":"SubInspector.Inspector","version":"0.6.0","feed":"https://raw.githubusercontent.com/TypesettingTools/SubInspector/master/DependencyControl.json","optional":true},{"moduleName":"l0.Functional","name":"Functional","url":"https://github.com/TypesettingTools/Functional","version":"0.3.0","feed":"https://raw.githubusercontent.com/TypesettingTools/Functional/master/DependencyControl.json"}]}},"changelog":{"2.0.3":["Switched to DependencyControl logger module for logging.","Switched to maintained Functional library."],"2.0.2":["Fixed a bug that caused Gradient Everything to chop off top and left pixels when used with SubInspector."],"2.0.1":["A bug was fixed that caused Gradient Everything to generate blank lines when no tags in addition to those having a gradient applied were present in the first tag section of a line."],"2.0.0":["Added DependencyControl","The old preset configuration system was swapped out in favor of a DepCtrl-backed solution that uses a standard JSON file. Previous presets from ge-presets.cfg are not transferred automatically.","Gradient Everything now has its own automation submenu and will register a macro for each preset."]},"_validHash":true,"_defaultVersion":"2.0.3","_scriptData":{"name":"Gradient Everything","description":"This will gradient everything.","author":null,"version":"2.0.3","namespace":"lyger.GradientEverything","_feedData":{"feed":"https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json"}},"_feedName":"lyger's Automation Scripts","_feedIdentifier":"41828c0","_fetchTime":1661041860868,"_sourceUrl":"https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json","_namespace":"lyger.GradientEverything"}]
+[
+  {
+    "url": "https://github.com/TypesettingTools/lyger-Aegisub-Scripts#lyger.GradientEverything",
+    "author": "lyger",
+    "name": "Gradient Everything",
+    "description": "This will gradient everything.",
+    "channels": {
+      "master": {
+        "version": "2.0.3",
+        "released": "2016-04-11",
+        "default": true,
+        "files": [
+          {
+            "name": ".moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/macros/lyger.GradientEverything.moon",
+            "sha1": "37945D7C41FBD263C133E14F0232C45006B63631",
+            "_validHash": true
+          }
+        ],
+        "requiredModules": [
+          {
+            "moduleName": "lyger.LibLyger",
+            "name": "LibLyger",
+            "url": "https://github.com/TypesettingTools/lyger-Aegisub-Scripts",
+            "version": "2.0.1"
+          },
+          {
+            "moduleName": "SubInspector.Inspector",
+            "version": "0.6.0",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/SubInspector/master/DependencyControl.json",
+            "optional": true
+          },
+          {
+            "moduleName": "l0.Functional",
+            "name": "Functional",
+            "url": "https://github.com/TypesettingTools/Functional",
+            "version": "0.3.0",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/Functional/master/DependencyControl.json"
+          }
+        ]
+      }
+    },
+    "changelog": {
+      "2.0.3": [
+        "Switched to DependencyControl logger module for logging.",
+        "Switched to maintained Functional library."
+      ],
+      "2.0.2": [
+        "Fixed a bug that caused Gradient Everything to chop off top and left pixels when used with SubInspector."
+      ],
+      "2.0.1": [
+        "A bug was fixed that caused Gradient Everything to generate blank lines when no tags in addition to those having a gradient applied were present in the first tag section of a line."
+      ],
+      "2.0.0": [
+        "Added DependencyControl",
+        "The old preset configuration system was swapped out in favor of a DepCtrl-backed solution that uses a standard JSON file. Previous presets from ge-presets.cfg are not transferred automatically.",
+        "Gradient Everything now has its own automation submenu and will register a macro for each preset."
+      ]
+    },
+    "_validHash": true,
+    "_defaultVersion": "2.0.3",
+    "_scriptData": {
+      "name": "Gradient Everything",
+      "description": "This will gradient everything.",
+      "author": null,
+      "version": "2.0.3",
+      "namespace": "lyger.GradientEverything",
+      "_feedData": {
+        "feed": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json"
+      }
+    },
+    "_feedName": "lyger's Automation Scripts",
+    "_feedIdentifier": "41828c0",
+    "_fetchTime": 1661150060687,
+    "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
+    "_namespace": "lyger.GradientEverything"
+  }
+]

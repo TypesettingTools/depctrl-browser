@@ -1,1 +1,202 @@
-{"dependencyControlFeedFormatVersion":"0.3.0","name":"PhosCity's Aegisub Scripts","description":"Main repository for all of PhosCity's automation macros.","maintainer":"PhosCity","knownFeeds":{"a-mo":"https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json","ASSFoundation":"https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json"},"baseUrl":"https://github.com/PhosCity/Aegisub-Scripts","url":"https://github.com/PhosCity/Aegisub-Scripts","fileBaseUrl":"https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/@{channel}/macros/@{namespace}","macros":{"phos.wave":{"url":"https://github.com/PhosCity/Aegisub-Scripts#phos.wave","author":"PhosCity","name":"Wave","description":"Make the string wavy","channels":{"main":{"version":"1.0.2","released":"2022-04-24","default":true,"files":[{"name":".lua","url":"https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.wave.lua","sha1":"15a87a9baa628e21ee8a8c99e2263f7c20741f14","_validHash":true}]}},"changelog":{"1.0.0":["Initial Release"]},"_validHash":true,"_defaultVersion":"1.0.2","_scriptData":{"name":"Wave","description":"Make the string wavy","author":"PhosCity","version":"1.0.2","namespace":"phos.wave","_feedData":{"feed":"https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"}},"_feedName":"PhosCity's Aegisub Scripts","_feedIdentifier":"8fe234d","_fetchTime":1661041861018,"_sourceUrl":"https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json","_namespace":"phos.wave"},"phos.wobble":{"url":"https://github.com/PhosCity/Aegisub-Scripts#phos.wobble","author":"PhosCity","name":"Wobble","description":"Converts a text to a shape and adds wobbling","channels":{"main":{"version":"2.0.1","released":"2022-07-17","default":true,"files":[{"name":".lua","url":"https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.wobble.lua","sha1":"70d593a245c7a7a254d57a99c73bcb78c5f95be8","_validHash":true}],"requiredModules":[{"moduleName":"Yutils"}]}},"changelog":{"1.3.1":["Initial Release"],"2.0.0":["Added animation feature.","Added oscillation feature.","Add support for shapes","Change frequency value to percentage based."]},"_validHash":true,"_defaultVersion":"2.0.1","_scriptData":{"name":"Wobble text","description":"Converts a text to a shape and adds wobbling.","author":"PhosCity","version":"2.0.1","namespace":"phos.wobble","_feedData":{"feed":"https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"}},"_feedName":"PhosCity's Aegisub Scripts","_feedIdentifier":"8fe234d","_fetchTime":1661041861018,"_sourceUrl":"https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json","_namespace":"phos.wobble"},"phos.snap":{"url":"https://github.com/PhosCity/Aegisub-Scripts#phos.snap","author":"PhosCity","name":"Bidirectional Snapping","description":"Snap to close keyframes during timing","channels":{"main":{"version":"1.0.3","released":"2022-04-24","default":true,"files":[{"name":".lua","url":"https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.snap.lua","sha1":"2e433a462272074aa815a7e0fbc5139c632d8e6b","_validHash":true}]}},"changelog":{"1.0.0":["Initial Release"]},"_validHash":true,"_defaultVersion":"1.0.3","_scriptData":{"name":"Bidirectional Snapping","description":"Snap to close keyframes during timing.","author":"PhosCity","version":"1.0.3","namespace":"phos.snap","_feedData":{"feed":"https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"}},"_feedName":"PhosCity's Aegisub Scripts","_feedIdentifier":"8fe234d","_fetchTime":1661041861018,"_sourceUrl":"https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json","_namespace":"phos.snap"},"phos.svg2ass":{"url":"https://github.com/PhosCity/Aegisub-Scripts#phos.svg2ass","author":"PhosCity","name":"svg2ass","description":"Script that uses svg2ass to convert svg files to ass lines","channels":{"main":{"version":"1.2.2","released":"2022-07-19","default":true,"files":[{"name":".lua","url":"https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.svg2ass.lua","sha1":"ae69981e96871ae221c95a71ec9edb4ba0792f9f","_validHash":true}]}},"changelog":{"1.0.0":["Initial Release"]},"_validHash":true,"_defaultVersion":"1.2.2","_scriptData":{"name":"svg2ass","description":"Script that uses svg2ass to convert svg files to ass lines","author":"PhosCity","version":"1.2.2","namespace":"phos.svg2ass","_feedData":{"feed":"https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"}},"_feedName":"PhosCity's Aegisub Scripts","_feedIdentifier":"8fe234d","_fetchTime":1661041861018,"_sourceUrl":"https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json","_namespace":"phos.svg2ass"}},"_sourceUrl":"https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json","_identifier":"8fe234d","_fetchTime":1661041861018,"_validHash":true}
+{
+  "dependencyControlFeedFormatVersion": "0.3.0",
+  "name": "PhosCity's Aegisub Scripts",
+  "description": "Main repository for all of PhosCity's automation macros.",
+  "maintainer": "PhosCity",
+  "knownFeeds": {
+    "a-mo": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
+    "ASSFoundation": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json"
+  },
+  "baseUrl": "https://github.com/PhosCity/Aegisub-Scripts",
+  "url": "https://github.com/PhosCity/Aegisub-Scripts",
+  "fileBaseUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/@{channel}/macros/@{namespace}",
+  "macros": {
+    "phos.wave": {
+      "url": "https://github.com/PhosCity/Aegisub-Scripts#phos.wave",
+      "author": "PhosCity",
+      "name": "Wave",
+      "description": "Make the string wavy",
+      "channels": {
+        "main": {
+          "version": "1.0.2",
+          "released": "2022-04-24",
+          "default": true,
+          "files": [
+            {
+              "name": ".lua",
+              "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.wave.lua",
+              "sha1": "15a87a9baa628e21ee8a8c99e2263f7c20741f14",
+              "_validHash": true
+            }
+          ]
+        }
+      },
+      "changelog": {
+        "1.0.0": [
+          "Initial Release"
+        ]
+      },
+      "_validHash": true,
+      "_defaultVersion": "1.0.2",
+      "_scriptData": {
+        "name": "Wave",
+        "description": "Make the string wavy",
+        "author": "PhosCity",
+        "version": "1.0.2",
+        "namespace": "phos.wave",
+        "_feedData": {
+          "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
+        }
+      },
+      "_feedName": "PhosCity's Aegisub Scripts",
+      "_feedIdentifier": "8fe234d",
+      "_fetchTime": 1661150060781,
+      "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
+      "_namespace": "phos.wave"
+    },
+    "phos.wobble": {
+      "url": "https://github.com/PhosCity/Aegisub-Scripts#phos.wobble",
+      "author": "PhosCity",
+      "name": "Wobble",
+      "description": "Converts a text to a shape and adds wobbling",
+      "channels": {
+        "main": {
+          "version": "2.0.1",
+          "released": "2022-07-17",
+          "default": true,
+          "files": [
+            {
+              "name": ".lua",
+              "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.wobble.lua",
+              "sha1": "70d593a245c7a7a254d57a99c73bcb78c5f95be8",
+              "_validHash": true
+            }
+          ],
+          "requiredModules": [
+            {
+              "moduleName": "Yutils"
+            }
+          ]
+        }
+      },
+      "changelog": {
+        "1.3.1": [
+          "Initial Release"
+        ],
+        "2.0.0": [
+          "Added animation feature.",
+          "Added oscillation feature.",
+          "Add support for shapes",
+          "Change frequency value to percentage based."
+        ]
+      },
+      "_validHash": true,
+      "_defaultVersion": "2.0.1",
+      "_scriptData": {
+        "name": "Wobble text",
+        "description": "Converts a text to a shape and adds wobbling.",
+        "author": "PhosCity",
+        "version": "2.0.1",
+        "namespace": "phos.wobble",
+        "_feedData": {
+          "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
+        }
+      },
+      "_feedName": "PhosCity's Aegisub Scripts",
+      "_feedIdentifier": "8fe234d",
+      "_fetchTime": 1661150060781,
+      "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
+      "_namespace": "phos.wobble"
+    },
+    "phos.snap": {
+      "url": "https://github.com/PhosCity/Aegisub-Scripts#phos.snap",
+      "author": "PhosCity",
+      "name": "Bidirectional Snapping",
+      "description": "Snap to close keyframes during timing",
+      "channels": {
+        "main": {
+          "version": "1.0.3",
+          "released": "2022-04-24",
+          "default": true,
+          "files": [
+            {
+              "name": ".lua",
+              "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.snap.lua",
+              "sha1": "2e433a462272074aa815a7e0fbc5139c632d8e6b",
+              "_validHash": true
+            }
+          ]
+        }
+      },
+      "changelog": {
+        "1.0.0": [
+          "Initial Release"
+        ]
+      },
+      "_validHash": true,
+      "_defaultVersion": "1.0.3",
+      "_scriptData": {
+        "name": "Bidirectional Snapping",
+        "description": "Snap to close keyframes during timing.",
+        "author": "PhosCity",
+        "version": "1.0.3",
+        "namespace": "phos.snap",
+        "_feedData": {
+          "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
+        }
+      },
+      "_feedName": "PhosCity's Aegisub Scripts",
+      "_feedIdentifier": "8fe234d",
+      "_fetchTime": 1661150060781,
+      "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
+      "_namespace": "phos.snap"
+    },
+    "phos.svg2ass": {
+      "url": "https://github.com/PhosCity/Aegisub-Scripts#phos.svg2ass",
+      "author": "PhosCity",
+      "name": "svg2ass",
+      "description": "Script that uses svg2ass to convert svg files to ass lines",
+      "channels": {
+        "main": {
+          "version": "1.2.2",
+          "released": "2022-07-19",
+          "default": true,
+          "files": [
+            {
+              "name": ".lua",
+              "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.svg2ass.lua",
+              "sha1": "ae69981e96871ae221c95a71ec9edb4ba0792f9f",
+              "_validHash": true
+            }
+          ]
+        }
+      },
+      "changelog": {
+        "1.0.0": [
+          "Initial Release"
+        ]
+      },
+      "_validHash": true,
+      "_defaultVersion": "1.2.2",
+      "_scriptData": {
+        "name": "svg2ass",
+        "description": "Script that uses svg2ass to convert svg files to ass lines",
+        "author": "PhosCity",
+        "version": "1.2.2",
+        "namespace": "phos.svg2ass",
+        "_feedData": {
+          "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
+        }
+      },
+      "_feedName": "PhosCity's Aegisub Scripts",
+      "_feedIdentifier": "8fe234d",
+      "_fetchTime": 1661150060781,
+      "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
+      "_namespace": "phos.svg2ass"
+    }
+  },
+  "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
+  "_identifier": "8fe234d",
+  "_fetchTime": 1661150060781,
+  "_validHash": true
+}

@@ -1,1 +1,273 @@
-{"dependencyControlFeedFormatVersion":"0.2.0","name":"FFI Experiments","description":"Experiments combining C++ with luajit FFI","baseUrl":"https://github.com/TypesettingTools/ffi-experiments","url":"https://github.com/TypesettingTools/ffi-experiments","maintainer":"torque","knownFeeds":{"this":"https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"},"modules":{"BM.BadMutex":{"url":"https://github.com/TypesettingTools/ffi-experiments","author":"torque","name":"BadMutex","description":"A bad, global mutex.","channels":{"release":{"version":"0.1.3","released":"2015-05-01","default":true,"platforms":["Windows-x86","Windows-x64","OSX-x64"],"fileBaseUrl":"https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/","files":[{"name":".lua","url":"https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex.lua","sha1":"351D94BCF03F4640C589A7BA9683DBF5CC6D749C","_validHash":true},{"name":".dll","delete":true},{"name":"/BadMutex.dll","url":"https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex-win32.dll","platform":"Windows-x86","sha1":"1FDA8C0F5D848120DC269FFE4081C873E8B8085C","_validHash":true},{"name":"/BadMutex.dll","url":"https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex-win64.dll","platform":"Windows-x64","sha1":"00D3A65927D9A2F6B960B549D60BF12ED75F0A9F","_validHash":true},{"name":"/libBadMutex.dylib","url":"https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex-osx64.dylib","platform":"OSX-x64","sha1":"941E122E7A2E0BCCCFEB38CC87F4A2DD92838C2D","_validHash":true}],"requiredModules":[{"moduleName":"ffi"},{"moduleName":"requireffi.requireffi","version":"0.1.2","feed":"https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"}]}},"_validHash":true,"_reverseDependency":["l0.DependencyControl"],"_feedName":"FFI Experiments","_feedIdentifier":"2d000a9","_fetchTime":1661041860691,"_sourceUrl":"https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json","_namespace":"BM.BadMutex"},"PT.PreciseTimer":{"url":"https://github.com/TypesettingTools/ffi-experiments","author":"torque","name":"PreciseTimer","description":"A precise timer.","channels":{"release":{"version":"0.1.6","released":"2018-04-05","default":true,"platforms":["Windows-x86","Windows-x64","OSX-x64"],"fileBaseUrl":"https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/","files":[{"name":".lua","url":"https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer.lua","sha1":"C4ABF9A8BCF8DC4DFEEFEE1EC00172846BADC52A","_validHash":true},{"name":".dll","delete":true},{"name":"/PreciseTimer.dll","url":"https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer-win32.dll","platform":"Windows-x86","sha1":"8629E147DEC486D2190140C04F0B0C5465B764E9","_validHash":true},{"name":"/PreciseTimer.dll","url":"https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer-win64.dll","platform":"Windows-x64","sha1":"17FBBDC997CFF596FC55260B684126DCCF45EFDC","_validHash":true},{"name":"/libPreciseTimer.dylib","url":"https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer-osx64.dylib","platform":"OSX-x64","sha1":"602ECB3EB2783BD490A6FA8D4AB3FCD15F213FEF","_validHash":true}],"requiredModules":[{"moduleName":"ffi"},{"moduleName":"requireffi.requireffi","version":"0.1.2","feed":"https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"}]}},"_validHash":true,"_reverseDependency":["l0.DependencyControl"],"_feedName":"FFI Experiments","_feedIdentifier":"2d000a9","_fetchTime":1661041860691,"_sourceUrl":"https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json","_namespace":"PT.PreciseTimer"},"DM.DownloadManager":{"url":"https://github.com/TypesettingTools/ffi-experiments","author":"torque","name":"DownloadManager","description":"Nonblocking downloads with libcurl.","channels":{"release":{"version":"0.5.0","released":"2018-04-05","default":true,"platforms":["Windows-x86","Windows-x64","OSX-x64"],"fileBaseUrl":"https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/","files":[{"name":".lua","url":"https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager.lua","sha1":"E4785E4ACAD637905ACF2B83F687FF9465784669","_validHash":true},{"name":".dll","delete":true},{"name":"/DownloadManager.dll","url":"https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager-win32.dll","platform":"Windows-x86","sha1":"BE4B6D559312A0EE23216FFBCF45160737A6A757","_validHash":true},{"name":"/DownloadManager.dll","url":"https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager-win64.dll","platform":"Windows-x64","sha1":"8540C49CF0AE81085034154AAA6A089E05DF419E","_validHash":true},{"name":"/libDownloadManager.dylib","url":"https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager-osx64.dylib","platform":"OSX-x64","sha1":"364050E938726F79DF7C1EB9C29B8219B06572A7","_validHash":true}],"requiredModules":[{"moduleName":"ffi"},{"moduleName":"requireffi.requireffi","version":"0.1.2","feed":"https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"}]}},"_validHash":true,"_reverseDependency":["l0.DependencyControl"],"_feedName":"FFI Experiments","_feedIdentifier":"2d000a9","_fetchTime":1661041860691,"_sourceUrl":"https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json","_namespace":"DM.DownloadManager"},"requireffi.requireffi":{"url":"https://github.com/TypesettingTools/ffi-experiments","author":"torque","name":"requireffi","description":"Load C libraries with ease.","channels":{"release":{"version":"0.1.2","released":"2016-01-22","default":true,"fileBaseUrl":"https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/","files":[{"name":".lua","url":"https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/requireffi.lua","sha1":"BCE2865755C90BB48FC49F93C9EAF2DB9DE29095","_validHash":true}],"requiredModules":[{"moduleName":"ffi"}]}},"_validHash":true,"_reverseDependency":["l0.DependencyControl","SubInspector.Inspector","BM.BadMutex","PT.PreciseTimer","DM.DownloadManager","BM.BadMutex","PT.PreciseTimer","DM.DownloadManager"],"_feedName":"FFI Experiments","_feedIdentifier":"2d000a9","_fetchTime":1661041860691,"_sourceUrl":"https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json","_namespace":"requireffi.requireffi"}},"_sourceUrl":"https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json","_identifier":"2d000a9","_fetchTime":1661041860691,"_validHash":true}
+{
+  "dependencyControlFeedFormatVersion": "0.2.0",
+  "name": "FFI Experiments",
+  "description": "Experiments combining C++ with luajit FFI",
+  "baseUrl": "https://github.com/TypesettingTools/ffi-experiments",
+  "url": "https://github.com/TypesettingTools/ffi-experiments",
+  "maintainer": "torque",
+  "knownFeeds": {
+    "this": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
+  },
+  "modules": {
+    "BM.BadMutex": {
+      "url": "https://github.com/TypesettingTools/ffi-experiments",
+      "author": "torque",
+      "name": "BadMutex",
+      "description": "A bad, global mutex.",
+      "channels": {
+        "release": {
+          "version": "0.1.3",
+          "released": "2015-05-01",
+          "default": true,
+          "platforms": [
+            "Windows-x86",
+            "Windows-x64",
+            "OSX-x64"
+          ],
+          "fileBaseUrl": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/",
+          "files": [
+            {
+              "name": ".lua",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex.lua",
+              "sha1": "351D94BCF03F4640C589A7BA9683DBF5CC6D749C",
+              "_validHash": true
+            },
+            {
+              "name": ".dll",
+              "delete": true
+            },
+            {
+              "name": "/BadMutex.dll",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex-win32.dll",
+              "platform": "Windows-x86",
+              "sha1": "1FDA8C0F5D848120DC269FFE4081C873E8B8085C",
+              "_validHash": true
+            },
+            {
+              "name": "/BadMutex.dll",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex-win64.dll",
+              "platform": "Windows-x64",
+              "sha1": "00D3A65927D9A2F6B960B549D60BF12ED75F0A9F",
+              "_validHash": true
+            },
+            {
+              "name": "/libBadMutex.dylib",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex-osx64.dylib",
+              "platform": "OSX-x64",
+              "sha1": "941E122E7A2E0BCCCFEB38CC87F4A2DD92838C2D",
+              "_validHash": true
+            }
+          ],
+          "requiredModules": [
+            {
+              "moduleName": "ffi"
+            },
+            {
+              "moduleName": "requireffi.requireffi",
+              "version": "0.1.2",
+              "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
+            }
+          ]
+        }
+      },
+      "_validHash": true,
+      "_reverseDependency": [
+        "l0.DependencyControl"
+      ],
+      "_feedName": "FFI Experiments",
+      "_feedIdentifier": "2d000a9",
+      "_fetchTime": 1661150060607,
+      "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
+      "_namespace": "BM.BadMutex"
+    },
+    "PT.PreciseTimer": {
+      "url": "https://github.com/TypesettingTools/ffi-experiments",
+      "author": "torque",
+      "name": "PreciseTimer",
+      "description": "A precise timer.",
+      "channels": {
+        "release": {
+          "version": "0.1.6",
+          "released": "2018-04-05",
+          "default": true,
+          "platforms": [
+            "Windows-x86",
+            "Windows-x64",
+            "OSX-x64"
+          ],
+          "fileBaseUrl": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/",
+          "files": [
+            {
+              "name": ".lua",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer.lua",
+              "sha1": "C4ABF9A8BCF8DC4DFEEFEE1EC00172846BADC52A",
+              "_validHash": true
+            },
+            {
+              "name": ".dll",
+              "delete": true
+            },
+            {
+              "name": "/PreciseTimer.dll",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer-win32.dll",
+              "platform": "Windows-x86",
+              "sha1": "8629E147DEC486D2190140C04F0B0C5465B764E9",
+              "_validHash": true
+            },
+            {
+              "name": "/PreciseTimer.dll",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer-win64.dll",
+              "platform": "Windows-x64",
+              "sha1": "17FBBDC997CFF596FC55260B684126DCCF45EFDC",
+              "_validHash": true
+            },
+            {
+              "name": "/libPreciseTimer.dylib",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer-osx64.dylib",
+              "platform": "OSX-x64",
+              "sha1": "602ECB3EB2783BD490A6FA8D4AB3FCD15F213FEF",
+              "_validHash": true
+            }
+          ],
+          "requiredModules": [
+            {
+              "moduleName": "ffi"
+            },
+            {
+              "moduleName": "requireffi.requireffi",
+              "version": "0.1.2",
+              "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
+            }
+          ]
+        }
+      },
+      "_validHash": true,
+      "_reverseDependency": [
+        "l0.DependencyControl"
+      ],
+      "_feedName": "FFI Experiments",
+      "_feedIdentifier": "2d000a9",
+      "_fetchTime": 1661150060607,
+      "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
+      "_namespace": "PT.PreciseTimer"
+    },
+    "DM.DownloadManager": {
+      "url": "https://github.com/TypesettingTools/ffi-experiments",
+      "author": "torque",
+      "name": "DownloadManager",
+      "description": "Nonblocking downloads with libcurl.",
+      "channels": {
+        "release": {
+          "version": "0.5.0",
+          "released": "2018-04-05",
+          "default": true,
+          "platforms": [
+            "Windows-x86",
+            "Windows-x64",
+            "OSX-x64"
+          ],
+          "fileBaseUrl": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/",
+          "files": [
+            {
+              "name": ".lua",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager.lua",
+              "sha1": "E4785E4ACAD637905ACF2B83F687FF9465784669",
+              "_validHash": true
+            },
+            {
+              "name": ".dll",
+              "delete": true
+            },
+            {
+              "name": "/DownloadManager.dll",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager-win32.dll",
+              "platform": "Windows-x86",
+              "sha1": "BE4B6D559312A0EE23216FFBCF45160737A6A757",
+              "_validHash": true
+            },
+            {
+              "name": "/DownloadManager.dll",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager-win64.dll",
+              "platform": "Windows-x64",
+              "sha1": "8540C49CF0AE81085034154AAA6A089E05DF419E",
+              "_validHash": true
+            },
+            {
+              "name": "/libDownloadManager.dylib",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager-osx64.dylib",
+              "platform": "OSX-x64",
+              "sha1": "364050E938726F79DF7C1EB9C29B8219B06572A7",
+              "_validHash": true
+            }
+          ],
+          "requiredModules": [
+            {
+              "moduleName": "ffi"
+            },
+            {
+              "moduleName": "requireffi.requireffi",
+              "version": "0.1.2",
+              "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
+            }
+          ]
+        }
+      },
+      "_validHash": true,
+      "_reverseDependency": [
+        "l0.DependencyControl"
+      ],
+      "_feedName": "FFI Experiments",
+      "_feedIdentifier": "2d000a9",
+      "_fetchTime": 1661150060607,
+      "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
+      "_namespace": "DM.DownloadManager"
+    },
+    "requireffi.requireffi": {
+      "url": "https://github.com/TypesettingTools/ffi-experiments",
+      "author": "torque",
+      "name": "requireffi",
+      "description": "Load C libraries with ease.",
+      "channels": {
+        "release": {
+          "version": "0.1.2",
+          "released": "2016-01-22",
+          "default": true,
+          "fileBaseUrl": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/",
+          "files": [
+            {
+              "name": ".lua",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/requireffi.lua",
+              "sha1": "BCE2865755C90BB48FC49F93C9EAF2DB9DE29095",
+              "_validHash": true
+            }
+          ],
+          "requiredModules": [
+            {
+              "moduleName": "ffi"
+            }
+          ]
+        }
+      },
+      "_validHash": true,
+      "_reverseDependency": [
+        "l0.DependencyControl",
+        "SubInspector.Inspector",
+        "BM.BadMutex",
+        "PT.PreciseTimer",
+        "DM.DownloadManager",
+        "BM.BadMutex",
+        "PT.PreciseTimer",
+        "DM.DownloadManager"
+      ],
+      "_feedName": "FFI Experiments",
+      "_feedIdentifier": "2d000a9",
+      "_fetchTime": 1661150060607,
+      "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
+      "_namespace": "requireffi.requireffi"
+    }
+  },
+  "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
+  "_identifier": "2d000a9",
+  "_fetchTime": 1661150060607,
+  "_validHash": true
+}

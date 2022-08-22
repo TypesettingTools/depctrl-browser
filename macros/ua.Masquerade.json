@@ -1,1 +1,45 @@
-[{"url":"https://github.com/unanimated/luaegisub#ua.Masquerade","author":"unanimated","name":"Masquerades as a useful script","description":"Masquerade","channels":{"master":{"version":"3.0.0","released":"2018-06-10","default":true,"files":[{"name":".lua","url":"https://raw.githubusercontent.com/unanimated/luaegisub/master/ua.Masquerade.lua","sha1":"49b217a9706196222719ff25117907d8c9c08f07","_validHash":true}]}},"changelog":{"3.0.0":["Check the Updates page"]},"_validHash":true,"_defaultVersion":"3.0.0","_scriptData":{"name":"Masquerade","description":"Dark Elves with Blurry Masks Shifting in Motion","author":"unanimated","version":null,"namespace":"ua.Masquerade","_feedData":{"feed":"https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json"}},"_feedName":"unanimated's Automation Scripts","_feedIdentifier":"720a751","_fetchTime":1661041860854,"_sourceUrl":"https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json","_namespace":"ua.Masquerade"}]
+[
+  {
+    "url": "https://github.com/unanimated/luaegisub#ua.Masquerade",
+    "author": "unanimated",
+    "name": "Masquerades as a useful script",
+    "description": "Masquerade",
+    "channels": {
+      "master": {
+        "version": "3.0.0",
+        "released": "2018-06-10",
+        "default": true,
+        "files": [
+          {
+            "name": ".lua",
+            "url": "https://raw.githubusercontent.com/unanimated/luaegisub/master/ua.Masquerade.lua",
+            "sha1": "49b217a9706196222719ff25117907d8c9c08f07",
+            "_validHash": true
+          }
+        ]
+      }
+    },
+    "changelog": {
+      "3.0.0": [
+        "Check the Updates page"
+      ]
+    },
+    "_validHash": true,
+    "_defaultVersion": "3.0.0",
+    "_scriptData": {
+      "name": "Masquerade",
+      "description": "Dark Elves with Blurry Masks Shifting in Motion",
+      "author": "unanimated",
+      "version": null,
+      "namespace": "ua.Masquerade",
+      "_feedData": {
+        "feed": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json"
+      }
+    },
+    "_feedName": "unanimated's Automation Scripts",
+    "_feedIdentifier": "720a751",
+    "_fetchTime": 1661150060701,
+    "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
+    "_namespace": "ua.Masquerade"
+  }
+]
