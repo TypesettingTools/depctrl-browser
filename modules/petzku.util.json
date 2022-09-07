@@ -15,14 +15,14 @@
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.4.0/modules/petzku/util.moon",
             "sha1": "3def7b96613ce775e9e7debec3ca9804f3710c68",
-            "_validHash": false
+            "_validHash": true
           },
           {
             "name": "/tee.exe",
             "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.4.0/modules/petzku/util/tee.exe",
             "platform": "Windows-x64",
             "sha1": "054c04d341152311d40aaab4049e6c2c26646b3a",
-            "_validHash": false
+            "_validHash": true
           }
         ]
       }
@@ -39,7 +39,7 @@
         "Upgrade run_cmd in a way that handles stderr"
       ]
     },
-    "_validHash": false,
+    "_validHash": true,
     "_reverseDependency": [
       "petzku.EncodeClip",
       "petzku.SplitTimer",
@@ -47,7 +47,7 @@
     ],
     "_feedName": "petzku's Automation Scripts",
     "_feedIdentifier": "7161932",
-    "_fetchTime": 1662560475106,
+    "_fetchTime": 1662560771687,
     "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "petzku.util"
   }
