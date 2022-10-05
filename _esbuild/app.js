@@ -874,28 +874,6 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
-        href: "/depctrl-browser/macros/zah.pers-mo_BETA/",
-        name: "Aegisub-Perspective-Motion BETA",
-        description: "Applying perspective tracking",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/macros/zah.aegi-color-track/",
-        name: "Aegisub-Color-Tracking",
-        description: "Tracking the color from a given pixel or tracking data",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
         href: "/depctrl-browser/macros/phos.wave/",
         name: "Wave",
         description: "Make the string wavy",
@@ -1271,28 +1249,6 @@ document.addEventListener('click', function(event) {
     );
     
   
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/zah.png/",
-        name: "png",
-        description: "Pure lua png implementation",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/zah.deflatelua/",
-        name: "deflatelua",
-        description: "Module for png",
-      }
-    );
-    
-  
 
   
   index.add(
@@ -1416,8 +1372,8 @@ document.addEventListener('click', function(event) {
     {
       id: i++,
       href: "/depctrl-browser/feeds/08cbca4/",
-      name: "Zahuczky's Automation Scripts",
-      description: "Main repository for all of Zahuczky's automation scripts.",
+      name: "",
+      description: "",
     }
   );
   
