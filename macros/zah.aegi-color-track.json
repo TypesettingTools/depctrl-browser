@@ -14,8 +14,8 @@
           {
             "name": ".lua",
             "url": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/macros/zah.aegi-color-track.lua",
-            "sha1": "3cb51202aa37f0b7739a0e6bb75e5c889e21b288",
-            "_validHash": false
+            "sha1": "dfec7e3c39af54ba586f9ce21788030bd188bc6f",
+            "_validHash": true
           }
         ],
         "requiredModules": [
@@ -48,7 +48,7 @@
         "Adding progress reporting"
       ]
     },
-    "_validHash": false,
+    "_validHash": true,
     "_defaultVersion": "2.0.1",
     "_scriptData": {
       "name": "Aegisub-Color-Tracking",
@@ -62,7 +62,7 @@
     },
     "_feedName": "Zahuczky's Automation Scripts",
     "_feedIdentifier": "08cbca4",
-    "_fetchTime": 1665011452398,
+    "_fetchTime": 1665011756870,
     "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "zah.aegi-color-track"
   }
