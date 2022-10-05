@@ -74,7 +74,7 @@
       },
       "_feedName": "Zahuczky's Automation Scripts",
       "_feedIdentifier": "08cbca4",
-      "_fetchTime": 1665007560389,
+      "_fetchTime": 1665008467827,
       "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zah.pers-mo_BETA"
     },
@@ -87,7 +87,7 @@
       "channels": {
         "main": {
           "version": "2.0.0",
-          "released": "2022-10-05",
+          "released": "2022-10-06",
           "default": true,
           "files": [
             {
@@ -95,6 +95,20 @@
               "url": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/macros/zah.aegi-color-track.lua",
               "sha1": "485adcea6f81d684518876ee459025b0cc8fe414",
               "_validHash": true
+            }
+          ],
+          "requiredModules": [
+            {
+              "moduleName": "petzku.util",
+              "url": "https://github.com/Zahuczky/Zahuczkys-Aegisub-Scripts",
+              "version": "0.3.0",
+              "feed": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/DependencyControl.json"
+            },
+            {
+              "moduleName": "a-mo.ConfigHandler",
+              "url": "https://github.com/TypesettingTools/Aegisub-Motion",
+              "version": "1.1.4",
+              "feed": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json"
             }
           ]
         }
@@ -124,13 +138,13 @@
       },
       "_feedName": "Zahuczky's Automation Scripts",
       "_feedIdentifier": "08cbca4",
-      "_fetchTime": 1665007560389,
+      "_fetchTime": 1665008467827,
       "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zah.aegi-color-track"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "08cbca4",
-  "_fetchTime": 1665007560389,
+  "_fetchTime": 1665008467827,
   "_validHash": true
 }

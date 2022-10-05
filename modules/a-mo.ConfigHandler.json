@@ -36,11 +36,12 @@
       "l0.ShakeIt",
       "l0.SplitLines",
       "a-mo.Aegisub-Motion",
-      "myaa.Bounce"
+      "myaa.Bounce",
+      "zah.aegi-color-track"
     ],
     "_feedName": "Aegisub-Motion",
     "_feedIdentifier": "4152f8d",
-    "_fetchTime": 1665007560090,
+    "_fetchTime": 1665008467512,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
     "_namespace": "a-mo.ConfigHandler"
   }
