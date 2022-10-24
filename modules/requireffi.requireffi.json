@@ -27,19 +27,19 @@
     },
     "_validHash": true,
     "_reverseDependency": [
-      "l0.DependencyControl",
-      "SubInspector.Inspector",
       "BM.BadMutex",
       "PT.PreciseTimer",
       "DM.DownloadManager",
+      "l0.DependencyControl",
       "BM.BadMutex",
       "PT.PreciseTimer",
-      "DM.DownloadManager"
+      "DM.DownloadManager",
+      "SubInspector.Inspector"
     ],
     "_feedName": "FFI Experiments",
-    "_feedIdentifier": "1fe3ac7",
-    "_fetchTime": 1666485926691,
-    "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
+    "_feedIdentifier": "2d000a9",
+    "_fetchTime": 1666619525219,
+    "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
     "_namespace": "requireffi.requireffi"
   },
   {
@@ -70,19 +70,19 @@
     },
     "_validHash": true,
     "_reverseDependency": [
-      "l0.DependencyControl",
-      "SubInspector.Inspector",
       "BM.BadMutex",
       "PT.PreciseTimer",
       "DM.DownloadManager",
+      "l0.DependencyControl",
       "BM.BadMutex",
       "PT.PreciseTimer",
-      "DM.DownloadManager"
+      "DM.DownloadManager",
+      "SubInspector.Inspector"
     ],
     "_feedName": "FFI Experiments",
-    "_feedIdentifier": "2d000a9",
-    "_fetchTime": 1666485926381,
-    "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
+    "_feedIdentifier": "1fe3ac7",
+    "_fetchTime": 1666619525430,
+    "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
     "_namespace": "requireffi.requireffi"
   }
 ]

@@ -90,13 +90,13 @@
     },
     "_validHash": true,
     "_reverseDependency": [
-      "l0.ASSWipe",
       "l0.ASSFoundation",
+      "l0.ASSWipe",
       "lyger.GradientEverything"
     ],
     "_feedName": "SubInspector",
     "_feedIdentifier": "881e0ee",
-    "_fetchTime": 1666485926351,
+    "_fetchTime": 1666619525345,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/SubInspector/master/DependencyControl.json",
     "_namespace": "SubInspector.Inspector"
   }

@@ -30,18 +30,18 @@
     },
     "_validHash": true,
     "_reverseDependency": [
+      "a-mo.Aegisub-Motion",
       "l0.ASSWipe",
       "l0.LerpByChar",
       "l0.PasteAiLines",
       "l0.ShakeIt",
       "l0.SplitLines",
-      "a-mo.Aegisub-Motion",
       "myaa.Bounce",
       "zah.aegi-color-track"
     ],
     "_feedName": "Aegisub-Motion",
     "_feedIdentifier": "4152f8d",
-    "_fetchTime": 1666485926456,
+    "_fetchTime": 1666619525247,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
     "_namespace": "a-mo.ConfigHandler"
   }

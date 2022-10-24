@@ -122,6 +122,7 @@
     },
     "_validHash": true,
     "_reverseDependency": [
+      "l0.ASSFoundation",
       "l0.ASSWipe",
       "l0.InsertLineBreaks",
       "l0.LerpByChar",
@@ -129,7 +130,6 @@
       "l0.Nudge",
       "l0.PasteAiLines",
       "l0.ShakeIt",
-      "l0.ASSFoundation",
       "lyger.FbfTransform",
       "lyger.GradientEverything",
       "myaa.MergeScripts",
@@ -139,7 +139,7 @@
     ],
     "_feedName": "Functional",
     "_feedIdentifier": "c5d5896",
-    "_fetchTime": 1666485926695,
+    "_fetchTime": 1666619525454,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Functional/master/DependencyControl.json",
     "_namespace": "l0.Functional"
   }

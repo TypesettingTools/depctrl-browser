@@ -38,6 +38,248 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/macros/petzku.Accenter/",
+        name: "Accenter",
+        description: "Automatically create accents for lines",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/petzku.Autowrapper/",
+        name: "Autowrapper",
+        description: "Automatically set/unset \q2 on lines with/without manual linebreaks",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/petzku.ClipSize/",
+        name: "Clip Size",
+        description: "Measures distances in a vectorial clip",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/petzku.CombineGradientLines/",
+        name: "Combine Gradient Lines",
+        description: "Combines identical rect-clip gradient lines",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/petzku.EncodeClip/",
+        name: "Encode Clip",
+        description: "Encode a hardsubbed clip encompassing the current selection",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/petzku.ExtrapolateMove/",
+        name: "Extrapolate Move",
+        description: "Extrapolates a \move tag to the line's full duration",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/petzku.JumpToNextPlus/",
+        name: "Jump to Next++",
+        description: "Jumps to next 'sign' in the subtitle grid",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/petzku.Phantom/",
+        name: "Phantom",
+        description: "Align line content to match others by adding text and abusing transparency",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/petzku.PosToMargin/",
+        name: "Margin Position",
+        description: "Transforms \pos-based positioning into margin and vice versa",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/petzku.Snapper/",
+        name: "Snapper",
+        description: "Snaps line start and end times to keyframes",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/petzku.SplitTimer/",
+        name: "SplitTimer",
+        description: "Split lines in selection to shorter segments",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/petzku.Typewriter/",
+        name: "Typewriter",
+        description: "Makes text appear one character at a time",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/phos.wave/",
+        name: "Wave",
+        description: "Make the string wavy",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/phos.wobble/",
+        name: "Wobble",
+        description: "Converts a text to a shape and adds wobbling",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/phos.snap/",
+        name: "Bidirectional Snapping",
+        description: "Snap to close keyframes during timing",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/phos.svg2ass/",
+        name: "svg2ass",
+        description: "Script that uses svg2ass to convert svg files to ass lines",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/a-mo.Aegisub-Motion/",
+        name: "Aegisub-Motion",
+        description: "The main macro.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/Flux.DialogSwapper/",
+        name: "Dialog Swapper",
+        description: "Perform text swapping operations on a script",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/Flux.TitleCase/",
+        name: "Title Case",
+        description: "Applies English Title Case to selected lines",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/Flux.Selegator/",
+        name: "Selegator",
+        description: "Select/navigate in the subtitle grid",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/Flux.JumpScroll/",
+        name: "JumpScroll",
+        description: "Save and load subtitle grid scrollbar positions on Windows",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/Flux.ScaleRotTags/",
+        name: "Scale Rotation Tags (Incorrectly)",
+        description: "Adjust frx/fry in lines post-upsample to be less terrible, though still wrong",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/macros/l0.DependencyControl.Toolbox/",
         name: "DependencyControl Toolbox",
         description: "Provides DependencyControl maintenance and configuration utilities.",
@@ -173,17 +415,6 @@ document.addEventListener('click', function(event) {
         href: "/depctrl-browser/macros/l0.VerticalText/",
         name: "Vertical Text",
         description: "Splits a line into vertical text.",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/macros/a-mo.Aegisub-Motion/",
-        name: "Aegisub-Motion",
-        description: "The main macro.",
       }
     );
     
@@ -382,6 +613,39 @@ document.addEventListener('click', function(event) {
         href: "/depctrl-browser/macros/lyger.VecClipGradient/",
         name: "Vector-Clip Gradient",
         description: "Intersects the rectangular clips on a gradient with a specified vector clip.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/myaa.MergeScripts/",
+        name: "Merge Scripts",
+        description: "Provides advanced script merging, mainly for use during QC.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/myaa.Bounce/",
+        name: "Bounce",
+        description: "Make text bouncy.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/myaa.PasteFromPad/",
+        name: "Paste From Pad",
+        description: "Paste text from pad over existing lines.",
       }
     );
     
@@ -654,226 +918,6 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
-        href: "/depctrl-browser/macros/Flux.DialogSwapper/",
-        name: "Dialog Swapper",
-        description: "Perform text swapping operations on a script",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/macros/Flux.TitleCase/",
-        name: "Title Case",
-        description: "Applies English Title Case to selected lines",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/macros/Flux.Selegator/",
-        name: "Selegator",
-        description: "Select/navigate in the subtitle grid",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/macros/Flux.JumpScroll/",
-        name: "JumpScroll",
-        description: "Save and load subtitle grid scrollbar positions on Windows",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/macros/Flux.ScaleRotTags/",
-        name: "Scale Rotation Tags (Incorrectly)",
-        description: "Adjust frx/fry in lines post-upsample to be less terrible, though still wrong",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/macros/myaa.MergeScripts/",
-        name: "Merge Scripts",
-        description: "Provides advanced script merging, mainly for use during QC.",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/macros/myaa.Bounce/",
-        name: "Bounce",
-        description: "Make text bouncy.",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/macros/myaa.PasteFromPad/",
-        name: "Paste From Pad",
-        description: "Paste text from pad over existing lines.",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/macros/petzku.Accenter/",
-        name: "Accenter",
-        description: "Automatically create accents for lines",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/macros/petzku.Autowrapper/",
-        name: "Autowrapper",
-        description: "Automatically set/unset \q2 on lines with/without manual linebreaks",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/macros/petzku.ClipSize/",
-        name: "Clip Size",
-        description: "Measures distances in a vectorial clip",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/macros/petzku.CombineGradientLines/",
-        name: "Combine Gradient Lines",
-        description: "Combines identical rect-clip gradient lines",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/macros/petzku.EncodeClip/",
-        name: "Encode Clip",
-        description: "Encode a hardsubbed clip encompassing the current selection",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/macros/petzku.ExtrapolateMove/",
-        name: "Extrapolate Move",
-        description: "Extrapolates a \move tag to the line's full duration",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/macros/petzku.JumpToNextPlus/",
-        name: "Jump to Next++",
-        description: "Jumps to next 'sign' in the subtitle grid",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/macros/petzku.Phantom/",
-        name: "Phantom",
-        description: "Align line content to match others by adding text and abusing transparency",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/macros/petzku.PosToMargin/",
-        name: "Margin Position",
-        description: "Transforms \pos-based positioning into margin and vice versa",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/macros/petzku.Snapper/",
-        name: "Snapper",
-        description: "Snaps line start and end times to keyframes",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/macros/petzku.SplitTimer/",
-        name: "SplitTimer",
-        description: "Split lines in selection to shorter segments",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/macros/petzku.Typewriter/",
-        name: "Typewriter",
-        description: "Makes text appear one character at a time",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
         href: "/depctrl-browser/macros/zah.pers-mo_BETA/",
         name: "Aegisub-Perspective-Motion BETA",
         description: "Applying perspective tracking",
@@ -892,59 +936,106 @@ document.addEventListener('click', function(event) {
     );
     
   
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/macros/phos.wave/",
-        name: "Wave",
-        description: "Make the string wavy",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/macros/phos.wobble/",
-        name: "Wobble",
-        description: "Converts a text to a shape and adds wobbling",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/macros/phos.snap/",
-        name: "Bidirectional Snapping",
-        description: "Snap to close keyframes during timing",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/macros/phos.svg2ass/",
-        name: "svg2ass",
-        description: "Script that uses svg2ass to convert svg files to ass lines",
-      }
-    );
-    
-  
 
   
     
     index.add(
       {
         id: i++,
-        href: "/depctrl-browser/modules/l0.DependencyControl/",
-        name: "DependencyControl",
-        description: "Dependency manager and automatic script updater for Aegisub macros and modules.",
+        href: "/depctrl-browser/modules/petzku.easings/",
+        name: "Easings",
+        description: "A library of easy-to-use easing functions for transforms",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/petzku.util/",
+        name: "petzkuLib",
+        description: "Various utility functions for use with petzku's Aegisub macros",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/BM.BadMutex/",
+        name: "BadMutex",
+        description: "A bad, global mutex.",
+      }
+    );
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/BM.BadMutex/",
+        name: "BadMutex",
+        description: "A bad, global mutex.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/PT.PreciseTimer/",
+        name: "PreciseTimer",
+        description: "A precise timer.",
+      }
+    );
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/PT.PreciseTimer/",
+        name: "PreciseTimer",
+        description: "A precise timer.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/DM.DownloadManager/",
+        name: "DownloadManager",
+        description: "Nonblocking downloads with libcurl.",
+      }
+    );
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/DM.DownloadManager/",
+        name: "DownloadManager",
+        description: "Nonblocking downloads with libcurl.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/requireffi.requireffi/",
+        name: "requireffi",
+        description: "Load C libraries with ease.",
+      }
+    );
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/requireffi.requireffi/",
+        name: "requireffi",
+        description: "Load C libraries with ease.",
       }
     );
     
@@ -1096,97 +1187,6 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
-        href: "/depctrl-browser/modules/SubInspector.Inspector/",
-        name: "SubInspector",
-        description: "Provides low level inspection and analysis of subtitles post-rasterization.",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/BM.BadMutex/",
-        name: "BadMutex",
-        description: "A bad, global mutex.",
-      }
-    );
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/BM.BadMutex/",
-        name: "BadMutex",
-        description: "A bad, global mutex.",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/PT.PreciseTimer/",
-        name: "PreciseTimer",
-        description: "A precise timer.",
-      }
-    );
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/PT.PreciseTimer/",
-        name: "PreciseTimer",
-        description: "A precise timer.",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/DM.DownloadManager/",
-        name: "DownloadManager",
-        description: "Nonblocking downloads with libcurl.",
-      }
-    );
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/DM.DownloadManager/",
-        name: "DownloadManager",
-        description: "Nonblocking downloads with libcurl.",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/requireffi.requireffi/",
-        name: "requireffi",
-        description: "Load C libraries with ease.",
-      }
-    );
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/requireffi.requireffi/",
-        name: "requireffi",
-        description: "Load C libraries with ease.",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
         href: "/depctrl-browser/modules/l0.ASSFoundation/",
         name: "ASSFoundation",
         description: "General purpose ASS processing library.",
@@ -1198,9 +1198,20 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
-        href: "/depctrl-browser/modules/lyger.LibLyger/",
-        name: "LibLyger",
-        description: "Library of commonly used functions across all of lyger's automation scripts.",
+        href: "/depctrl-browser/modules/Flux.ScrollHandler/",
+        name: "ScrollHandler",
+        description: "Library to store and load scrollbar positions on Windows",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/l0.DependencyControl/",
+        name: "DependencyControl",
+        description: "Dependency manager and automatic script updater for Aegisub macros and modules.",
       }
     );
     
@@ -1220,9 +1231,9 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
-        href: "/depctrl-browser/modules/Flux.ScrollHandler/",
-        name: "ScrollHandler",
-        description: "Library to store and load scrollbar positions on Windows",
+        href: "/depctrl-browser/modules/lyger.LibLyger/",
+        name: "LibLyger",
+        description: "Library of commonly used functions across all of lyger's automation scripts.",
       }
     );
     
@@ -1253,20 +1264,9 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
-        href: "/depctrl-browser/modules/petzku.easings/",
-        name: "Easings",
-        description: "A library of easy-to-use easing functions for transforms",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/petzku.util/",
-        name: "petzkuLib",
-        description: "Various utility functions for use with petzku's Aegisub macros",
+        href: "/depctrl-browser/modules/SubInspector.Inspector/",
+        name: "SubInspector",
+        description: "Provides low level inspection and analysis of subtitles post-rasterization.",
       }
     );
     
@@ -1276,54 +1276,18 @@ document.addEventListener('click', function(event) {
   index.add(
     {
       id: i++,
-      href: "/depctrl-browser/feeds/7973b7b/",
-      name: "DependencyControl",
-      description: "The official DependencyControl repository.",
+      href: "/depctrl-browser/feeds/7161932/",
+      name: "petzku's Automation Scripts",
+      description: "Main repository for all of petzku's automation scripts.",
     }
   );
   
   index.add(
     {
       id: i++,
-      href: "/depctrl-browser/feeds/7afe7c4/",
-      name: "line0's Aegisub Scripts",
-      description: "Main repository for all of line0's automation macros.",
-    }
-  );
-  
-  index.add(
-    {
-      id: i++,
-      href: "/depctrl-browser/feeds/4152f8d/",
-      name: "Aegisub-Motion",
-      description: "A set of tools for simplifying the process of creating and applying motion tracking data with Aegisub.",
-    }
-  );
-  
-  index.add(
-    {
-      id: i++,
-      href: "/depctrl-browser/feeds/881e0ee/",
-      name: "SubInspector",
-      description: "Official SubInspector repository",
-    }
-  );
-  
-  index.add(
-    {
-      id: i++,
-      href: "/depctrl-browser/feeds/1fe3ac7/",
-      name: "FFI Experiments",
-      description: "Experiments combining C++ with luajit FFI",
-    }
-  );
-  
-  index.add(
-    {
-      id: i++,
-      href: "/depctrl-browser/feeds/92c766d/",
-      name: "ASSFoundation",
-      description: "ASSFoundation and ancillary modules.",
+      href: "/depctrl-browser/feeds/8fe234d/",
+      name: "PhosCity's Aegisub Scripts",
+      description: "Main repository for all of PhosCity's automation macros.",
     }
   );
   
@@ -1339,27 +1303,18 @@ document.addEventListener('click', function(event) {
   index.add(
     {
       id: i++,
-      href: "/depctrl-browser/feeds/41828c0/",
-      name: "lyger's Automation Scripts",
-      description: "Main repository for all of lyger's automation scripts.",
+      href: "/depctrl-browser/feeds/4152f8d/",
+      name: "Aegisub-Motion",
+      description: "A set of tools for simplifying the process of creating and applying motion tracking data with Aegisub.",
     }
   );
   
   index.add(
     {
       id: i++,
-      href: "/depctrl-browser/feeds/c5d5896/",
-      name: "Functional",
-      description: "The official Functional repository.",
-    }
-  );
-  
-  index.add(
-    {
-      id: i++,
-      href: "/depctrl-browser/feeds/720a751/",
-      name: "unanimated's Automation Scripts",
-      description: "Secondary repository for most of unanimated's automation scripts.",
+      href: "/depctrl-browser/feeds/92c766d/",
+      name: "ASSFoundation",
+      description: "ASSFoundation and ancillary modules.",
     }
   );
   
@@ -1375,6 +1330,51 @@ document.addEventListener('click', function(event) {
   index.add(
     {
       id: i++,
+      href: "/depctrl-browser/feeds/7973b7b/",
+      name: "DependencyControl",
+      description: "The official DependencyControl repository.",
+    }
+  );
+  
+  index.add(
+    {
+      id: i++,
+      href: "/depctrl-browser/feeds/1fe3ac7/",
+      name: "FFI Experiments",
+      description: "Experiments combining C++ with luajit FFI",
+    }
+  );
+  
+  index.add(
+    {
+      id: i++,
+      href: "/depctrl-browser/feeds/c5d5896/",
+      name: "Functional",
+      description: "The official Functional repository.",
+    }
+  );
+  
+  index.add(
+    {
+      id: i++,
+      href: "/depctrl-browser/feeds/7afe7c4/",
+      name: "line0's Aegisub Scripts",
+      description: "Main repository for all of line0's automation macros.",
+    }
+  );
+  
+  index.add(
+    {
+      id: i++,
+      href: "/depctrl-browser/feeds/41828c0/",
+      name: "lyger's Automation Scripts",
+      description: "Main repository for all of lyger's automation scripts.",
+    }
+  );
+  
+  index.add(
+    {
+      id: i++,
       href: "/depctrl-browser/feeds/d5b4bc1/",
       name: "Myaamori's Aegisub scripts",
       description: "Main repository for Myaamori's automation macros.",
@@ -1384,9 +1384,18 @@ document.addEventListener('click', function(event) {
   index.add(
     {
       id: i++,
-      href: "/depctrl-browser/feeds/7161932/",
-      name: "petzku's Automation Scripts",
-      description: "Main repository for all of petzku's automation scripts.",
+      href: "/depctrl-browser/feeds/881e0ee/",
+      name: "SubInspector",
+      description: "Official SubInspector repository",
+    }
+  );
+  
+  index.add(
+    {
+      id: i++,
+      href: "/depctrl-browser/feeds/720a751/",
+      name: "unanimated's Automation Scripts",
+      description: "Secondary repository for most of unanimated's automation scripts.",
     }
   );
   
@@ -1396,15 +1405,6 @@ document.addEventListener('click', function(event) {
       href: "/depctrl-browser/feeds/08cbca4/",
       name: "Zahuczky's Automation Scripts",
       description: "Main repository for all of Zahuczky's automation scripts.",
-    }
-  );
-  
-  index.add(
-    {
-      id: i++,
-      href: "/depctrl-browser/feeds/8fe234d/",
-      name: "PhosCity's Aegisub Scripts",
-      description: "Main repository for all of PhosCity's automation macros.",
     }
   );
   

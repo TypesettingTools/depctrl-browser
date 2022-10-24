@@ -1,148 +1,616 @@
 [
   [
     {
-      "url": "https://github.com/TypesettingTools/DependencyControl#l0.DependencyControl",
-      "author": "line0",
-      "name": "DependencyControl",
-      "description": "Dependency manager and automatic script updater for Aegisub macros and modules.",
-      "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/v@{version}-@{channel}/modules/DependencyControl",
+      "fileBaseUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.easings-v@{version}/modules/petzku/easings",
+      "url": "https://github.com/petzku/Aegisub-Scripts",
+      "author": "petzku",
+      "name": "Easings",
+      "description": "A library of easy-to-use easing functions for transforms",
       "channels": {
-        "alpha": {
-          "version": "0.6.3",
-          "released": "2016-02-06",
+        "stable": {
+          "version": "0.5.0",
+          "released": "2022-07-23",
           "default": true,
           "files": [
             {
               "name": ".moon",
-              "url": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/v0.6.3-alpha/modules/DependencyControl.moon",
-              "sha1": "76C22149258CB1189265A367C1B28046F54F8FB3",
+              "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.easings-v0.5.0/modules/petzku/easings.moon",
+              "sha1": "84b5507844e193f9257baf8db3d85ff734048e6f",
               "_validHash": true
-            },
-            {
-              "name": "/ConfigHandler.moon",
-              "url": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/v0.6.3-alpha/modules/DependencyControl/ConfigHandler.moon",
-              "sha1": "97BCD3207FE8158261FA7851057464535FCEFBC6",
-              "_validHash": true
-            },
-            {
-              "name": "/FileOps.moon",
-              "url": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/v0.6.3-alpha/modules/DependencyControl/FileOps.moon",
-              "sha1": "D999D34DB93BA76EF0E991CEB1CD63F5CC5F8E68",
-              "_validHash": true
-            },
-            {
-              "name": "/Logger.moon",
-              "url": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/v0.6.3-alpha/modules/DependencyControl/Logger.moon",
-              "sha1": "1E479FE95F0DFBEE8B098302AB589F32D0C40A00",
-              "_validHash": true
-            },
-            {
-              "name": "/UnitTestSuite.moon",
-              "url": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/v0.6.3-alpha/modules/DependencyControl/UnitTestSuite.moon",
-              "sha1": "ADAB6EFB05E08A7828DCA01BC1FC43D6482979A1",
-              "_validHash": true
-            },
-            {
-              "name": "/UpdateFeed.moon",
-              "url": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/v0.6.3-alpha/modules/DependencyControl/UpdateFeed.moon",
-              "sha1": "1EE16D9D551FF82C2D7E448F2CD980E528874108",
-              "_validHash": true
-            },
-            {
-              "name": "/Updater.moon",
-              "url": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/v0.6.3-alpha/modules/DependencyControl/Updater.moon",
-              "sha1": "A4AE061724E68B2EFBB7495A477263E1746E228A",
-              "_validHash": true
-            }
-          ],
-          "requiredModules": [
-            {
-              "moduleName": "requireffi.requireffi",
-              "version": "0.1.1",
-              "feed": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json"
-            },
-            {
-              "moduleName": "DM.DownloadManager",
-              "version": "0.3.1",
-              "feed": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json"
-            },
-            {
-              "moduleName": "BM.BadMutex",
-              "version": "0.1.3",
-              "feed": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json"
-            },
-            {
-              "moduleName": "PT.PreciseTimer",
-              "version": "0.1.5",
-              "feed": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json"
             }
           ]
         }
       },
       "changelog": {
-        "0.6.3": [
-          "Fixed a v0.6.2 regression that caused DependencyControl to fail loading the first time after a scheduled self-update."
-        ],
-        "0.6.2": [
-          "An issue was fixed that would cause DepCtrl initializer code in modules previously loaded with regular Lua loading mechanisms to be skipped when requested in a _DependencyControl_- context. This kept the [requireffi](https://github.com/torque/ffi-experiments/tree/master/requireffi) _DependencyControl_ record from being established, preventing any updates from taking place.",
-          "UnitTestSuite: Fixed several broken assertions and related error messages, among them the `assertMatches` and `assertErrorMatches` assertions always returning `true`. Please make sure to rerun your tests after upgrading to confirm your tested actually return values whatever they were supposed to match.",
-          "Updater: Identical or duplicate feeds from different sources (user configuration, feeds and API use) are no longer being checked for updates multiple times.",
-          "Updater / FileOps: Fixed several broken error messages and return values."
-        ],
-        "0.6.1": [
-          "The Updater component now supports the DownloadManager v0.4.0 API changes.",
-          "Updater: A regression introduced in v0.6.0 was fixed that caused update or installation processes to fail when the feed contained deletion records.",
-          "FileOps.mkdir() no longer falsely retuns an error state when a path to an existing file is passed with the `isFile` flag set."
-        ],
-        "0.6.0": [
-          "The UnitTestSuite framework for automatically testing automation scripts and modules has been added.",
-          "Macros can now be registered with custom submenu name.",
-          "Logger:logEx() now takes an additional optional `indent` parameter to specify a custom indentation level.",
-          "FileOps.move() no longer overwrites existing files by default.",
-          "FileOps.mkdir() can now take paths relative to the current working directory as input and returns `true` on success, `false` when the directory already exists or `nil` if the operation failed.",
-          "FileOps.remove() now returns detailed results for every path specified in addition to overall success information.",
-          "FileOps.move() no longer fails to move files across file systems on *nix operating systems and properly cleans up after itself if files could not be overwritten and were renamed instead.",
-          "FileOps: path validation is no longer broken on non-windows systems"
-        ],
-        "0.5.3": [
-          "ConfigHandler: A host of longstanding issues related to config file corruption and concurrent access to config files from multiple DepCtrl-hosting automation scripts have been fixed.",
-          "Error Reports of required modules loaded by DependencyControl now actually provide semi-useful stack traces.",
-          "A bug was fixed that could cause DepCtrl to rerun the __depCtrlInit method on modules even though a prior DependencyControl record had already been initialized.",
-          "The DependencyControl self-update now runs through properly without throwing an error at the end of the process."
-        ],
-        "0.5.2": [
-          "Updates and installations no longer fail when no suitable version of a module marked as an optional dependency can be found.",
-          "ConfigHandlers now recover gracefully when a corrupted config is encountered.",
-          "Fixed a bug that may have caused updates of unmanaged modules to throw an error after completion.",
-          "DependencyControl initialization functions in modules with optional DepCtrl support are now expected to use the predefined name __depCtrlInit. This lifts the unreasonable requirement of having to specify the name of the function in the dependency tables of the loading scripts. By extension, this also fixes errors when trying to update the binary modules required by DependencyControl (such as DownloadManager).",
-          "The Updater now checks for an active internet connection before going ahead with downloading feeds and packages.",
-          "FileOps: added a copy function for files."
-        ],
-        "0.5.1": [
-          "Macros registered using DependencyControl now get passed the previously missing 'active_line' paramter.",
-          "Fixed a bug that would cause an unrelated error to be thrown in place of the real error message when an updated module failed to load."
+        "0.4.0": [
+          "Add to DependencyControl"
         ],
         "0.5.0": [
-          "DependencyControl does now auto-update itself and its dependencies.",
-          "Provided Sub-Modules (Logger, ConfigHandler, ...) can now easily be accessed as class properties of the main DependencyControl module.",
-          "A bug was fixed that caused macros always being registered with the overall script description, ignoring specific descriptions for the macro menu entries.",
-          "The \\getConfigHandler() method no longer ignores the defaults parameter.",
-          "Fixed a FileOps bug that would cause path validation to fail on paths relative to the working directory.",
-          "ConfigHandler: writes to the configuration table are no longer accidentally routed to the defaults table when a value is updated that only exists in the Defaults.",
-          "ConfigHandler: Looping over the configuration table is now completely transparent wrt which fields are user configuration or defaults.",
-          "ConfigHandler: fixed a bug that prevented a global lock on the config file from being released on certain error conditions.",
-          "The update feed format has been updated to v0.2.0 and introduces a new template variable to reference knownFeeds specifed at the top level."
+          "Expose internals and other convenience functions for direct easer manipulation in `easings.raw`"
+        ]
+      },
+      "_validHash": true,
+      "_reverseDependency": [],
+      "_feedName": "petzku's Automation Scripts",
+      "_feedIdentifier": "7161932",
+      "_fetchTime": 1666619525440,
+      "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
+      "_namespace": "petzku.easings"
+    }
+  ],
+  [
+    {
+      "fileBaseUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v@{version}/modules/petzku/util",
+      "url": "https://github.com/petzku/Aegisub-Scripts",
+      "author": "petzku",
+      "name": "petzkuLib",
+      "description": "Various utility functions for use with petzku's Aegisub macros",
+      "channels": {
+        "stable": {
+          "version": "0.4.0",
+          "released": "2022-09-04",
+          "default": true,
+          "files": [
+            {
+              "name": ".moon",
+              "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.4.0/modules/petzku/util.moon",
+              "sha1": "3def7b96613ce775e9e7debec3ca9804f3710c68",
+              "_validHash": true
+            },
+            {
+              "name": "/tee.exe",
+              "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.4.0/modules/petzku/util/tee.exe",
+              "platform": "Windows-x64",
+              "sha1": "054c04d341152311d40aaab4049e6c2c26646b3a",
+              "_validHash": true
+            }
+          ]
+        }
+      },
+      "changelog": {
+        "0.2.0": [
+          "Add IO functionality",
+          "Add to DependencyControl"
+        ],
+        "0.3.0": [
+          "Add \\t, \\move, \\fad retiming"
+        ],
+        "0.4.0": [
+          "Upgrade run_cmd in a way that handles stderr"
         ]
       },
       "_validHash": true,
       "_reverseDependency": [
-        "l0.DependencyControl.Toolbox"
+        "petzku.EncodeClip",
+        "petzku.SplitTimer",
+        "petzku.Typewriter",
+        "zah.aegi-color-track"
       ],
-      "_feedName": "DependencyControl",
-      "_feedIdentifier": "7973b7b",
-      "_fetchTime": 1666485926177,
-      "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/master/DependencyControl.json",
-      "_namespace": "l0.DependencyControl"
+      "_feedName": "petzku's Automation Scripts",
+      "_feedIdentifier": "7161932",
+      "_fetchTime": 1666619525440,
+      "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
+      "_namespace": "petzku.util"
+    }
+  ],
+  [
+    {
+      "url": "https://github.com/TypesettingTools/ffi-experiments",
+      "author": "torque",
+      "name": "BadMutex",
+      "description": "A bad, global mutex.",
+      "channels": {
+        "release": {
+          "version": "0.1.3",
+          "released": "2015-05-01",
+          "default": true,
+          "platforms": [
+            "Windows-x86",
+            "Windows-x64",
+            "OSX-x64"
+          ],
+          "fileBaseUrl": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/",
+          "files": [
+            {
+              "name": ".lua",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex.lua",
+              "sha1": "351D94BCF03F4640C589A7BA9683DBF5CC6D749C",
+              "_validHash": true
+            },
+            {
+              "name": ".dll",
+              "delete": true
+            },
+            {
+              "name": "/BadMutex.dll",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex-win32.dll",
+              "platform": "Windows-x86",
+              "sha1": "1FDA8C0F5D848120DC269FFE4081C873E8B8085C",
+              "_validHash": true
+            },
+            {
+              "name": "/BadMutex.dll",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex-win64.dll",
+              "platform": "Windows-x64",
+              "sha1": "00D3A65927D9A2F6B960B549D60BF12ED75F0A9F",
+              "_validHash": true
+            },
+            {
+              "name": "/libBadMutex.dylib",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex-osx64.dylib",
+              "platform": "OSX-x64",
+              "sha1": "941E122E7A2E0BCCCFEB38CC87F4A2DD92838C2D",
+              "_validHash": true
+            }
+          ],
+          "requiredModules": [
+            {
+              "moduleName": "ffi"
+            },
+            {
+              "moduleName": "requireffi.requireffi",
+              "version": "0.1.2",
+              "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
+            }
+          ]
+        }
+      },
+      "_validHash": true,
+      "_reverseDependency": [
+        "l0.DependencyControl"
+      ],
+      "_feedName": "FFI Experiments",
+      "_feedIdentifier": "2d000a9",
+      "_fetchTime": 1666619525219,
+      "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
+      "_namespace": "BM.BadMutex"
+    },
+    {
+      "url": "https://github.com/TypesettingTools/ffi-experiments",
+      "author": "torque",
+      "name": "BadMutex",
+      "description": "A bad, global mutex.",
+      "channels": {
+        "release": {
+          "version": "0.1.3",
+          "released": "2015-05-01",
+          "default": true,
+          "platforms": [
+            "Windows-x86",
+            "Windows-x64",
+            "OSX-x64"
+          ],
+          "fileBaseUrl": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/",
+          "files": [
+            {
+              "name": ".lua",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex.lua",
+              "sha1": "351D94BCF03F4640C589A7BA9683DBF5CC6D749C",
+              "_validHash": true
+            },
+            {
+              "name": ".dll",
+              "delete": true
+            },
+            {
+              "name": "/BadMutex.dll",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex-win32.dll",
+              "platform": "Windows-x86",
+              "sha1": "1FDA8C0F5D848120DC269FFE4081C873E8B8085C",
+              "_validHash": true
+            },
+            {
+              "name": "/BadMutex.dll",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex-win64.dll",
+              "platform": "Windows-x64",
+              "sha1": "00D3A65927D9A2F6B960B549D60BF12ED75F0A9F",
+              "_validHash": true
+            },
+            {
+              "name": "/libBadMutex.dylib",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex-osx64.dylib",
+              "platform": "OSX-x64",
+              "sha1": "941E122E7A2E0BCCCFEB38CC87F4A2DD92838C2D",
+              "_validHash": true
+            }
+          ],
+          "requiredModules": [
+            {
+              "moduleName": "ffi"
+            },
+            {
+              "moduleName": "requireffi.requireffi",
+              "version": "0.1.2",
+              "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
+            }
+          ]
+        }
+      },
+      "_validHash": true,
+      "_reverseDependency": [
+        "l0.DependencyControl"
+      ],
+      "_feedName": "FFI Experiments",
+      "_feedIdentifier": "1fe3ac7",
+      "_fetchTime": 1666619525430,
+      "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
+      "_namespace": "BM.BadMutex"
+    }
+  ],
+  [
+    {
+      "url": "https://github.com/TypesettingTools/ffi-experiments",
+      "author": "torque",
+      "name": "PreciseTimer",
+      "description": "A precise timer.",
+      "channels": {
+        "release": {
+          "version": "0.1.6",
+          "released": "2018-04-05",
+          "default": true,
+          "platforms": [
+            "Windows-x86",
+            "Windows-x64",
+            "OSX-x64"
+          ],
+          "fileBaseUrl": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/",
+          "files": [
+            {
+              "name": ".lua",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer.lua",
+              "sha1": "C4ABF9A8BCF8DC4DFEEFEE1EC00172846BADC52A",
+              "_validHash": true
+            },
+            {
+              "name": ".dll",
+              "delete": true
+            },
+            {
+              "name": "/PreciseTimer.dll",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer-win32.dll",
+              "platform": "Windows-x86",
+              "sha1": "8629E147DEC486D2190140C04F0B0C5465B764E9",
+              "_validHash": true
+            },
+            {
+              "name": "/PreciseTimer.dll",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer-win64.dll",
+              "platform": "Windows-x64",
+              "sha1": "17FBBDC997CFF596FC55260B684126DCCF45EFDC",
+              "_validHash": true
+            },
+            {
+              "name": "/libPreciseTimer.dylib",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer-osx64.dylib",
+              "platform": "OSX-x64",
+              "sha1": "602ECB3EB2783BD490A6FA8D4AB3FCD15F213FEF",
+              "_validHash": true
+            }
+          ],
+          "requiredModules": [
+            {
+              "moduleName": "ffi"
+            },
+            {
+              "moduleName": "requireffi.requireffi",
+              "version": "0.1.2",
+              "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
+            }
+          ]
+        }
+      },
+      "_validHash": true,
+      "_reverseDependency": [
+        "l0.DependencyControl"
+      ],
+      "_feedName": "FFI Experiments",
+      "_feedIdentifier": "2d000a9",
+      "_fetchTime": 1666619525219,
+      "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
+      "_namespace": "PT.PreciseTimer"
+    },
+    {
+      "url": "https://github.com/TypesettingTools/ffi-experiments",
+      "author": "torque",
+      "name": "PreciseTimer",
+      "description": "A precise timer.",
+      "channels": {
+        "release": {
+          "version": "0.1.6",
+          "released": "2018-04-05",
+          "default": true,
+          "platforms": [
+            "Windows-x86",
+            "Windows-x64",
+            "OSX-x64"
+          ],
+          "fileBaseUrl": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/",
+          "files": [
+            {
+              "name": ".lua",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer.lua",
+              "sha1": "C4ABF9A8BCF8DC4DFEEFEE1EC00172846BADC52A",
+              "_validHash": true
+            },
+            {
+              "name": ".dll",
+              "delete": true
+            },
+            {
+              "name": "/PreciseTimer.dll",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer-win32.dll",
+              "platform": "Windows-x86",
+              "sha1": "8629E147DEC486D2190140C04F0B0C5465B764E9",
+              "_validHash": true
+            },
+            {
+              "name": "/PreciseTimer.dll",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer-win64.dll",
+              "platform": "Windows-x64",
+              "sha1": "17FBBDC997CFF596FC55260B684126DCCF45EFDC",
+              "_validHash": true
+            },
+            {
+              "name": "/libPreciseTimer.dylib",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer-osx64.dylib",
+              "platform": "OSX-x64",
+              "sha1": "602ECB3EB2783BD490A6FA8D4AB3FCD15F213FEF",
+              "_validHash": true
+            }
+          ],
+          "requiredModules": [
+            {
+              "moduleName": "ffi"
+            },
+            {
+              "moduleName": "requireffi.requireffi",
+              "version": "0.1.2",
+              "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
+            }
+          ]
+        }
+      },
+      "_validHash": true,
+      "_reverseDependency": [
+        "l0.DependencyControl"
+      ],
+      "_feedName": "FFI Experiments",
+      "_feedIdentifier": "1fe3ac7",
+      "_fetchTime": 1666619525430,
+      "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
+      "_namespace": "PT.PreciseTimer"
+    }
+  ],
+  [
+    {
+      "url": "https://github.com/TypesettingTools/ffi-experiments",
+      "author": "torque",
+      "name": "DownloadManager",
+      "description": "Nonblocking downloads with libcurl.",
+      "channels": {
+        "release": {
+          "version": "0.5.0",
+          "released": "2018-04-05",
+          "default": true,
+          "platforms": [
+            "Windows-x86",
+            "Windows-x64",
+            "OSX-x64"
+          ],
+          "fileBaseUrl": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/",
+          "files": [
+            {
+              "name": ".lua",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager.lua",
+              "sha1": "E4785E4ACAD637905ACF2B83F687FF9465784669",
+              "_validHash": true
+            },
+            {
+              "name": ".dll",
+              "delete": true
+            },
+            {
+              "name": "/DownloadManager.dll",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager-win32.dll",
+              "platform": "Windows-x86",
+              "sha1": "BE4B6D559312A0EE23216FFBCF45160737A6A757",
+              "_validHash": true
+            },
+            {
+              "name": "/DownloadManager.dll",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager-win64.dll",
+              "platform": "Windows-x64",
+              "sha1": "8540C49CF0AE81085034154AAA6A089E05DF419E",
+              "_validHash": true
+            },
+            {
+              "name": "/libDownloadManager.dylib",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager-osx64.dylib",
+              "platform": "OSX-x64",
+              "sha1": "364050E938726F79DF7C1EB9C29B8219B06572A7",
+              "_validHash": true
+            }
+          ],
+          "requiredModules": [
+            {
+              "moduleName": "ffi"
+            },
+            {
+              "moduleName": "requireffi.requireffi",
+              "version": "0.1.2",
+              "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
+            }
+          ]
+        }
+      },
+      "_validHash": true,
+      "_reverseDependency": [
+        "l0.DependencyControl"
+      ],
+      "_feedName": "FFI Experiments",
+      "_feedIdentifier": "2d000a9",
+      "_fetchTime": 1666619525219,
+      "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
+      "_namespace": "DM.DownloadManager"
+    },
+    {
+      "url": "https://github.com/TypesettingTools/ffi-experiments",
+      "author": "torque",
+      "name": "DownloadManager",
+      "description": "Nonblocking downloads with libcurl.",
+      "channels": {
+        "release": {
+          "version": "0.5.0",
+          "released": "2018-04-05",
+          "default": true,
+          "platforms": [
+            "Windows-x86",
+            "Windows-x64",
+            "OSX-x64"
+          ],
+          "fileBaseUrl": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/",
+          "files": [
+            {
+              "name": ".lua",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager.lua",
+              "sha1": "E4785E4ACAD637905ACF2B83F687FF9465784669",
+              "_validHash": true
+            },
+            {
+              "name": ".dll",
+              "delete": true
+            },
+            {
+              "name": "/DownloadManager.dll",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager-win32.dll",
+              "platform": "Windows-x86",
+              "sha1": "BE4B6D559312A0EE23216FFBCF45160737A6A757",
+              "_validHash": true
+            },
+            {
+              "name": "/DownloadManager.dll",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager-win64.dll",
+              "platform": "Windows-x64",
+              "sha1": "8540C49CF0AE81085034154AAA6A089E05DF419E",
+              "_validHash": true
+            },
+            {
+              "name": "/libDownloadManager.dylib",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager-osx64.dylib",
+              "platform": "OSX-x64",
+              "sha1": "364050E938726F79DF7C1EB9C29B8219B06572A7",
+              "_validHash": true
+            }
+          ],
+          "requiredModules": [
+            {
+              "moduleName": "ffi"
+            },
+            {
+              "moduleName": "requireffi.requireffi",
+              "version": "0.1.2",
+              "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
+            }
+          ]
+        }
+      },
+      "_validHash": true,
+      "_reverseDependency": [
+        "l0.DependencyControl"
+      ],
+      "_feedName": "FFI Experiments",
+      "_feedIdentifier": "1fe3ac7",
+      "_fetchTime": 1666619525430,
+      "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
+      "_namespace": "DM.DownloadManager"
+    }
+  ],
+  [
+    {
+      "url": "https://github.com/TypesettingTools/ffi-experiments",
+      "author": "torque",
+      "name": "requireffi",
+      "description": "Load C libraries with ease.",
+      "channels": {
+        "release": {
+          "version": "0.1.2",
+          "released": "2016-01-22",
+          "default": true,
+          "fileBaseUrl": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/",
+          "files": [
+            {
+              "name": ".lua",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/requireffi.lua",
+              "sha1": "BCE2865755C90BB48FC49F93C9EAF2DB9DE29095",
+              "_validHash": true
+            }
+          ],
+          "requiredModules": [
+            {
+              "moduleName": "ffi"
+            }
+          ]
+        }
+      },
+      "_validHash": true,
+      "_reverseDependency": [
+        "BM.BadMutex",
+        "PT.PreciseTimer",
+        "DM.DownloadManager",
+        "l0.DependencyControl",
+        "BM.BadMutex",
+        "PT.PreciseTimer",
+        "DM.DownloadManager",
+        "SubInspector.Inspector"
+      ],
+      "_feedName": "FFI Experiments",
+      "_feedIdentifier": "2d000a9",
+      "_fetchTime": 1666619525219,
+      "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
+      "_namespace": "requireffi.requireffi"
+    },
+    {
+      "url": "https://github.com/TypesettingTools/ffi-experiments",
+      "author": "torque",
+      "name": "requireffi",
+      "description": "Load C libraries with ease.",
+      "channels": {
+        "release": {
+          "version": "0.1.2",
+          "released": "2016-01-22",
+          "default": true,
+          "fileBaseUrl": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/",
+          "files": [
+            {
+              "name": ".lua",
+              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/requireffi.lua",
+              "sha1": "BCE2865755C90BB48FC49F93C9EAF2DB9DE29095",
+              "_validHash": true
+            }
+          ],
+          "requiredModules": [
+            {
+              "moduleName": "ffi"
+            }
+          ]
+        }
+      },
+      "_validHash": true,
+      "_reverseDependency": [
+        "BM.BadMutex",
+        "PT.PreciseTimer",
+        "DM.DownloadManager",
+        "l0.DependencyControl",
+        "BM.BadMutex",
+        "PT.PreciseTimer",
+        "DM.DownloadManager",
+        "SubInspector.Inspector"
+      ],
+      "_feedName": "FFI Experiments",
+      "_feedIdentifier": "1fe3ac7",
+      "_fetchTime": 1666619525430,
+      "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
+      "_namespace": "requireffi.requireffi"
     }
   ],
   [
@@ -177,18 +645,18 @@
       },
       "_validHash": true,
       "_reverseDependency": [
+        "a-mo.Aegisub-Motion",
         "l0.ASSWipe",
         "l0.LerpByChar",
         "l0.PasteAiLines",
         "l0.ShakeIt",
         "l0.SplitLines",
-        "a-mo.Aegisub-Motion",
         "myaa.Bounce",
         "zah.aegi-color-track"
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1666485926456,
+      "_fetchTime": 1666619525247,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.ConfigHandler"
     }
@@ -226,7 +694,7 @@
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1666485926456,
+      "_fetchTime": 1666619525247,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.DataHandler"
     }
@@ -274,7 +742,7 @@
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1666485926456,
+      "_fetchTime": 1666619525247,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.DataWrapper"
     }
@@ -324,15 +792,15 @@
       },
       "_validHash": true,
       "_reverseDependency": [
-        "l0.MoveAlongPath",
         "a-mo.LineCollection",
         "a-mo.MotionHandler",
         "l0.ASSFoundation",
+        "l0.MoveAlongPath",
         "myaa.Bounce"
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1666485926456,
+      "_fetchTime": 1666619525247,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.Line"
     }
@@ -371,6 +839,10 @@
       },
       "_validHash": true,
       "_reverseDependency": [
+        "a-mo.Aegisub-Motion",
+        "a-mo.MotionHandler",
+        "l0.ASSFoundation",
+        "Flux.ScaleRotTags",
         "l0.ASSWipe",
         "l0.CascadeTransforms",
         "l0.HighlightSubstring",
@@ -382,15 +854,11 @@
         "l0.PasteAiLines",
         "l0.ShakeIt",
         "l0.SplitLines",
-        "l0.VerticalText",
-        "a-mo.Aegisub-Motion",
-        "a-mo.MotionHandler",
-        "l0.ASSFoundation",
-        "Flux.ScaleRotTags"
+        "l0.VerticalText"
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1666485926456,
+      "_fetchTime": 1666619525247,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.LineCollection"
     }
@@ -433,7 +901,7 @@
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1666485926456,
+      "_fetchTime": 1666619525247,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.Log"
     }
@@ -466,7 +934,7 @@
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1666485926456,
+      "_fetchTime": 1666619525247,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.Math"
     }
@@ -529,7 +997,7 @@
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1666485926456,
+      "_fetchTime": 1666619525247,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.MotionHandler"
     }
@@ -567,7 +1035,7 @@
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1666485926456,
+      "_fetchTime": 1666619525247,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.ShakeShapeHandler"
     }
@@ -608,7 +1076,7 @@
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1666485926456,
+      "_fetchTime": 1666619525247,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.Statistics"
     }
@@ -653,7 +1121,7 @@
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1666485926456,
+      "_fetchTime": 1666619525247,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.Tags"
     }
@@ -698,7 +1166,7 @@
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1666485926456,
+      "_fetchTime": 1666619525247,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.Transform"
     }
@@ -736,632 +1204,9 @@
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1666485926456,
+      "_fetchTime": 1666619525247,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.TrimHandler"
-    }
-  ],
-  [
-    {
-      "url": "https://github.com/TypesettingTools/SubInspector",
-      "author": "torque",
-      "name": "SubInspector",
-      "description": "Provides low level inspection and analysis of subtitles post-rasterization.",
-      "channels": {
-        "release": {
-          "version": "0.7.2",
-          "released": "2018-04-0.6",
-          "default": true,
-          "platforms": [
-            "Windows-x86",
-            "Windows-x64",
-            "OSX-x64"
-          ],
-          "fileBaseUrl": "https://github.com/TypesettingTools/SubInspector/releases/download/v0.5.1/",
-          "files": [
-            {
-              "name": ".moon",
-              "url": "https://raw.githubusercontent.com/TypesettingTools/SubInspector/c2db2971c9f959b6dcd84ea8438eef8e5702f400/examples/Aegisub/Inspector.moon",
-              "sha1": "112009C60FFF28FD56B47AE51F562E306272AFF6",
-              "_validHash": true
-            },
-            {
-              "name": "/SubInspector.dll",
-              "url": "https://github.com/TypesettingTools/SubInspector/releases/download/v0.5.1/SubInspector-win32.dll",
-              "platform": "Windows-x86",
-              "sha1": "E9A75D53FFE6DD5DBE35451B2DEA336AD2104C66",
-              "_validHash": true
-            },
-            {
-              "name": "/SubInspector.dll",
-              "url": "https://github.com/TypesettingTools/SubInspector/releases/download/v0.5.1/SubInspector-win64.dll",
-              "platform": "Windows-x64",
-              "sha1": "719A281B1FCDF73EF058FF210CBC3674CB1A6831",
-              "_validHash": true
-            },
-            {
-              "name": "/libSubInspector.dylib",
-              "url": "https://github.com/TypesettingTools/SubInspector/releases/download/v0.5.2/libSubInspector.dylib",
-              "platform": "OSX-x64",
-              "sha1": "CE34B98F880FD7BB0DD6BDDCDC6484C7781EEF71",
-              "_validHash": true
-            }
-          ],
-          "requiredModules": [
-            {
-              "moduleName": "ffi"
-            },
-            {
-              "moduleName": "requireffi.requireffi",
-              "version": "0.1.2",
-              "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
-            }
-          ]
-        }
-      },
-      "changelog": {
-        "0.7.2": [
-          "Fix Inspector.moon C library version compatibility check in some cases."
-        ],
-        "0.7.1": [
-          "Fix Inspector.moon log function invocation."
-        ],
-        "0.7.0": [
-          "Fix Inspector.moon for libass with DirectWrite. No more XP support."
-        ],
-        "0.6.1": [
-          "Improve hash reliability as a measure of visual sameness."
-        ],
-        "0.6.0": [
-          "Rebrand as SubInspector."
-        ],
-        "0.5.1": [
-          "Fix bounds calculation in weird cases."
-        ],
-        "0.5.0": [
-          "DependencyControl integration."
-        ],
-        "0.4.0": [
-          "Added solid field to ASSI_Rect."
-        ],
-        "0.3.1": [
-          "Fixed hash reliability by not hashing junk memory."
-        ],
-        "0.3.0": [
-          "All inputs are hashed (CRC32) to provide a measure of uniqueness."
-        ]
-      },
-      "_validHash": true,
-      "_reverseDependency": [
-        "l0.ASSWipe",
-        "l0.ASSFoundation",
-        "lyger.GradientEverything"
-      ],
-      "_feedName": "SubInspector",
-      "_feedIdentifier": "881e0ee",
-      "_fetchTime": 1666485926351,
-      "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/SubInspector/master/DependencyControl.json",
-      "_namespace": "SubInspector.Inspector"
-    }
-  ],
-  [
-    {
-      "url": "https://github.com/TypesettingTools/ffi-experiments",
-      "author": "torque",
-      "name": "BadMutex",
-      "description": "A bad, global mutex.",
-      "channels": {
-        "release": {
-          "version": "0.1.3",
-          "released": "2015-05-01",
-          "default": true,
-          "platforms": [
-            "Windows-x86",
-            "Windows-x64",
-            "OSX-x64"
-          ],
-          "fileBaseUrl": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/",
-          "files": [
-            {
-              "name": ".lua",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex.lua",
-              "sha1": "351D94BCF03F4640C589A7BA9683DBF5CC6D749C",
-              "_validHash": true
-            },
-            {
-              "name": ".dll",
-              "delete": true
-            },
-            {
-              "name": "/BadMutex.dll",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex-win32.dll",
-              "platform": "Windows-x86",
-              "sha1": "1FDA8C0F5D848120DC269FFE4081C873E8B8085C",
-              "_validHash": true
-            },
-            {
-              "name": "/BadMutex.dll",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex-win64.dll",
-              "platform": "Windows-x64",
-              "sha1": "00D3A65927D9A2F6B960B549D60BF12ED75F0A9F",
-              "_validHash": true
-            },
-            {
-              "name": "/libBadMutex.dylib",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex-osx64.dylib",
-              "platform": "OSX-x64",
-              "sha1": "941E122E7A2E0BCCCFEB38CC87F4A2DD92838C2D",
-              "_validHash": true
-            }
-          ],
-          "requiredModules": [
-            {
-              "moduleName": "ffi"
-            },
-            {
-              "moduleName": "requireffi.requireffi",
-              "version": "0.1.2",
-              "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
-            }
-          ]
-        }
-      },
-      "_validHash": true,
-      "_reverseDependency": [
-        "l0.DependencyControl"
-      ],
-      "_feedName": "FFI Experiments",
-      "_feedIdentifier": "1fe3ac7",
-      "_fetchTime": 1666485926691,
-      "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
-      "_namespace": "BM.BadMutex"
-    },
-    {
-      "url": "https://github.com/TypesettingTools/ffi-experiments",
-      "author": "torque",
-      "name": "BadMutex",
-      "description": "A bad, global mutex.",
-      "channels": {
-        "release": {
-          "version": "0.1.3",
-          "released": "2015-05-01",
-          "default": true,
-          "platforms": [
-            "Windows-x86",
-            "Windows-x64",
-            "OSX-x64"
-          ],
-          "fileBaseUrl": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/",
-          "files": [
-            {
-              "name": ".lua",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex.lua",
-              "sha1": "351D94BCF03F4640C589A7BA9683DBF5CC6D749C",
-              "_validHash": true
-            },
-            {
-              "name": ".dll",
-              "delete": true
-            },
-            {
-              "name": "/BadMutex.dll",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex-win32.dll",
-              "platform": "Windows-x86",
-              "sha1": "1FDA8C0F5D848120DC269FFE4081C873E8B8085C",
-              "_validHash": true
-            },
-            {
-              "name": "/BadMutex.dll",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex-win64.dll",
-              "platform": "Windows-x64",
-              "sha1": "00D3A65927D9A2F6B960B549D60BF12ED75F0A9F",
-              "_validHash": true
-            },
-            {
-              "name": "/libBadMutex.dylib",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex-osx64.dylib",
-              "platform": "OSX-x64",
-              "sha1": "941E122E7A2E0BCCCFEB38CC87F4A2DD92838C2D",
-              "_validHash": true
-            }
-          ],
-          "requiredModules": [
-            {
-              "moduleName": "ffi"
-            },
-            {
-              "moduleName": "requireffi.requireffi",
-              "version": "0.1.2",
-              "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
-            }
-          ]
-        }
-      },
-      "_validHash": true,
-      "_reverseDependency": [
-        "l0.DependencyControl"
-      ],
-      "_feedName": "FFI Experiments",
-      "_feedIdentifier": "2d000a9",
-      "_fetchTime": 1666485926381,
-      "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
-      "_namespace": "BM.BadMutex"
-    }
-  ],
-  [
-    {
-      "url": "https://github.com/TypesettingTools/ffi-experiments",
-      "author": "torque",
-      "name": "PreciseTimer",
-      "description": "A precise timer.",
-      "channels": {
-        "release": {
-          "version": "0.1.6",
-          "released": "2018-04-05",
-          "default": true,
-          "platforms": [
-            "Windows-x86",
-            "Windows-x64",
-            "OSX-x64"
-          ],
-          "fileBaseUrl": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/",
-          "files": [
-            {
-              "name": ".lua",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer.lua",
-              "sha1": "C4ABF9A8BCF8DC4DFEEFEE1EC00172846BADC52A",
-              "_validHash": true
-            },
-            {
-              "name": ".dll",
-              "delete": true
-            },
-            {
-              "name": "/PreciseTimer.dll",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer-win32.dll",
-              "platform": "Windows-x86",
-              "sha1": "8629E147DEC486D2190140C04F0B0C5465B764E9",
-              "_validHash": true
-            },
-            {
-              "name": "/PreciseTimer.dll",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer-win64.dll",
-              "platform": "Windows-x64",
-              "sha1": "17FBBDC997CFF596FC55260B684126DCCF45EFDC",
-              "_validHash": true
-            },
-            {
-              "name": "/libPreciseTimer.dylib",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer-osx64.dylib",
-              "platform": "OSX-x64",
-              "sha1": "602ECB3EB2783BD490A6FA8D4AB3FCD15F213FEF",
-              "_validHash": true
-            }
-          ],
-          "requiredModules": [
-            {
-              "moduleName": "ffi"
-            },
-            {
-              "moduleName": "requireffi.requireffi",
-              "version": "0.1.2",
-              "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
-            }
-          ]
-        }
-      },
-      "_validHash": true,
-      "_reverseDependency": [
-        "l0.DependencyControl"
-      ],
-      "_feedName": "FFI Experiments",
-      "_feedIdentifier": "1fe3ac7",
-      "_fetchTime": 1666485926691,
-      "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
-      "_namespace": "PT.PreciseTimer"
-    },
-    {
-      "url": "https://github.com/TypesettingTools/ffi-experiments",
-      "author": "torque",
-      "name": "PreciseTimer",
-      "description": "A precise timer.",
-      "channels": {
-        "release": {
-          "version": "0.1.6",
-          "released": "2018-04-05",
-          "default": true,
-          "platforms": [
-            "Windows-x86",
-            "Windows-x64",
-            "OSX-x64"
-          ],
-          "fileBaseUrl": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/",
-          "files": [
-            {
-              "name": ".lua",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer.lua",
-              "sha1": "C4ABF9A8BCF8DC4DFEEFEE1EC00172846BADC52A",
-              "_validHash": true
-            },
-            {
-              "name": ".dll",
-              "delete": true
-            },
-            {
-              "name": "/PreciseTimer.dll",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer-win32.dll",
-              "platform": "Windows-x86",
-              "sha1": "8629E147DEC486D2190140C04F0B0C5465B764E9",
-              "_validHash": true
-            },
-            {
-              "name": "/PreciseTimer.dll",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer-win64.dll",
-              "platform": "Windows-x64",
-              "sha1": "17FBBDC997CFF596FC55260B684126DCCF45EFDC",
-              "_validHash": true
-            },
-            {
-              "name": "/libPreciseTimer.dylib",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer-osx64.dylib",
-              "platform": "OSX-x64",
-              "sha1": "602ECB3EB2783BD490A6FA8D4AB3FCD15F213FEF",
-              "_validHash": true
-            }
-          ],
-          "requiredModules": [
-            {
-              "moduleName": "ffi"
-            },
-            {
-              "moduleName": "requireffi.requireffi",
-              "version": "0.1.2",
-              "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
-            }
-          ]
-        }
-      },
-      "_validHash": true,
-      "_reverseDependency": [
-        "l0.DependencyControl"
-      ],
-      "_feedName": "FFI Experiments",
-      "_feedIdentifier": "2d000a9",
-      "_fetchTime": 1666485926381,
-      "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
-      "_namespace": "PT.PreciseTimer"
-    }
-  ],
-  [
-    {
-      "url": "https://github.com/TypesettingTools/ffi-experiments",
-      "author": "torque",
-      "name": "DownloadManager",
-      "description": "Nonblocking downloads with libcurl.",
-      "channels": {
-        "release": {
-          "version": "0.5.0",
-          "released": "2018-04-05",
-          "default": true,
-          "platforms": [
-            "Windows-x86",
-            "Windows-x64",
-            "OSX-x64"
-          ],
-          "fileBaseUrl": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/",
-          "files": [
-            {
-              "name": ".lua",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager.lua",
-              "sha1": "E4785E4ACAD637905ACF2B83F687FF9465784669",
-              "_validHash": true
-            },
-            {
-              "name": ".dll",
-              "delete": true
-            },
-            {
-              "name": "/DownloadManager.dll",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager-win32.dll",
-              "platform": "Windows-x86",
-              "sha1": "BE4B6D559312A0EE23216FFBCF45160737A6A757",
-              "_validHash": true
-            },
-            {
-              "name": "/DownloadManager.dll",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager-win64.dll",
-              "platform": "Windows-x64",
-              "sha1": "8540C49CF0AE81085034154AAA6A089E05DF419E",
-              "_validHash": true
-            },
-            {
-              "name": "/libDownloadManager.dylib",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager-osx64.dylib",
-              "platform": "OSX-x64",
-              "sha1": "364050E938726F79DF7C1EB9C29B8219B06572A7",
-              "_validHash": true
-            }
-          ],
-          "requiredModules": [
-            {
-              "moduleName": "ffi"
-            },
-            {
-              "moduleName": "requireffi.requireffi",
-              "version": "0.1.2",
-              "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
-            }
-          ]
-        }
-      },
-      "_validHash": true,
-      "_reverseDependency": [
-        "l0.DependencyControl"
-      ],
-      "_feedName": "FFI Experiments",
-      "_feedIdentifier": "1fe3ac7",
-      "_fetchTime": 1666485926691,
-      "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
-      "_namespace": "DM.DownloadManager"
-    },
-    {
-      "url": "https://github.com/TypesettingTools/ffi-experiments",
-      "author": "torque",
-      "name": "DownloadManager",
-      "description": "Nonblocking downloads with libcurl.",
-      "channels": {
-        "release": {
-          "version": "0.5.0",
-          "released": "2018-04-05",
-          "default": true,
-          "platforms": [
-            "Windows-x86",
-            "Windows-x64",
-            "OSX-x64"
-          ],
-          "fileBaseUrl": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/",
-          "files": [
-            {
-              "name": ".lua",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager.lua",
-              "sha1": "E4785E4ACAD637905ACF2B83F687FF9465784669",
-              "_validHash": true
-            },
-            {
-              "name": ".dll",
-              "delete": true
-            },
-            {
-              "name": "/DownloadManager.dll",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager-win32.dll",
-              "platform": "Windows-x86",
-              "sha1": "BE4B6D559312A0EE23216FFBCF45160737A6A757",
-              "_validHash": true
-            },
-            {
-              "name": "/DownloadManager.dll",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager-win64.dll",
-              "platform": "Windows-x64",
-              "sha1": "8540C49CF0AE81085034154AAA6A089E05DF419E",
-              "_validHash": true
-            },
-            {
-              "name": "/libDownloadManager.dylib",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager-osx64.dylib",
-              "platform": "OSX-x64",
-              "sha1": "364050E938726F79DF7C1EB9C29B8219B06572A7",
-              "_validHash": true
-            }
-          ],
-          "requiredModules": [
-            {
-              "moduleName": "ffi"
-            },
-            {
-              "moduleName": "requireffi.requireffi",
-              "version": "0.1.2",
-              "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
-            }
-          ]
-        }
-      },
-      "_validHash": true,
-      "_reverseDependency": [
-        "l0.DependencyControl"
-      ],
-      "_feedName": "FFI Experiments",
-      "_feedIdentifier": "2d000a9",
-      "_fetchTime": 1666485926381,
-      "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
-      "_namespace": "DM.DownloadManager"
-    }
-  ],
-  [
-    {
-      "url": "https://github.com/TypesettingTools/ffi-experiments",
-      "author": "torque",
-      "name": "requireffi",
-      "description": "Load C libraries with ease.",
-      "channels": {
-        "release": {
-          "version": "0.1.2",
-          "released": "2016-01-22",
-          "default": true,
-          "fileBaseUrl": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/",
-          "files": [
-            {
-              "name": ".lua",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/requireffi.lua",
-              "sha1": "BCE2865755C90BB48FC49F93C9EAF2DB9DE29095",
-              "_validHash": true
-            }
-          ],
-          "requiredModules": [
-            {
-              "moduleName": "ffi"
-            }
-          ]
-        }
-      },
-      "_validHash": true,
-      "_reverseDependency": [
-        "l0.DependencyControl",
-        "SubInspector.Inspector",
-        "BM.BadMutex",
-        "PT.PreciseTimer",
-        "DM.DownloadManager",
-        "BM.BadMutex",
-        "PT.PreciseTimer",
-        "DM.DownloadManager"
-      ],
-      "_feedName": "FFI Experiments",
-      "_feedIdentifier": "1fe3ac7",
-      "_fetchTime": 1666485926691,
-      "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
-      "_namespace": "requireffi.requireffi"
-    },
-    {
-      "url": "https://github.com/TypesettingTools/ffi-experiments",
-      "author": "torque",
-      "name": "requireffi",
-      "description": "Load C libraries with ease.",
-      "channels": {
-        "release": {
-          "version": "0.1.2",
-          "released": "2016-01-22",
-          "default": true,
-          "fileBaseUrl": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/",
-          "files": [
-            {
-              "name": ".lua",
-              "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/requireffi.lua",
-              "sha1": "BCE2865755C90BB48FC49F93C9EAF2DB9DE29095",
-              "_validHash": true
-            }
-          ],
-          "requiredModules": [
-            {
-              "moduleName": "ffi"
-            }
-          ]
-        }
-      },
-      "_validHash": true,
-      "_reverseDependency": [
-        "l0.DependencyControl",
-        "SubInspector.Inspector",
-        "BM.BadMutex",
-        "PT.PreciseTimer",
-        "DM.DownloadManager",
-        "BM.BadMutex",
-        "PT.PreciseTimer",
-        "DM.DownloadManager"
-      ],
-      "_feedName": "FFI Experiments",
-      "_feedIdentifier": "2d000a9",
-      "_fetchTime": 1666485926381,
-      "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
-      "_namespace": "requireffi.requireffi"
     }
   ],
   [
@@ -2325,6 +2170,7 @@
       },
       "_validHash": true,
       "_reverseDependency": [
+        "Flux.ScaleRotTags",
         "l0.ASSWipe",
         "l0.CascadeTransforms",
         "l0.HighlightSubstring",
@@ -2337,83 +2183,212 @@
         "l0.ShakeIt",
         "l0.SplitLines",
         "l0.VerticalText",
-        "Flux.ScaleRotTags",
         "myaa.Bounce"
       ],
       "_feedName": "ASSFoundation",
       "_feedIdentifier": "92c766d",
-      "_fetchTime": 1666485926358,
+      "_fetchTime": 1666619525239,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json",
       "_namespace": "l0.ASSFoundation"
     }
   ],
   [
     {
-      "url": "https://github.com/TypesettingTools/lyger-Aegisub-Scripts",
-      "author": "lyger",
-      "name": "LibLyger",
-      "description": "Library of commonly used functions across all of lyger's automation scripts.",
-      "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/@{channel}/modules/LibLyger",
+      "url": "https://github.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts#Flux.ScrollHandler",
+      "author": "CoffeeFlux",
+      "name": "ScrollHandler",
+      "description": "Library to store and load scrollbar positions on Windows",
+      "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/@{channel}/modules/Flux.ScrollHandler",
       "channels": {
         "master": {
-          "version": "2.0.3",
-          "released": "2018-04-07",
+          "version": "1.1.0",
+          "released": "2016-03-22",
           "default": true,
+          "platforms": [
+            "Windows-x86",
+            "Windows-x64"
+          ],
           "files": [
             {
               "name": ".moon",
-              "url": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/modules/LibLyger.moon",
-              "sha1": "DC0347D06CB7F85F98EB592870051FE9A119E4F0",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/modules/Flux.ScrollHandler.moon",
+              "sha1": "8D0729EAE5B484C8F5C9057E4D1F296FF050A8DA",
               "_validHash": true
             }
           ],
           "requiredModules": [
             {
-              "moduleName": "aegisub.util"
-            },
-            {
-              "moduleName": "karaskel"
+              "moduleName": "ffi"
             }
           ]
         }
       },
       "changelog": {
-        "2.0.3": [
-          "Fixed some minor issues uncovered by the Moonscript linter."
+        "1.1.0": [
+          "Move platform check to DepCtrl"
         ],
-        "2.0.2": [
-          "Fixed function call in the constructor"
+        "1.0.1": [
+          "Updated to use single quotes"
         ],
-        "2.0.1": [
-          "LibLyger.interpolate() now adds missing tag blocks to line tables (required for Gradient Everything fix)"
-        ],
-        "2.0.0": [
-          "Added DependencyControl",
-          "LibLyger is now a Lua module",
-          "A LibLyger instance now acts as a partial/lightweight wrapper for the subtitle interface to centralize karaskel-related tasks.",
-          "Some shared functions (time_exclude, make_state_table, interpolate and match_splits) were moved into LibLyger."
+        "1.0.0": [
+          "Module creation"
         ]
       },
       "_validHash": true,
       "_reverseDependency": [
-        "lyger.BorderSplit",
-        "lyger.CircleText",
-        "lyger.ClipBlur",
-        "lyger.ClipGrad",
-        "lyger.ClipShifter",
-        "lyger.FbfTransform",
-        "lyger.GradientByChar",
-        "lyger.GradientEverything",
-        "lyger.KaraHelper",
-        "lyger.LuaInterpret",
-        "lyger.ModifyMocha",
-        "lyger.MoveClip"
+        "Flux.JumpScroll"
       ],
-      "_feedName": "lyger's Automation Scripts",
-      "_feedIdentifier": "41828c0",
-      "_fetchTime": 1666485926525,
-      "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
-      "_namespace": "lyger.LibLyger"
+      "_feedName": "CoffeeFlux's Aegisub Scripts",
+      "_feedIdentifier": "b6a37e0",
+      "_fetchTime": 1666619525347,
+      "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
+      "_namespace": "Flux.ScrollHandler"
+    }
+  ],
+  [
+    {
+      "url": "https://github.com/TypesettingTools/DependencyControl#l0.DependencyControl",
+      "author": "line0",
+      "name": "DependencyControl",
+      "description": "Dependency manager and automatic script updater for Aegisub macros and modules.",
+      "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/v@{version}-@{channel}/modules/DependencyControl",
+      "channels": {
+        "alpha": {
+          "version": "0.6.3",
+          "released": "2016-02-06",
+          "default": true,
+          "files": [
+            {
+              "name": ".moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/v0.6.3-alpha/modules/DependencyControl.moon",
+              "sha1": "76C22149258CB1189265A367C1B28046F54F8FB3",
+              "_validHash": true
+            },
+            {
+              "name": "/ConfigHandler.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/v0.6.3-alpha/modules/DependencyControl/ConfigHandler.moon",
+              "sha1": "97BCD3207FE8158261FA7851057464535FCEFBC6",
+              "_validHash": true
+            },
+            {
+              "name": "/FileOps.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/v0.6.3-alpha/modules/DependencyControl/FileOps.moon",
+              "sha1": "D999D34DB93BA76EF0E991CEB1CD63F5CC5F8E68",
+              "_validHash": true
+            },
+            {
+              "name": "/Logger.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/v0.6.3-alpha/modules/DependencyControl/Logger.moon",
+              "sha1": "1E479FE95F0DFBEE8B098302AB589F32D0C40A00",
+              "_validHash": true
+            },
+            {
+              "name": "/UnitTestSuite.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/v0.6.3-alpha/modules/DependencyControl/UnitTestSuite.moon",
+              "sha1": "ADAB6EFB05E08A7828DCA01BC1FC43D6482979A1",
+              "_validHash": true
+            },
+            {
+              "name": "/UpdateFeed.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/v0.6.3-alpha/modules/DependencyControl/UpdateFeed.moon",
+              "sha1": "1EE16D9D551FF82C2D7E448F2CD980E528874108",
+              "_validHash": true
+            },
+            {
+              "name": "/Updater.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/v0.6.3-alpha/modules/DependencyControl/Updater.moon",
+              "sha1": "A4AE061724E68B2EFBB7495A477263E1746E228A",
+              "_validHash": true
+            }
+          ],
+          "requiredModules": [
+            {
+              "moduleName": "requireffi.requireffi",
+              "version": "0.1.1",
+              "feed": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json"
+            },
+            {
+              "moduleName": "DM.DownloadManager",
+              "version": "0.3.1",
+              "feed": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json"
+            },
+            {
+              "moduleName": "BM.BadMutex",
+              "version": "0.1.3",
+              "feed": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json"
+            },
+            {
+              "moduleName": "PT.PreciseTimer",
+              "version": "0.1.5",
+              "feed": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json"
+            }
+          ]
+        }
+      },
+      "changelog": {
+        "0.6.3": [
+          "Fixed a v0.6.2 regression that caused DependencyControl to fail loading the first time after a scheduled self-update."
+        ],
+        "0.6.2": [
+          "An issue was fixed that would cause DepCtrl initializer code in modules previously loaded with regular Lua loading mechanisms to be skipped when requested in a _DependencyControl_- context. This kept the [requireffi](https://github.com/torque/ffi-experiments/tree/master/requireffi) _DependencyControl_ record from being established, preventing any updates from taking place.",
+          "UnitTestSuite: Fixed several broken assertions and related error messages, among them the `assertMatches` and `assertErrorMatches` assertions always returning `true`. Please make sure to rerun your tests after upgrading to confirm your tested actually return values whatever they were supposed to match.",
+          "Updater: Identical or duplicate feeds from different sources (user configuration, feeds and API use) are no longer being checked for updates multiple times.",
+          "Updater / FileOps: Fixed several broken error messages and return values."
+        ],
+        "0.6.1": [
+          "The Updater component now supports the DownloadManager v0.4.0 API changes.",
+          "Updater: A regression introduced in v0.6.0 was fixed that caused update or installation processes to fail when the feed contained deletion records.",
+          "FileOps.mkdir() no longer falsely retuns an error state when a path to an existing file is passed with the `isFile` flag set."
+        ],
+        "0.6.0": [
+          "The UnitTestSuite framework for automatically testing automation scripts and modules has been added.",
+          "Macros can now be registered with custom submenu name.",
+          "Logger:logEx() now takes an additional optional `indent` parameter to specify a custom indentation level.",
+          "FileOps.move() no longer overwrites existing files by default.",
+          "FileOps.mkdir() can now take paths relative to the current working directory as input and returns `true` on success, `false` when the directory already exists or `nil` if the operation failed.",
+          "FileOps.remove() now returns detailed results for every path specified in addition to overall success information.",
+          "FileOps.move() no longer fails to move files across file systems on *nix operating systems and properly cleans up after itself if files could not be overwritten and were renamed instead.",
+          "FileOps: path validation is no longer broken on non-windows systems"
+        ],
+        "0.5.3": [
+          "ConfigHandler: A host of longstanding issues related to config file corruption and concurrent access to config files from multiple DepCtrl-hosting automation scripts have been fixed.",
+          "Error Reports of required modules loaded by DependencyControl now actually provide semi-useful stack traces.",
+          "A bug was fixed that could cause DepCtrl to rerun the __depCtrlInit method on modules even though a prior DependencyControl record had already been initialized.",
+          "The DependencyControl self-update now runs through properly without throwing an error at the end of the process."
+        ],
+        "0.5.2": [
+          "Updates and installations no longer fail when no suitable version of a module marked as an optional dependency can be found.",
+          "ConfigHandlers now recover gracefully when a corrupted config is encountered.",
+          "Fixed a bug that may have caused updates of unmanaged modules to throw an error after completion.",
+          "DependencyControl initialization functions in modules with optional DepCtrl support are now expected to use the predefined name __depCtrlInit. This lifts the unreasonable requirement of having to specify the name of the function in the dependency tables of the loading scripts. By extension, this also fixes errors when trying to update the binary modules required by DependencyControl (such as DownloadManager).",
+          "The Updater now checks for an active internet connection before going ahead with downloading feeds and packages.",
+          "FileOps: added a copy function for files."
+        ],
+        "0.5.1": [
+          "Macros registered using DependencyControl now get passed the previously missing 'active_line' paramter.",
+          "Fixed a bug that would cause an unrelated error to be thrown in place of the real error message when an updated module failed to load."
+        ],
+        "0.5.0": [
+          "DependencyControl does now auto-update itself and its dependencies.",
+          "Provided Sub-Modules (Logger, ConfigHandler, ...) can now easily be accessed as class properties of the main DependencyControl module.",
+          "A bug was fixed that caused macros always being registered with the overall script description, ignoring specific descriptions for the macro menu entries.",
+          "The \\getConfigHandler() method no longer ignores the defaults parameter.",
+          "Fixed a FileOps bug that would cause path validation to fail on paths relative to the working directory.",
+          "ConfigHandler: writes to the configuration table are no longer accidentally routed to the defaults table when a value is updated that only exists in the Defaults.",
+          "ConfigHandler: Looping over the configuration table is now completely transparent wrt which fields are user configuration or defaults.",
+          "ConfigHandler: fixed a bug that prevented a global lock on the config file from being released on certain error conditions.",
+          "The update feed format has been updated to v0.2.0 and introduces a new template variable to reference knownFeeds specifed at the top level."
+        ]
+      },
+      "_validHash": true,
+      "_reverseDependency": [
+        "l0.DependencyControl.Toolbox"
+      ],
+      "_feedName": "DependencyControl",
+      "_feedIdentifier": "7973b7b",
+      "_fetchTime": 1666619525125,
+      "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/master/DependencyControl.json",
+      "_namespace": "l0.DependencyControl"
     }
   ],
   [
@@ -2540,6 +2515,7 @@
       },
       "_validHash": true,
       "_reverseDependency": [
+        "l0.ASSFoundation",
         "l0.ASSWipe",
         "l0.InsertLineBreaks",
         "l0.LerpByChar",
@@ -2547,7 +2523,6 @@
         "l0.Nudge",
         "l0.PasteAiLines",
         "l0.ShakeIt",
-        "l0.ASSFoundation",
         "lyger.FbfTransform",
         "lyger.GradientEverything",
         "myaa.MergeScripts",
@@ -2557,62 +2532,78 @@
       ],
       "_feedName": "Functional",
       "_feedIdentifier": "c5d5896",
-      "_fetchTime": 1666485926695,
+      "_fetchTime": 1666619525454,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Functional/master/DependencyControl.json",
       "_namespace": "l0.Functional"
     }
   ],
   [
     {
-      "url": "https://github.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts#Flux.ScrollHandler",
-      "author": "CoffeeFlux",
-      "name": "ScrollHandler",
-      "description": "Library to store and load scrollbar positions on Windows",
-      "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/@{channel}/modules/Flux.ScrollHandler",
+      "url": "https://github.com/TypesettingTools/lyger-Aegisub-Scripts",
+      "author": "lyger",
+      "name": "LibLyger",
+      "description": "Library of commonly used functions across all of lyger's automation scripts.",
+      "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/@{channel}/modules/LibLyger",
       "channels": {
         "master": {
-          "version": "1.1.0",
-          "released": "2016-03-22",
+          "version": "2.0.3",
+          "released": "2018-04-07",
           "default": true,
-          "platforms": [
-            "Windows-x86",
-            "Windows-x64"
-          ],
           "files": [
             {
               "name": ".moon",
-              "url": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/modules/Flux.ScrollHandler.moon",
-              "sha1": "8D0729EAE5B484C8F5C9057E4D1F296FF050A8DA",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/modules/LibLyger.moon",
+              "sha1": "DC0347D06CB7F85F98EB592870051FE9A119E4F0",
               "_validHash": true
             }
           ],
           "requiredModules": [
             {
-              "moduleName": "ffi"
+              "moduleName": "aegisub.util"
+            },
+            {
+              "moduleName": "karaskel"
             }
           ]
         }
       },
       "changelog": {
-        "1.1.0": [
-          "Move platform check to DepCtrl"
+        "2.0.3": [
+          "Fixed some minor issues uncovered by the Moonscript linter."
         ],
-        "1.0.1": [
-          "Updated to use single quotes"
+        "2.0.2": [
+          "Fixed function call in the constructor"
         ],
-        "1.0.0": [
-          "Module creation"
+        "2.0.1": [
+          "LibLyger.interpolate() now adds missing tag blocks to line tables (required for Gradient Everything fix)"
+        ],
+        "2.0.0": [
+          "Added DependencyControl",
+          "LibLyger is now a Lua module",
+          "A LibLyger instance now acts as a partial/lightweight wrapper for the subtitle interface to centralize karaskel-related tasks.",
+          "Some shared functions (time_exclude, make_state_table, interpolate and match_splits) were moved into LibLyger."
         ]
       },
       "_validHash": true,
       "_reverseDependency": [
-        "Flux.JumpScroll"
+        "lyger.BorderSplit",
+        "lyger.CircleText",
+        "lyger.ClipBlur",
+        "lyger.ClipGrad",
+        "lyger.ClipShifter",
+        "lyger.FbfTransform",
+        "lyger.GradientByChar",
+        "lyger.GradientEverything",
+        "lyger.KaraHelper",
+        "lyger.LuaInterpret",
+        "lyger.ModifyMocha",
+        "lyger.MoveClip"
       ],
-      "_feedName": "CoffeeFlux's Aegisub Scripts",
-      "_feedIdentifier": "b6a37e0",
-      "_fetchTime": 1666485926539,
-      "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
-      "_namespace": "Flux.ScrollHandler"
+      "_feedName": "lyger's Automation Scripts",
+      "_feedIdentifier": "41828c0",
+      "_fetchTime": 1666619525350,
+      "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
+      "_namespace": "lyger.LibLyger"
     }
   ],
   [
@@ -2660,7 +2651,7 @@
       ],
       "_feedName": "Myaamori's Aegisub scripts",
       "_feedIdentifier": "d5b4bc1",
-      "_fetchTime": 1666485926532,
+      "_fetchTime": 1666619525353,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Myaamori-Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "myaa.ASSParser"
     }
@@ -2915,103 +2906,112 @@
       ],
       "_feedName": "Myaamori's Aegisub scripts",
       "_feedIdentifier": "d5b4bc1",
-      "_fetchTime": 1666485926532,
+      "_fetchTime": 1666619525353,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Myaamori-Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "myaa.pl"
     }
   ],
   [
     {
-      "fileBaseUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.easings-v@{version}/modules/petzku/easings",
-      "url": "https://github.com/petzku/Aegisub-Scripts",
-      "author": "petzku",
-      "name": "Easings",
-      "description": "A library of easy-to-use easing functions for transforms",
+      "url": "https://github.com/TypesettingTools/SubInspector",
+      "author": "torque",
+      "name": "SubInspector",
+      "description": "Provides low level inspection and analysis of subtitles post-rasterization.",
       "channels": {
-        "stable": {
-          "version": "0.5.0",
-          "released": "2022-07-23",
+        "release": {
+          "version": "0.7.2",
+          "released": "2018-04-0.6",
           "default": true,
+          "platforms": [
+            "Windows-x86",
+            "Windows-x64",
+            "OSX-x64"
+          ],
+          "fileBaseUrl": "https://github.com/TypesettingTools/SubInspector/releases/download/v0.5.1/",
           "files": [
             {
               "name": ".moon",
-              "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.easings-v0.5.0/modules/petzku/easings.moon",
-              "sha1": "84b5507844e193f9257baf8db3d85ff734048e6f",
-              "_validHash": true
-            }
-          ]
-        }
-      },
-      "changelog": {
-        "0.4.0": [
-          "Add to DependencyControl"
-        ],
-        "0.5.0": [
-          "Expose internals and other convenience functions for direct easer manipulation in `easings.raw`"
-        ]
-      },
-      "_validHash": true,
-      "_reverseDependency": [],
-      "_feedName": "petzku's Automation Scripts",
-      "_feedIdentifier": "7161932",
-      "_fetchTime": 1666485926683,
-      "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
-      "_namespace": "petzku.easings"
-    }
-  ],
-  [
-    {
-      "fileBaseUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v@{version}/modules/petzku/util",
-      "url": "https://github.com/petzku/Aegisub-Scripts",
-      "author": "petzku",
-      "name": "petzkuLib",
-      "description": "Various utility functions for use with petzku's Aegisub macros",
-      "channels": {
-        "stable": {
-          "version": "0.4.0",
-          "released": "2022-09-04",
-          "default": true,
-          "files": [
-            {
-              "name": ".moon",
-              "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.4.0/modules/petzku/util.moon",
-              "sha1": "3def7b96613ce775e9e7debec3ca9804f3710c68",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/SubInspector/c2db2971c9f959b6dcd84ea8438eef8e5702f400/examples/Aegisub/Inspector.moon",
+              "sha1": "112009C60FFF28FD56B47AE51F562E306272AFF6",
               "_validHash": true
             },
             {
-              "name": "/tee.exe",
-              "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.4.0/modules/petzku/util/tee.exe",
-              "platform": "Windows-x64",
-              "sha1": "054c04d341152311d40aaab4049e6c2c26646b3a",
+              "name": "/SubInspector.dll",
+              "url": "https://github.com/TypesettingTools/SubInspector/releases/download/v0.5.1/SubInspector-win32.dll",
+              "platform": "Windows-x86",
+              "sha1": "E9A75D53FFE6DD5DBE35451B2DEA336AD2104C66",
               "_validHash": true
+            },
+            {
+              "name": "/SubInspector.dll",
+              "url": "https://github.com/TypesettingTools/SubInspector/releases/download/v0.5.1/SubInspector-win64.dll",
+              "platform": "Windows-x64",
+              "sha1": "719A281B1FCDF73EF058FF210CBC3674CB1A6831",
+              "_validHash": true
+            },
+            {
+              "name": "/libSubInspector.dylib",
+              "url": "https://github.com/TypesettingTools/SubInspector/releases/download/v0.5.2/libSubInspector.dylib",
+              "platform": "OSX-x64",
+              "sha1": "CE34B98F880FD7BB0DD6BDDCDC6484C7781EEF71",
+              "_validHash": true
+            }
+          ],
+          "requiredModules": [
+            {
+              "moduleName": "ffi"
+            },
+            {
+              "moduleName": "requireffi.requireffi",
+              "version": "0.1.2",
+              "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
             }
           ]
         }
       },
       "changelog": {
-        "0.2.0": [
-          "Add IO functionality",
-          "Add to DependencyControl"
+        "0.7.2": [
+          "Fix Inspector.moon C library version compatibility check in some cases."
         ],
-        "0.3.0": [
-          "Add \\t, \\move, \\fad retiming"
+        "0.7.1": [
+          "Fix Inspector.moon log function invocation."
+        ],
+        "0.7.0": [
+          "Fix Inspector.moon for libass with DirectWrite. No more XP support."
+        ],
+        "0.6.1": [
+          "Improve hash reliability as a measure of visual sameness."
+        ],
+        "0.6.0": [
+          "Rebrand as SubInspector."
+        ],
+        "0.5.1": [
+          "Fix bounds calculation in weird cases."
+        ],
+        "0.5.0": [
+          "DependencyControl integration."
         ],
         "0.4.0": [
-          "Upgrade run_cmd in a way that handles stderr"
+          "Added solid field to ASSI_Rect."
+        ],
+        "0.3.1": [
+          "Fixed hash reliability by not hashing junk memory."
+        ],
+        "0.3.0": [
+          "All inputs are hashed (CRC32) to provide a measure of uniqueness."
         ]
       },
       "_validHash": true,
       "_reverseDependency": [
-        "petzku.EncodeClip",
-        "petzku.SplitTimer",
-        "petzku.Typewriter",
-        "zah.aegi-color-track"
+        "l0.ASSFoundation",
+        "l0.ASSWipe",
+        "lyger.GradientEverything"
       ],
-      "_feedName": "petzku's Automation Scripts",
-      "_feedIdentifier": "7161932",
-      "_fetchTime": 1666485926683,
-      "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
-      "_namespace": "petzku.util"
+      "_feedName": "SubInspector",
+      "_feedIdentifier": "881e0ee",
+      "_fetchTime": 1666619525345,
+      "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/SubInspector/master/DependencyControl.json",
+      "_namespace": "SubInspector.Inspector"
     }
   ]
 ]

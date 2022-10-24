@@ -959,6 +959,7 @@
     },
     "_validHash": true,
     "_reverseDependency": [
+      "Flux.ScaleRotTags",
       "l0.ASSWipe",
       "l0.CascadeTransforms",
       "l0.HighlightSubstring",
@@ -971,12 +972,11 @@
       "l0.ShakeIt",
       "l0.SplitLines",
       "l0.VerticalText",
-      "Flux.ScaleRotTags",
       "myaa.Bounce"
     ],
     "_feedName": "ASSFoundation",
     "_feedIdentifier": "92c766d",
-    "_fetchTime": 1666485926358,
+    "_fetchTime": 1666619525239,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json",
     "_namespace": "l0.ASSFoundation"
   }
