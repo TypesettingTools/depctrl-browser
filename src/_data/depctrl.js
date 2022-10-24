@@ -248,8 +248,13 @@ function fillTemplateVar(data, repDict = {}, parentKey = "", depth = 0) {
   return data;
 }
 
+const sortFeeds = (feeds) => {
+  return feeds.sort((a, b) => a["_sourceUrl"].localeCompare(b["_sourceUrl"]));
+}
+
 // store data locally to not compute feeds multiple times
 const data = fetchAllFeeds(seedFeed)
+  .then(sortFeeds)
   .then(fillTemplateVar)
   .then(checkFileIntegrity)
   .then(extractScriptData)
