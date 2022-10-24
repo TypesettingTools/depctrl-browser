@@ -36,7 +36,7 @@ jobs:
         with:
           publish_dir: ./_site
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          commit_message: "Rebuild on Push"
+          commit_message: "Rebuild on push"
 
       - name: Scheduled Deploy
         if: ${{ github.event_name == 'schedule' }}
@@ -44,7 +44,7 @@ jobs:
         with:
           publish_dir: ./_site
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          commit_message: "Scheduled Rebuild"
+          commit_message: "Scheduled rebuild"
 
       - name: Triggered Deploy
         if: ${{ github.event_name == 'repository_dispatch' }}
@@ -52,4 +52,4 @@ jobs:
         with:
           publish_dir: ./_site
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          commit_message: "Triggered Rebuild: ${{ github.event.client_payload.reason }}"
+          commit_message: "Triggered rebuild: ${{ github.event.client_payload.reason }}"
