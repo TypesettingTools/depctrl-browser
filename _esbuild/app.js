@@ -660,7 +660,25 @@ document.addEventListener('click', function(event) {
       }
     );
     
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ua.Cycles/",
+        name: "Cycles",
+        description: "Cycles blur, border, shadow, alpha, etc.",
+      }
+    );
+    
   
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ua.iBus/",
+        name: "iBus",
+        description: "Italy Bold Under Strike",
+      }
+    );
     
     index.add(
       {
@@ -682,7 +700,25 @@ document.addEventListener('click', function(event) {
       }
     );
     
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ua.LineBreaker/",
+        name: "Line Breaker",
+        description: "insert/shift linebreaks",
+      }
+    );
+    
   
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ua.JoinSplitSnap/",
+        name: "Join / Split / Snap",
+        description: "Joins lines / splits lines / snaps to keyframes",
+      }
+    );
     
     index.add(
       {
@@ -704,7 +740,25 @@ document.addEventListener('click', function(event) {
       }
     );
     
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ua.JumpToNext/",
+        name: "Jump to Next",
+        description: "Jumps to next 'sign' in the subtitle grid",
+      }
+    );
+    
   
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ua.ScriptCleanup/",
+        name: "Script Cleanup",
+        description: "Removes selected stuff from script",
+      }
+    );
     
     index.add(
       {
@@ -726,7 +780,25 @@ document.addEventListener('click', function(event) {
       }
     );
     
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ua.BlurAndGlow/",
+        name: "Blur and Glow",
+        description: "Adds blur and/or glow to signs",
+      }
+    );
+    
   
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ua.HYDRA/",
+        name: "HYDRA",
+        description: "A multi-headed typesetting tool",
+      }
+    );
     
     index.add(
       {
@@ -748,7 +820,25 @@ document.addEventListener('click', function(event) {
       }
     );
     
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ua.Relocator/",
+        name: "Hyperdimensional Relocator",
+        description: "Advanced metamorphosis of multidimensional coordinates",
+      }
+    );
+    
   
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ua.Recalculator/",
+        name: "Recalculator",
+        description: "recalculates things",
+      }
+    );
     
     index.add(
       {
@@ -770,7 +860,25 @@ document.addEventListener('click', function(event) {
       }
     );
     
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ua.Colorize/",
+        name: "Colourise",
+        description: "Does things with colours",
+      }
+    );
+    
   
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ua.Selectrix/",
+        name: "Selectricks",
+        description: "Selectricks and Sortricks",
+      }
+    );
     
     index.add(
       {
@@ -792,7 +900,25 @@ document.addEventListener('click', function(event) {
       }
     );
     
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ua.ChangeCase/",
+        name: "Change Case",
+        description: "Capitalises text or makes it lowercase / uppercase",
+      }
+    );
+    
   
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ua.MultiLineEditor/",
+        name: "Multi-Line Editor",
+        description: "Multi-Line Editor",
+      }
+    );
     
     index.add(
       {
@@ -814,7 +940,25 @@ document.addEventListener('click', function(event) {
       }
     );
     
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ua.MultiCopy/",
+        name: "MultiCopy",
+        description: "Copy and paste just about anything from/to multiple lines",
+      }
+    );
+    
   
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ua.FadeWorks/",
+        name: "FadeWorkS",
+        description: "Works with Fades",
+      }
+    );
     
     index.add(
       {
@@ -836,7 +980,25 @@ document.addEventListener('click', function(event) {
       }
     );
     
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ua.Significance/",
+        name: "Significance",
+        description: "Import stuff, number stuff, chapter stuff, replace stuff, do a significant amount of other stuff to stuff.",
+      }
+    );
+    
   
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ua.ShiftCut/",
+        name: "ShiftCut",
+        description: "Time Machine.",
+      }
+    );
     
     index.add(
       {
@@ -858,7 +1020,25 @@ document.addEventListener('click', function(event) {
       }
     );
     
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ua.TimeSigns/",
+        name: "Time Signs",
+        description: "Rough-times signs from TS timecodes",
+      }
+    );
+    
   
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ua.Masquerade/",
+        name: "Masquerades as a useful script",
+        description: "Masquerade",
+      }
+    );
     
     index.add(
       {
@@ -880,7 +1060,25 @@ document.addEventListener('click', function(event) {
       }
     );
     
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ua.NecrosCopy/",
+        name: "NecrosCopy",
+        description: "Copy and Fax Things. Occasionally perform a necroscopy.",
+      }
+    );
+    
   
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ua.EncodeHardsub/",
+        name: "Encode - Hardsub",
+        description: "Encode a clip with or without hardsubs",
+      }
+    );
     
     index.add(
       {
@@ -902,7 +1100,25 @@ document.addEventListener('click', function(event) {
       }
     );
     
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ua.Multiplexer/",
+        name: "Multiplexer",
+        description: "Muxes stuff using mkvmerge",
+      }
+    );
+    
   
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ua.QC/",
+        name: "Quality Check",
+        description: "Checks your shitty script and tells you how bad it is",
+      }
+    );
     
     index.add(
       {
@@ -1394,6 +1610,15 @@ document.addEventListener('click', function(event) {
     {
       id: i++,
       href: "/depctrl-browser/feeds/720a751/",
+      name: "unanimated's Automation Scripts",
+      description: "Secondary repository for most of unanimated's automation scripts.",
+    }
+  );
+  
+  index.add(
+    {
+      id: i++,
+      href: "/depctrl-browser/feeds/827532f/",
       name: "unanimated's Automation Scripts",
       description: "Secondary repository for most of unanimated's automation scripts.",
     }

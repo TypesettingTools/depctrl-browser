@@ -38,8 +38,51 @@
     },
     "_feedName": "unanimated's Automation Scripts",
     "_feedIdentifier": "720a751",
-    "_fetchTime": 1667694915515,
+    "_fetchTime": 1667709053535,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
+    "_namespace": "ua.ChangeCase"
+  },
+  {
+    "url": "https://github.com/unanimated/luaegisub#ua.ChangeCase",
+    "author": "unanimated",
+    "name": "Change Case",
+    "description": "Capitalises text or makes it lowercase / uppercase",
+    "channels": {
+      "master": {
+        "version": "3.0.0",
+        "released": "2015-06-01",
+        "default": true,
+        "files": [
+          {
+            "name": ".lua",
+            "url": "https://raw.githubusercontent.com/unanimated/luaegisub/master/ua.ChangeCase.lua",
+            "sha1": "6f429be4c75ea4fa6f49481ba99a9eef437d2db7",
+            "_validHash": true
+          }
+        ]
+      }
+    },
+    "changelog": {
+      "3.0.0": [
+        "improved; added options; unicode support; added DespondencyControl"
+      ]
+    },
+    "_validHash": true,
+    "_defaultVersion": "3.0.0",
+    "_scriptData": {
+      "name": "Change Case",
+      "description": "Capitalises text or makes it lowercase / uppercase",
+      "author": "unanimated",
+      "version": null,
+      "namespace": "ua.ChangeCase",
+      "_feedData": {
+        "feed": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json"
+      }
+    },
+    "_feedName": "unanimated's Automation Scripts",
+    "_feedIdentifier": "827532f",
+    "_fetchTime": 1667709054136,
+    "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
     "_namespace": "ua.ChangeCase"
   }
 ]
