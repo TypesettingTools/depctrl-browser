@@ -7,14 +7,14 @@
     "description": "Automatically set/unset \\q2 on lines with/without manual linebreaks",
     "channels": {
       "stable": {
-        "version": "0.4.0",
+        "version": "0.5.0",
         "released": "2022-11-12",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/macros/petzku.Autowrapper.moon",
-            "sha1": "20a38ecef861d134a6da09e48c3af04a58713974",
+            "sha1": "7ad3e14a87b3409f8693f2d866393106be6df4d2",
             "_validHash": true
           }
         ]
@@ -28,27 +28,32 @@
         "Give information in output log"
       ],
       "0.3.0": [
-        "Add options to not add/remove tags in lines",
+        "Add options to not add/remove tags in lines (except they apparently did nothing, whoops)",
         "Fix error in removed \\q2 calculation"
       ],
       "0.4.0": [
         "Take into account in-line margins",
         "Improve descriptions of macros"
+      ],
+      "0.5.0": [
+        "Add options to not add/remove tags in lines (for real this time)",
+        "Add three-liner checking",
+        "Skip normal checks on \\q2 lines, instead just warn of potential overwidth"
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "0.4.0",
+    "_defaultVersion": "0.5.0",
     "_scriptData": {
       "name": "Autowrapper",
       "description": "Automatically set/unset \\q2 on lines with/without manual linebreaks",
       "author": "petzku",
-      "version": "0.4.0",
+      "version": "0.5.0",
       "namespace": "petzku.Autowrapper",
       "_feedData": null
     },
     "_feedName": "petzku's Automation Scripts",
     "_feedIdentifier": "7161932",
-    "_fetchTime": 1668211897638,
+    "_fetchTime": 1668217562049,
     "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "petzku.Autowrapper"
   }
