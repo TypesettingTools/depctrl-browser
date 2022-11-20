@@ -42,8 +42,8 @@ document.addEventListener('click', function(event) {
       {
         id: i++,
         href: "{{ ["/macros/" , macro._namespace, "/"] | join | url }}",
-        name: "{{ macro.name | safe }}",
-        description: "{{ macro.description | safe }}",
+        name: {{ macro.name | dump | safe}},
+        description: {{ macro.description | dump | safe }},
       }
     );
     {% endfor %}
@@ -55,8 +55,8 @@ document.addEventListener('click', function(event) {
       {
         id: i++,
         href: "{{ ["/modules/" , module._namespace, "/"] | join | url }}",
-        name: "{{ module.name | safe }}",
-        description: "{{ module.description | safe }}",
+        name: {{ module.name | dump | safe }},
+        description: {{ module.description | dump | safe }},
       }
     );
     {% endfor %}
@@ -67,8 +67,8 @@ document.addEventListener('click', function(event) {
     {
       id: i++,
       href: "{{ ["/feeds/" , feed._identifier, "/"] | join | url }}",
-      name: "{{ feed.name | safe }}",
-      description: "{{ feed.description | safe }}",
+      name: {{ feed.name | dump | safe }},
+      description: {{ feed.description | dump | safe }},
     }
   );
   {% endfor %}
