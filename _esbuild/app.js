@@ -51,7 +51,7 @@ document.addEventListener('click', function(event) {
         id: i++,
         href: "/depctrl-browser/macros/petzku.Autowrapper/",
         name: "Autowrapper",
-        description: "Automatically set/unset \q2 on lines with/without manual linebreaks",
+        description: "Automatically set/unset \\q2 on lines with/without manual linebreaks",
       }
     );
     
@@ -95,7 +95,7 @@ document.addEventListener('click', function(event) {
         id: i++,
         href: "/depctrl-browser/macros/petzku.ExtrapolateMove/",
         name: "Extrapolate Move",
-        description: "Extrapolates a \move tag to the line's full duration",
+        description: "Extrapolates a \\move tag to the line's full duration",
       }
     );
     
@@ -128,7 +128,7 @@ document.addEventListener('click', function(event) {
         id: i++,
         href: "/depctrl-browser/macros/petzku.PosToMargin/",
         name: "Margin Position",
-        description: "Transforms \pos-based positioning into margin and vice versa",
+        description: "Transforms \\pos-based positioning into margin and vice versa",
       }
     );
     
@@ -359,7 +359,7 @@ document.addEventListener('click', function(event) {
         id: i++,
         href: "/depctrl-browser/macros/l0.MoveAlongPath/",
         name: "Move Along Path",
-        description: "Moves text along a path specified in a \clip. Currently only works on fbf lines.",
+        description: "Moves text along a path specified in a \\clip. Currently only works on fbf lines.",
       }
     );
     
