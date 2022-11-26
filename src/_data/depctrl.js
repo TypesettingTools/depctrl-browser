@@ -9,6 +9,11 @@ const seedFeed = "https://raw.githubusercontent.com/TypesettingTools/DependencyC
 var procesesed = [];
 
 const limitedWebRequest = async (url, type) => {
+  // Limit to  web url
+  if (!url.toLowerCase().startsWith("http://") && !url.toLowerCase().startsWith("https://")) {
+    return Promise.reject(new Error("Only http and https urls are allowed"));
+  }
+
   return limit((url, type) => EleventyFetch(url, {
     duration: "1d",
     type: type
