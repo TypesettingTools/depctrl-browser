@@ -228,7 +228,7 @@ function fillTemplateVar(data, repDict = {}, parentKey = "", depth = 0) {
   }
 
   // Collect "Rolling" Variables
-  if ("fileBaseUrl" in data) {
+  if ("fileBaseUrl" in data && [1, 3, 5, 7].includes(depth)) {
     // Create repDict entry if not already existant
     repDict["fileBaseUrl"] = repDict["fileBaseUrl"] || "";
     // Do template replacement on fileBaseUrl
