@@ -21,7 +21,7 @@ Feed is invalid!
 {% endif %}
 {% if feed._defective %}
 <div class="alert alert-warning" role="alert">
-Feed may not be JSON compliant due to {{ feed._defective }}
+Feed may not be valid due to: {{ feed._defective }}
 </div>
 {% endif %}
 
