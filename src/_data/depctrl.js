@@ -19,15 +19,24 @@ const limitedWebRequest = async (url, type) => {
 const checkFileIntegrity = async (feeds) => {
   for (var feed of feeds) {
     var feedHashesValid = true;
-    for (var automation of Object.values({ ...feed.macros, ...feed.modules })) {
+    feed.macros = feed.macros || {};
+    feed.modules = feed.modules || {};
+    for (var [automationID, automation] of Object.entries({ ...feed.macros, ...feed.modules })) {
       var automationHashesValid = true;
+      if (automation.channels === undefined) {
+        console.error("No channels found for automation " + automationID + " in feed " + feed["_sourceUrl"]);
+        delete feed.macros[automationID];
+        delete feed.modules[automationID];
+        feed["_defective"] = "Invalid automation present";
+        continue;
+      }
       for (var channel of Object.values(automation.channels)) {
         for (var file of channel.files) {
           if (!file.delete) {
             await limitedWebRequest(file.url, "buffer")
               .then((fileResponse) => crypto.createHash('sha1').update(fileResponse).digest('hex'))
               .catch((error) => {
-                console.log(error);
+                console.error(error);
                 return "";
               })
               .then((fileHash) => {
