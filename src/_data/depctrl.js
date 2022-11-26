@@ -42,6 +42,7 @@ const checkFileIntegrity = async (feeds) => {
               .then((fileResponse) => crypto.createHash('sha1').update(fileResponse).digest('hex'))
               .catch((error) => {
                 console.error(error);
+                feed["_defective"] = "Some files unreachable";
                 return "";
               })
               .then((fileHash) => {
@@ -115,7 +116,7 @@ const extractScriptData = async (feeds) => {
 
       var url = urls[0];
       if (url.endsWith(".lua") || url.endsWith(".moon")) {
-        var script = (await limitedWebRequest(url, "buffer")).toString();
+        var script = (await limitedWebRequest(url, "buffer").catch((e) => "")).toString();
         var scriptData = {
           "name": extractProperty(script, "script_name"),
           "description": extractProperty(script, "script_description"),
