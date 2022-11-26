@@ -167,7 +167,7 @@ const fetchFeed = (url) => {
         feedResponse = feedResponse.replace(/^\uFEFF/g, "");
         var defective = "UTF-8 BOM"
       }
-
+      var feedJson;
       try {
         feedJson = JSON.parse(feedResponse);
       } catch (error) {
