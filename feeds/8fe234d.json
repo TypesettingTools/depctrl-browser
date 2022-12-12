@@ -50,7 +50,7 @@
       },
       "_feedName": "PhosCity's Aegisub Scripts",
       "_feedIdentifier": "8fe234d",
-      "_fetchTime": 1670718761520,
+      "_fetchTime": 1670840447365,
       "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "phos.wave"
     },
@@ -104,7 +104,7 @@
       },
       "_feedName": "PhosCity's Aegisub Scripts",
       "_feedIdentifier": "8fe234d",
-      "_fetchTime": 1670718761520,
+      "_fetchTime": 1670840447365,
       "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "phos.wobble"
     },
@@ -147,7 +147,7 @@
       },
       "_feedName": "PhosCity's Aegisub Scripts",
       "_feedIdentifier": "8fe234d",
-      "_fetchTime": 1670718761520,
+      "_fetchTime": 1670840447365,
       "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "phos.snap"
     },
@@ -190,14 +190,57 @@
       },
       "_feedName": "PhosCity's Aegisub Scripts",
       "_feedIdentifier": "8fe234d",
-      "_fetchTime": 1670718761520,
+      "_fetchTime": 1670840447365,
       "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "phos.svg2ass"
+    },
+    "phos.changeAlignment": {
+      "url": "https://github.com/PhosCity/Aegisub-Scripts#phos.changeAlignment",
+      "author": "PhosCity",
+      "name": "Change Alignment",
+      "description": "Change alignment of line without changing it's appearance.",
+      "channels": {
+        "main": {
+          "version": "1.0.0",
+          "released": "2022-12-12",
+          "default": true,
+          "files": [
+            {
+              "name": ".moon",
+              "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.changeAlignment.moon",
+              "sha1": "f938262c54f248a26237dfdc3f8ee5b58801fdc7",
+              "_validHash": true
+            }
+          ]
+        }
+      },
+      "changelog": {
+        "1.0.0": [
+          "Initial Release"
+        ]
+      },
+      "_validHash": true,
+      "_defaultVersion": "1.0.0",
+      "_scriptData": {
+        "name": "Change Alignment",
+        "description": "Change alignment of line without changing it's appearance.",
+        "author": "PhosCity",
+        "version": "1.0.0",
+        "namespace": "phos.changeAlignment",
+        "_feedData": {
+          "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
+        }
+      },
+      "_feedName": "PhosCity's Aegisub Scripts",
+      "_feedIdentifier": "8fe234d",
+      "_fetchTime": 1670840447365,
+      "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
+      "_namespace": "phos.changeAlignment"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "8fe234d",
-  "_fetchTime": 1670718761520,
+  "_fetchTime": 1670840447365,
   "modules": {},
   "_validHash": true
 }
