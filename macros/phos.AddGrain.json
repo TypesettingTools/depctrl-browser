@@ -1,19 +1,19 @@
 [
   {
-    "url": "https://github.com/PhosCity/Aegisub-Scripts#phos.changeAlignment",
+    "url": "https://github.com/PhosCity/Aegisub-Scripts#phos.AddGrain",
     "author": "PhosCity",
-    "name": "Change Alignment",
-    "description": "Change alignment of line without changing it's appearance.",
+    "name": "Add Grain",
+    "description": "Add static and dynamic grain",
     "channels": {
       "main": {
-        "version": "1.0.2",
-        "released": "2022-12-12",
+        "version": "1.0.0",
+        "released": "2022-12-18",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.changeAlignment.moon",
-            "sha1": "de4cf16aa9ee53bc799aabc4b6edefb021e751d4",
+            "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.AddGrain.moon",
+            "sha1": "39a9a0a17d56f9ea5c735d0dbff79d684db585d8",
             "_validHash": true
           }
         ],
@@ -26,11 +26,21 @@
             "feed": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json"
           },
           {
+            "moduleName": "a-mo.Line",
+            "name": "Aegisub-Motion (Line)",
+            "url": "https://github.com/TypesettingTools/Aegisub-Motion",
+            "version": "1.5.3",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json"
+          },
+          {
             "moduleName": "l0.ASSFoundation",
             "name": "ASSFoundation",
             "url": "https://github.com/TypesettingTools/ASSFoundation",
             "version": "0.5.0",
             "feed": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json"
+          },
+          {
+            "moduleName": "Yutils"
           }
         ]
       }
@@ -41,13 +51,13 @@
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "1.0.2",
+    "_defaultVersion": "1.0.0",
     "_scriptData": {
-      "name": "Change Alignment",
-      "description": "Change alignment of line without changing it's appearance.",
+      "name": "Add Grain",
+      "description": "Add static and dynamic grain",
       "author": "PhosCity",
-      "version": "1.0.2",
-      "namespace": "phos.changeAlignment",
+      "version": "1.0.0",
+      "namespace": "phos.AddGrain",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
       }
@@ -56,6 +66,6 @@
     "_feedIdentifier": "8fe234d",
     "_fetchTime": 1671332459916,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
-    "_namespace": "phos.changeAlignment"
+    "_namespace": "phos.AddGrain"
   }
 ]
