@@ -158,14 +158,14 @@
       ],
       "_feedName": "Functional",
       "_feedIdentifier": "c5d5896",
-      "_fetchTime": 1671332780776,
+      "_fetchTime": 1671359746452,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Functional/master/DependencyControl.json",
       "_namespace": "l0.Functional"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Functional/master/DependencyControl.json",
   "_identifier": "c5d5896",
-  "_fetchTime": 1671332780776,
+  "_fetchTime": 1671359746452,
   "macros": {},
   "_validHash": true
 }
