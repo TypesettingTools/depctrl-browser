@@ -6,14 +6,14 @@
     "description": "Make the string wavy",
     "channels": {
       "main": {
-        "version": "1.0.2",
-        "released": "2022-04-24",
+        "version": "1.0.3",
+        "released": "2022-12-28",
         "default": true,
         "files": [
           {
             "name": ".lua",
             "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.wave.lua",
-            "sha1": "15a87a9baa628e21ee8a8c99e2263f7c20741f14",
+            "sha1": "13f3e0ad8d0c073eaac5f7218231aaa676245421",
             "_validHash": true
           }
         ]
@@ -25,12 +25,12 @@
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "1.0.2",
+    "_defaultVersion": "1.0.3",
     "_scriptData": {
       "name": "Wave",
       "description": "Make the string wavy",
       "author": "PhosCity",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "namespace": "phos.wave",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
@@ -38,7 +38,7 @@
     },
     "_feedName": "PhosCity's Aegisub Scripts",
     "_feedIdentifier": "8fe234d",
-    "_fetchTime": 1671928228998,
+    "_fetchTime": 1672231285964,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "phos.wave"
   }
