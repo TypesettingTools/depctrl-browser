@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts#zf.line2fbf",
+    "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/@{channel}/macros/zf.line2fbf",
+    "channels": {
+      "main": {
+        "default": true,
+        "version": "1.1.2",
+        "released": "2022-12-30",
+        "files": [
+          {
+            "name": ".moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/macros/zf.line2fbf.moon",
+            "sha1": "cec7c9299ea15ab34d3db7482b585ff6651cbc6b",
+            "_validHash": true
+          }
+        ],
+        "requiredModules": [
+          {
+            "moduleName": "ZF.main",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
+            "version": "2.2.0"
+          }
+        ]
+      }
+    },
+    "changelog": {
+      "1.1.1": [
+        "Initial depctrl release"
+      ],
+      "1.1.2": [
+        "Fixed depctrl registration"
+      ]
+    },
+    "name": "Line To FBF",
+    "description": "Splits the line frame by frame interpolating all transformations present in it",
+    "author": "Zeref",
+    "_validHash": true,
+    "_defaultVersion": "1.1.2",
+    "_scriptData": {
+      "name": "Line To FBF",
+      "description": "Splits the line frame by frame interpolating all transformations present in it",
+      "author": "Zeref",
+      "version": "1.1.2",
+      "namespace": "zf.line2fbf",
+      "_feedData": {
+        "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json"
+      }
+    },
+    "_feedName": "zeref-aegisub-scripts",
+    "_feedIdentifier": "fbbbec7",
+    "_fetchTime": 1672506675027,
+    "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
+    "_namespace": "zf.line2fbf"
+  }
+]

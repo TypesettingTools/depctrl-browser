@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts#zf.everythingShape",
+    "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/@{channel}/macros/zf.everythingShape",
+    "channels": {
+      "main": {
+        "default": true,
+        "version": "1.5.4",
+        "released": "2022-12-30",
+        "files": [
+          {
+            "name": ".moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/macros/zf.everythingShape.moon",
+            "sha1": "1f77e2f18b67ced9b65fd8c02d7ee6cc3d82a18b",
+            "_validHash": true
+          }
+        ],
+        "requiredModules": [
+          {
+            "moduleName": "ZF.main",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
+            "version": "2.2.0"
+          }
+        ]
+      }
+    },
+    "changelog": {
+      "1.5.3": [
+        "Initial depctrl release"
+      ],
+      "1.5.4": [
+        "Fixed depctrl registration"
+      ]
+    },
+    "name": "Everything Shape",
+    "description": "Do \"everything\" you need for a shape!",
+    "author": "Zeref",
+    "_validHash": true,
+    "_defaultVersion": "1.5.4",
+    "_scriptData": {
+      "name": "Everything Shape",
+      "description": "Do \\",
+      "author": "Zeref",
+      "version": "1.5.4",
+      "namespace": "zf.everythingShape",
+      "_feedData": {
+        "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json"
+      }
+    },
+    "_feedName": "zeref-aegisub-scripts",
+    "_feedIdentifier": "fbbbec7",
+    "_fetchTime": 1672506675027,
+    "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
+    "_namespace": "zf.everythingShape"
+  }
+]

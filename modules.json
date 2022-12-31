@@ -33,7 +33,7 @@
       "_reverseDependency": [],
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1672231285932,
+      "_fetchTime": 1672506674922,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.easings"
     }
@@ -88,7 +88,7 @@
       ],
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1672231285932,
+      "_fetchTime": 1672506674922,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.util"
     }
@@ -161,7 +161,7 @@
       ],
       "_feedName": "FFI Experiments",
       "_feedIdentifier": "2d000a9",
-      "_fetchTime": 1672231285755,
+      "_fetchTime": 1672506674816,
       "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
       "_namespace": "BM.BadMutex"
     },
@@ -232,7 +232,7 @@
       ],
       "_feedName": "FFI Experiments",
       "_feedIdentifier": "1fe3ac7",
-      "_fetchTime": 1672231285993,
+      "_fetchTime": 1672506674994,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
       "_namespace": "BM.BadMutex"
     }
@@ -305,7 +305,7 @@
       ],
       "_feedName": "FFI Experiments",
       "_feedIdentifier": "2d000a9",
-      "_fetchTime": 1672231285755,
+      "_fetchTime": 1672506674816,
       "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
       "_namespace": "PT.PreciseTimer"
     },
@@ -376,7 +376,7 @@
       ],
       "_feedName": "FFI Experiments",
       "_feedIdentifier": "1fe3ac7",
-      "_fetchTime": 1672231285993,
+      "_fetchTime": 1672506674994,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
       "_namespace": "PT.PreciseTimer"
     }
@@ -449,7 +449,7 @@
       ],
       "_feedName": "FFI Experiments",
       "_feedIdentifier": "2d000a9",
-      "_fetchTime": 1672231285755,
+      "_fetchTime": 1672506674816,
       "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
       "_namespace": "DM.DownloadManager"
     },
@@ -520,7 +520,7 @@
       ],
       "_feedName": "FFI Experiments",
       "_feedIdentifier": "1fe3ac7",
-      "_fetchTime": 1672231285993,
+      "_fetchTime": 1672506674994,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
       "_namespace": "DM.DownloadManager"
     }
@@ -561,11 +561,15 @@
         "BM.BadMutex",
         "PT.PreciseTimer",
         "DM.DownloadManager",
-        "SubInspector.Inspector"
+        "SubInspector.Inspector",
+        "zgiflib.giflib",
+        "zlodepng.lodepng",
+        "zpolyclipping.polyclipping",
+        "zturbojpeg.turbojpeg"
       ],
       "_feedName": "FFI Experiments",
       "_feedIdentifier": "2d000a9",
-      "_fetchTime": 1672231285755,
+      "_fetchTime": 1672506674816,
       "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
       "_namespace": "requireffi.requireffi"
     },
@@ -604,11 +608,15 @@
         "BM.BadMutex",
         "PT.PreciseTimer",
         "DM.DownloadManager",
-        "SubInspector.Inspector"
+        "SubInspector.Inspector",
+        "zgiflib.giflib",
+        "zlodepng.lodepng",
+        "zpolyclipping.polyclipping",
+        "zturbojpeg.turbojpeg"
       ],
       "_feedName": "FFI Experiments",
       "_feedIdentifier": "1fe3ac7",
-      "_fetchTime": 1672231285993,
+      "_fetchTime": 1672506674994,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
       "_namespace": "requireffi.requireffi"
     }
@@ -656,7 +664,7 @@
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1672231285855,
+      "_fetchTime": 1672506674813,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.ConfigHandler"
     }
@@ -694,7 +702,7 @@
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1672231285855,
+      "_fetchTime": 1672506674813,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.DataHandler"
     }
@@ -742,7 +750,7 @@
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1672231285855,
+      "_fetchTime": 1672506674813,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.DataWrapper"
     }
@@ -801,7 +809,7 @@
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1672231285855,
+      "_fetchTime": 1672506674813,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.Line"
     }
@@ -861,7 +869,7 @@
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1672231285855,
+      "_fetchTime": 1672506674813,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.LineCollection"
     }
@@ -904,7 +912,7 @@
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1672231285855,
+      "_fetchTime": 1672506674813,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.Log"
     }
@@ -937,7 +945,7 @@
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1672231285855,
+      "_fetchTime": 1672506674813,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.Math"
     }
@@ -1000,7 +1008,7 @@
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1672231285855,
+      "_fetchTime": 1672506674813,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.MotionHandler"
     }
@@ -1038,7 +1046,7 @@
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1672231285855,
+      "_fetchTime": 1672506674813,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.ShakeShapeHandler"
     }
@@ -1079,7 +1087,7 @@
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1672231285855,
+      "_fetchTime": 1672506674813,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.Statistics"
     }
@@ -1124,7 +1132,7 @@
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1672231285855,
+      "_fetchTime": 1672506674813,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.Tags"
     }
@@ -1169,7 +1177,7 @@
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1672231285855,
+      "_fetchTime": 1672506674813,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.Transform"
     }
@@ -1207,9 +1215,128 @@
       ],
       "_feedName": "Aegisub-Motion",
       "_feedIdentifier": "4152f8d",
-      "_fetchTime": 1672231285855,
+      "_fetchTime": 1672506674813,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
       "_namespace": "a-mo.TrimHandler"
+    }
+  ],
+  [
+    {
+      "fileBaseUrl": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.Math-v@{version}/modules/arch/Math",
+      "url": "https://github.com/arch1t3cht/Aegisub-Scripts#arch.Math",
+      "author": "arch1t3cht",
+      "name": "ArchMath",
+      "description": "General-purpose linear algebra functions, approximately matching the patterns of Matlab or numpy",
+      "channels": {
+        "release": {
+          "version": "0.1.7",
+          "released": "2022-12-26",
+          "default": true,
+          "files": [
+            {
+              "name": ".moon",
+              "url": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.Math-v0.1.7/modules/arch/Math.moon",
+              "sha1": "cbbbb7d13a80996c81551512f19073dcb68b72bf",
+              "_validHash": true
+            }
+          ]
+        }
+      },
+      "changelog": {
+        "0.1.0": [
+          "Initial Release"
+        ],
+        "0.1.1": [
+          "Add concat function",
+          "Various fixes for type detection in operators"
+        ],
+        "0.1.2": [
+          "Fix length function"
+        ],
+        "0.1.3": [
+          "Fix coordinate getters"
+        ],
+        "0.1.4": [
+          "Fix division functions"
+        ],
+        "0.1.5": [
+          "Add projection function to take subsets of coordinates.",
+          "Add transformShape function."
+        ],
+        "0.1.6": [
+          "Add projection function for matrices.",
+          "Add shorthand t for transpose.",
+          "Allow passing tables or points to Matrix.diag."
+        ],
+        "0.1.7": [
+          "Fix pattern for shape transform function."
+        ]
+      },
+      "_validHash": true,
+      "_reverseDependency": [
+        "arch.Resample",
+        "arch.FocusLines",
+        "arch.Perspective"
+      ],
+      "_feedName": "arch1t3cht's Aegisub Scripts",
+      "_feedIdentifier": "b409fc1",
+      "_fetchTime": 1672506675018,
+      "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
+      "_namespace": "arch.Math"
+    }
+  ],
+  [
+    {
+      "fileBaseUrl": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.Perspective-v@{version}/modules/arch/Perspective",
+      "url": "https://github.com/arch1t3cht/Aegisub-Scripts#arch.Perspective",
+      "author": "arch1t3cht",
+      "name": "Perspective",
+      "description": "Math functions for dealing with perspective transformations.",
+      "channels": {
+        "release": {
+          "version": "0.2.2",
+          "released": "2022-12-20",
+          "default": true,
+          "files": [
+            {
+              "name": ".moon",
+              "url": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.Perspective-v0.2.2/modules/arch/Perspective.moon",
+              "sha1": "1b1fb69f66d78e4e3f98b1632219f7c09dc1bc24",
+              "_validHash": true
+            }
+          ],
+          "requiredModules": [
+            {
+              "moduleName": "arch.Math",
+              "name": "ArchMath",
+              "url": "https://github.com/arch1t3cht/Aegisub-Scripts",
+              "version": "0.1.6"
+            }
+          ]
+        }
+      },
+      "changelog": {
+        "0.1.0": [
+          "Initial Release",
+          "Add Quad class and general perspective transformation functions."
+        ],
+        "0.2.0": [
+          "Add function transforming points according to .ass tags.",
+          "Add function generating .ass tags from transformed quad."
+        ],
+        "0.2.1": [
+          "Fix version record..."
+        ]
+      },
+      "_validHash": true,
+      "_reverseDependency": [
+        "arch.Resample"
+      ],
+      "_feedName": "arch1t3cht's Aegisub Scripts",
+      "_feedIdentifier": "b409fc1",
+      "_fetchTime": 1672506675018,
+      "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
+      "_namespace": "arch.Perspective"
     }
   ],
   [
@@ -2192,7 +2319,7 @@
       ],
       "_feedName": "ASSFoundation",
       "_feedIdentifier": "92c766d",
-      "_fetchTime": 1672231285910,
+      "_fetchTime": 1672506674818,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json",
       "_namespace": "l0.ASSFoundation"
     }
@@ -2245,7 +2372,7 @@
       ],
       "_feedName": "CoffeeFlux's Aegisub Scripts",
       "_feedIdentifier": "b6a37e0",
-      "_fetchTime": 1672231285852,
+      "_fetchTime": 1672506674903,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "Flux.ScrollHandler"
     }
@@ -2391,7 +2518,7 @@
       ],
       "_feedName": "DependencyControl",
       "_feedIdentifier": "7973b7b",
-      "_fetchTime": 1672231285659,
+      "_fetchTime": 1672506674708,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/master/DependencyControl.json",
       "_namespace": "l0.DependencyControl"
     }
@@ -2520,6 +2647,7 @@
       },
       "_validHash": true,
       "_reverseDependency": [
+        "arch.AegisubChain",
         "l0.ASSFoundation",
         "l0.ASSWipe",
         "l0.InsertLineBreaks",
@@ -2537,7 +2665,7 @@
       ],
       "_feedName": "Functional",
       "_feedIdentifier": "c5d5896",
-      "_fetchTime": 1672231286031,
+      "_fetchTime": 1672506675048,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Functional/master/DependencyControl.json",
       "_namespace": "l0.Functional"
     }
@@ -2606,7 +2734,7 @@
       ],
       "_feedName": "lyger's Automation Scripts",
       "_feedIdentifier": "41828c0",
-      "_fetchTime": 1672231285848,
+      "_fetchTime": 1672506674897,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "lyger.LibLyger"
     }
@@ -2656,7 +2784,7 @@
       ],
       "_feedName": "Myaamori's Aegisub scripts",
       "_feedIdentifier": "d5b4bc1",
-      "_fetchTime": 1672231285935,
+      "_fetchTime": 1672506674925,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Myaamori-Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "myaa.ASSParser"
     }
@@ -2911,7 +3039,7 @@
       ],
       "_feedName": "Myaamori's Aegisub scripts",
       "_feedIdentifier": "d5b4bc1",
-      "_fetchTime": 1672231285935,
+      "_fetchTime": 1672506674925,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Myaamori-Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "myaa.pl"
     }
@@ -3014,9 +3142,534 @@
       ],
       "_feedName": "SubInspector",
       "_feedIdentifier": "881e0ee",
-      "_fetchTime": 1672231285762,
+      "_fetchTime": 1672506674805,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/SubInspector/master/DependencyControl.json",
       "_namespace": "SubInspector.Inspector"
+    }
+  ],
+  [
+    {
+      "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts#ZF.main",
+      "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/@{channel}/modules/ZF/main",
+      "channels": {
+        "main": {
+          "default": true,
+          "version": "2.2.0",
+          "released": "2022-11-27",
+          "files": [
+            {
+              "name": ".moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main.moon",
+              "sha1": "66fa0c2f150c6dfcb339868d7c0e9abade231889",
+              "_validHash": true
+            },
+            {
+              "name": "/2D/clipper.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/2D/clipper.moon",
+              "sha1": "ec097bb51d49a4ddb9a8804e002dcd661ea50756",
+              "_validHash": true
+            },
+            {
+              "name": "/2D/path.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/2D/path.moon",
+              "sha1": "57b52571e3ccc2a5873a6e44b5ee170c5970ac97",
+              "_validHash": true
+            },
+            {
+              "name": "/2D/paths.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/2D/paths.moon",
+              "sha1": "58923f85591d70c8eb9d819e51a30e14ba8e2211",
+              "_validHash": true
+            },
+            {
+              "name": "/2D/point.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/2D/point.moon",
+              "sha1": "769b9a44f845d06d2c5b87bb698ce8fe68ed5f9f",
+              "_validHash": true
+            },
+            {
+              "name": "/2D/segment.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/2D/segment.moon",
+              "sha1": "bbd31f6ee65f2d9823dfb21d0abcddbbdc5e007a",
+              "_validHash": true
+            },
+            {
+              "name": "/2D/shape.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/2D/shape.moon",
+              "sha1": "11f9fa89cea495f8a2fc1f41d87e8f869cdc7198",
+              "_validHash": true
+            },
+            {
+              "name": "/ass/tags/layer.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/ass/tags/layer.moon",
+              "sha1": "da52d4cb568435fbfce6e81239fc1d08a4b1d3c5",
+              "_validHash": true
+            },
+            {
+              "name": "/ass/tags/tags.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/ass/tags/tags.moon",
+              "sha1": "bef9957f7fc291b1618668f14dcfde9d73e00d54",
+              "_validHash": true
+            },
+            {
+              "name": "/ass/dialog.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/ass/dialog.moon",
+              "sha1": "3142f0f3a00bfb6e1b9d1d2d17b169e4c635b463",
+              "_validHash": true
+            },
+            {
+              "name": "/ass/fbf.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/ass/fbf.moon",
+              "sha1": "1a190ff6bc3bc75b4d65749a2bd1f28be24517d1",
+              "_validHash": true
+            },
+            {
+              "name": "/ass/font.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/ass/font.moon",
+              "sha1": "5e6fcf500e76c2a3b92360b4c1980473df3c681c",
+              "_validHash": true
+            },
+            {
+              "name": "/ass/line.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/ass/line.moon",
+              "sha1": "4d1fc99b511e31eddcf44b919040a5806bb779aa",
+              "_validHash": true
+            },
+            {
+              "name": "/img/bmp.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/img/bmp.moon",
+              "sha1": "f38b839f86fe35b9909c572461fcf36f35e3cb98",
+              "_validHash": true
+            },
+            {
+              "name": "/img/buffer.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/img/buffer.moon",
+              "sha1": "4bfc0475532b26005d5a0a5be4228da9549c970d",
+              "_validHash": true
+            },
+            {
+              "name": "/img/gif.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/img/gif.moon",
+              "sha1": "3fbe1d97754ff9318d4435b3d125722fabbb4678",
+              "_validHash": true
+            },
+            {
+              "name": "/img/img.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/img/img.moon",
+              "sha1": "2a8b814798d8c9c24973ac328e6dd6c2b21d2698",
+              "_validHash": true
+            },
+            {
+              "name": "/img/jpg.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/img/jpg.moon",
+              "sha1": "45f772bd8e184e65ff931b57ddf1f3d48c375310",
+              "_validHash": true
+            },
+            {
+              "name": "/img/png.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/img/png.moon",
+              "sha1": "fb95338d04d8e098f5b67c84fef1a00b8e53c2e1",
+              "_validHash": true
+            },
+            {
+              "name": "/img/potrace.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/img/potrace.moon",
+              "sha1": "58ff21bf77c1d1fba0fa2d17fb237b608d31cb9b",
+              "_validHash": true
+            },
+            {
+              "name": "/util/config.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/util/config.moon",
+              "sha1": "d1cf8f3d3d75879c54774be407242e007f157770",
+              "_validHash": true
+            },
+            {
+              "name": "/util/math.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/util/math.moon",
+              "sha1": "3dbc26c42952d1f1c102ffcdc10677774415ce44",
+              "_validHash": true
+            },
+            {
+              "name": "/util/table.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/util/table.moon",
+              "sha1": "523fb18651f2534938793ba583dcd129e77f5f16",
+              "_validHash": true
+            },
+            {
+              "name": "/util/util.moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/util/util.moon",
+              "sha1": "44e0373ea7f152f8c1ec770337acd8b6135a8a7e",
+              "_validHash": true
+            }
+          ],
+          "requiredModules": [
+            {
+              "moduleName": "karaskel"
+            },
+            {
+              "moduleName": "Yutils"
+            },
+            {
+              "moduleName": "ffi"
+            },
+            {
+              "moduleName": "zgiflib.giflib",
+              "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
+              "version": "5.2.1"
+            },
+            {
+              "moduleName": "zlodepng.lodepng",
+              "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
+              "version": "22.1.9"
+            },
+            {
+              "moduleName": "zpolyclipping.polyclipping",
+              "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
+              "version": "6.4.2"
+            },
+            {
+              "moduleName": "zturbojpeg.turbojpeg",
+              "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
+              "version": "2.1.3"
+            }
+          ]
+        }
+      },
+      "changelog": {
+        "1.0.0": [
+          "Initial depctrl release"
+        ]
+      },
+      "name": "ZF main",
+      "description": "A library used in zeref's Aegisub scripts.",
+      "author": "Zeref",
+      "_validHash": true,
+      "_reverseDependency": [
+        "zf.allCharsTo",
+        "zf.everythingShape",
+        "zf.gradientCut",
+        "zf.line2fbf",
+        "zf.makeImage",
+        "zf.split",
+        "zf.textInClip"
+      ],
+      "_feedName": "zeref-aegisub-scripts",
+      "_feedIdentifier": "fbbbec7",
+      "_fetchTime": 1672506675027,
+      "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
+      "_namespace": "ZF.main"
+    }
+  ],
+  [
+    {
+      "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts",
+      "author": "Zeref",
+      "name": "giflib",
+      "description": "giflib is a library for reading and writing gif images.",
+      "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/@{channel}/modules/zgiflib/giflib",
+      "channels": {
+        "main": {
+          "version": "5.2.1",
+          "released": "2015-05-10",
+          "default": true,
+          "platforms": [
+            "Windows-x64",
+            "Windows-x86",
+            "OSX-x64",
+            "Linux-x64"
+          ],
+          "files": [
+            {
+              "name": ".moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/zgiflib/giflib.moon",
+              "sha1": "6480cfad1405d5c03089a4e2c35778c50481ccb6",
+              "_validHash": true
+            },
+            {
+              "name": "/giflib.dll",
+              "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-win-x64-giflib.dll",
+              "platform": "Windows-x64",
+              "sha1": "4bf213a7506069ca15f271a3228a2250f62558a0",
+              "_validHash": true
+            },
+            {
+              "name": "/giflib.dll",
+              "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.0.0/v2.0.0-win-x86-giflib.dll",
+              "platform": "Windows-x86",
+              "sha1": "ec600b512717f0b66832cb62e631a00833bc15ff",
+              "_validHash": true
+            },
+            {
+              "name": "/libgiflib.dylib",
+              "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-macOS-x64-libgiflib.dylib",
+              "platform": "OSX-x64",
+              "sha1": "cf79915f6e3ee3223c52afc18b171ba37ac46d0a",
+              "_validHash": true
+            },
+            {
+              "name": "/libgiflib.so",
+              "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-linux-x64-libgiflib.so",
+              "platform": "Linux-x64",
+              "sha1": "d824ec9cc6d775795515abb4ab70dcae5808c176",
+              "_validHash": true
+            }
+          ],
+          "requiredModules": [
+            {
+              "moduleName": "ffi"
+            },
+            {
+              "moduleName": "requireffi.requireffi",
+              "version": "0.1.2",
+              "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
+            }
+          ]
+        }
+      },
+      "changelog": {},
+      "_validHash": true,
+      "_reverseDependency": [
+        "ZF.main"
+      ],
+      "_feedName": "zeref-aegisub-scripts",
+      "_feedIdentifier": "fbbbec7",
+      "_fetchTime": 1672506675027,
+      "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
+      "_namespace": "zgiflib.giflib"
+    }
+  ],
+  [
+    {
+      "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts",
+      "author": "Zeref",
+      "name": "lodepng",
+      "description": "PNG encoder and decoder",
+      "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/@{channel}/modules/zlodepng/lodepng",
+      "channels": {
+        "main": {
+          "version": "22.1.9",
+          "released": "2022-01-09",
+          "default": true,
+          "platforms": [
+            "Windows-x64",
+            "Windows-x86",
+            "OSX-x64",
+            "Linux-x64"
+          ],
+          "files": [
+            {
+              "name": ".moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/zlodepng/lodepng.moon",
+              "sha1": "55997ac1181b2070ffe64fe9146b7bce32f5a066",
+              "_validHash": true
+            },
+            {
+              "name": "/lodepng.dll",
+              "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-win-x64-lodepng.dll",
+              "platform": "Windows-x64",
+              "sha1": "a8f77a4406a2c9f16d71e75a6a24497646d0ac55",
+              "_validHash": true
+            },
+            {
+              "name": "/lodepng.dll",
+              "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.0.0/v2.0.0-win-x86-lodepng.dll",
+              "platform": "Windows-x86",
+              "sha1": "96eb3c782014f095eb746f25d37e7ae181eef2c0",
+              "_validHash": true
+            },
+            {
+              "name": "/liblodepng.dylib",
+              "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-macOS-x64-liblodepng.dylib",
+              "platform": "OSX-x64",
+              "sha1": "4d7452a0a77551437062d59d9ef01f141422b562",
+              "_validHash": true
+            },
+            {
+              "name": "/liblodepng.so",
+              "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-linux-x64-liblodepng.so",
+              "platform": "Linux-x64",
+              "sha1": "22a58b4cce2f202c7e96d3518fa35868793aac43",
+              "_validHash": true
+            }
+          ],
+          "requiredModules": [
+            {
+              "moduleName": "ffi"
+            },
+            {
+              "moduleName": "requireffi.requireffi",
+              "version": "0.1.2",
+              "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
+            }
+          ]
+        }
+      },
+      "changelog": {},
+      "_validHash": true,
+      "_reverseDependency": [
+        "ZF.main"
+      ],
+      "_feedName": "zeref-aegisub-scripts",
+      "_feedIdentifier": "fbbbec7",
+      "_fetchTime": 1672506675027,
+      "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
+      "_namespace": "zlodepng.lodepng"
+    }
+  ],
+  [
+    {
+      "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts",
+      "author": "Zeref",
+      "name": "polyclipping",
+      "description": "Polygon Clipping and Offsetting",
+      "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/@{channel}/modules/zpolyclipping/polyclipping",
+      "channels": {
+        "main": {
+          "version": "6.4.2",
+          "released": "2017-02-27",
+          "default": true,
+          "platforms": [
+            "Windows-x64",
+            "Windows-x86",
+            "OSX-x64",
+            "Linux-x64"
+          ],
+          "files": [
+            {
+              "name": ".moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/zpolyclipping/polyclipping.moon",
+              "sha1": "3cd4af60683f0891ab0322cc51b141cede3720be",
+              "_validHash": true
+            },
+            {
+              "name": "/polyclipping.dll",
+              "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-win-x64-polyclipping.dll",
+              "platform": "Windows-x64",
+              "sha1": "db6eed51964b77f6002629aa80cd54f025dc125e",
+              "_validHash": true
+            },
+            {
+              "name": "/polyclipping.dll",
+              "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.0.0/v2.0.0-win-x86-polyclipping.dll",
+              "platform": "Windows-x86",
+              "sha1": "5d282aefdad636bfddf145d2eb698763b64be0d9",
+              "_validHash": true
+            },
+            {
+              "name": "/libpolyclipping.dylib",
+              "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-macOS-x64-libpolyclipping.dylib",
+              "platform": "OSX-x64",
+              "sha1": "f66d41ddd815aa918800e1db87f0007a1ebae6c5",
+              "_validHash": true
+            },
+            {
+              "name": "/libpolyclipping.so",
+              "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-linux-x64-libpolyclipping.so",
+              "platform": "Linux-x64",
+              "sha1": "778def6b486500a5f56b4a115aceaaa64ff707d7",
+              "_validHash": true
+            }
+          ],
+          "requiredModules": [
+            {
+              "moduleName": "ffi"
+            },
+            {
+              "moduleName": "requireffi.requireffi",
+              "version": "0.1.2",
+              "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
+            }
+          ]
+        }
+      },
+      "changelog": {},
+      "_validHash": true,
+      "_reverseDependency": [
+        "ZF.main"
+      ],
+      "_feedName": "zeref-aegisub-scripts",
+      "_feedIdentifier": "fbbbec7",
+      "_fetchTime": 1672506675027,
+      "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
+      "_namespace": "zpolyclipping.polyclipping"
+    }
+  ],
+  [
+    {
+      "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts",
+      "author": "Zeref",
+      "name": "turbojpeg",
+      "description": "jpeg library",
+      "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/@{channel}/modules/zturbojpeg/turbojpeg",
+      "channels": {
+        "main": {
+          "version": "2.1.3",
+          "released": "2022-02-25",
+          "default": true,
+          "platforms": [
+            "Windows-x64",
+            "Windows-x86",
+            "OSX-x64",
+            "Linux-x64"
+          ],
+          "files": [
+            {
+              "name": ".moon",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/zturbojpeg/turbojpeg.moon",
+              "sha1": "13e847ca8689b080425c28619a932ab781363c26",
+              "_validHash": true
+            },
+            {
+              "name": "/turbojpeg.dll",
+              "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-win-x64-turbojpeg.dll",
+              "platform": "Windows-x64",
+              "sha1": "92ea0a8ca8bc3904e7b53232a99caa2c9eda4d6a",
+              "_validHash": true
+            },
+            {
+              "name": "/turbojpeg.dll",
+              "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.0.0/v2.0.0-win-x86-turbojpeg.dll",
+              "platform": "Windows-x86",
+              "sha1": "6838b78129c3cc7dec9fb9ba67cb053fbfc7889a",
+              "_validHash": true
+            },
+            {
+              "name": "/libturbojpeg.dylib",
+              "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-macOS-x64-libturbojpeg.dylib",
+              "platform": "OSX-x64",
+              "sha1": "9d4d96a37b0d49dddef24d1b7abd1d98c958dafb",
+              "_validHash": true
+            },
+            {
+              "name": "/libturbojpeg.so",
+              "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-linux-x64-libturbojpeg.so",
+              "platform": "Linux-x64",
+              "sha1": "22939afc295b4c56131dbbe5507de1a8fe64b903",
+              "_validHash": true
+            }
+          ],
+          "requiredModules": [
+            {
+              "moduleName": "ffi"
+            },
+            {
+              "moduleName": "requireffi.requireffi",
+              "version": "0.1.2",
+              "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
+            }
+          ]
+        }
+      },
+      "changelog": {},
+      "_validHash": true,
+      "_reverseDependency": [
+        "ZF.main"
+      ],
+      "_feedName": "zeref-aegisub-scripts",
+      "_feedIdentifier": "fbbbec7",
+      "_fetchTime": 1672506675027,
+      "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
+      "_namespace": "zturbojpeg.turbojpeg"
     }
   ]
 ]

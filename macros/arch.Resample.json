@@ -1,0 +1,79 @@
+[
+  {
+    "fileBaseUrl": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.Resample-v@{version}/macros/arch.Resample",
+    "url": "https://github.com/arch1t3cht/Aegisub-Scripts#arch.Resample",
+    "author": "arch1t3cht",
+    "name": "Resample Perspective",
+    "description": "Apply after resampling a script in Aegisub to fix any lines with 3D rotations.",
+    "channels": {
+      "release": {
+        "version": "1.3.2",
+        "released": "2022-12-20",
+        "default": true,
+        "files": [
+          {
+            "name": ".moon",
+            "url": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.Resample-v1.3.2/macros/arch.Resample.moon",
+            "sha1": "c761aeed0f0d6459dc3e9aed1afd2d199dc2f208",
+            "_validHash": true
+          }
+        ],
+        "requiredModules": [
+          {
+            "moduleName": "arch.Math",
+            "name": "ArchMath",
+            "url": "https://github.com/arch1t3cht/Aegisub-Scripts",
+            "version": "0.1.6"
+          },
+          {
+            "moduleName": "arch.Perspective",
+            "name": "Perspective",
+            "url": "https://github.com/arch1t3cht/Aegisub-Scripts",
+            "version": "0.2.2"
+          }
+        ]
+      }
+    },
+    "changelog": {
+      "1.0.0": [
+        "Initial Release"
+      ],
+      "1.1.0": [
+        "Allow specifying target resolution",
+        "Allow rescaling to different aspect ratio",
+        "Fix resampling with non-center align"
+      ],
+      "1.2.0": [
+        "Fix me being dumb and forgetting to ship a crucial fix last version",
+        "Fix strange behaviour when not all relevant tags occur in line",
+        "Fix resampling to different aspect ratios",
+        "Clean up tags after processing"
+      ],
+      "1.3.0": [
+        "Add support for non-center org",
+        "Support flipped and mirrored quads",
+        "Move perspective logic to the Perspective module"
+      ],
+      "1.3.1": [
+        "Bump dependency"
+      ]
+    },
+    "_validHash": true,
+    "_defaultVersion": "1.3.2",
+    "_scriptData": {
+      "name": "Resample Perspective",
+      "description": "Apply after resampling a script in Aegisub to fix any lines with 3D rotations.",
+      "author": "arch1t3cht",
+      "version": "1.3.2",
+      "namespace": "arch.Resample",
+      "_feedData": {
+        "feed": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/main/DependencyControl.json"
+      }
+    },
+    "_feedName": "arch1t3cht's Aegisub Scripts",
+    "_feedIdentifier": "b409fc1",
+    "_fetchTime": 1672506675018,
+    "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
+    "_namespace": "arch.Resample"
+  }
+]

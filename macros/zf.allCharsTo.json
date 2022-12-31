@@ -1,0 +1,53 @@
+[
+  {
+    "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts#zf.allCharsTo",
+    "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/@{channel}/macros/zf.allCharsTo",
+    "channels": {
+      "main": {
+        "default": true,
+        "version": "1.0.5",
+        "released": "2022-11-27",
+        "files": [
+          {
+            "name": ".moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/macros/zf.allCharsTo.moon",
+            "sha1": "bb9ccb55c8be3515e9331cfefdfd4e418a89fece",
+            "_validHash": true
+          }
+        ],
+        "requiredModules": [
+          {
+            "moduleName": "ZF.main",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
+            "version": "2.2.0"
+          }
+        ]
+      }
+    },
+    "changelog": {
+      "1.0.5": [
+        "Initial depctrl release"
+      ]
+    },
+    "name": "All Characters To",
+    "description": "Converts all characters to uppercase, lowercase or capitalized.",
+    "author": "Zeref",
+    "_validHash": true,
+    "_defaultVersion": "1.0.5",
+    "_scriptData": {
+      "name": "All Characters To",
+      "description": "Converts all characters to uppercase, lowercase or capitalized.",
+      "author": "Zeref",
+      "version": "1.0.5",
+      "namespace": "zf.allCharsTo",
+      "_feedData": {
+        "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json"
+      }
+    },
+    "_feedName": "zeref-aegisub-scripts",
+    "_feedIdentifier": "fbbbec7",
+    "_fetchTime": 1672506675027,
+    "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
+    "_namespace": "zf.allCharsTo"
+  }
+]

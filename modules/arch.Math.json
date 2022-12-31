@@ -1,0 +1,65 @@
+[
+  {
+    "fileBaseUrl": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.Math-v@{version}/modules/arch/Math",
+    "url": "https://github.com/arch1t3cht/Aegisub-Scripts#arch.Math",
+    "author": "arch1t3cht",
+    "name": "ArchMath",
+    "description": "General-purpose linear algebra functions, approximately matching the patterns of Matlab or numpy",
+    "channels": {
+      "release": {
+        "version": "0.1.7",
+        "released": "2022-12-26",
+        "default": true,
+        "files": [
+          {
+            "name": ".moon",
+            "url": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.Math-v0.1.7/modules/arch/Math.moon",
+            "sha1": "cbbbb7d13a80996c81551512f19073dcb68b72bf",
+            "_validHash": true
+          }
+        ]
+      }
+    },
+    "changelog": {
+      "0.1.0": [
+        "Initial Release"
+      ],
+      "0.1.1": [
+        "Add concat function",
+        "Various fixes for type detection in operators"
+      ],
+      "0.1.2": [
+        "Fix length function"
+      ],
+      "0.1.3": [
+        "Fix coordinate getters"
+      ],
+      "0.1.4": [
+        "Fix division functions"
+      ],
+      "0.1.5": [
+        "Add projection function to take subsets of coordinates.",
+        "Add transformShape function."
+      ],
+      "0.1.6": [
+        "Add projection function for matrices.",
+        "Add shorthand t for transpose.",
+        "Allow passing tables or points to Matrix.diag."
+      ],
+      "0.1.7": [
+        "Fix pattern for shape transform function."
+      ]
+    },
+    "_validHash": true,
+    "_reverseDependency": [
+      "arch.Resample",
+      "arch.FocusLines",
+      "arch.Perspective"
+    ],
+    "_feedName": "arch1t3cht's Aegisub Scripts",
+    "_feedIdentifier": "b409fc1",
+    "_fetchTime": 1672506675018,
+    "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
+    "_namespace": "arch.Math"
+  }
+]

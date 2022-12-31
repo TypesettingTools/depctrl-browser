@@ -1,0 +1,66 @@
+[
+  {
+    "fileBaseUrl": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.AegisubChain-v@{version}/macros/arch.AegisubChain",
+    "url": "https://github.com/arch1t3cht/Aegisub-Scripts#arch.AegisubChain",
+    "author": "arch1t3cht",
+    "name": "AegisubChain",
+    "description": "Compose chains out of existing automation macros, and play them back as non-GUI macros, or using only one dialog.",
+    "channels": {
+      "release": {
+        "version": "0.4.0",
+        "released": "2022-10-14",
+        "default": true,
+        "files": [
+          {
+            "name": ".moon",
+            "url": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.AegisubChain-v0.4.0/macros/arch.AegisubChain.moon",
+            "sha1": "52ed0868240b75daf690301da5a7873e908f9106",
+            "_validHash": true
+          }
+        ],
+        "requiredModules": [
+          {
+            "moduleName": "l0.Functional",
+            "name": "(Almost) Functional Suite",
+            "url": "https://github.com/TypesettingTools/ASSFoundation",
+            "version": "0.6.0",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json"
+          }
+        ]
+      }
+    },
+    "changelog": {
+      "0.3.0": [
+        "Initial Release"
+      ],
+      "0.3.1": [
+        "Close Aegisub's config file after reading it, so writes to it won't be blocked"
+      ],
+      "0.3.2": [
+        "Fix bug where dialog fields would falsely be detected as changed"
+      ],
+      "0.3.3": [
+        "Fix emulation of updates to active line"
+      ],
+      "0.4.0": [
+        "Add commands to repeat the last chain or other chains before it",
+        "Add chain slots that will execute a given chain and can be reconfigured without reloading automation scripts."
+      ]
+    },
+    "_validHash": true,
+    "_defaultVersion": "0.4.0",
+    "_scriptData": {
+      "name": "AegisubChain",
+      "description": "Compose chains out of existing automation macros, and play them back as non-GUI macros, or using only one dialog.",
+      "author": "arch1t3cht",
+      "version": "0.4.0",
+      "namespace": "arch.AegisubChain",
+      "_feedData": null
+    },
+    "_feedName": "arch1t3cht's Aegisub Scripts",
+    "_feedIdentifier": "b409fc1",
+    "_fetchTime": 1672506675018,
+    "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
+    "_namespace": "arch.AegisubChain"
+  }
+]

@@ -247,6 +247,83 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/macros/arch.AegisubChain/",
+        name: "AegisubChain",
+        description: "Compose chains out of existing automation macros, and play them back as non-GUI macros, or using only one dialog.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/arch.Resample/",
+        name: "Resample Perspective",
+        description: "Apply after resampling a script in Aegisub to fix any lines with 3D rotations.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/arch.FocusLines/",
+        name: "Focus Lines",
+        description: "Draws moving focus lines.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/arch.RWTools/",
+        name: "Rewriting Tools",
+        description: "Shortcuts for managing multiple rewrites of a line in one .ass event line.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/arch.NoteBrowser/",
+        name: "Note Browser",
+        description: "Loads a set of timestamped notes and adds options to mark them or jump between them.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/arch.GitSigns/",
+        name: "Git Signs",
+        description: "Displays git diffs in Aegisub",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/arch.ConvertFolds/",
+        name: "Convert Folds",
+        description: "Convert folds stored in the project properties to extradata folds.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/macros/Flux.DialogSwapper/",
         name: "Dialog Swapper",
         description: "Perform text swapping operations on a script",
@@ -1156,6 +1233,83 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/macros/zf.allCharsTo/",
+        name: "All Characters To",
+        description: "Converts all characters to uppercase, lowercase or capitalized.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/zf.everythingShape/",
+        name: "Everything Shape",
+        description: "Do \"everything\" you need for a shape!",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/zf.gradientCut/",
+        name: "Gradient Cut",
+        description: "Generates a gradient from cuts in sequence.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/zf.line2fbf/",
+        name: "Line To FBF",
+        description: "Splits the line frame by frame interpolating all transformations present in it",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/zf.makeImage/",
+        name: "Make Image",
+        description: "Converts images of various formats to pixels written in shape.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/zf.split/",
+        name: "Splits Text By",
+        description: "Splits the text in several ways",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/zf.textInClip/",
+        name: "Text in Clip",
+        description: "Causes the characters in your text to go through the coordinates of your clip!",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/macros/zah.pers-mo_BETA/",
         name: "Aegisub-Perspective-Motion BETA",
         description: "Applying perspective tracking",
@@ -1425,6 +1579,28 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/modules/arch.Math/",
+        name: "ArchMath",
+        description: "General-purpose linear algebra functions, approximately matching the patterns of Matlab or numpy",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/arch.Perspective/",
+        name: "Perspective",
+        description: "Math functions for dealing with perspective transformations.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/modules/l0.ASSFoundation/",
         name: "ASSFoundation",
         description: "General purpose ASS processing library.",
@@ -1509,6 +1685,61 @@ document.addEventListener('click', function(event) {
     );
     
   
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/ZF.main/",
+        name: "ZF main",
+        description: "A library used in zeref's Aegisub scripts.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/zgiflib.giflib/",
+        name: "giflib",
+        description: "giflib is a library for reading and writing gif images.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/zlodepng.lodepng/",
+        name: "lodepng",
+        description: "PNG encoder and decoder",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/zpolyclipping.polyclipping/",
+        name: "polyclipping",
+        description: "Polygon Clipping and Offsetting",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/zturbojpeg.turbojpeg/",
+        name: "turbojpeg",
+        description: "jpeg library",
+      }
+    );
+    
+  
 
   
   index.add(
@@ -1544,6 +1775,15 @@ document.addEventListener('click', function(event) {
       href: "/depctrl-browser/feeds/4152f8d/",
       name: "Aegisub-Motion",
       description: "A set of tools for simplifying the process of creating and applying motion tracking data with Aegisub.",
+    }
+  );
+  
+  index.add(
+    {
+      id: i++,
+      href: "/depctrl-browser/feeds/b409fc1/",
+      name: "arch1t3cht's Aegisub Scripts",
+      description: "Main repository for all of arch1t3cht's automation macros.",
     }
   );
   
@@ -1634,6 +1874,15 @@ document.addEventListener('click', function(event) {
       href: "/depctrl-browser/feeds/720a751/",
       name: "unanimated's Automation Scripts",
       description: "Secondary repository for most of unanimated's automation scripts.",
+    }
+  );
+  
+  index.add(
+    {
+      id: i++,
+      href: "/depctrl-browser/feeds/fbbbec7/",
+      name: "zeref-aegisub-scripts",
+      description: "Aegisub scripts from zerefxx",
     }
   );
   

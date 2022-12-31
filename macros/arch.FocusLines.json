@@ -1,0 +1,54 @@
+[
+  {
+    "fileBaseUrl": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.FocusLines-v@{version}/macros/arch.FocusLines",
+    "url": "https://github.com/arch1t3cht/Aegisub-Scripts#arch.FocusLines",
+    "author": "arch1t3cht",
+    "name": "Focus Lines",
+    "description": "Draws moving focus lines.",
+    "channels": {
+      "release": {
+        "version": "1.0.0",
+        "released": "2022-07-24",
+        "default": true,
+        "files": [
+          {
+            "name": ".moon",
+            "url": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.FocusLines-v1.0.0/macros/arch.FocusLines.moon",
+            "sha1": "3b099cb3a395db928e16c5ae405eee212cf295eb",
+            "_validHash": true
+          }
+        ],
+        "requiredModules": [
+          {
+            "moduleName": "arch.Math",
+            "name": "ArchMath",
+            "url": "https://github.com/arch1t3cht/Aegisub-Scripts",
+            "version": "0.1.0"
+          }
+        ]
+      }
+    },
+    "changelog": {
+      "1.0.0": [
+        "Initial Release"
+      ]
+    },
+    "_validHash": true,
+    "_defaultVersion": "1.0.0",
+    "_scriptData": {
+      "name": "Focus Lines",
+      "description": "Draws moving focus lines.",
+      "author": "arch1t3cht",
+      "version": "1.0.0",
+      "namespace": "arch.FocusLines",
+      "_feedData": {
+        "feed": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/main/DependencyControl.json"
+      }
+    },
+    "_feedName": "arch1t3cht's Aegisub Scripts",
+    "_feedIdentifier": "b409fc1",
+    "_fetchTime": 1672506675018,
+    "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
+    "_namespace": "arch.FocusLines"
+  }
+]

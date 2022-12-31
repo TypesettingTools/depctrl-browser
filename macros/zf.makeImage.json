@@ -1,0 +1,53 @@
+[
+  {
+    "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts#zf.makeImage",
+    "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/@{channel}/macros/zf.makeImage",
+    "channels": {
+      "main": {
+        "default": true,
+        "version": "1.2.2",
+        "released": "2022-11-27",
+        "files": [
+          {
+            "name": ".moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/macros/zf.makeImage.moon",
+            "sha1": "36956fa38d54159e1968951df13f54f0fcf6ddba",
+            "_validHash": true
+          }
+        ],
+        "requiredModules": [
+          {
+            "moduleName": "ZF.main",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
+            "version": "2.2.0"
+          }
+        ]
+      }
+    },
+    "changelog": {
+      "1.2.2": [
+        "Initial depctrl release"
+      ]
+    },
+    "name": "Make Image",
+    "description": "Converts images of various formats to pixels written in shape.",
+    "author": "Zeref",
+    "_validHash": true,
+    "_defaultVersion": "1.2.2",
+    "_scriptData": {
+      "name": "Make Image",
+      "description": "Converts images of various formats to pixels written in shape.",
+      "author": "Zeref",
+      "version": "1.2.2",
+      "namespace": "zf.makeImage",
+      "_feedData": {
+        "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json"
+      }
+    },
+    "_feedName": "zeref-aegisub-scripts",
+    "_feedIdentifier": "fbbbec7",
+    "_fetchTime": 1672506675027,
+    "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
+    "_namespace": "zf.makeImage"
+  }
+]

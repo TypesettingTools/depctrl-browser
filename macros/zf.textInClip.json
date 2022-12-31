@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts#zf.textInClip",
+    "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/@{channel}/macros/zf.textInClip",
+    "channels": {
+      "main": {
+        "default": true,
+        "version": "2.1.2",
+        "released": "2022-12-30",
+        "files": [
+          {
+            "name": ".moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/macros/zf.textInClip.moon",
+            "sha1": "113b9abc0fa7e1a7167ccd2511d0091f62a68124",
+            "_validHash": true
+          }
+        ],
+        "requiredModules": [
+          {
+            "moduleName": "ZF.main",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
+            "version": "2.2.0"
+          }
+        ]
+      }
+    },
+    "changelog": {
+      "2.1.1": [
+        "Initial depctrl release"
+      ],
+      "2.1.2": [
+        "Fixed depctrl registration"
+      ]
+    },
+    "name": "Text in Clip",
+    "description": "Causes the characters in your text to go through the coordinates of your clip!",
+    "author": "Zeref",
+    "_validHash": true,
+    "_defaultVersion": "2.1.2",
+    "_scriptData": {
+      "name": "Text in Clip",
+      "description": "Causes the characters in your text to go through the coordinates of your clip!",
+      "author": "Zeref",
+      "version": "2.1.2",
+      "namespace": "zf.textInClip",
+      "_feedData": {
+        "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json"
+      }
+    },
+    "_feedName": "zeref-aegisub-scripts",
+    "_feedIdentifier": "fbbbec7",
+    "_fetchTime": 1672506675027,
+    "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
+    "_namespace": "zf.textInClip"
+  }
+]

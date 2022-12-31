@@ -1,0 +1,59 @@
+[
+  {
+    "fileBaseUrl": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.GitSigns-v@{version}/macros/arch.GitSigns",
+    "url": "https://github.com/arch1t3cht/Aegisub-Scripts#arch.GitSigns",
+    "author": "arch1t3cht",
+    "name": "Git Signs",
+    "description": "Displays git diffs in Aegisub",
+    "channels": {
+      "release": {
+        "version": "0.2.3",
+        "released": "2022-07-16",
+        "default": true,
+        "files": [
+          {
+            "name": ".moon",
+            "url": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.GitSigns-v0.2.3/macros/arch.GitSigns.moon",
+            "sha1": "ff7702508e970898549a2e5b38d6f68f7cbd926d",
+            "_validHash": true
+          }
+        ]
+      }
+    },
+    "changelog": {
+      "0.1.0": [
+        "Initial Release"
+      ],
+      "0.2.0": [
+        "Add an option to also show the previous versions of the lines. With this, the format is more or less a 1-to-1 copy of the git diff format (for dialogue class lines), but in .ass form.",
+        "Added a warning if DependencyControl isn't found."
+      ],
+      "0.2.1": [
+        "Clear existing markers before showing a diff to ensure idempotency."
+      ],
+      "0.2.2": [
+        "Rewrite line index logic to fix various bugs with displaying deleted lines."
+      ],
+      "0.2.3": [
+        "Add empty extradata to newly inserted lines - this fixes a crash on Aegisub 3.2 and older versions."
+      ]
+    },
+    "_validHash": true,
+    "_defaultVersion": "0.2.3",
+    "_scriptData": {
+      "name": "Git Signs",
+      "description": "Displays git diffs in Aegisub",
+      "author": "arch1t3cht",
+      "version": "0.2.3",
+      "namespace": "arch.GitSigns",
+      "_feedData": {
+        "feed": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/main/DependencyControl.json"
+      }
+    },
+    "_feedName": "arch1t3cht's Aegisub Scripts",
+    "_feedIdentifier": "b409fc1",
+    "_fetchTime": 1672506675018,
+    "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
+    "_namespace": "arch.GitSigns"
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "fileBaseUrl": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.ConvertFolds-v@{version}/macros/arch.ConvertFolds",
+    "url": "https://github.com/arch1t3cht/Aegisub-Scripts#arch.ConvertFolds",
+    "author": "arch1t3cht",
+    "name": "Convert Folds",
+    "description": "Convert folds stored in the project properties to extradata folds.",
+    "channels": {
+      "release": {
+        "version": "1.1.1",
+        "released": "2022-12-12",
+        "default": true,
+        "files": [
+          {
+            "name": ".moon",
+            "url": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.ConvertFolds-v1.1.1/macros/arch.ConvertFolds.moon",
+            "sha1": "7c1e179a03fc1fc531c4f2e4591116208d9942ec",
+            "_validHash": true
+          }
+        ]
+      }
+    },
+    "changelog": {
+      "1.0.0": [
+        "Initial Release"
+      ],
+      "1.1.0": [
+        "Add option to automatically read the fold info from the raw subtitle file"
+      ]
+    },
+    "_validHash": true,
+    "_defaultVersion": "1.1.1",
+    "_scriptData": {
+      "name": "Convert Folds",
+      "description": "Convert folds stored in the project properties to extradata folds.",
+      "author": "arch1t3cht",
+      "version": "1.1.1",
+      "namespace": "arch.ConvertFolds",
+      "_feedData": {
+        "feed": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/main/DependencyControl.json"
+      }
+    },
+    "_feedName": "arch1t3cht's Aegisub Scripts",
+    "_feedIdentifier": "b409fc1",
+    "_fetchTime": 1672506675018,
+    "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
+    "_namespace": "arch.ConvertFolds"
+  }
+]
