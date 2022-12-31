@@ -6,26 +6,26 @@
   "knownFeeds": {
     "Functional": "https://raw.githubusercontent.com/TypesettingTools/Functional/master/DependencyControl.json"
   },
-  "baseUrl": "https://github.com/arch1t3cht/Aegisub-Scripts",
-  "url": "https://github.com/arch1t3cht/Aegisub-Scripts",
-  "fileBaseUrl": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/@{namespace}-v@{version}",
+  "baseUrl": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts",
+  "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts",
+  "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/@{namespace}-v@{version}",
   "macros": {
     "arch.AegisubChain": {
-      "fileBaseUrl": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.AegisubChain-v@{version}/macros/arch.AegisubChain",
-      "url": "https://github.com/arch1t3cht/Aegisub-Scripts#arch.AegisubChain",
+      "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.AegisubChain-v@{version}/macros/arch.AegisubChain",
+      "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts#arch.AegisubChain",
       "author": "arch1t3cht",
       "name": "AegisubChain",
       "description": "Compose chains out of existing automation macros, and play them back as non-GUI macros, or using only one dialog.",
       "channels": {
         "release": {
-          "version": "0.4.0",
-          "released": "2022-10-14",
+          "version": "0.4.1",
+          "released": "2022-12-31",
           "default": true,
           "files": [
             {
               "name": ".moon",
-              "url": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.AegisubChain-v0.4.0/macros/arch.AegisubChain.moon",
-              "sha1": "52ed0868240b75daf690301da5a7873e908f9106",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.AegisubChain-v0.4.1/macros/arch.AegisubChain.moon",
+              "sha1": "f9789afbb79aceb24d3ef371059653071bcbc162",
               "_validHash": true
             }
           ],
@@ -56,40 +56,43 @@
         "0.4.0": [
           "Add commands to repeat the last chain or other chains before it",
           "Add chain slots that will execute a given chain and can be reconfigured without reloading automation scripts."
+        ],
+        "0.4.1": [
+          "Move repository to TypesettingTools/arch1t3cht-Aegisub-Scripts"
         ]
       },
       "_validHash": true,
-      "_defaultVersion": "0.4.0",
+      "_defaultVersion": "0.4.1",
       "_scriptData": {
         "name": "AegisubChain",
         "description": "Compose chains out of existing automation macros, and play them back as non-GUI macros, or using only one dialog.",
         "author": "arch1t3cht",
-        "version": "0.4.0",
+        "version": "0.4.1",
         "namespace": "arch.AegisubChain",
         "_feedData": null
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1672506675018,
+      "_fetchTime": 1672507479854,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.AegisubChain"
     },
     "arch.Resample": {
-      "fileBaseUrl": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.Resample-v@{version}/macros/arch.Resample",
-      "url": "https://github.com/arch1t3cht/Aegisub-Scripts#arch.Resample",
+      "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Resample-v@{version}/macros/arch.Resample",
+      "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts#arch.Resample",
       "author": "arch1t3cht",
       "name": "Resample Perspective",
       "description": "Apply after resampling a script in Aegisub to fix any lines with 3D rotations.",
       "channels": {
         "release": {
-          "version": "1.3.2",
-          "released": "2022-12-20",
+          "version": "1.3.3",
+          "released": "2022-12-31",
           "default": true,
           "files": [
             {
               "name": ".moon",
-              "url": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.Resample-v1.3.2/macros/arch.Resample.moon",
-              "sha1": "c761aeed0f0d6459dc3e9aed1afd2d199dc2f208",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Resample-v1.3.3/macros/arch.Resample.moon",
+              "sha1": "2d435191867e671ee2d48117b4f9fd0135336bea",
               "_validHash": true
             }
           ],
@@ -97,14 +100,14 @@
             {
               "moduleName": "arch.Math",
               "name": "ArchMath",
-              "url": "https://github.com/arch1t3cht/Aegisub-Scripts",
-              "version": "0.1.6"
+              "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts",
+              "version": "0.1.8"
             },
             {
               "moduleName": "arch.Perspective",
               "name": "Perspective",
-              "url": "https://github.com/arch1t3cht/Aegisub-Scripts",
-              "version": "0.2.2"
+              "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts",
+              "version": "0.2.3"
             }
           ]
         }
@@ -131,42 +134,45 @@
         ],
         "1.3.1": [
           "Bump dependency"
+        ],
+        "1.3.2": [
+          "Move repository to TypesettingTools/arch1t3cht-Aegisub-Scripts"
         ]
       },
       "_validHash": true,
-      "_defaultVersion": "1.3.2",
+      "_defaultVersion": "1.3.3",
       "_scriptData": {
         "name": "Resample Perspective",
         "description": "Apply after resampling a script in Aegisub to fix any lines with 3D rotations.",
         "author": "arch1t3cht",
-        "version": "1.3.2",
+        "version": "1.3.3",
         "namespace": "arch.Resample",
         "_feedData": {
-          "feed": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/main/DependencyControl.json"
+          "feed": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json"
         }
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1672506675018,
+      "_fetchTime": 1672507479854,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.Resample"
     },
     "arch.FocusLines": {
-      "fileBaseUrl": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.FocusLines-v@{version}/macros/arch.FocusLines",
-      "url": "https://github.com/arch1t3cht/Aegisub-Scripts#arch.FocusLines",
+      "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.FocusLines-v@{version}/macros/arch.FocusLines",
+      "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts#arch.FocusLines",
       "author": "arch1t3cht",
       "name": "Focus Lines",
       "description": "Draws moving focus lines.",
       "channels": {
         "release": {
-          "version": "1.0.0",
-          "released": "2022-07-24",
+          "version": "1.0.1",
+          "released": "2022-12-31",
           "default": true,
           "files": [
             {
               "name": ".moon",
-              "url": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.FocusLines-v1.0.0/macros/arch.FocusLines.moon",
-              "sha1": "3b099cb3a395db928e16c5ae405eee212cf295eb",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.FocusLines-v1.0.1/macros/arch.FocusLines.moon",
+              "sha1": "f03b9ef81267a37850826dbd3f85f6cae3883493",
               "_validHash": true
             }
           ],
@@ -174,8 +180,8 @@
             {
               "moduleName": "arch.Math",
               "name": "ArchMath",
-              "url": "https://github.com/arch1t3cht/Aegisub-Scripts",
-              "version": "0.1.0"
+              "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts",
+              "version": "0.1.8"
             }
           ]
         }
@@ -183,42 +189,45 @@
       "changelog": {
         "1.0.0": [
           "Initial Release"
+        ],
+        "1.0.1": [
+          "Move repository to TypesettingTools/arch1t3cht-Aegisub-Scripts"
         ]
       },
       "_validHash": true,
-      "_defaultVersion": "1.0.0",
+      "_defaultVersion": "1.0.1",
       "_scriptData": {
         "name": "Focus Lines",
         "description": "Draws moving focus lines.",
         "author": "arch1t3cht",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "namespace": "arch.FocusLines",
         "_feedData": {
-          "feed": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/main/DependencyControl.json"
+          "feed": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json"
         }
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1672506675018,
+      "_fetchTime": 1672507479854,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.FocusLines"
     },
     "arch.RWTools": {
-      "fileBaseUrl": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.RWTools-v@{version}/macros/arch.RWTools",
-      "url": "https://github.com/arch1t3cht/Aegisub-Scripts#arch.RWTools",
+      "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.RWTools-v@{version}/macros/arch.RWTools",
+      "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts#arch.RWTools",
       "author": "arch1t3cht",
       "name": "Rewriting Tools",
       "description": "Shortcuts for managing multiple rewrites of a line in one .ass event line.",
       "channels": {
         "release": {
-          "version": "1.3.0",
-          "released": "2022-08-01",
+          "version": "1.3.1",
+          "released": "2022-12-31",
           "default": true,
           "files": [
             {
               "name": ".lua",
-              "url": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.RWTools-v1.3.0/macros/arch.RWTools.lua",
-              "sha1": "73d9d651c26d84898c4a99cd9763a1ca550fe10a",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.RWTools-v1.3.1/macros/arch.RWTools.lua",
+              "sha1": "f70cf891188752ce1c5ec911cbd7de505bfe2b82",
               "_validHash": true
             }
           ]
@@ -236,42 +245,45 @@
         ],
         "1.3.0": [
           "Put the text cursor into the new active line, provided the Aegisub build supports it."
+        ],
+        "1.3.1": [
+          "Move repository to TypesettingTools/arch1t3cht-Aegisub-Scripts"
         ]
       },
       "_validHash": true,
-      "_defaultVersion": "1.3.0",
+      "_defaultVersion": "1.3.1",
       "_scriptData": {
         "name": "Rewriting Tools",
         "description": "Shortcuts for managing multiple rewrites of a line in one .ass event line.",
         "author": "arch1t3cht",
-        "version": "1.3.0",
+        "version": "1.3.1",
         "namespace": "arch.RWTools",
         "_feedData": {
-          "feed": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/main/DependencyControl.json"
+          "feed": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json"
         }
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1672506675018,
+      "_fetchTime": 1672507479854,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.RWTools"
     },
     "arch.NoteBrowser": {
-      "fileBaseUrl": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.NoteBrowser-v@{version}/macros/arch.NoteBrowser",
-      "url": "https://github.com/arch1t3cht/Aegisub-Scripts#arch.NoteBrowser",
+      "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.NoteBrowser-v@{version}/macros/arch.NoteBrowser",
+      "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts#arch.NoteBrowser",
       "author": "arch1t3cht",
       "name": "Note Browser",
       "description": "Loads a set of timestamped notes and adds options to mark them or jump between them.",
       "channels": {
         "release": {
-          "version": "1.3.4",
-          "released": "2022-06-21",
+          "version": "1.3.5",
+          "released": "2022-12-31",
           "default": true,
           "files": [
             {
               "name": ".moon",
-              "url": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.NoteBrowser-v1.3.4/macros/arch.NoteBrowser.moon",
-              "sha1": "5d66befd522cd8214128d4f0e2e62dd9d48ea7c8",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.NoteBrowser-v1.3.5/macros/arch.NoteBrowser.moon",
+              "sha1": "75bd6d2749190999cba015e8936836d2bb729746",
               "_validHash": true
             }
           ]
@@ -293,42 +305,45 @@
         "1.3.4": [
           "Update parsing logic for note texts to recognize more lines as continuation of the text.",
           "Replace backslashes in note texts to not change the formatting."
+        ],
+        "1.3.5": [
+          "Move repository to TypesettingTools/arch1t3cht-Aegisub-Scripts"
         ]
       },
       "_validHash": true,
-      "_defaultVersion": "1.3.4",
+      "_defaultVersion": "1.3.5",
       "_scriptData": {
         "name": "Note Browser",
         "description": "Loads a set of timestamped notes and adds options to mark them or jump between them.",
         "author": "arch1t3cht",
-        "version": "1.3.4",
+        "version": "1.3.5",
         "namespace": "arch.NoteBrowser",
         "_feedData": {
-          "feed": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/main/DependencyControl.json"
+          "feed": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json"
         }
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1672506675018,
+      "_fetchTime": 1672507479854,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.NoteBrowser"
     },
     "arch.GitSigns": {
-      "fileBaseUrl": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.GitSigns-v@{version}/macros/arch.GitSigns",
-      "url": "https://github.com/arch1t3cht/Aegisub-Scripts#arch.GitSigns",
+      "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.GitSigns-v@{version}/macros/arch.GitSigns",
+      "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts#arch.GitSigns",
       "author": "arch1t3cht",
       "name": "Git Signs",
       "description": "Displays git diffs in Aegisub",
       "channels": {
         "release": {
-          "version": "0.2.3",
-          "released": "2022-07-16",
+          "version": "0.2.4",
+          "released": "2022-12-31",
           "default": true,
           "files": [
             {
               "name": ".moon",
-              "url": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.GitSigns-v0.2.3/macros/arch.GitSigns.moon",
-              "sha1": "ff7702508e970898549a2e5b38d6f68f7cbd926d",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.GitSigns-v0.2.4/macros/arch.GitSigns.moon",
+              "sha1": "9751a0702c03a65434977a3a6d371431a24bd658",
               "_validHash": true
             }
           ]
@@ -350,42 +365,45 @@
         ],
         "0.2.3": [
           "Add empty extradata to newly inserted lines - this fixes a crash on Aegisub 3.2 and older versions."
+        ],
+        "0.2.4": [
+          "Move repository to TypesettingTools/arch1t3cht-Aegisub-Scripts"
         ]
       },
       "_validHash": true,
-      "_defaultVersion": "0.2.3",
+      "_defaultVersion": "0.2.4",
       "_scriptData": {
         "name": "Git Signs",
         "description": "Displays git diffs in Aegisub",
         "author": "arch1t3cht",
-        "version": "0.2.3",
+        "version": "0.2.4",
         "namespace": "arch.GitSigns",
         "_feedData": {
-          "feed": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/main/DependencyControl.json"
+          "feed": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json"
         }
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1672506675018,
+      "_fetchTime": 1672507479854,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.GitSigns"
     },
     "arch.ConvertFolds": {
-      "fileBaseUrl": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.ConvertFolds-v@{version}/macros/arch.ConvertFolds",
-      "url": "https://github.com/arch1t3cht/Aegisub-Scripts#arch.ConvertFolds",
+      "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.ConvertFolds-v@{version}/macros/arch.ConvertFolds",
+      "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts#arch.ConvertFolds",
       "author": "arch1t3cht",
       "name": "Convert Folds",
       "description": "Convert folds stored in the project properties to extradata folds.",
       "channels": {
         "release": {
-          "version": "1.1.1",
-          "released": "2022-12-12",
+          "version": "1.1.2",
+          "released": "2022-12-31",
           "default": true,
           "files": [
             {
               "name": ".moon",
-              "url": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.ConvertFolds-v1.1.1/macros/arch.ConvertFolds.moon",
-              "sha1": "7c1e179a03fc1fc531c4f2e4591116208d9942ec",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.ConvertFolds-v1.1.2/macros/arch.ConvertFolds.moon",
+              "sha1": "05bc513095c66ec0adc175de551199b80bfa1c4d",
               "_validHash": true
             }
           ]
@@ -397,44 +415,47 @@
         ],
         "1.1.0": [
           "Add option to automatically read the fold info from the raw subtitle file"
+        ],
+        "1.1.1": [
+          "Move repository to TypesettingTools/arch1t3cht-Aegisub-Scripts"
         ]
       },
       "_validHash": true,
-      "_defaultVersion": "1.1.1",
+      "_defaultVersion": "1.1.2",
       "_scriptData": {
         "name": "Convert Folds",
         "description": "Convert folds stored in the project properties to extradata folds.",
         "author": "arch1t3cht",
-        "version": "1.1.1",
+        "version": "1.1.2",
         "namespace": "arch.ConvertFolds",
         "_feedData": {
-          "feed": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/main/DependencyControl.json"
+          "feed": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json"
         }
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1672506675018,
+      "_fetchTime": 1672507479854,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.ConvertFolds"
     }
   },
   "modules": {
     "arch.Math": {
-      "fileBaseUrl": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.Math-v@{version}/modules/arch/Math",
-      "url": "https://github.com/arch1t3cht/Aegisub-Scripts#arch.Math",
+      "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Math-v@{version}/modules/arch/Math",
+      "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts#arch.Math",
       "author": "arch1t3cht",
       "name": "ArchMath",
       "description": "General-purpose linear algebra functions, approximately matching the patterns of Matlab or numpy",
       "channels": {
         "release": {
-          "version": "0.1.7",
-          "released": "2022-12-26",
+          "version": "0.1.8",
+          "released": "2022-12-31",
           "default": true,
           "files": [
             {
               "name": ".moon",
-              "url": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.Math-v0.1.7/modules/arch/Math.moon",
-              "sha1": "cbbbb7d13a80996c81551512f19073dcb68b72bf",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Math-v0.1.8/modules/arch/Math.moon",
+              "sha1": "3e328244410c9704ea5c11c58dbd7c1576c2df64",
               "_validHash": true
             }
           ]
@@ -468,6 +489,9 @@
         ],
         "0.1.7": [
           "Fix pattern for shape transform function."
+        ],
+        "0.1.8": [
+          "Move repository to TypesettingTools/arch1t3cht-Aegisub-Scripts"
         ]
       },
       "_validHash": true,
@@ -478,26 +502,26 @@
       ],
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1672506675018,
+      "_fetchTime": 1672507479854,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.Math"
     },
     "arch.Perspective": {
-      "fileBaseUrl": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.Perspective-v@{version}/modules/arch/Perspective",
-      "url": "https://github.com/arch1t3cht/Aegisub-Scripts#arch.Perspective",
+      "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Perspective-v@{version}/modules/arch/Perspective",
+      "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts#arch.Perspective",
       "author": "arch1t3cht",
       "name": "Perspective",
       "description": "Math functions for dealing with perspective transformations.",
       "channels": {
         "release": {
-          "version": "0.2.2",
-          "released": "2022-12-20",
+          "version": "0.2.3",
+          "released": "2022-12-31",
           "default": true,
           "files": [
             {
               "name": ".moon",
-              "url": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.Perspective-v0.2.2/modules/arch/Perspective.moon",
-              "sha1": "1b1fb69f66d78e4e3f98b1632219f7c09dc1bc24",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Perspective-v0.2.3/modules/arch/Perspective.moon",
+              "sha1": "559655f25aef45ade444702c2a4f91343bf51367",
               "_validHash": true
             }
           ],
@@ -505,7 +529,7 @@
             {
               "moduleName": "arch.Math",
               "name": "ArchMath",
-              "url": "https://github.com/arch1t3cht/Aegisub-Scripts",
+              "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts",
               "version": "0.1.6"
             }
           ]
@@ -522,6 +546,9 @@
         ],
         "0.2.1": [
           "Fix version record..."
+        ],
+        "0.2.2": [
+          "Move repository to TypesettingTools/arch1t3cht-Aegisub-Scripts"
         ]
       },
       "_validHash": true,
@@ -530,13 +557,13 @@
       ],
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1672506675018,
+      "_fetchTime": 1672507479854,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.Perspective"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "b409fc1",
-  "_fetchTime": 1672506675018,
+  "_fetchTime": 1672507479854,
   "_validHash": true
 }

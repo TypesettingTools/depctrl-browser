@@ -1,20 +1,20 @@
 [
   {
-    "fileBaseUrl": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.Perspective-v@{version}/modules/arch/Perspective",
-    "url": "https://github.com/arch1t3cht/Aegisub-Scripts#arch.Perspective",
+    "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Perspective-v@{version}/modules/arch/Perspective",
+    "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts#arch.Perspective",
     "author": "arch1t3cht",
     "name": "Perspective",
     "description": "Math functions for dealing with perspective transformations.",
     "channels": {
       "release": {
-        "version": "0.2.2",
-        "released": "2022-12-20",
+        "version": "0.2.3",
+        "released": "2022-12-31",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.Perspective-v0.2.2/modules/arch/Perspective.moon",
-            "sha1": "1b1fb69f66d78e4e3f98b1632219f7c09dc1bc24",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Perspective-v0.2.3/modules/arch/Perspective.moon",
+            "sha1": "559655f25aef45ade444702c2a4f91343bf51367",
             "_validHash": true
           }
         ],
@@ -22,7 +22,7 @@
           {
             "moduleName": "arch.Math",
             "name": "ArchMath",
-            "url": "https://github.com/arch1t3cht/Aegisub-Scripts",
+            "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts",
             "version": "0.1.6"
           }
         ]
@@ -39,6 +39,9 @@
       ],
       "0.2.1": [
         "Fix version record..."
+      ],
+      "0.2.2": [
+        "Move repository to TypesettingTools/arch1t3cht-Aegisub-Scripts"
       ]
     },
     "_validHash": true,
@@ -47,7 +50,7 @@
     ],
     "_feedName": "arch1t3cht's Aegisub Scripts",
     "_feedIdentifier": "b409fc1",
-    "_fetchTime": 1672506675018,
+    "_fetchTime": 1672507479854,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "arch.Perspective"
   }

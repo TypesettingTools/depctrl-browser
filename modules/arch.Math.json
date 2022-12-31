@@ -1,20 +1,20 @@
 [
   {
-    "fileBaseUrl": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.Math-v@{version}/modules/arch/Math",
-    "url": "https://github.com/arch1t3cht/Aegisub-Scripts#arch.Math",
+    "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Math-v@{version}/modules/arch/Math",
+    "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts#arch.Math",
     "author": "arch1t3cht",
     "name": "ArchMath",
     "description": "General-purpose linear algebra functions, approximately matching the patterns of Matlab or numpy",
     "channels": {
       "release": {
-        "version": "0.1.7",
-        "released": "2022-12-26",
+        "version": "0.1.8",
+        "released": "2022-12-31",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.Math-v0.1.7/modules/arch/Math.moon",
-            "sha1": "cbbbb7d13a80996c81551512f19073dcb68b72bf",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Math-v0.1.8/modules/arch/Math.moon",
+            "sha1": "3e328244410c9704ea5c11c58dbd7c1576c2df64",
             "_validHash": true
           }
         ]
@@ -48,6 +48,9 @@
       ],
       "0.1.7": [
         "Fix pattern for shape transform function."
+      ],
+      "0.1.8": [
+        "Move repository to TypesettingTools/arch1t3cht-Aegisub-Scripts"
       ]
     },
     "_validHash": true,
@@ -58,7 +61,7 @@
     ],
     "_feedName": "arch1t3cht's Aegisub Scripts",
     "_feedIdentifier": "b409fc1",
-    "_fetchTime": 1672506675018,
+    "_fetchTime": 1672507479854,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "arch.Math"
   }

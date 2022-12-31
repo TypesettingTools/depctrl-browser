@@ -1,20 +1,20 @@
 [
   {
-    "fileBaseUrl": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.GitSigns-v@{version}/macros/arch.GitSigns",
-    "url": "https://github.com/arch1t3cht/Aegisub-Scripts#arch.GitSigns",
+    "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.GitSigns-v@{version}/macros/arch.GitSigns",
+    "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts#arch.GitSigns",
     "author": "arch1t3cht",
     "name": "Git Signs",
     "description": "Displays git diffs in Aegisub",
     "channels": {
       "release": {
-        "version": "0.2.3",
-        "released": "2022-07-16",
+        "version": "0.2.4",
+        "released": "2022-12-31",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/arch.GitSigns-v0.2.3/macros/arch.GitSigns.moon",
-            "sha1": "ff7702508e970898549a2e5b38d6f68f7cbd926d",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.GitSigns-v0.2.4/macros/arch.GitSigns.moon",
+            "sha1": "9751a0702c03a65434977a3a6d371431a24bd658",
             "_validHash": true
           }
         ]
@@ -36,23 +36,26 @@
       ],
       "0.2.3": [
         "Add empty extradata to newly inserted lines - this fixes a crash on Aegisub 3.2 and older versions."
+      ],
+      "0.2.4": [
+        "Move repository to TypesettingTools/arch1t3cht-Aegisub-Scripts"
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "0.2.3",
+    "_defaultVersion": "0.2.4",
     "_scriptData": {
       "name": "Git Signs",
       "description": "Displays git diffs in Aegisub",
       "author": "arch1t3cht",
-      "version": "0.2.3",
+      "version": "0.2.4",
       "namespace": "arch.GitSigns",
       "_feedData": {
-        "feed": "https://raw.githubusercontent.com/arch1t3cht/Aegisub-Scripts/main/DependencyControl.json"
+        "feed": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json"
       }
     },
     "_feedName": "arch1t3cht's Aegisub Scripts",
     "_feedIdentifier": "b409fc1",
-    "_fetchTime": 1672506675018,
+    "_fetchTime": 1672507479854,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "arch.GitSigns"
   }
