@@ -122,6 +122,7 @@
     },
     "_validHash": true,
     "_reverseDependency": [
+      "phos.RotateGradient",
       "arch.AegisubChain",
       "l0.ASSFoundation",
       "l0.ASSWipe",
@@ -140,7 +141,7 @@
     ],
     "_feedName": "Functional",
     "_feedIdentifier": "c5d5896",
-    "_fetchTime": 1672533178197,
+    "_fetchTime": 1672565171000,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Functional/master/DependencyControl.json",
     "_namespace": "l0.Functional"
   }

@@ -1,19 +1,19 @@
 [
   {
-    "url": "https://github.com/PhosCity/Aegisub-Scripts#phos.changeAlignment",
+    "url": "https://github.com/PhosCity/Aegisub-Scripts#phos.RotateGradient",
     "author": "PhosCity",
-    "name": "Change Alignment",
-    "description": "Change alignment of line without changing it's appearance.",
+    "name": "Rotate Gradient",
+    "description": "Create rotated gradient with clip.",
     "channels": {
       "main": {
-        "version": "1.0.2",
-        "released": "2022-12-12",
+        "version": "2.0.0",
+        "released": "2023-01-01",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.changeAlignment.moon",
-            "sha1": "de4cf16aa9ee53bc799aabc4b6edefb021e751d4",
+            "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.RotateGradient.moon",
+            "sha1": "5cadfbfb21a27154840559e4cb5b3daf51311798",
             "_validHash": true
           }
         ],
@@ -26,10 +26,24 @@
             "feed": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json"
           },
           {
+            "moduleName": "a-mo.Line",
+            "name": "Aegisub-Motion (Line)",
+            "url": "https://github.com/TypesettingTools/Aegisub-Motion",
+            "version": "1.5.3",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json"
+          },
+          {
             "moduleName": "l0.ASSFoundation",
             "name": "ASSFoundation",
             "url": "https://github.com/TypesettingTools/ASSFoundation",
             "version": "0.5.0",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json"
+          },
+          {
+            "moduleName": "l0.Functional",
+            "name": "(Almost) Functional Suite",
+            "url": "https://github.com/TypesettingTools/ASSFoundation",
+            "version": "0.6.0",
             "feed": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json"
           }
         ]
@@ -38,16 +52,19 @@
     "changelog": {
       "1.0.0": [
         "Initial Release"
+      ],
+      "2.0.0": [
+        "Added to Dependency Control"
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "1.0.2",
+    "_defaultVersion": "2.0.0",
     "_scriptData": {
-      "name": "Change Alignment",
-      "description": "Change alignment of line without changing it's appearance.",
+      "name": "Rotate Gradient",
+      "description": "Create rotated gradient with clip.",
       "author": "PhosCity",
-      "version": "1.0.2",
-      "namespace": "phos.changeAlignment",
+      "version": "2.0.0",
+      "namespace": "phos.RotateGradient",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
       }
@@ -56,6 +73,6 @@
     "_feedIdentifier": "8fe234d",
     "_fetchTime": 1672565170916,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
-    "_namespace": "phos.changeAlignment"
+    "_namespace": "phos.RotateGradient"
   }
 ]
