@@ -143,6 +143,8 @@
       "_reverseDependency": [
         "phos.RotateGradient",
         "arch.AegisubChain",
+        "arch.NoteBrowser",
+        "arch.GitSigns",
         "l0.ASSFoundation",
         "l0.ASSWipe",
         "l0.InsertLineBreaks",
@@ -160,14 +162,14 @@
       ],
       "_feedName": "Functional",
       "_feedIdentifier": "c5d5896",
-      "_fetchTime": 1672565171000,
+      "_fetchTime": 1672746994135,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Functional/master/DependencyControl.json",
       "_namespace": "l0.Functional"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Functional/master/DependencyControl.json",
   "_identifier": "c5d5896",
-  "_fetchTime": 1672565171000,
+  "_fetchTime": 1672746994135,
   "macros": {},
   "_validHash": true
 }
