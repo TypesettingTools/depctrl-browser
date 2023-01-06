@@ -1,0 +1,45 @@
+[
+  {
+    "url": "https://github.com/PhosCity/Aegisub-Scripts#phos.TimingAssistant",
+    "author": "PhosCity",
+    "name": "Timing Assistant",
+    "description": "A second brain for timers.",
+    "channels": {
+      "main": {
+        "version": "1.0.0",
+        "released": "2023-01-06",
+        "default": true,
+        "files": [
+          {
+            "name": ".moon",
+            "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.TimingAssistant.moon",
+            "sha1": "2375c9a657008bf8fddf3960bb4c3c20ec15a33d",
+            "_validHash": true
+          }
+        ]
+      }
+    },
+    "changelog": {
+      "1.0.0": [
+        "Added to Dependency Control"
+      ]
+    },
+    "_validHash": true,
+    "_defaultVersion": "1.0.0",
+    "_scriptData": {
+      "name": "Timing Assistant",
+      "description": "A second brain for timers.",
+      "author": "PhosCity",
+      "version": "1.0.0",
+      "namespace": "phos.TimingAssistant",
+      "_feedData": {
+        "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
+      }
+    },
+    "_feedName": "PhosCity's Aegisub Scripts",
+    "_feedIdentifier": "8fe234d",
+    "_fetchTime": 1673000473042,
+    "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
+    "_namespace": "phos.TimingAssistant"
+  }
+]

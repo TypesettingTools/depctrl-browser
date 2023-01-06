@@ -247,6 +247,17 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/macros/phos.TimingAssistant/",
+        name: "Timing Assistant",
+        description: "A second brain for timers.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/macros/a-mo.Aegisub-Motion/",
         name: "Aegisub-Motion",
         description: "The main macro.",
