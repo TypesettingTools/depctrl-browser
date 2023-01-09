@@ -6,14 +6,14 @@
     "description": "Change alignment of line without changing it's appearance.",
     "channels": {
       "main": {
-        "version": "1.0.2",
-        "released": "2022-12-12",
+        "version": "1.1.0",
+        "released": "2023-01-09",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.changeAlignment.moon",
-            "sha1": "de4cf16aa9ee53bc799aabc4b6edefb021e751d4",
+            "sha1": "87b721de338b53d8871267dd98352345034cfc32",
             "_validHash": true
           }
         ],
@@ -38,15 +38,18 @@
     "changelog": {
       "1.0.0": [
         "Initial Release"
+      ],
+      "1.1.0": [
+        "Fix alignment when rotation is present."
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "1.0.2",
+    "_defaultVersion": "1.1.0",
     "_scriptData": {
       "name": "Change Alignment",
       "description": "Change alignment of line without changing it's appearance.",
       "author": "PhosCity",
-      "version": "1.0.2",
+      "version": "1.1.0",
       "namespace": "phos.changeAlignment",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
@@ -54,7 +57,7 @@
     },
     "_feedName": "PhosCity's Aegisub Scripts",
     "_feedIdentifier": "8fe234d",
-    "_fetchTime": 1673137860918,
+    "_fetchTime": 1673243771840,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "phos.changeAlignment"
   }
