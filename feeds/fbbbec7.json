@@ -58,7 +58,7 @@
       },
       "_feedName": "zeref-aegisub-scripts",
       "_feedIdentifier": "fbbbec7",
-      "_fetchTime": 1673243771803,
+      "_fetchTime": 1673322374561,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zf.allCharsTo"
     },
@@ -112,7 +112,7 @@
       },
       "_feedName": "zeref-aegisub-scripts",
       "_feedIdentifier": "fbbbec7",
-      "_fetchTime": 1673243771803,
+      "_fetchTime": 1673322374561,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zf.everythingShape"
     },
@@ -122,13 +122,13 @@
       "channels": {
         "main": {
           "default": true,
-          "version": "1.3.3",
-          "released": "2022-12-30",
+          "version": "1.3.4",
+          "released": "2023-01-10",
           "files": [
             {
               "name": ".moon",
               "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/macros/zf.gradientCut.moon",
-              "sha1": "2e6f9b82937383a9d765a40c8e64484737422434",
+              "sha1": "dab2b31f3059d945d1800a7e581bbcec111be9ca",
               "_validHash": true
             }
           ],
@@ -142,23 +142,23 @@
         }
       },
       "changelog": {
-        "1.3.2": [
-          "Initial depctrl release"
-        ],
         "1.3.3": [
           "Fixed depctrl registration"
+        ],
+        "1.3.2": [
+          "Initial depctrl release"
         ]
       },
       "name": "Gradient Cut",
       "description": "Generates a gradient from cuts in sequence.",
       "author": "Zeref",
       "_validHash": true,
-      "_defaultVersion": "1.3.3",
+      "_defaultVersion": "1.3.4",
       "_scriptData": {
         "name": "Gradient Cut",
         "description": "Generates a gradient from cuts in sequence.",
         "author": "Zeref",
-        "version": "1.3.3",
+        "version": "1.3.4",
         "namespace": "zf.gradientCut",
         "_feedData": {
           "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json"
@@ -166,7 +166,7 @@
       },
       "_feedName": "zeref-aegisub-scripts",
       "_feedIdentifier": "fbbbec7",
-      "_fetchTime": 1673243771803,
+      "_fetchTime": 1673322374561,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zf.gradientCut"
     },
@@ -220,7 +220,7 @@
       },
       "_feedName": "zeref-aegisub-scripts",
       "_feedIdentifier": "fbbbec7",
-      "_fetchTime": 1673243771803,
+      "_fetchTime": 1673322374561,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zf.line2fbf"
     },
@@ -271,7 +271,7 @@
       },
       "_feedName": "zeref-aegisub-scripts",
       "_feedIdentifier": "fbbbec7",
-      "_fetchTime": 1673243771803,
+      "_fetchTime": 1673322374561,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zf.makeImage"
     },
@@ -322,7 +322,7 @@
       },
       "_feedName": "zeref-aegisub-scripts",
       "_feedIdentifier": "fbbbec7",
-      "_fetchTime": 1673243771803,
+      "_fetchTime": 1673322374561,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zf.split"
     },
@@ -376,7 +376,7 @@
       },
       "_feedName": "zeref-aegisub-scripts",
       "_feedIdentifier": "fbbbec7",
-      "_fetchTime": 1673243771803,
+      "_fetchTime": 1673322374561,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zf.textInClip"
     }
@@ -590,7 +590,7 @@
       ],
       "_feedName": "zeref-aegisub-scripts",
       "_feedIdentifier": "fbbbec7",
-      "_fetchTime": 1673243771803,
+      "_fetchTime": 1673322374561,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ZF.main"
     },
@@ -666,7 +666,7 @@
       ],
       "_feedName": "zeref-aegisub-scripts",
       "_feedIdentifier": "fbbbec7",
-      "_fetchTime": 1673243771803,
+      "_fetchTime": 1673322374561,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zgiflib.giflib"
     },
@@ -742,7 +742,7 @@
       ],
       "_feedName": "zeref-aegisub-scripts",
       "_feedIdentifier": "fbbbec7",
-      "_fetchTime": 1673243771803,
+      "_fetchTime": 1673322374561,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zlodepng.lodepng"
     },
@@ -818,7 +818,7 @@
       ],
       "_feedName": "zeref-aegisub-scripts",
       "_feedIdentifier": "fbbbec7",
-      "_fetchTime": 1673243771803,
+      "_fetchTime": 1673322374561,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zpolyclipping.polyclipping"
     },
@@ -894,13 +894,13 @@
       ],
       "_feedName": "zeref-aegisub-scripts",
       "_feedIdentifier": "fbbbec7",
-      "_fetchTime": 1673243771803,
+      "_fetchTime": 1673322374561,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zturbojpeg.turbojpeg"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "fbbbec7",
-  "_fetchTime": 1673243771803,
+  "_fetchTime": 1673322374561,
   "_validHash": true
 }
