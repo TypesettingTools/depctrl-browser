@@ -1,19 +1,19 @@
 [
   {
-    "url": "https://github.com/PhosCity/Aegisub-Scripts#phos.TimingAssistant",
+    "url": "https://github.com/PhosCity/Aegisub-Scripts#phos.RemoveTags",
     "author": "PhosCity",
-    "name": "Timing Assistant",
-    "description": "A second brain for timers.",
+    "name": "Remove Tags",
+    "description": "Dynamically remove tags based on selection",
     "channels": {
       "main": {
-        "version": "1.0.1",
-        "released": "2023-01-06",
+        "version": "1.0.0",
+        "released": "2023-01-11",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.TimingAssistant.moon",
-            "sha1": "79d9d478501c5e3c17be380da0cf052e49186f22",
+            "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.RemoveTags.moon",
+            "sha1": "9134e7e4967373bacf84aab6ee0b39aeec02e69e",
             "_validHash": true
           }
         ]
@@ -25,13 +25,13 @@
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "1.0.1",
+    "_defaultVersion": "1.0.0",
     "_scriptData": {
-      "name": "Timing Assistant",
-      "description": "A second brain for timers.",
+      "name": "Remove Tags",
+      "description": "Dynamically remove tags based on selection",
       "author": "PhosCity",
-      "version": "1.0.1",
-      "namespace": "phos.TimingAssistant",
+      "version": "1.0.0",
+      "namespace": "phos.RemoveTags",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
       }
@@ -40,6 +40,6 @@
     "_feedIdentifier": "8fe234d",
     "_fetchTime": 1673436368489,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
-    "_namespace": "phos.TimingAssistant"
+    "_namespace": "phos.RemoveTags"
   }
 ]
