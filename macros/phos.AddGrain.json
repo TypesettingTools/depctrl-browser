@@ -6,14 +6,14 @@
     "description": "Add static and dynamic grain",
     "channels": {
       "main": {
-        "version": "1.0.1",
-        "released": "2022-12-18",
+        "version": "1.1.0",
+        "released": "2023-01-12",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.AddGrain.moon",
-            "sha1": "7b9c5667d4d46d4f8d29fc4870f41483402b3bd3",
+            "sha1": "b5d582dbe310d1db87e5c702163afb2cc887de0d",
             "_validHash": true
           }
         ],
@@ -26,17 +26,17 @@
             "feed": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json"
           },
           {
-            "moduleName": "a-mo.Line",
-            "name": "Aegisub-Motion (Line)",
-            "url": "https://github.com/TypesettingTools/Aegisub-Motion",
-            "version": "1.5.3",
-            "feed": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json"
-          },
-          {
             "moduleName": "l0.ASSFoundation",
             "name": "ASSFoundation",
             "url": "https://github.com/TypesettingTools/ASSFoundation",
             "version": "0.5.0",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json"
+          },
+          {
+            "moduleName": "l0.Functional",
+            "name": "(Almost) Functional Suite",
+            "url": "https://github.com/TypesettingTools/ASSFoundation",
+            "version": "0.6.0",
             "feed": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json"
           },
           {
@@ -48,15 +48,19 @@
     "changelog": {
       "1.0.0": [
         "Initial Release"
+      ],
+      "1.1.0": [
+        "Add more characters for more randomization.",
+        "Add gui with abitlity to change grain density and grain color"
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "1.0.1",
+    "_defaultVersion": "1.1.0",
     "_scriptData": {
       "name": "Add Grain",
       "description": "Add static and dynamic grain",
       "author": "PhosCity",
-      "version": "1.0.1",
+      "version": "1.1.0",
       "namespace": "phos.AddGrain",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
@@ -64,7 +68,7 @@
     },
     "_feedName": "PhosCity's Aegisub Scripts",
     "_feedIdentifier": "8fe234d",
-    "_fetchTime": 1673440860495,
+    "_fetchTime": 1673520658307,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "phos.AddGrain"
   }
