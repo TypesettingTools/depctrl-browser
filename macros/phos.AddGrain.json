@@ -6,14 +6,14 @@
     "description": "Add static and dynamic grain",
     "channels": {
       "main": {
-        "version": "1.1.1",
-        "released": "2023-01-12",
+        "version": "1.1.2",
+        "released": "2023-01-14",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.AddGrain.moon",
-            "sha1": "cd4254203c5460d6d470f9087ada8c015d5e8fe7",
+            "sha1": "b222f52c454419ab92dba1e9538c8f7d64f0478a",
             "_validHash": true
           }
         ],
@@ -55,12 +55,12 @@
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "1.1.1",
+    "_defaultVersion": "1.1.2",
     "_scriptData": {
       "name": "Add Grain",
       "description": "Add static and dynamic grain",
       "author": "PhosCity",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "namespace": "phos.AddGrain",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
@@ -68,7 +68,7 @@
     },
     "_feedName": "PhosCity's Aegisub Scripts",
     "_feedIdentifier": "8fe234d",
-    "_fetchTime": 1673523957408,
+    "_fetchTime": 1673679672300,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "phos.AddGrain"
   }
