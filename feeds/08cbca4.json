@@ -29,15 +29,15 @@
       "fileBaseUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/@{channel}/macros/zah.pers-mo_BETA",
       "channels": {
         "main": {
-          "version": "0.3.0",
-          "released": "2023-01-06",
+          "version": "0.3.1",
+          "released": "2023-01-17",
           "default": true,
           "files": [
             {
               "name": ".moon",
               "url": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/macros/zah.pers-mo_BETA.moon",
-              "sha1": "06c6c641fb9760c1efb1f7c391cc16fefee194dc",
-              "_validHash": false
+              "sha1": "de02ed295191f4d61dbb62f09be802c0722aa60a",
+              "_validHash": true
             }
           ],
           "requiredModules": [
@@ -71,15 +71,18 @@
         "0.3.0": [
           "Unimaginable amount of improvements.",
           "Sorting out all the dependencies"
+        ],
+        "0.3.1": [
+          "Save tracking datas ambient quad to extradata"
         ]
       },
-      "_validHash": false,
-      "_defaultVersion": "0.3.0",
+      "_validHash": true,
+      "_defaultVersion": "0.3.1",
       "_scriptData": {
         "name": "Aegisub-Perspective-Motion BETA",
         "description": "Applying perspective tracking",
         "author": "Zahuczky",
-        "version": "0.3.0",
+        "version": "0.3.1",
         "namespace": "zah.pers-mo_BETA",
         "_feedData": {
           "feed": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json"
@@ -87,7 +90,7 @@
       },
       "_feedName": "Zahuczky's Automation Scripts",
       "_feedIdentifier": "08cbca4",
-      "_fetchTime": 1673994066763,
+      "_fetchTime": 1673998264237,
       "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zah.pers-mo_BETA"
     },
@@ -154,14 +157,14 @@
       },
       "_feedName": "Zahuczky's Automation Scripts",
       "_feedIdentifier": "08cbca4",
-      "_fetchTime": 1673994066763,
+      "_fetchTime": 1673998264237,
       "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zah.aegi-color-track"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "08cbca4",
-  "_fetchTime": 1673994066763,
+  "_fetchTime": 1673998264237,
   "modules": {},
-  "_validHash": false
+  "_validHash": true
 }
