@@ -963,6 +963,7 @@
       "phos.AddGrain",
       "phos.RotateGradient",
       "phos.RemoveTags",
+      "arch.Resample",
       "Flux.ScaleRotTags",
       "l0.ASSWipe",
       "l0.CascadeTransforms",
@@ -980,7 +981,7 @@
     ],
     "_feedName": "ASSFoundation",
     "_feedIdentifier": "92c766d",
-    "_fetchTime": 1673854554147,
+    "_fetchTime": 1673994066604,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json",
     "_namespace": "l0.ASSFoundation"
   }

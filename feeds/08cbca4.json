@@ -37,7 +37,7 @@
               "name": ".moon",
               "url": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/macros/zah.pers-mo_BETA.moon",
               "sha1": "06c6c641fb9760c1efb1f7c391cc16fefee194dc",
-              "_validHash": true
+              "_validHash": false
             }
           ],
           "requiredModules": [
@@ -73,7 +73,7 @@
           "Sorting out all the dependencies"
         ]
       },
-      "_validHash": true,
+      "_validHash": false,
       "_defaultVersion": "0.3.0",
       "_scriptData": {
         "name": "Aegisub-Perspective-Motion BETA",
@@ -87,7 +87,7 @@
       },
       "_feedName": "Zahuczky's Automation Scripts",
       "_feedIdentifier": "08cbca4",
-      "_fetchTime": 1673854554367,
+      "_fetchTime": 1673994066763,
       "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zah.pers-mo_BETA"
     },
@@ -154,14 +154,14 @@
       },
       "_feedName": "Zahuczky's Automation Scripts",
       "_feedIdentifier": "08cbca4",
-      "_fetchTime": 1673854554367,
+      "_fetchTime": 1673994066763,
       "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zah.aegi-color-track"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "08cbca4",
-  "_fetchTime": 1673854554367,
+  "_fetchTime": 1673994066763,
   "modules": {},
-  "_validHash": true
+  "_validHash": false
 }
