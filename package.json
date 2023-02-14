@@ -11,13 +11,13 @@
   "author": "sepro",
   "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-fetch": "^3.0.0",
     "bootstrap": "^5.2.3",
     "compare-versions": "^4.1.4",
-    "esbuild": "^0.15.15",
-    "esbuild-sass-plugin": "^2.2.6",
-    "flexsearch": "^0.7.21",
+    "esbuild": "^0.16.17",
+    "esbuild-sass-plugin": "^2.5.0",
+    "flexsearch": "^0.7.31",
     "html-minifier": "^4.0.0",
     "markdown-it": "^13.0.1",
     "p-limit": "^3.1.0"
