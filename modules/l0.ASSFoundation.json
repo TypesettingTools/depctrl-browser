@@ -959,6 +959,7 @@
     },
     "_validHash": true,
     "_reverseDependency": [
+      "phos.svg2ass",
       "phos.changeAlignment",
       "phos.AddGrain",
       "phos.RotateGradient",
@@ -981,7 +982,7 @@
     ],
     "_feedName": "ASSFoundation",
     "_feedIdentifier": "92c766d",
-    "_fetchTime": 1677371754628,
+    "_fetchTime": 1677756682560,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json",
     "_namespace": "l0.ASSFoundation"
   }

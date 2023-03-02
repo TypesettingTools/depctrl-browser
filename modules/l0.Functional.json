@@ -122,6 +122,7 @@
     },
     "_validHash": true,
     "_reverseDependency": [
+      "phos.svg2ass",
       "phos.AddGrain",
       "phos.RotateGradient",
       "phos.RemoveTags",
@@ -145,7 +146,7 @@
     ],
     "_feedName": "Functional",
     "_feedIdentifier": "c5d5896",
-    "_fetchTime": 1677371754847,
+    "_fetchTime": 1677756683122,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Functional/master/DependencyControl.json",
     "_namespace": "l0.Functional"
   }
