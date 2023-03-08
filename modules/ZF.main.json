@@ -5,13 +5,13 @@
     "channels": {
       "main": {
         "default": true,
-        "version": "2.2.0",
-        "released": "2022-11-27",
+        "version": "2.3.0",
+        "released": "2023-02-03",
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main.moon",
-            "sha1": "66fa0c2f150c6dfcb339868d7c0e9abade231889",
+            "sha1": "50d9d19c49a684fce391925bb32f6041f151f29e",
             "_validHash": true
           },
           {
@@ -88,39 +88,29 @@
           },
           {
             "name": "/img/bmp.moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/img/bmp.moon",
-            "sha1": "f38b839f86fe35b9909c572461fcf36f35e3cb98",
-            "_validHash": true
+            "delete": true
           },
           {
             "name": "/img/buffer.moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/img/buffer.moon",
-            "sha1": "4bfc0475532b26005d5a0a5be4228da9549c970d",
-            "_validHash": true
+            "delete": true
           },
           {
             "name": "/img/gif.moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/img/gif.moon",
-            "sha1": "3fbe1d97754ff9318d4435b3d125722fabbb4678",
-            "_validHash": true
+            "delete": true
           },
           {
             "name": "/img/img.moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/img/img.moon",
-            "sha1": "2a8b814798d8c9c24973ac328e6dd6c2b21d2698",
+            "sha1": "901bf218a16364282cb59818a08686d3876aae3c",
             "_validHash": true
           },
           {
             "name": "/img/jpg.moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/img/jpg.moon",
-            "sha1": "45f772bd8e184e65ff931b57ddf1f3d48c375310",
-            "_validHash": true
+            "delete": true
           },
           {
             "name": "/img/png.moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/img/png.moon",
-            "sha1": "fb95338d04d8e098f5b67c84fef1a00b8e53c2e1",
-            "_validHash": true
+            "delete": true
           },
           {
             "name": "/img/potrace.moon",
@@ -164,24 +154,14 @@
             "moduleName": "ffi"
           },
           {
-            "moduleName": "zgiflib.giflib",
-            "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
-            "version": "5.2.1"
-          },
-          {
-            "moduleName": "zlodepng.lodepng",
-            "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
-            "version": "22.1.9"
-          },
-          {
             "moduleName": "zpolyclipping.polyclipping",
             "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
             "version": "6.4.2"
           },
           {
-            "moduleName": "zturbojpeg.turbojpeg",
+            "moduleName": "zimg.main",
             "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
-            "version": "2.1.3"
+            "version": "1.0.0"
           }
         ]
       }
@@ -207,7 +187,7 @@
     ],
     "_feedName": "zeref-aegisub-scripts",
     "_feedIdentifier": "fbbbec7",
-    "_fetchTime": 1677976518490,
+    "_fetchTime": 1678238769069,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ZF.main"
   }

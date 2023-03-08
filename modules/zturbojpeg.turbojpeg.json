@@ -7,71 +7,40 @@
     "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/@{channel}/modules/zturbojpeg/turbojpeg",
     "channels": {
       "main": {
-        "version": "2.1.3",
-        "released": "2022-02-25",
+        "version": "3.0.0",
+        "released": "2023-02-03",
         "default": true,
-        "platforms": [
-          "Windows-x64",
-          "Windows-x86",
-          "OSX-x64",
-          "Linux-x64"
-        ],
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/zturbojpeg/turbojpeg.moon",
-            "sha1": "13e847ca8689b080425c28619a932ab781363c26",
-            "_validHash": true
+            "delete": true
           },
           {
             "name": "/turbojpeg.dll",
-            "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-win-x64-turbojpeg.dll",
-            "platform": "Windows-x64",
-            "sha1": "92ea0a8ca8bc3904e7b53232a99caa2c9eda4d6a",
-            "_validHash": true
-          },
-          {
-            "name": "/turbojpeg.dll",
-            "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.0.0/v2.0.0-win-x86-turbojpeg.dll",
-            "platform": "Windows-x86",
-            "sha1": "6838b78129c3cc7dec9fb9ba67cb053fbfc7889a",
-            "_validHash": true
+            "delete": true
           },
           {
             "name": "/libturbojpeg.dylib",
-            "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-macOS-x64-libturbojpeg.dylib",
-            "platform": "OSX-x64",
-            "sha1": "9d4d96a37b0d49dddef24d1b7abd1d98c958dafb",
-            "_validHash": true
+            "delete": true
           },
           {
             "name": "/libturbojpeg.so",
-            "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-linux-x64-libturbojpeg.so",
-            "platform": "Linux-x64",
-            "sha1": "22939afc295b4c56131dbbe5507de1a8fe64b903",
-            "_validHash": true
+            "delete": true
           }
         ],
-        "requiredModules": [
-          {
-            "moduleName": "ffi"
-          },
-          {
-            "moduleName": "requireffi.requireffi",
-            "version": "0.1.2",
-            "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
-          }
-        ]
+        "requiredModules": []
       }
     },
-    "changelog": {},
+    "changelog": {
+      "3.0.0": [
+        "Deprecated."
+      ]
+    },
     "_validHash": true,
-    "_reverseDependency": [
-      "ZF.main"
-    ],
+    "_reverseDependency": [],
     "_feedName": "zeref-aegisub-scripts",
     "_feedIdentifier": "fbbbec7",
-    "_fetchTime": 1677976518490,
+    "_fetchTime": 1678238769069,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "zturbojpeg.turbojpeg"
   }

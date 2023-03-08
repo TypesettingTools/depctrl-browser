@@ -60,7 +60,7 @@
         },
         "_feedName": "petzku's Automation Scripts",
         "_feedIdentifier": "7161932",
-        "_fetchTime": 1677976518389,
+        "_fetchTime": 1678238768960,
         "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "petzku.Accenter"
       },
@@ -118,7 +118,7 @@
         },
         "_feedName": "petzku's Automation Scripts",
         "_feedIdentifier": "7161932",
-        "_fetchTime": 1677976518389,
+        "_fetchTime": 1678238768960,
         "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "petzku.Autowrapper"
       },
@@ -166,7 +166,7 @@
         },
         "_feedName": "petzku's Automation Scripts",
         "_feedIdentifier": "7161932",
-        "_fetchTime": 1677976518389,
+        "_fetchTime": 1678238768960,
         "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "petzku.ClipSize"
       },
@@ -221,7 +221,7 @@
         },
         "_feedName": "petzku's Automation Scripts",
         "_feedIdentifier": "7161932",
-        "_fetchTime": 1677976518389,
+        "_fetchTime": 1678238768960,
         "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "petzku.CombineGradientLines"
       },
@@ -312,7 +312,7 @@
         },
         "_feedName": "petzku's Automation Scripts",
         "_feedIdentifier": "7161932",
-        "_fetchTime": 1677976518389,
+        "_fetchTime": 1678238768960,
         "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "petzku.EncodeClip"
       },
@@ -360,7 +360,7 @@
         },
         "_feedName": "petzku's Automation Scripts",
         "_feedIdentifier": "7161932",
-        "_fetchTime": 1677976518389,
+        "_fetchTime": 1678238768960,
         "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "petzku.ExtrapolateMove"
       },
@@ -408,7 +408,7 @@
         },
         "_feedName": "petzku's Automation Scripts",
         "_feedIdentifier": "7161932",
-        "_fetchTime": 1677976518389,
+        "_fetchTime": 1678238768960,
         "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "petzku.JumpToNextPlus"
       },
@@ -453,7 +453,7 @@
         },
         "_feedName": "petzku's Automation Scripts",
         "_feedIdentifier": "7161932",
-        "_fetchTime": 1677976518389,
+        "_fetchTime": 1678238768960,
         "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "petzku.Phantom"
       },
@@ -505,7 +505,7 @@
         },
         "_feedName": "petzku's Automation Scripts",
         "_feedIdentifier": "7161932",
-        "_fetchTime": 1677976518389,
+        "_fetchTime": 1678238768960,
         "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "petzku.PosToMargin"
       },
@@ -547,7 +547,7 @@
         },
         "_feedName": "petzku's Automation Scripts",
         "_feedIdentifier": "7161932",
-        "_fetchTime": 1677976518389,
+        "_fetchTime": 1678238768960,
         "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "petzku.Snapper"
       },
@@ -605,7 +605,7 @@
         },
         "_feedName": "petzku's Automation Scripts",
         "_feedIdentifier": "7161932",
-        "_fetchTime": 1677976518389,
+        "_fetchTime": 1678238768960,
         "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "petzku.SplitTimer"
       },
@@ -681,7 +681,7 @@
         },
         "_feedName": "petzku's Automation Scripts",
         "_feedIdentifier": "7161932",
-        "_fetchTime": 1677976518389,
+        "_fetchTime": 1678238768960,
         "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "petzku.Typewriter"
       }
@@ -720,7 +720,7 @@
         "_reverseDependency": [],
         "_feedName": "petzku's Automation Scripts",
         "_feedIdentifier": "7161932",
-        "_fetchTime": 1677976518389,
+        "_fetchTime": 1678238768960,
         "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "petzku.easings"
       },
@@ -773,14 +773,14 @@
         ],
         "_feedName": "petzku's Automation Scripts",
         "_feedIdentifier": "7161932",
-        "_fetchTime": 1677976518389,
+        "_fetchTime": 1678238768960,
         "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "petzku.util"
       }
     },
     "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
     "_identifier": "7161932",
-    "_fetchTime": 1677976518389,
+    "_fetchTime": 1678238768960,
     "_validHash": true
   },
   {
@@ -835,7 +835,7 @@
         },
         "_feedName": "PhosCity's Aegisub Scripts",
         "_feedIdentifier": "8fe234d",
-        "_fetchTime": 1677976518502,
+        "_fetchTime": 1678238769038,
         "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "phos.wave"
       },
@@ -889,7 +889,7 @@
         },
         "_feedName": "PhosCity's Aegisub Scripts",
         "_feedIdentifier": "8fe234d",
-        "_fetchTime": 1677976518502,
+        "_fetchTime": 1678238769038,
         "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "phos.wobble"
       },
@@ -932,7 +932,7 @@
         },
         "_feedName": "PhosCity's Aegisub Scripts",
         "_feedIdentifier": "8fe234d",
-        "_fetchTime": 1677976518502,
+        "_fetchTime": 1678238769038,
         "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "phos.snap"
       },
@@ -1005,7 +1005,7 @@
         },
         "_feedName": "PhosCity's Aegisub Scripts",
         "_feedIdentifier": "8fe234d",
-        "_fetchTime": 1677976518502,
+        "_fetchTime": 1678238769038,
         "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "phos.svg2ass"
       },
@@ -1067,7 +1067,7 @@
         },
         "_feedName": "PhosCity's Aegisub Scripts",
         "_feedIdentifier": "8fe234d",
-        "_fetchTime": 1677976518502,
+        "_fetchTime": 1678238769038,
         "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "phos.changeAlignment"
       },
@@ -1140,7 +1140,7 @@
         },
         "_feedName": "PhosCity's Aegisub Scripts",
         "_feedIdentifier": "8fe234d",
-        "_fetchTime": 1677976518502,
+        "_fetchTime": 1678238769038,
         "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "phos.AddGrain"
       },
@@ -1216,7 +1216,7 @@
         },
         "_feedName": "PhosCity's Aegisub Scripts",
         "_feedIdentifier": "8fe234d",
-        "_fetchTime": 1677976518502,
+        "_fetchTime": 1678238769038,
         "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "phos.RotateGradient"
       },
@@ -1259,7 +1259,7 @@
         },
         "_feedName": "PhosCity's Aegisub Scripts",
         "_feedIdentifier": "8fe234d",
-        "_fetchTime": 1677976518502,
+        "_fetchTime": 1678238769038,
         "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "phos.TimingAssistant"
       },
@@ -1325,14 +1325,14 @@
         },
         "_feedName": "PhosCity's Aegisub Scripts",
         "_feedIdentifier": "8fe234d",
-        "_fetchTime": 1677976518502,
+        "_fetchTime": 1678238769038,
         "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "phos.RemoveTags"
       }
     },
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "_identifier": "8fe234d",
-    "_fetchTime": 1677976518502,
+    "_fetchTime": 1678238769038,
     "modules": {},
     "_validHash": true
   },
@@ -1414,7 +1414,7 @@
         ],
         "_feedName": "FFI Experiments",
         "_feedIdentifier": "2d000a9",
-        "_fetchTime": 1677976518202,
+        "_fetchTime": 1678238768856,
         "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
         "_namespace": "BM.BadMutex"
       },
@@ -1485,7 +1485,7 @@
         ],
         "_feedName": "FFI Experiments",
         "_feedIdentifier": "2d000a9",
-        "_fetchTime": 1677976518202,
+        "_fetchTime": 1678238768856,
         "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
         "_namespace": "PT.PreciseTimer"
       },
@@ -1556,7 +1556,7 @@
         ],
         "_feedName": "FFI Experiments",
         "_feedIdentifier": "2d000a9",
-        "_fetchTime": 1677976518202,
+        "_fetchTime": 1678238768856,
         "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
         "_namespace": "DM.DownloadManager"
       },
@@ -1596,21 +1596,19 @@
           "PT.PreciseTimer",
           "DM.DownloadManager",
           "SubInspector.Inspector",
-          "zgiflib.giflib",
-          "zlodepng.lodepng",
           "zpolyclipping.polyclipping",
-          "zturbojpeg.turbojpeg"
+          "zimg.main"
         ],
         "_feedName": "FFI Experiments",
         "_feedIdentifier": "2d000a9",
-        "_fetchTime": 1677976518202,
+        "_fetchTime": 1678238768856,
         "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
         "_namespace": "requireffi.requireffi"
       }
     },
     "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
     "_identifier": "2d000a9",
-    "_fetchTime": 1677976518202,
+    "_fetchTime": 1678238768856,
     "macros": {},
     "_validHash": true
   },
@@ -1707,7 +1705,7 @@
         },
         "_feedName": "Aegisub-Motion",
         "_feedIdentifier": "4152f8d",
-        "_fetchTime": 1677976518197,
+        "_fetchTime": 1678238768871,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
         "_namespace": "a-mo.Aegisub-Motion"
       }
@@ -1755,7 +1753,7 @@
         ],
         "_feedName": "Aegisub-Motion",
         "_feedIdentifier": "4152f8d",
-        "_fetchTime": 1677976518197,
+        "_fetchTime": 1678238768871,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
         "_namespace": "a-mo.ConfigHandler"
       },
@@ -1791,7 +1789,7 @@
         ],
         "_feedName": "Aegisub-Motion",
         "_feedIdentifier": "4152f8d",
-        "_fetchTime": 1677976518197,
+        "_fetchTime": 1678238768871,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
         "_namespace": "a-mo.DataHandler"
       },
@@ -1837,7 +1835,7 @@
         ],
         "_feedName": "Aegisub-Motion",
         "_feedIdentifier": "4152f8d",
-        "_fetchTime": 1677976518197,
+        "_fetchTime": 1678238768871,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
         "_namespace": "a-mo.DataWrapper"
       },
@@ -1894,7 +1892,7 @@
         ],
         "_feedName": "Aegisub-Motion",
         "_feedIdentifier": "4152f8d",
-        "_fetchTime": 1677976518197,
+        "_fetchTime": 1678238768871,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
         "_namespace": "a-mo.Line"
       },
@@ -1955,7 +1953,7 @@
         ],
         "_feedName": "Aegisub-Motion",
         "_feedIdentifier": "4152f8d",
-        "_fetchTime": 1677976518197,
+        "_fetchTime": 1678238768871,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
         "_namespace": "a-mo.LineCollection"
       },
@@ -1996,7 +1994,7 @@
         ],
         "_feedName": "Aegisub-Motion",
         "_feedIdentifier": "4152f8d",
-        "_fetchTime": 1677976518197,
+        "_fetchTime": 1678238768871,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
         "_namespace": "a-mo.Log"
       },
@@ -2027,7 +2025,7 @@
         ],
         "_feedName": "Aegisub-Motion",
         "_feedIdentifier": "4152f8d",
-        "_fetchTime": 1677976518197,
+        "_fetchTime": 1678238768871,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
         "_namespace": "a-mo.Math"
       },
@@ -2088,7 +2086,7 @@
         ],
         "_feedName": "Aegisub-Motion",
         "_feedIdentifier": "4152f8d",
-        "_fetchTime": 1677976518197,
+        "_fetchTime": 1678238768871,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
         "_namespace": "a-mo.MotionHandler"
       },
@@ -2124,7 +2122,7 @@
         ],
         "_feedName": "Aegisub-Motion",
         "_feedIdentifier": "4152f8d",
-        "_fetchTime": 1677976518197,
+        "_fetchTime": 1678238768871,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
         "_namespace": "a-mo.ShakeShapeHandler"
       },
@@ -2163,7 +2161,7 @@
         ],
         "_feedName": "Aegisub-Motion",
         "_feedIdentifier": "4152f8d",
-        "_fetchTime": 1677976518197,
+        "_fetchTime": 1678238768871,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
         "_namespace": "a-mo.Statistics"
       },
@@ -2206,7 +2204,7 @@
         ],
         "_feedName": "Aegisub-Motion",
         "_feedIdentifier": "4152f8d",
-        "_fetchTime": 1677976518197,
+        "_fetchTime": 1678238768871,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
         "_namespace": "a-mo.Tags"
       },
@@ -2249,7 +2247,7 @@
         ],
         "_feedName": "Aegisub-Motion",
         "_feedIdentifier": "4152f8d",
-        "_fetchTime": 1677976518197,
+        "_fetchTime": 1678238768871,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
         "_namespace": "a-mo.Transform"
       },
@@ -2285,7 +2283,7 @@
         ],
         "_feedName": "Aegisub-Motion",
         "_feedIdentifier": "4152f8d",
-        "_fetchTime": 1677976518197,
+        "_fetchTime": 1678238768871,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
         "_namespace": "a-mo.TrimHandler"
       }
@@ -2293,7 +2291,7 @@
     "_defective": "Trailing Comma",
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
     "_identifier": "4152f8d",
-    "_fetchTime": 1677976518197,
+    "_fetchTime": 1678238768871,
     "_validHash": true
   },
   {
@@ -2372,7 +2370,7 @@
         },
         "_feedName": "arch1t3cht's Aegisub Scripts",
         "_feedIdentifier": "b409fc1",
-        "_fetchTime": 1677976518529,
+        "_fetchTime": 1678238769065,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "arch.AegisubChain"
       },
@@ -2459,7 +2457,7 @@
         },
         "_feedName": "arch1t3cht's Aegisub Scripts",
         "_feedIdentifier": "b409fc1",
-        "_fetchTime": 1677976518529,
+        "_fetchTime": 1678238769065,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "arch.Resample"
       },
@@ -2514,7 +2512,7 @@
         },
         "_feedName": "arch1t3cht's Aegisub Scripts",
         "_feedIdentifier": "b409fc1",
-        "_fetchTime": 1677976518529,
+        "_fetchTime": 1678238769065,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "arch.FocusLines"
       },
@@ -2570,7 +2568,7 @@
         },
         "_feedName": "arch1t3cht's Aegisub Scripts",
         "_feedIdentifier": "b409fc1",
-        "_fetchTime": 1677976518529,
+        "_fetchTime": 1678238769065,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "arch.RWTools"
       },
@@ -2639,7 +2637,7 @@
         },
         "_feedName": "arch1t3cht's Aegisub Scripts",
         "_feedIdentifier": "b409fc1",
-        "_fetchTime": 1677976518529,
+        "_fetchTime": 1678238769065,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "arch.NoteBrowser"
       },
@@ -2708,7 +2706,7 @@
         },
         "_feedName": "arch1t3cht's Aegisub Scripts",
         "_feedIdentifier": "b409fc1",
-        "_fetchTime": 1677976518529,
+        "_fetchTime": 1678238769065,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "arch.GitSigns"
       },
@@ -2758,7 +2756,7 @@
         },
         "_feedName": "arch1t3cht's Aegisub Scripts",
         "_feedIdentifier": "b409fc1",
-        "_fetchTime": 1677976518529,
+        "_fetchTime": 1678238769065,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "arch.ConvertFolds"
       }
@@ -2826,7 +2824,7 @@
         ],
         "_feedName": "arch1t3cht's Aegisub Scripts",
         "_feedIdentifier": "b409fc1",
-        "_fetchTime": 1677976518529,
+        "_fetchTime": 1678238769065,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "arch.Math"
       },
@@ -2881,14 +2879,14 @@
         ],
         "_feedName": "arch1t3cht's Aegisub Scripts",
         "_feedIdentifier": "b409fc1",
-        "_fetchTime": 1677976518529,
+        "_fetchTime": 1678238769065,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "arch.Perspective"
       }
     },
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
     "_identifier": "b409fc1",
-    "_fetchTime": 1677976518529,
+    "_fetchTime": 1678238769065,
     "_validHash": true
   },
   {
@@ -3885,14 +3883,14 @@
         ],
         "_feedName": "ASSFoundation",
         "_feedIdentifier": "92c766d",
-        "_fetchTime": 1677976518250,
+        "_fetchTime": 1678238768865,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json",
         "_namespace": "l0.ASSFoundation"
       }
     },
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json",
     "_identifier": "92c766d",
-    "_fetchTime": 1677976518250,
+    "_fetchTime": 1678238768865,
     "macros": {},
     "_validHash": true
   },
@@ -3983,7 +3981,7 @@
         },
         "_feedName": "CoffeeFlux's Aegisub Scripts",
         "_feedIdentifier": "b6a37e0",
-        "_fetchTime": 1677976518342,
+        "_fetchTime": 1678238768955,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "Flux.DialogSwapper"
       },
@@ -4053,7 +4051,7 @@
         },
         "_feedName": "CoffeeFlux's Aegisub Scripts",
         "_feedIdentifier": "b6a37e0",
-        "_fetchTime": 1677976518342,
+        "_fetchTime": 1678238768955,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "Flux.TitleCase"
       },
@@ -4112,7 +4110,7 @@
         },
         "_feedName": "CoffeeFlux's Aegisub Scripts",
         "_feedIdentifier": "b6a37e0",
-        "_fetchTime": 1677976518342,
+        "_fetchTime": 1678238768955,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "Flux.Selegator"
       },
@@ -4181,7 +4179,7 @@
         },
         "_feedName": "CoffeeFlux's Aegisub Scripts",
         "_feedIdentifier": "b6a37e0",
-        "_fetchTime": 1677976518342,
+        "_fetchTime": 1678238768955,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "Flux.JumpScroll"
       },
@@ -4242,7 +4240,7 @@
         },
         "_feedName": "CoffeeFlux's Aegisub Scripts",
         "_feedIdentifier": "b6a37e0",
-        "_fetchTime": 1677976518342,
+        "_fetchTime": 1678238768955,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "Flux.ScaleRotTags"
       }
@@ -4295,14 +4293,14 @@
         ],
         "_feedName": "CoffeeFlux's Aegisub Scripts",
         "_feedIdentifier": "b6a37e0",
-        "_fetchTime": 1677976518342,
+        "_fetchTime": 1678238768955,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "Flux.ScrollHandler"
       }
     },
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
     "_identifier": "b6a37e0",
-    "_fetchTime": 1677976518342,
+    "_fetchTime": 1678238768955,
     "_validHash": true
   },
   {
@@ -4384,7 +4382,7 @@
         },
         "_feedName": "DependencyControl",
         "_feedIdentifier": "7973b7b",
-        "_fetchTime": 1677976518042,
+        "_fetchTime": 1678238768766,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/master/DependencyControl.json",
         "_namespace": "l0.DependencyControl.Toolbox"
       }
@@ -4530,14 +4528,14 @@
         ],
         "_feedName": "DependencyControl",
         "_feedIdentifier": "7973b7b",
-        "_fetchTime": 1677976518042,
+        "_fetchTime": 1678238768766,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/master/DependencyControl.json",
         "_namespace": "l0.DependencyControl"
       }
     },
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/master/DependencyControl.json",
     "_identifier": "7973b7b",
-    "_fetchTime": 1677976518042,
+    "_fetchTime": 1678238768766,
     "_validHash": true
   },
   {
@@ -4618,7 +4616,7 @@
         ],
         "_feedName": "FFI Experiments",
         "_feedIdentifier": "1fe3ac7",
-        "_fetchTime": 1677976518554,
+        "_fetchTime": 1678238769080,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
         "_namespace": "BM.BadMutex"
       },
@@ -4689,7 +4687,7 @@
         ],
         "_feedName": "FFI Experiments",
         "_feedIdentifier": "1fe3ac7",
-        "_fetchTime": 1677976518554,
+        "_fetchTime": 1678238769080,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
         "_namespace": "PT.PreciseTimer"
       },
@@ -4760,7 +4758,7 @@
         ],
         "_feedName": "FFI Experiments",
         "_feedIdentifier": "1fe3ac7",
-        "_fetchTime": 1677976518554,
+        "_fetchTime": 1678238769080,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
         "_namespace": "DM.DownloadManager"
       },
@@ -4800,21 +4798,19 @@
           "PT.PreciseTimer",
           "DM.DownloadManager",
           "SubInspector.Inspector",
-          "zgiflib.giflib",
-          "zlodepng.lodepng",
           "zpolyclipping.polyclipping",
-          "zturbojpeg.turbojpeg"
+          "zimg.main"
         ],
         "_feedName": "FFI Experiments",
         "_feedIdentifier": "1fe3ac7",
-        "_fetchTime": 1677976518554,
+        "_fetchTime": 1678238769080,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
         "_namespace": "requireffi.requireffi"
       }
     },
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
     "_identifier": "1fe3ac7",
-    "_fetchTime": 1677976518554,
+    "_fetchTime": 1678238769080,
     "macros": {},
     "_validHash": true
   },
@@ -4985,14 +4981,14 @@
         ],
         "_feedName": "Functional",
         "_feedIdentifier": "c5d5896",
-        "_fetchTime": 1677976518603,
+        "_fetchTime": 1678238769122,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Functional/master/DependencyControl.json",
         "_namespace": "l0.Functional"
       }
     },
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Functional/master/DependencyControl.json",
     "_identifier": "c5d5896",
-    "_fetchTime": 1677976518603,
+    "_fetchTime": 1678238769122,
     "macros": {},
     "_validHash": true
   },
@@ -5187,7 +5183,7 @@
         },
         "_feedName": "line0's Aegisub Scripts",
         "_feedIdentifier": "7afe7c4",
-        "_fetchTime": 1677976518194,
+        "_fetchTime": 1678238768874,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/line0-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "l0.ASSWipe"
       },
@@ -5277,7 +5273,7 @@
         },
         "_feedName": "line0's Aegisub Scripts",
         "_feedIdentifier": "7afe7c4",
-        "_fetchTime": 1677976518194,
+        "_fetchTime": 1678238768874,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/line0-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "l0.CascadeTransforms"
       },
@@ -5370,7 +5366,7 @@
         },
         "_feedName": "line0's Aegisub Scripts",
         "_feedIdentifier": "7afe7c4",
-        "_fetchTime": 1677976518194,
+        "_fetchTime": 1678238768874,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/line0-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "l0.HighlightSubstring"
       },
@@ -5490,7 +5486,7 @@
         },
         "_feedName": "line0's Aegisub Scripts",
         "_feedIdentifier": "7afe7c4",
-        "_fetchTime": 1677976518194,
+        "_fetchTime": 1678238768874,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/line0-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "l0.InsertLineBreaks"
       },
@@ -5608,7 +5604,7 @@
         },
         "_feedName": "line0's Aegisub Scripts",
         "_feedIdentifier": "7afe7c4",
-        "_fetchTime": 1677976518194,
+        "_fetchTime": 1678238768874,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/line0-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "l0.LerpByChar"
       },
@@ -5702,7 +5698,7 @@
         },
         "_feedName": "line0's Aegisub Scripts",
         "_feedIdentifier": "7afe7c4",
-        "_fetchTime": 1677976518194,
+        "_fetchTime": 1678238768874,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/line0-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "l0.MergeDrawings"
       },
@@ -5852,7 +5848,7 @@
         },
         "_feedName": "line0's Aegisub Scripts",
         "_feedIdentifier": "7afe7c4",
-        "_fetchTime": 1677976518194,
+        "_fetchTime": 1678238768874,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/line0-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "l0.MoveAlongPath"
       },
@@ -5996,7 +5992,7 @@
         },
         "_feedName": "line0's Aegisub Scripts",
         "_feedIdentifier": "7afe7c4",
-        "_fetchTime": 1677976518194,
+        "_fetchTime": 1678238768874,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/line0-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "l0.Nudge"
       },
@@ -6143,7 +6139,7 @@
         },
         "_feedName": "line0's Aegisub Scripts",
         "_feedIdentifier": "7afe7c4",
-        "_fetchTime": 1677976518194,
+        "_fetchTime": 1678238768874,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/line0-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "l0.PasteAiLines"
       },
@@ -6270,7 +6266,7 @@
         },
         "_feedName": "line0's Aegisub Scripts",
         "_feedIdentifier": "7afe7c4",
-        "_fetchTime": 1677976518194,
+        "_fetchTime": 1678238768874,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/line0-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "l0.ShakeIt"
       },
@@ -6384,7 +6380,7 @@
         },
         "_feedName": "line0's Aegisub Scripts",
         "_feedIdentifier": "7afe7c4",
-        "_fetchTime": 1677976518194,
+        "_fetchTime": 1678238768874,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/line0-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "l0.SplitLines"
       },
@@ -6499,14 +6495,14 @@
         },
         "_feedName": "line0's Aegisub Scripts",
         "_feedIdentifier": "7afe7c4",
-        "_fetchTime": 1677976518194,
+        "_fetchTime": 1678238768874,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/line0-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "l0.VerticalText"
       }
     },
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/line0-Aegisub-Scripts/master/DependencyControl.json",
     "_identifier": "7afe7c4",
-    "_fetchTime": 1677976518194,
+    "_fetchTime": 1678238768874,
     "modules": {},
     "_validHash": true
   },
@@ -6574,7 +6570,7 @@
         },
         "_feedName": "lyger's Automation Scripts",
         "_feedIdentifier": "41828c0",
-        "_fetchTime": 1677976518280,
+        "_fetchTime": 1678238768935,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "lyger.BorderSplit"
       },
@@ -6631,7 +6627,7 @@
         },
         "_feedName": "lyger's Automation Scripts",
         "_feedIdentifier": "41828c0",
-        "_fetchTime": 1677976518280,
+        "_fetchTime": 1678238768935,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "lyger.CircleText"
       },
@@ -6685,7 +6681,7 @@
         },
         "_feedName": "lyger's Automation Scripts",
         "_feedIdentifier": "41828c0",
-        "_fetchTime": 1677976518280,
+        "_fetchTime": 1678238768935,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "lyger.ClipBlur"
       },
@@ -6740,7 +6736,7 @@
         },
         "_feedName": "lyger's Automation Scripts",
         "_feedIdentifier": "41828c0",
-        "_fetchTime": 1677976518280,
+        "_fetchTime": 1678238768935,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "lyger.ClipGrad"
       },
@@ -6794,7 +6790,7 @@
         },
         "_feedName": "lyger's Automation Scripts",
         "_feedIdentifier": "41828c0",
-        "_fetchTime": 1677976518280,
+        "_fetchTime": 1678238768935,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "lyger.ClipShifter"
       },
@@ -6858,7 +6854,7 @@
         },
         "_feedName": "lyger's Automation Scripts",
         "_feedIdentifier": "41828c0",
-        "_fetchTime": 1677976518280,
+        "_fetchTime": 1678238768935,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "lyger.FbfTransform"
       },
@@ -6918,7 +6914,7 @@
         },
         "_feedName": "lyger's Automation Scripts",
         "_feedIdentifier": "41828c0",
-        "_fetchTime": 1677976518280,
+        "_fetchTime": 1678238768935,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "lyger.GradientByChar"
       },
@@ -6994,7 +6990,7 @@
         },
         "_feedName": "lyger's Automation Scripts",
         "_feedIdentifier": "41828c0",
-        "_fetchTime": 1677976518280,
+        "_fetchTime": 1678238768935,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "lyger.GradientEverything"
       },
@@ -7045,7 +7041,7 @@
         },
         "_feedName": "lyger's Automation Scripts",
         "_feedIdentifier": "41828c0",
-        "_fetchTime": 1677976518280,
+        "_fetchTime": 1678238768935,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "lyger.Image2ASS"
       },
@@ -7096,7 +7092,7 @@
         },
         "_feedName": "lyger's Automation Scripts",
         "_feedIdentifier": "41828c0",
-        "_fetchTime": 1677976518280,
+        "_fetchTime": 1678238768935,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "lyger.KaraHelper"
       },
@@ -7139,7 +7135,7 @@
         },
         "_feedName": "lyger's Automation Scripts",
         "_feedIdentifier": "41828c0",
-        "_fetchTime": 1677976518280,
+        "_fetchTime": 1678238768935,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "lyger.KaraReplacer"
       },
@@ -7182,7 +7178,7 @@
         },
         "_feedName": "lyger's Automation Scripts",
         "_feedIdentifier": "41828c0",
-        "_fetchTime": 1677976518280,
+        "_fetchTime": 1678238768935,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "lyger.LayerIncrement"
       },
@@ -7239,7 +7235,7 @@
         },
         "_feedName": "lyger's Automation Scripts",
         "_feedIdentifier": "41828c0",
-        "_fetchTime": 1677976518280,
+        "_fetchTime": 1678238768935,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "lyger.LuaInterpret"
       },
@@ -7293,7 +7289,7 @@
         },
         "_feedName": "lyger's Automation Scripts",
         "_feedIdentifier": "41828c0",
-        "_fetchTime": 1677976518280,
+        "_fetchTime": 1678238768935,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "lyger.ModifyMocha"
       },
@@ -7344,7 +7340,7 @@
         },
         "_feedName": "lyger's Automation Scripts",
         "_feedIdentifier": "41828c0",
-        "_fetchTime": 1677976518280,
+        "_fetchTime": 1678238768935,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "lyger.MoveClip"
       },
@@ -7392,7 +7388,7 @@
         },
         "_feedName": "lyger's Automation Scripts",
         "_feedIdentifier": "41828c0",
-        "_fetchTime": 1677976518280,
+        "_fetchTime": 1678238768935,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "lyger.SemiColorCalc"
       },
@@ -7450,7 +7446,7 @@
         },
         "_feedName": "lyger's Automation Scripts",
         "_feedIdentifier": "41828c0",
-        "_fetchTime": 1677976518280,
+        "_fetchTime": 1678238768935,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "lyger.TemplateManager"
       },
@@ -7498,7 +7494,7 @@
         },
         "_feedName": "lyger's Automation Scripts",
         "_feedIdentifier": "41828c0",
-        "_fetchTime": 1677976518280,
+        "_fetchTime": 1678238768935,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "lyger.VecClipGradient"
       }
@@ -7567,14 +7563,14 @@
         ],
         "_feedName": "lyger's Automation Scripts",
         "_feedIdentifier": "41828c0",
-        "_fetchTime": 1677976518280,
+        "_fetchTime": 1678238768935,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "lyger.LibLyger"
       }
     },
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
     "_identifier": "41828c0",
-    "_fetchTime": 1677976518280,
+    "_fetchTime": 1678238768935,
     "_validHash": true
   },
   {
@@ -7692,7 +7688,7 @@
         },
         "_feedName": "Myaamori's Aegisub scripts",
         "_feedIdentifier": "d5b4bc1",
-        "_fetchTime": 1677976518347,
+        "_fetchTime": 1678238768975,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Myaamori-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "myaa.MergeScripts"
       },
@@ -7764,7 +7760,7 @@
         },
         "_feedName": "Myaamori's Aegisub scripts",
         "_feedIdentifier": "d5b4bc1",
-        "_fetchTime": 1677976518347,
+        "_fetchTime": 1678238768975,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Myaamori-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "myaa.Bounce"
       },
@@ -7818,7 +7814,7 @@
         },
         "_feedName": "Myaamori's Aegisub scripts",
         "_feedIdentifier": "d5b4bc1",
-        "_fetchTime": 1677976518347,
+        "_fetchTime": 1678238768975,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Myaamori-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "myaa.PasteFromPad"
       }
@@ -7868,7 +7864,7 @@
         ],
         "_feedName": "Myaamori's Aegisub scripts",
         "_feedIdentifier": "d5b4bc1",
-        "_fetchTime": 1677976518347,
+        "_fetchTime": 1678238768975,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Myaamori-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "myaa.ASSParser"
       },
@@ -8121,14 +8117,14 @@
         ],
         "_feedName": "Myaamori's Aegisub scripts",
         "_feedIdentifier": "d5b4bc1",
-        "_fetchTime": 1677976518347,
+        "_fetchTime": 1678238768975,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Myaamori-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "myaa.pl"
       }
     },
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Myaamori-Aegisub-Scripts/master/DependencyControl.json",
     "_identifier": "d5b4bc1",
-    "_fetchTime": 1677976518347,
+    "_fetchTime": 1678238768975,
     "_validHash": true
   },
   {
@@ -8239,14 +8235,14 @@
         ],
         "_feedName": "SubInspector",
         "_feedIdentifier": "881e0ee",
-        "_fetchTime": 1677976518133,
+        "_fetchTime": 1678238768860,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/SubInspector/master/DependencyControl.json",
         "_namespace": "SubInspector.Inspector"
       }
     },
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/SubInspector/master/DependencyControl.json",
     "_identifier": "881e0ee",
-    "_fetchTime": 1677976518133,
+    "_fetchTime": 1678238768860,
     "macros": {},
     "_validHash": true
   },
@@ -8298,7 +8294,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "720a751",
-        "_fetchTime": 1677976518542,
+        "_fetchTime": 1678238768983,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "ua.Cycles"
       },
@@ -8341,7 +8337,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "720a751",
-        "_fetchTime": 1677976518542,
+        "_fetchTime": 1678238768983,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "ua.iBus"
       },
@@ -8384,7 +8380,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "720a751",
-        "_fetchTime": 1677976518542,
+        "_fetchTime": 1678238768983,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "ua.LineBreaker"
       },
@@ -8430,7 +8426,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "720a751",
-        "_fetchTime": 1677976518542,
+        "_fetchTime": 1678238768983,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "ua.JoinSplitSnap"
       },
@@ -8476,7 +8472,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "720a751",
-        "_fetchTime": 1677976518542,
+        "_fetchTime": 1678238768983,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "ua.JumpToNext"
       },
@@ -8519,7 +8515,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "720a751",
-        "_fetchTime": 1677976518542,
+        "_fetchTime": 1678238768983,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "ua.ScriptCleanup"
       },
@@ -8562,7 +8558,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "720a751",
-        "_fetchTime": 1677976518542,
+        "_fetchTime": 1678238768983,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "ua.BlurAndGlow"
       },
@@ -8605,7 +8601,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "720a751",
-        "_fetchTime": 1677976518542,
+        "_fetchTime": 1678238768983,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "ua.HYDRA"
       },
@@ -8648,7 +8644,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "720a751",
-        "_fetchTime": 1677976518542,
+        "_fetchTime": 1678238768983,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "ua.Relocator"
       },
@@ -8691,7 +8687,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "720a751",
-        "_fetchTime": 1677976518542,
+        "_fetchTime": 1678238768983,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "ua.Recalculator"
       },
@@ -8734,7 +8730,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "720a751",
-        "_fetchTime": 1677976518542,
+        "_fetchTime": 1678238768983,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "ua.Colorize"
       },
@@ -8777,7 +8773,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "720a751",
-        "_fetchTime": 1677976518542,
+        "_fetchTime": 1678238768983,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "ua.Selectrix"
       },
@@ -8820,7 +8816,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "720a751",
-        "_fetchTime": 1677976518542,
+        "_fetchTime": 1678238768983,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "ua.ChangeCase"
       },
@@ -8863,7 +8859,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "720a751",
-        "_fetchTime": 1677976518542,
+        "_fetchTime": 1678238768983,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "ua.MultiLineEditor"
       },
@@ -8906,7 +8902,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "720a751",
-        "_fetchTime": 1677976518542,
+        "_fetchTime": 1678238768983,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "ua.MultiCopy"
       },
@@ -8949,7 +8945,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "720a751",
-        "_fetchTime": 1677976518542,
+        "_fetchTime": 1678238768983,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "ua.FadeWorks"
       },
@@ -8992,7 +8988,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "720a751",
-        "_fetchTime": 1677976518542,
+        "_fetchTime": 1678238768983,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "ua.Significance"
       },
@@ -9035,7 +9031,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "720a751",
-        "_fetchTime": 1677976518542,
+        "_fetchTime": 1678238768983,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "ua.ShiftCut"
       },
@@ -9078,7 +9074,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "720a751",
-        "_fetchTime": 1677976518542,
+        "_fetchTime": 1678238768983,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "ua.TimeSigns"
       },
@@ -9121,7 +9117,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "720a751",
-        "_fetchTime": 1677976518542,
+        "_fetchTime": 1678238768983,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "ua.Masquerade"
       },
@@ -9164,7 +9160,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "720a751",
-        "_fetchTime": 1677976518542,
+        "_fetchTime": 1678238768983,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "ua.NecrosCopy"
       },
@@ -9213,7 +9209,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "720a751",
-        "_fetchTime": 1677976518542,
+        "_fetchTime": 1678238768983,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "ua.EncodeHardsub"
       },
@@ -9256,7 +9252,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "720a751",
-        "_fetchTime": 1677976518542,
+        "_fetchTime": 1678238768983,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "ua.Multiplexer"
       },
@@ -9299,7 +9295,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "720a751",
-        "_fetchTime": 1677976518542,
+        "_fetchTime": 1678238768983,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
         "_namespace": "ua.QC"
       }
@@ -9307,7 +9303,7 @@
     "_defective": "UTF-8 BOM",
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
     "_identifier": "720a751",
-    "_fetchTime": 1677976518542,
+    "_fetchTime": 1678238768983,
     "modules": {},
     "_validHash": false
   },
@@ -9344,7 +9340,7 @@
               {
                 "moduleName": "ZF.main",
                 "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
-                "version": "2.2.0"
+                "version": "2.3.0"
               }
             ]
           }
@@ -9371,7 +9367,7 @@
         },
         "_feedName": "zeref-aegisub-scripts",
         "_feedIdentifier": "fbbbec7",
-        "_fetchTime": 1677976518490,
+        "_fetchTime": 1678238769069,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "zf.allCharsTo"
       },
@@ -9395,7 +9391,7 @@
               {
                 "moduleName": "ZF.main",
                 "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
-                "version": "2.2.0"
+                "version": "2.3.0"
               }
             ]
           }
@@ -9425,7 +9421,7 @@
         },
         "_feedName": "zeref-aegisub-scripts",
         "_feedIdentifier": "fbbbec7",
-        "_fetchTime": 1677976518490,
+        "_fetchTime": 1678238769069,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "zf.everythingShape"
       },
@@ -9449,17 +9445,20 @@
               {
                 "moduleName": "ZF.main",
                 "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
-                "version": "2.2.0"
+                "version": "2.3.0"
               }
             ]
           }
         },
         "changelog": {
+          "1.3.2": [
+            "Initial depctrl release"
+          ],
           "1.3.3": [
             "Fixed depctrl registration"
           ],
-          "1.3.2": [
-            "Initial depctrl release"
+          "1.3.4": [
+            "Fix crash due to incomplete clipper2 reversion"
           ]
         },
         "name": "Gradient Cut",
@@ -9479,7 +9478,7 @@
         },
         "_feedName": "zeref-aegisub-scripts",
         "_feedIdentifier": "fbbbec7",
-        "_fetchTime": 1677976518490,
+        "_fetchTime": 1678238769069,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "zf.gradientCut"
       },
@@ -9503,7 +9502,7 @@
               {
                 "moduleName": "ZF.main",
                 "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
-                "version": "2.2.0"
+                "version": "2.3.0"
               }
             ]
           }
@@ -9533,7 +9532,7 @@
         },
         "_feedName": "zeref-aegisub-scripts",
         "_feedIdentifier": "fbbbec7",
-        "_fetchTime": 1677976518490,
+        "_fetchTime": 1678238769069,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "zf.line2fbf"
       },
@@ -9557,7 +9556,7 @@
               {
                 "moduleName": "ZF.main",
                 "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
-                "version": "2.2.0"
+                "version": "2.3.0"
               }
             ]
           }
@@ -9584,7 +9583,7 @@
         },
         "_feedName": "zeref-aegisub-scripts",
         "_feedIdentifier": "fbbbec7",
-        "_fetchTime": 1677976518490,
+        "_fetchTime": 1678238769069,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "zf.makeImage"
       },
@@ -9608,7 +9607,7 @@
               {
                 "moduleName": "ZF.main",
                 "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
-                "version": "2.2.0"
+                "version": "2.3.0"
               }
             ]
           }
@@ -9635,7 +9634,7 @@
         },
         "_feedName": "zeref-aegisub-scripts",
         "_feedIdentifier": "fbbbec7",
-        "_fetchTime": 1677976518490,
+        "_fetchTime": 1678238769069,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "zf.split"
       },
@@ -9659,7 +9658,7 @@
               {
                 "moduleName": "ZF.main",
                 "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
-                "version": "2.2.0"
+                "version": "2.3.0"
               }
             ]
           }
@@ -9689,7 +9688,7 @@
         },
         "_feedName": "zeref-aegisub-scripts",
         "_feedIdentifier": "fbbbec7",
-        "_fetchTime": 1677976518490,
+        "_fetchTime": 1678238769069,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "zf.textInClip"
       }
@@ -9701,13 +9700,13 @@
         "channels": {
           "main": {
             "default": true,
-            "version": "2.2.0",
-            "released": "2022-11-27",
+            "version": "2.3.0",
+            "released": "2023-02-03",
             "files": [
               {
                 "name": ".moon",
                 "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main.moon",
-                "sha1": "66fa0c2f150c6dfcb339868d7c0e9abade231889",
+                "sha1": "50d9d19c49a684fce391925bb32f6041f151f29e",
                 "_validHash": true
               },
               {
@@ -9784,39 +9783,29 @@
               },
               {
                 "name": "/img/bmp.moon",
-                "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/img/bmp.moon",
-                "sha1": "f38b839f86fe35b9909c572461fcf36f35e3cb98",
-                "_validHash": true
+                "delete": true
               },
               {
                 "name": "/img/buffer.moon",
-                "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/img/buffer.moon",
-                "sha1": "4bfc0475532b26005d5a0a5be4228da9549c970d",
-                "_validHash": true
+                "delete": true
               },
               {
                 "name": "/img/gif.moon",
-                "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/img/gif.moon",
-                "sha1": "3fbe1d97754ff9318d4435b3d125722fabbb4678",
-                "_validHash": true
+                "delete": true
               },
               {
                 "name": "/img/img.moon",
                 "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/img/img.moon",
-                "sha1": "2a8b814798d8c9c24973ac328e6dd6c2b21d2698",
+                "sha1": "901bf218a16364282cb59818a08686d3876aae3c",
                 "_validHash": true
               },
               {
                 "name": "/img/jpg.moon",
-                "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/img/jpg.moon",
-                "sha1": "45f772bd8e184e65ff931b57ddf1f3d48c375310",
-                "_validHash": true
+                "delete": true
               },
               {
                 "name": "/img/png.moon",
-                "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/img/png.moon",
-                "sha1": "fb95338d04d8e098f5b67c84fef1a00b8e53c2e1",
-                "_validHash": true
+                "delete": true
               },
               {
                 "name": "/img/potrace.moon",
@@ -9860,24 +9849,14 @@
                 "moduleName": "ffi"
               },
               {
-                "moduleName": "zgiflib.giflib",
-                "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
-                "version": "5.2.1"
-              },
-              {
-                "moduleName": "zlodepng.lodepng",
-                "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
-                "version": "22.1.9"
-              },
-              {
                 "moduleName": "zpolyclipping.polyclipping",
                 "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
                 "version": "6.4.2"
               },
               {
-                "moduleName": "zturbojpeg.turbojpeg",
+                "moduleName": "zimg.main",
                 "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
-                "version": "2.1.3"
+                "version": "1.0.0"
               }
             ]
           }
@@ -9903,7 +9882,7 @@
         ],
         "_feedName": "zeref-aegisub-scripts",
         "_feedIdentifier": "fbbbec7",
-        "_fetchTime": 1677976518490,
+        "_fetchTime": 1678238769069,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "ZF.main"
       },
@@ -9915,71 +9894,40 @@
         "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/@{channel}/modules/zgiflib/giflib",
         "channels": {
           "main": {
-            "version": "5.2.1",
-            "released": "2015-05-10",
+            "version": "6.0.0",
+            "released": "2023-02-03",
             "default": true,
-            "platforms": [
-              "Windows-x64",
-              "Windows-x86",
-              "OSX-x64",
-              "Linux-x64"
-            ],
             "files": [
               {
                 "name": ".moon",
-                "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/zgiflib/giflib.moon",
-                "sha1": "6480cfad1405d5c03089a4e2c35778c50481ccb6",
-                "_validHash": true
+                "delete": true
               },
               {
                 "name": "/giflib.dll",
-                "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-win-x64-giflib.dll",
-                "platform": "Windows-x64",
-                "sha1": "4bf213a7506069ca15f271a3228a2250f62558a0",
-                "_validHash": true
-              },
-              {
-                "name": "/giflib.dll",
-                "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.0.0/v2.0.0-win-x86-giflib.dll",
-                "platform": "Windows-x86",
-                "sha1": "ec600b512717f0b66832cb62e631a00833bc15ff",
-                "_validHash": true
+                "delete": true
               },
               {
                 "name": "/libgiflib.dylib",
-                "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-macOS-x64-libgiflib.dylib",
-                "platform": "OSX-x64",
-                "sha1": "cf79915f6e3ee3223c52afc18b171ba37ac46d0a",
-                "_validHash": true
+                "delete": true
               },
               {
                 "name": "/libgiflib.so",
-                "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-linux-x64-libgiflib.so",
-                "platform": "Linux-x64",
-                "sha1": "d824ec9cc6d775795515abb4ab70dcae5808c176",
-                "_validHash": true
+                "delete": true
               }
             ],
-            "requiredModules": [
-              {
-                "moduleName": "ffi"
-              },
-              {
-                "moduleName": "requireffi.requireffi",
-                "version": "0.1.2",
-                "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
-              }
-            ]
+            "requiredModules": []
           }
         },
-        "changelog": {},
+        "changelog": {
+          "6.0.0": [
+            "Deprecated."
+          ]
+        },
         "_validHash": true,
-        "_reverseDependency": [
-          "ZF.main"
-        ],
+        "_reverseDependency": [],
         "_feedName": "zeref-aegisub-scripts",
         "_feedIdentifier": "fbbbec7",
-        "_fetchTime": 1677976518490,
+        "_fetchTime": 1678238769069,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "zgiflib.giflib"
       },
@@ -9991,71 +9939,40 @@
         "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/@{channel}/modules/zlodepng/lodepng",
         "channels": {
           "main": {
-            "version": "22.1.9",
-            "released": "2022-01-09",
+            "version": "23.0.0",
+            "released": "2023-02-03",
             "default": true,
-            "platforms": [
-              "Windows-x64",
-              "Windows-x86",
-              "OSX-x64",
-              "Linux-x64"
-            ],
             "files": [
               {
                 "name": ".moon",
-                "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/zlodepng/lodepng.moon",
-                "sha1": "55997ac1181b2070ffe64fe9146b7bce32f5a066",
-                "_validHash": true
+                "delete": true
               },
               {
                 "name": "/lodepng.dll",
-                "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-win-x64-lodepng.dll",
-                "platform": "Windows-x64",
-                "sha1": "a8f77a4406a2c9f16d71e75a6a24497646d0ac55",
-                "_validHash": true
-              },
-              {
-                "name": "/lodepng.dll",
-                "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.0.0/v2.0.0-win-x86-lodepng.dll",
-                "platform": "Windows-x86",
-                "sha1": "96eb3c782014f095eb746f25d37e7ae181eef2c0",
-                "_validHash": true
+                "delete": true
               },
               {
                 "name": "/liblodepng.dylib",
-                "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-macOS-x64-liblodepng.dylib",
-                "platform": "OSX-x64",
-                "sha1": "4d7452a0a77551437062d59d9ef01f141422b562",
-                "_validHash": true
+                "delete": true
               },
               {
                 "name": "/liblodepng.so",
-                "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-linux-x64-liblodepng.so",
-                "platform": "Linux-x64",
-                "sha1": "22a58b4cce2f202c7e96d3518fa35868793aac43",
-                "_validHash": true
+                "delete": true
               }
             ],
-            "requiredModules": [
-              {
-                "moduleName": "ffi"
-              },
-              {
-                "moduleName": "requireffi.requireffi",
-                "version": "0.1.2",
-                "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
-              }
-            ]
+            "requiredModules": []
           }
         },
-        "changelog": {},
+        "changelog": {
+          "23.0.0": [
+            "Deprecated."
+          ]
+        },
         "_validHash": true,
-        "_reverseDependency": [
-          "ZF.main"
-        ],
+        "_reverseDependency": [],
         "_feedName": "zeref-aegisub-scripts",
         "_feedIdentifier": "fbbbec7",
-        "_fetchTime": 1677976518490,
+        "_fetchTime": 1678238769069,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "zlodepng.lodepng"
       },
@@ -10131,7 +10048,7 @@
         ],
         "_feedName": "zeref-aegisub-scripts",
         "_feedIdentifier": "fbbbec7",
-        "_fetchTime": 1677976518490,
+        "_fetchTime": 1678238769069,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "zpolyclipping.polyclipping"
       },
@@ -10143,48 +10060,157 @@
         "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/@{channel}/modules/zturbojpeg/turbojpeg",
         "channels": {
           "main": {
-            "version": "2.1.3",
-            "released": "2022-02-25",
+            "version": "3.0.0",
+            "released": "2023-02-03",
+            "default": true,
+            "files": [
+              {
+                "name": ".moon",
+                "delete": true
+              },
+              {
+                "name": "/turbojpeg.dll",
+                "delete": true
+              },
+              {
+                "name": "/libturbojpeg.dylib",
+                "delete": true
+              },
+              {
+                "name": "/libturbojpeg.so",
+                "delete": true
+              }
+            ],
+            "requiredModules": []
+          }
+        },
+        "changelog": {
+          "3.0.0": [
+            "Deprecated."
+          ]
+        },
+        "_validHash": true,
+        "_reverseDependency": [],
+        "_feedName": "zeref-aegisub-scripts",
+        "_feedIdentifier": "fbbbec7",
+        "_fetchTime": 1678238769069,
+        "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
+        "_namespace": "zturbojpeg.turbojpeg"
+      },
+      "zimg.main": {
+        "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts",
+        "author": "Zeref",
+        "name": "zimg",
+        "description": "A library for loading images in various foramts",
+        "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/@{channel}/modules/zimg/main",
+        "channels": {
+          "main": {
+            "version": "1.0.0",
+            "released": "2023-02-23",
             "default": true,
             "platforms": [
               "Windows-x64",
-              "Windows-x86",
               "OSX-x64",
               "Linux-x64"
             ],
             "files": [
               {
                 "name": ".moon",
-                "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/zturbojpeg/turbojpeg.moon",
-                "sha1": "13e847ca8689b080425c28619a932ab781363c26",
+                "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/zimg/main.moon",
+                "sha1": "0a98f970724a9e6ae106bb813ccb0361d231f1ce",
                 "_validHash": true
               },
               {
-                "name": "/turbojpeg.dll",
-                "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-win-x64-turbojpeg.dll",
+                "name": "/bitmap/bitmap.moon",
+                "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/zimg/main/bitmap/bitmap.moon",
+                "sha1": "9844f19c25c1b96fd19d68f3f12321fae7d15b0c",
+                "_validHash": true
+              },
+              {
+                "name": "/buffer/buffer.moon",
+                "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/zimg/main/buffer/buffer.moon",
+                "sha1": "4bfc0475532b26005d5a0a5be4228da9549c970d",
+                "_validHash": true
+              },
+              {
+                "name": "/giflib/giflib.moon",
+                "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/zimg/main/giflib/giflib.moon",
+                "sha1": "2f2092d81e008395ca5baabccbd3bc039783740d",
+                "_validHash": true
+              },
+              {
+                "name": "/giflib/giflib/giflib.dll",
+                "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/zimg-v1.0.0/giflib.dll",
                 "platform": "Windows-x64",
-                "sha1": "92ea0a8ca8bc3904e7b53232a99caa2c9eda4d6a",
+                "sha1": "66bbc469e5542d0a4c9847b9ab3975462fbe8dd6",
                 "_validHash": true
               },
               {
-                "name": "/turbojpeg.dll",
-                "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.0.0/v2.0.0-win-x86-turbojpeg.dll",
-                "platform": "Windows-x86",
-                "sha1": "6838b78129c3cc7dec9fb9ba67cb053fbfc7889a",
-                "_validHash": true
-              },
-              {
-                "name": "/libturbojpeg.dylib",
-                "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-macOS-x64-libturbojpeg.dylib",
+                "name": "/giflib/giflib/libgiflib.dylib",
+                "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/zimg-v1.0.0/libgiflib.dylib",
                 "platform": "OSX-x64",
-                "sha1": "9d4d96a37b0d49dddef24d1b7abd1d98c958dafb",
+                "sha1": "4c9b0c7b0f38a9eb2cb07c1ee7a9f43c802e6ac1",
                 "_validHash": true
               },
               {
-                "name": "/libturbojpeg.so",
-                "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-linux-x64-libturbojpeg.so",
+                "name": "/giflib/giflib/libgiflib.so",
+                "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/zimg-v1.0.0/libgiflib.so",
                 "platform": "Linux-x64",
-                "sha1": "22939afc295b4c56131dbbe5507de1a8fe64b903",
+                "sha1": "b26802cdb5f882ced1dc247267e98a0c196353d6",
+                "_validHash": true
+              },
+              {
+                "name": "/lodepng/lodepng.moon",
+                "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/zimg/main/lodepng/lodepng.moon",
+                "sha1": "67f0681aaa800e5ba113f804eb8f22e4ac878766",
+                "_validHash": true
+              },
+              {
+                "name": "/lodepng/lodepng/lodepng.dll",
+                "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/zimg-v1.0.0/lodepng.dll",
+                "platform": "Windows-x64",
+                "sha1": "d4d4296926aa5cdce6302e53b584faa96061f236",
+                "_validHash": true
+              },
+              {
+                "name": "/lodepng/lodepng/liblodepng.dylib",
+                "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/zimg-v1.0.0/liblodepng.dylib",
+                "platform": "OSX-x64",
+                "sha1": "4d7452a0a77551437062d59d9ef01f141422b562",
+                "_validHash": true
+              },
+              {
+                "name": "/lodepng/lodepng/liblodepng.so",
+                "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/zimg-v1.0.0/liblodepng.so",
+                "platform": "Linux-x64",
+                "sha1": "22a58b4cce2f202c7e96d3518fa35868793aac43",
+                "_validHash": true
+              },
+              {
+                "name": "/turbojpeg/turbojpeg.moon",
+                "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/zimg/main/turbojpeg/turbojpeg.moon",
+                "sha1": "92bb0322983f29f7b30329f5b578901ea609570a",
+                "_validHash": true
+              },
+              {
+                "name": "/turbojpeg/turbojpeg/turbojpeg.dll",
+                "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/zimg-v1.0.0/turbojpeg.dll",
+                "platform": "Windows-x64",
+                "sha1": "c18ed80a7f92042fcd04d237974cb0c647245948",
+                "_validHash": true
+              },
+              {
+                "name": "/turbojpeg/turbojpeg/libturbojpeg.dylib",
+                "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/zimg-v1.0.0/libturbojpeg.dylib",
+                "platform": "OSX-x64",
+                "sha1": "56ed51b4773766d6eb200f9ea558b9446e42c7c0",
+                "_validHash": true
+              },
+              {
+                "name": "/turbojpeg/turbojpeg/libturbojpeg.so",
+                "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/zimg-v1.0.0/libturbojpeg.so",
+                "platform": "Linux-x64",
+                "sha1": "788d0afab88c2a5285a237f0d2cf29374b10440d",
                 "_validHash": true
               }
             ],
@@ -10207,14 +10233,14 @@
         ],
         "_feedName": "zeref-aegisub-scripts",
         "_feedIdentifier": "fbbbec7",
-        "_fetchTime": 1677976518490,
+        "_fetchTime": 1678238769069,
         "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
-        "_namespace": "zturbojpeg.turbojpeg"
+        "_namespace": "zimg.main"
       }
     },
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
     "_identifier": "fbbbec7",
-    "_fetchTime": 1677976518490,
+    "_fetchTime": 1678238769069,
     "_validHash": true
   },
   {
@@ -10265,7 +10291,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "827532f",
-        "_fetchTime": 1677976518647,
+        "_fetchTime": 1678238769128,
         "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
         "_namespace": "ua.Cycles"
       },
@@ -10308,7 +10334,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "827532f",
-        "_fetchTime": 1677976518647,
+        "_fetchTime": 1678238769128,
         "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
         "_namespace": "ua.iBus"
       },
@@ -10351,7 +10377,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "827532f",
-        "_fetchTime": 1677976518647,
+        "_fetchTime": 1678238769128,
         "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
         "_namespace": "ua.LineBreaker"
       },
@@ -10397,7 +10423,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "827532f",
-        "_fetchTime": 1677976518647,
+        "_fetchTime": 1678238769128,
         "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
         "_namespace": "ua.JoinSplitSnap"
       },
@@ -10443,7 +10469,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "827532f",
-        "_fetchTime": 1677976518647,
+        "_fetchTime": 1678238769128,
         "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
         "_namespace": "ua.JumpToNext"
       },
@@ -10486,7 +10512,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "827532f",
-        "_fetchTime": 1677976518647,
+        "_fetchTime": 1678238769128,
         "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
         "_namespace": "ua.ScriptCleanup"
       },
@@ -10529,7 +10555,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "827532f",
-        "_fetchTime": 1677976518647,
+        "_fetchTime": 1678238769128,
         "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
         "_namespace": "ua.BlurAndGlow"
       },
@@ -10572,7 +10598,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "827532f",
-        "_fetchTime": 1677976518647,
+        "_fetchTime": 1678238769128,
         "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
         "_namespace": "ua.HYDRA"
       },
@@ -10621,7 +10647,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "827532f",
-        "_fetchTime": 1677976518647,
+        "_fetchTime": 1678238769128,
         "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
         "_namespace": "ua.Relocator"
       },
@@ -10664,7 +10690,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "827532f",
-        "_fetchTime": 1677976518647,
+        "_fetchTime": 1678238769128,
         "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
         "_namespace": "ua.Recalculator"
       },
@@ -10707,7 +10733,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "827532f",
-        "_fetchTime": 1677976518647,
+        "_fetchTime": 1678238769128,
         "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
         "_namespace": "ua.Colorize"
       },
@@ -10750,7 +10776,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "827532f",
-        "_fetchTime": 1677976518647,
+        "_fetchTime": 1678238769128,
         "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
         "_namespace": "ua.Selectrix"
       },
@@ -10793,7 +10819,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "827532f",
-        "_fetchTime": 1677976518647,
+        "_fetchTime": 1678238769128,
         "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
         "_namespace": "ua.ChangeCase"
       },
@@ -10836,7 +10862,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "827532f",
-        "_fetchTime": 1677976518647,
+        "_fetchTime": 1678238769128,
         "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
         "_namespace": "ua.MultiLineEditor"
       },
@@ -10879,7 +10905,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "827532f",
-        "_fetchTime": 1677976518647,
+        "_fetchTime": 1678238769128,
         "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
         "_namespace": "ua.MultiCopy"
       },
@@ -10922,7 +10948,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "827532f",
-        "_fetchTime": 1677976518647,
+        "_fetchTime": 1678238769128,
         "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
         "_namespace": "ua.FadeWorks"
       },
@@ -10965,7 +10991,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "827532f",
-        "_fetchTime": 1677976518647,
+        "_fetchTime": 1678238769128,
         "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
         "_namespace": "ua.Significance"
       },
@@ -11008,7 +11034,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "827532f",
-        "_fetchTime": 1677976518647,
+        "_fetchTime": 1678238769128,
         "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
         "_namespace": "ua.ShiftCut"
       },
@@ -11051,7 +11077,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "827532f",
-        "_fetchTime": 1677976518647,
+        "_fetchTime": 1678238769128,
         "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
         "_namespace": "ua.TimeSigns"
       },
@@ -11094,7 +11120,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "827532f",
-        "_fetchTime": 1677976518647,
+        "_fetchTime": 1678238769128,
         "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
         "_namespace": "ua.Masquerade"
       },
@@ -11137,7 +11163,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "827532f",
-        "_fetchTime": 1677976518647,
+        "_fetchTime": 1678238769128,
         "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
         "_namespace": "ua.NecrosCopy"
       },
@@ -11186,7 +11212,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "827532f",
-        "_fetchTime": 1677976518647,
+        "_fetchTime": 1678238769128,
         "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
         "_namespace": "ua.EncodeHardsub"
       },
@@ -11229,7 +11255,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "827532f",
-        "_fetchTime": 1677976518647,
+        "_fetchTime": 1678238769128,
         "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
         "_namespace": "ua.Multiplexer"
       },
@@ -11272,7 +11298,7 @@
         },
         "_feedName": "unanimated's Automation Scripts",
         "_feedIdentifier": "827532f",
-        "_fetchTime": 1677976518647,
+        "_fetchTime": 1678238769128,
         "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
         "_namespace": "ua.QC"
       }
@@ -11280,7 +11306,7 @@
     "_defective": "UTF-8 BOM",
     "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
     "_identifier": "827532f",
-    "_fetchTime": 1677976518647,
+    "_fetchTime": 1678238769128,
     "modules": {},
     "_validHash": true
   },
@@ -11376,7 +11402,7 @@
         },
         "_feedName": "Zahuczky's Automation Scripts",
         "_feedIdentifier": "08cbca4",
-        "_fetchTime": 1677976518416,
+        "_fetchTime": 1678238769013,
         "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "zah.pers-mo_BETA"
       },
@@ -11443,14 +11469,14 @@
         },
         "_feedName": "Zahuczky's Automation Scripts",
         "_feedIdentifier": "08cbca4",
-        "_fetchTime": 1677976518416,
+        "_fetchTime": 1678238769013,
         "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
         "_namespace": "zah.aegi-color-track"
       }
     },
     "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
     "_identifier": "08cbca4",
-    "_fetchTime": 1677976518416,
+    "_fetchTime": 1678238769013,
     "modules": {},
     "_validHash": true
   }

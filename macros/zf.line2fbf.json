@@ -19,7 +19,7 @@
           {
             "moduleName": "ZF.main",
             "feed": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
-            "version": "2.2.0"
+            "version": "2.3.0"
           }
         ]
       }
@@ -49,7 +49,7 @@
     },
     "_feedName": "zeref-aegisub-scripts",
     "_feedIdentifier": "fbbbec7",
-    "_fetchTime": 1677976518490,
+    "_fetchTime": 1678238769069,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "zf.line2fbf"
   }

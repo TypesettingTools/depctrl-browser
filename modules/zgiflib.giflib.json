@@ -7,71 +7,40 @@
     "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/@{channel}/modules/zgiflib/giflib",
     "channels": {
       "main": {
-        "version": "5.2.1",
-        "released": "2015-05-10",
+        "version": "6.0.0",
+        "released": "2023-02-03",
         "default": true,
-        "platforms": [
-          "Windows-x64",
-          "Windows-x86",
-          "OSX-x64",
-          "Linux-x64"
-        ],
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/zgiflib/giflib.moon",
-            "sha1": "6480cfad1405d5c03089a4e2c35778c50481ccb6",
-            "_validHash": true
+            "delete": true
           },
           {
             "name": "/giflib.dll",
-            "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-win-x64-giflib.dll",
-            "platform": "Windows-x64",
-            "sha1": "4bf213a7506069ca15f271a3228a2250f62558a0",
-            "_validHash": true
-          },
-          {
-            "name": "/giflib.dll",
-            "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.0.0/v2.0.0-win-x86-giflib.dll",
-            "platform": "Windows-x86",
-            "sha1": "ec600b512717f0b66832cb62e631a00833bc15ff",
-            "_validHash": true
+            "delete": true
           },
           {
             "name": "/libgiflib.dylib",
-            "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-macOS-x64-libgiflib.dylib",
-            "platform": "OSX-x64",
-            "sha1": "cf79915f6e3ee3223c52afc18b171ba37ac46d0a",
-            "_validHash": true
+            "delete": true
           },
           {
             "name": "/libgiflib.so",
-            "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-linux-x64-libgiflib.so",
-            "platform": "Linux-x64",
-            "sha1": "d824ec9cc6d775795515abb4ab70dcae5808c176",
-            "_validHash": true
+            "delete": true
           }
         ],
-        "requiredModules": [
-          {
-            "moduleName": "ffi"
-          },
-          {
-            "moduleName": "requireffi.requireffi",
-            "version": "0.1.2",
-            "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
-          }
-        ]
+        "requiredModules": []
       }
     },
-    "changelog": {},
+    "changelog": {
+      "6.0.0": [
+        "Deprecated."
+      ]
+    },
     "_validHash": true,
-    "_reverseDependency": [
-      "ZF.main"
-    ],
+    "_reverseDependency": [],
     "_feedName": "zeref-aegisub-scripts",
     "_feedIdentifier": "fbbbec7",
-    "_fetchTime": 1677976518490,
+    "_fetchTime": 1678238769069,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "zgiflib.giflib"
   }

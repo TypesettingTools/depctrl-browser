@@ -1773,6 +1773,17 @@ document.addEventListener('click', function(event) {
     );
     
   
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/zimg.main/",
+        name: "zimg",
+        description: "A library for loading images in various foramts",
+      }
+    );
+    
+  
 
   
   index.add(
