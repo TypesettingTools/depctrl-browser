@@ -183,7 +183,7 @@ document.addEventListener('click', function(event) {
         id: i++,
         href: "/depctrl-browser/macros/phos.wobble/",
         name: "Wobble",
-        description: "Converts a text to a shape and adds wobbling",
+        description: "Adds wobbling to text and shape",
       }
     );
     
