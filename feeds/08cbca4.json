@@ -90,7 +90,7 @@
       },
       "_feedName": "Zahuczky's Automation Scripts",
       "_feedIdentifier": "08cbca4",
-      "_fetchTime": 1679185980653,
+      "_fetchTime": 1679619682617,
       "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zah.pers-mo_BETA"
     },
@@ -102,15 +102,15 @@
       "fileBaseUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/@{channel}/macros/zah.aegi-color-track",
       "channels": {
         "main": {
-          "version": "2.0.1",
-          "released": "2022-10-06",
+          "version": "2.0.2",
+          "released": "2023-03-23",
           "default": true,
           "files": [
             {
               "name": ".lua",
               "url": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/macros/zah.aegi-color-track.lua",
-              "sha1": "dfec7e3c39af54ba586f9ce21788030bd188bc6f",
-              "_validHash": true
+              "sha1": "BBFE17212DF47B83685DD58CA49D1D48C147063A",
+              "_validHash": false
             }
           ],
           "requiredModules": [
@@ -141,15 +141,19 @@
         ],
         "2.0.1": [
           "Adding progress reporting"
+        ],
+        "2.0.2": [
+          "Fix handling of tracking data when using Aegisub built-in frame API",
+          "Refactor internal handling of timecodes"
         ]
       },
-      "_validHash": true,
-      "_defaultVersion": "2.0.1",
+      "_validHash": false,
+      "_defaultVersion": "2.0.2",
       "_scriptData": {
         "name": "Aegisub-Color-Tracking",
         "description": "Tracking the color from a given pixel or tracking data",
         "author": "Zahuczky, garret",
-        "version": "2.0.1",
+        "version": "2.0.2",
         "namespace": "zah.aegi-color-track",
         "_feedData": {
           "feed": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json"
@@ -157,14 +161,14 @@
       },
       "_feedName": "Zahuczky's Automation Scripts",
       "_feedIdentifier": "08cbca4",
-      "_fetchTime": 1679185980653,
+      "_fetchTime": 1679619682617,
       "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zah.aegi-color-track"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "08cbca4",
-  "_fetchTime": 1679185980653,
+  "_fetchTime": 1679619682617,
   "modules": {},
-  "_validHash": true
+  "_validHash": false
 }
