@@ -90,7 +90,7 @@
       },
       "_feedName": "Zahuczky's Automation Scripts",
       "_feedIdentifier": "08cbca4",
-      "_fetchTime": 1679619682617,
+      "_fetchTime": 1679621181309,
       "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zah.pers-mo_BETA"
     },
@@ -109,8 +109,8 @@
             {
               "name": ".lua",
               "url": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/macros/zah.aegi-color-track.lua",
-              "sha1": "BBFE17212DF47B83685DD58CA49D1D48C147063A",
-              "_validHash": false
+              "sha1": "5634ace5ced65f1e655f56078eccae1cf9a16570",
+              "_validHash": true
             }
           ],
           "requiredModules": [
@@ -147,7 +147,7 @@
           "Refactor internal handling of timecodes"
         ]
       },
-      "_validHash": false,
+      "_validHash": true,
       "_defaultVersion": "2.0.2",
       "_scriptData": {
         "name": "Aegisub-Color-Tracking",
@@ -161,14 +161,14 @@
       },
       "_feedName": "Zahuczky's Automation Scripts",
       "_feedIdentifier": "08cbca4",
-      "_fetchTime": 1679619682617,
+      "_fetchTime": 1679621181309,
       "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zah.aegi-color-track"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "08cbca4",
-  "_fetchTime": 1679619682617,
+  "_fetchTime": 1679621181309,
   "modules": {},
-  "_validHash": false
+  "_validHash": true
 }
