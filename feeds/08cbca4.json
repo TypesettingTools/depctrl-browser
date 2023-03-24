@@ -30,13 +30,13 @@
       "channels": {
         "main": {
           "version": "0.3.1",
-          "released": "2023-01-17",
+          "released": "2023-03-24",
           "default": true,
           "files": [
             {
               "name": ".moon",
               "url": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/macros/zah.pers-mo_BETA.moon",
-              "sha1": "de02ed295191f4d61dbb62f09be802c0722aa60a",
+              "sha1": "7d3a234d02cda7dc9ce7d7da3b4a45fe1f542f3a",
               "_validHash": true
             }
           ],
@@ -90,7 +90,7 @@
       },
       "_feedName": "Zahuczky's Automation Scripts",
       "_feedIdentifier": "08cbca4",
-      "_fetchTime": 1679621181309,
+      "_fetchTime": 1679628078712,
       "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zah.pers-mo_BETA"
     },
@@ -103,13 +103,13 @@
       "channels": {
         "main": {
           "version": "2.0.2",
-          "released": "2023-03-23",
+          "released": "2023-03-24",
           "default": true,
           "files": [
             {
               "name": ".lua",
               "url": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/macros/zah.aegi-color-track.lua",
-              "sha1": "5634ace5ced65f1e655f56078eccae1cf9a16570",
+              "sha1": "a594b9df88269bde3e8ceb8925d6337d64f2efa3",
               "_validHash": true
             }
           ],
@@ -161,14 +161,14 @@
       },
       "_feedName": "Zahuczky's Automation Scripts",
       "_feedIdentifier": "08cbca4",
-      "_fetchTime": 1679621181309,
+      "_fetchTime": 1679628078712,
       "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zah.aegi-color-track"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "08cbca4",
-  "_fetchTime": 1679621181309,
+  "_fetchTime": 1679628078712,
   "modules": {},
   "_validHash": true
 }
