@@ -1354,17 +1354,6 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
-        href: "/depctrl-browser/macros/zf.makeImage/",
-        name: "Make Image",
-        description: "Converts images of various formats to pixels written in shape.",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
         href: "/depctrl-browser/macros/zf.split/",
         name: "Splits Text By",
         description: "Splits the text in several ways",
