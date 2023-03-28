@@ -46,7 +46,7 @@
       },
       "_feedName": "unanimated's Automation Scripts",
       "_feedIdentifier": "827532f",
-      "_fetchTime": 1680008494743,
+      "_fetchTime": 1680009087546,
       "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
       "_namespace": "ua.Cycles"
     },
@@ -89,7 +89,7 @@
       },
       "_feedName": "unanimated's Automation Scripts",
       "_feedIdentifier": "827532f",
-      "_fetchTime": 1680008494743,
+      "_fetchTime": 1680009087546,
       "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
       "_namespace": "ua.iBus"
     },
@@ -132,7 +132,7 @@
       },
       "_feedName": "unanimated's Automation Scripts",
       "_feedIdentifier": "827532f",
-      "_fetchTime": 1680008494743,
+      "_fetchTime": 1680009087546,
       "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
       "_namespace": "ua.LineBreaker"
     },
@@ -178,7 +178,7 @@
       },
       "_feedName": "unanimated's Automation Scripts",
       "_feedIdentifier": "827532f",
-      "_fetchTime": 1680008494743,
+      "_fetchTime": 1680009087546,
       "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
       "_namespace": "ua.JoinSplitSnap"
     },
@@ -224,7 +224,7 @@
       },
       "_feedName": "unanimated's Automation Scripts",
       "_feedIdentifier": "827532f",
-      "_fetchTime": 1680008494743,
+      "_fetchTime": 1680009087546,
       "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
       "_namespace": "ua.JumpToNext"
     },
@@ -267,7 +267,7 @@
       },
       "_feedName": "unanimated's Automation Scripts",
       "_feedIdentifier": "827532f",
-      "_fetchTime": 1680008494743,
+      "_fetchTime": 1680009087546,
       "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
       "_namespace": "ua.ScriptCleanup"
     },
@@ -310,7 +310,7 @@
       },
       "_feedName": "unanimated's Automation Scripts",
       "_feedIdentifier": "827532f",
-      "_fetchTime": 1680008494743,
+      "_fetchTime": 1680009087546,
       "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
       "_namespace": "ua.BlurAndGlow"
     },
@@ -353,7 +353,7 @@
       },
       "_feedName": "unanimated's Automation Scripts",
       "_feedIdentifier": "827532f",
-      "_fetchTime": 1680008494743,
+      "_fetchTime": 1680009087546,
       "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
       "_namespace": "ua.HYDRA"
     },
@@ -402,7 +402,7 @@
       },
       "_feedName": "unanimated's Automation Scripts",
       "_feedIdentifier": "827532f",
-      "_fetchTime": 1680008494743,
+      "_fetchTime": 1680009087546,
       "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
       "_namespace": "ua.Relocator"
     },
@@ -445,7 +445,7 @@
       },
       "_feedName": "unanimated's Automation Scripts",
       "_feedIdentifier": "827532f",
-      "_fetchTime": 1680008494743,
+      "_fetchTime": 1680009087546,
       "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
       "_namespace": "ua.Recalculator"
     },
@@ -488,7 +488,7 @@
       },
       "_feedName": "unanimated's Automation Scripts",
       "_feedIdentifier": "827532f",
-      "_fetchTime": 1680008494743,
+      "_fetchTime": 1680009087546,
       "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
       "_namespace": "ua.Colorize"
     },
@@ -531,7 +531,7 @@
       },
       "_feedName": "unanimated's Automation Scripts",
       "_feedIdentifier": "827532f",
-      "_fetchTime": 1680008494743,
+      "_fetchTime": 1680009087546,
       "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
       "_namespace": "ua.Selectrix"
     },
@@ -574,7 +574,7 @@
       },
       "_feedName": "unanimated's Automation Scripts",
       "_feedIdentifier": "827532f",
-      "_fetchTime": 1680008494743,
+      "_fetchTime": 1680009087546,
       "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
       "_namespace": "ua.ChangeCase"
     },
@@ -617,7 +617,7 @@
       },
       "_feedName": "unanimated's Automation Scripts",
       "_feedIdentifier": "827532f",
-      "_fetchTime": 1680008494743,
+      "_fetchTime": 1680009087546,
       "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
       "_namespace": "ua.MultiLineEditor"
     },
@@ -660,7 +660,7 @@
       },
       "_feedName": "unanimated's Automation Scripts",
       "_feedIdentifier": "827532f",
-      "_fetchTime": 1680008494743,
+      "_fetchTime": 1680009087546,
       "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
       "_namespace": "ua.MultiCopy"
     },
@@ -703,7 +703,7 @@
       },
       "_feedName": "unanimated's Automation Scripts",
       "_feedIdentifier": "827532f",
-      "_fetchTime": 1680008494743,
+      "_fetchTime": 1680009087546,
       "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
       "_namespace": "ua.FadeWorks"
     },
@@ -746,7 +746,7 @@
       },
       "_feedName": "unanimated's Automation Scripts",
       "_feedIdentifier": "827532f",
-      "_fetchTime": 1680008494743,
+      "_fetchTime": 1680009087546,
       "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
       "_namespace": "ua.Significance"
     },
@@ -789,7 +789,7 @@
       },
       "_feedName": "unanimated's Automation Scripts",
       "_feedIdentifier": "827532f",
-      "_fetchTime": 1680008494743,
+      "_fetchTime": 1680009087546,
       "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
       "_namespace": "ua.ShiftCut"
     },
@@ -832,7 +832,7 @@
       },
       "_feedName": "unanimated's Automation Scripts",
       "_feedIdentifier": "827532f",
-      "_fetchTime": 1680008494743,
+      "_fetchTime": 1680009087546,
       "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
       "_namespace": "ua.TimeSigns"
     },
@@ -875,7 +875,7 @@
       },
       "_feedName": "unanimated's Automation Scripts",
       "_feedIdentifier": "827532f",
-      "_fetchTime": 1680008494743,
+      "_fetchTime": 1680009087546,
       "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
       "_namespace": "ua.Masquerade"
     },
@@ -918,7 +918,7 @@
       },
       "_feedName": "unanimated's Automation Scripts",
       "_feedIdentifier": "827532f",
-      "_fetchTime": 1680008494743,
+      "_fetchTime": 1680009087546,
       "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
       "_namespace": "ua.NecrosCopy"
     },
@@ -967,7 +967,7 @@
       },
       "_feedName": "unanimated's Automation Scripts",
       "_feedIdentifier": "827532f",
-      "_fetchTime": 1680008494743,
+      "_fetchTime": 1680009087546,
       "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
       "_namespace": "ua.EncodeHardsub"
     },
@@ -1010,7 +1010,7 @@
       },
       "_feedName": "unanimated's Automation Scripts",
       "_feedIdentifier": "827532f",
-      "_fetchTime": 1680008494743,
+      "_fetchTime": 1680009087546,
       "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
       "_namespace": "ua.Multiplexer"
     },
@@ -1053,7 +1053,7 @@
       },
       "_feedName": "unanimated's Automation Scripts",
       "_feedIdentifier": "827532f",
-      "_fetchTime": 1680008494743,
+      "_fetchTime": 1680009087546,
       "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
       "_namespace": "ua.QC"
     }
@@ -1061,7 +1061,7 @@
   "_defective": "UTF-8 BOM",
   "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
   "_identifier": "827532f",
-  "_fetchTime": 1680008494743,
+  "_fetchTime": 1680009087546,
   "modules": {},
   "_validHash": true
 }
