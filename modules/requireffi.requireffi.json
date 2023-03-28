@@ -34,13 +34,15 @@
       "BM.BadMutex",
       "PT.PreciseTimer",
       "DM.DownloadManager",
+      "clipper2.clipper2",
+      "ILL.IMG",
       "SubInspector.Inspector",
       "zpolyclipping.polyclipping",
       "zimg.main"
     ],
     "_feedName": "FFI Experiments",
     "_feedIdentifier": "2d000a9",
-    "_fetchTime": 1679790684105,
+    "_fetchTime": 1679982069103,
     "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
     "_namespace": "requireffi.requireffi"
   },
@@ -79,13 +81,15 @@
       "BM.BadMutex",
       "PT.PreciseTimer",
       "DM.DownloadManager",
+      "clipper2.clipper2",
+      "ILL.IMG",
       "SubInspector.Inspector",
       "zpolyclipping.polyclipping",
       "zimg.main"
     ],
     "_feedName": "FFI Experiments",
     "_feedIdentifier": "1fe3ac7",
-    "_fetchTime": 1679790684481,
+    "_fetchTime": 1679982069364,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
     "_namespace": "requireffi.requireffi"
   }

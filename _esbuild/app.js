@@ -423,6 +423,50 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/macros/ILL.EnvelopeDistort/",
+        name: "Envelope Distort",
+        description: "Allows you to warp and manipulate shapes within a customizable envelope",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ILL.Shapery/",
+        name: "Shapery",
+        description: "Does several types of shape manipulations from the simplest to the most complex",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ILL.MakeImage/",
+        name: "Make Image",
+        description: "Does several procedures for converting images to the .ass",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/ILL.ChangeAlign/",
+        name: "ILL - Change Alignment",
+        description: "Changes the alignment of a text or shape without changing its original position",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/macros/l0.ASSWipe/",
         name: "ASSWipe",
         description: "Performs script cleanup, removes unnecessary tags and lines.",
@@ -1678,6 +1722,39 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/modules/clipper2.clipper2/",
+        name: "Clipper2",
+        description: "A polygon clipping and offsetting library",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/ILL.ILL/",
+        name: "ILL Library",
+        description: "Module that eases the creation of macros with a focus on handling shapes.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/ILL.IMG/",
+        name: "ILL Image Module",
+        description: "A library for loading images in various foramts",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/modules/lyger.LibLyger/",
         name: "LibLyger",
         description: "Library of commonly used functions across all of lyger's automation scripts.",
@@ -1873,6 +1950,15 @@ document.addEventListener('click', function(event) {
       href: "/depctrl-browser/feeds/c5d5896/",
       name: "Functional",
       description: "The official Functional repository.",
+    }
+  );
+  
+  index.add(
+    {
+      id: i++,
+      href: "/depctrl-browser/feeds/b2d8509/",
+      name: "ILL Aegisub Scripts",
+      description: "A collection of macros and modules that seek to add some Illustrator like functionality to Aegisub",
     }
   );
   

@@ -1,0 +1,67 @@
+[
+  {
+    "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts#ILL.Shapery",
+    "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/@{channel}/macros/ILL.Shapery",
+    "channels": {
+      "main": {
+        "default": true,
+        "version": "2.1.0",
+        "released": "2023-03-26",
+        "files": [
+          {
+            "sha1": "59c8f747e074bad8f64f52c487a0c2b3315da612",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/macros/ILL.Shapery.moon",
+            "name": ".moon",
+            "_validHash": true
+          }
+        ],
+        "requiredModules": [
+          {
+            "moduleName": "a-mo.ConfigHandler",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
+            "version": "1.1.4"
+          },
+          {
+            "moduleName": "clipper2.clipper2",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
+            "version": "1.2.0"
+          },
+          {
+            "moduleName": "ILL.ILL",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
+            "version": "1.1.2"
+          }
+        ]
+      }
+    },
+    "changelog": {
+      "2.0.1": [
+        "Initial depctrl release"
+      ],
+      "2.0.2": [
+        "Fix Shapery Macros / Expand bug"
+      ],
+      "2.1.0": [
+        "Update macros"
+      ]
+    },
+    "name": "Shapery",
+    "description": "Does several types of shape manipulations from the simplest to the most complex",
+    "author": "ILLTeam",
+    "_validHash": true,
+    "_defaultVersion": "2.1.0",
+    "_scriptData": {
+      "name": "Shapery",
+      "description": "Does several types of shape manipulations from the simplest to the most complex",
+      "author": "ILLTeam",
+      "version": "2.1.0",
+      "namespace": "ILL.Shapery",
+      "_feedData": null
+    },
+    "_feedName": "ILL Aegisub Scripts",
+    "_feedIdentifier": "b2d8509",
+    "_fetchTime": 1679982069304,
+    "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
+    "_namespace": "ILL.Shapery"
+  }
+]

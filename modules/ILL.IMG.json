@@ -1,0 +1,158 @@
+[
+  {
+    "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts",
+    "author": "ILLTeam",
+    "name": "ILL Image Module",
+    "description": "A library for loading images in various foramts",
+    "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/@{channel}/modules/ILL/IMG",
+    "channels": {
+      "main": {
+        "version": "1.0.1",
+        "released": "2023-03-28",
+        "default": true,
+        "platforms": [
+          "Windows-x64",
+          "OSX-x64",
+          "Linux-x64"
+        ],
+        "files": [
+          {
+            "name": ".moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/IMG.moon",
+            "sha1": "bde0def3b732e3355944a139585f3a75b79507fe",
+            "_validHash": true
+          },
+          {
+            "name": "/Potrace.moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/IMG/Potrace.moon",
+            "sha1": "159e0339a2a33e63db5ebab53f107e4a4ad34fba",
+            "_validHash": true
+          },
+          {
+            "name": "/Tracer.moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/IMG/Tracer.moon",
+            "sha1": "30702c6e27ff7a9b1738ce1bc4f9242e3c80f2fe",
+            "_validHash": true
+          },
+          {
+            "name": "/bitmap/bitmap.moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/IMG/bitmap/bitmap.moon",
+            "sha1": "3f9d8a2b5340a65d09be2e7796d94c00e227dbf7",
+            "_validHash": true
+          },
+          {
+            "name": "/buffer/buffer.moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/IMG/buffer/buffer.moon",
+            "sha1": "8bd5bf6202b081beead324c1f469c61eb16af03d",
+            "_validHash": true
+          },
+          {
+            "name": "/giflib/giflib.moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/IMG/giflib/giflib.moon",
+            "sha1": "5be102387e7c519b3cecf67492d42823766f0d6b",
+            "_validHash": true
+          },
+          {
+            "name": "/giflib/giflib/giflib.dll",
+            "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts/releases/download/image-v1.0.0/giflib.dll",
+            "platform": "Windows-x64",
+            "sha1": "bbbbbf7940a1d8f112c4db08a1680075bfe59fad",
+            "_validHash": true
+          },
+          {
+            "name": "/giflib/giflib/libgiflib.dylib",
+            "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts/releases/download/image-v1.0.0/libgiflib.dylib",
+            "platform": "OSX-x64",
+            "sha1": "8b7b7bc9ef42f6256cc770274a117655a475e77b",
+            "_validHash": true
+          },
+          {
+            "name": "/giflib/giflib/libgiflib.so",
+            "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts/releases/download/image-v1.0.0/libgiflib.so",
+            "platform": "Linux-x64",
+            "sha1": "5fc0374a1f89d0f786cac5bbce5ce4cb512a3902",
+            "_validHash": true
+          },
+          {
+            "name": "/lodepng/lodepng.moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/IMG/lodepng/lodepng.moon",
+            "sha1": "76170782e6b8dcf075f9efff8e2709adc2f2d25d",
+            "_validHash": true
+          },
+          {
+            "name": "/lodepng/lodepng/lodepng.dll",
+            "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts/releases/download/image-v1.0.0/lodepng.dll",
+            "platform": "Windows-x64",
+            "sha1": "61a65e04b034ee094637e23720718791ca1865f5",
+            "_validHash": true
+          },
+          {
+            "name": "/lodepng/lodepng/liblodepng.dylib",
+            "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts/releases/download/image-v1.0.0/liblodepng.dylib",
+            "platform": "OSX-x64",
+            "sha1": "4d7452a0a77551437062d59d9ef01f141422b562",
+            "_validHash": true
+          },
+          {
+            "name": "/lodepng/lodepng/liblodepng.so",
+            "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts/releases/download/image-v1.0.0/liblodepng.so",
+            "platform": "Linux-x64",
+            "sha1": "22a58b4cce2f202c7e96d3518fa35868793aac43",
+            "_validHash": true
+          },
+          {
+            "name": "/turbojpeg/turbojpeg.moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/IMG/turbojpeg/turbojpeg.moon",
+            "sha1": "68175673b027aaf0f440a9feba0dfd81743a7bbe",
+            "_validHash": true
+          },
+          {
+            "name": "/turbojpeg/turbojpeg/turbojpeg.dll",
+            "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts/releases/download/image-v1.0.0/turbojpeg.dll",
+            "platform": "Windows-x64",
+            "sha1": "4d11a21b550768f4cc497a53b09a436c75f426d5",
+            "_validHash": true
+          },
+          {
+            "name": "/turbojpeg/turbojpeg/libturbojpeg.dylib",
+            "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts/releases/download/image-v1.0.0/libturbojpeg.dylib",
+            "platform": "OSX-x64",
+            "sha1": "d99df3508622fa757adff37a782e67a6cd33fda1",
+            "_validHash": true
+          },
+          {
+            "name": "/turbojpeg/turbojpeg/libturbojpeg.so",
+            "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts/releases/download/image-v1.0.0/libturbojpeg.so",
+            "platform": "Linux-x64",
+            "sha1": "c76a65d5a0433eeaa67e9b1ea4739b6118dfeb29",
+            "_validHash": true
+          }
+        ],
+        "requiredModules": [
+          {
+            "moduleName": "ffi"
+          },
+          {
+            "moduleName": "requireffi.requireffi",
+            "version": "0.1.2",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json"
+          }
+        ]
+      }
+    },
+    "changelog": {
+      "1.0.1": [
+        "Fix identation"
+      ]
+    },
+    "_validHash": true,
+    "_reverseDependency": [
+      "ILL.MakeImage"
+    ],
+    "_feedName": "ILL Aegisub Scripts",
+    "_feedIdentifier": "b2d8509",
+    "_fetchTime": 1679982069304,
+    "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
+    "_namespace": "ILL.IMG"
+  }
+]

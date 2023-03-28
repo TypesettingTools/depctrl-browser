@@ -31,6 +31,7 @@
     "_validHash": true,
     "_reverseDependency": [
       "a-mo.Aegisub-Motion",
+      "ILL.Shapery",
       "l0.ASSWipe",
       "l0.LerpByChar",
       "l0.PasteAiLines",
@@ -41,7 +42,7 @@
     ],
     "_feedName": "Aegisub-Motion",
     "_feedIdentifier": "4152f8d",
-    "_fetchTime": 1679790684311,
+    "_fetchTime": 1679982069155,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
     "_namespace": "a-mo.ConfigHandler"
   }

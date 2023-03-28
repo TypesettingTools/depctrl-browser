@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts#ILL.MakeImage",
+    "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/@{channel}/macros/ILL.MakeImage",
+    "channels": {
+      "main": {
+        "default": true,
+        "version": "2.0.0",
+        "released": "2023-03-26",
+        "files": [
+          {
+            "sha1": "dd4b7f738e2be3aeee8fb7c12f5f997dc94bab68",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/macros/ILL.MakeImage.moon",
+            "name": ".moon",
+            "_validHash": true
+          }
+        ],
+        "requiredModules": [
+          {
+            "moduleName": "ILL.IMG",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
+            "version": "1.0.0"
+          },
+          {
+            "moduleName": "ILL.ILL",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
+            "version": "1.1.2"
+          }
+        ]
+      }
+    },
+    "changelog": {
+      "1.0.1": [
+        "Initial depctrl release"
+      ],
+      "1.0.2": [
+        "Update macros"
+      ]
+    },
+    "name": "Make Image",
+    "description": "Does several procedures for converting images to the .ass",
+    "author": "ILLTeam",
+    "_validHash": true,
+    "_defaultVersion": "2.0.0",
+    "_scriptData": {
+      "name": "Make Image",
+      "description": "Does several procedures for converting images to the .ass",
+      "author": "ILLTeam",
+      "version": "2.0.0",
+      "namespace": "ILL.MakeImage",
+      "_feedData": null
+    },
+    "_feedName": "ILL Aegisub Scripts",
+    "_feedIdentifier": "b2d8509",
+    "_fetchTime": 1679982069304,
+    "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
+    "_namespace": "ILL.MakeImage"
+  }
+]

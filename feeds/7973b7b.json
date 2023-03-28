@@ -20,7 +20,8 @@
     "zahuczky-scripts": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
     "phoscity-scripts": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "zeref-scripts": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
-    "arch1t3cht-scripts": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json"
+    "arch1t3cht-scripts": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
+    "ILL": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json"
   },
   "macros": {
     "l0.DependencyControl.Toolbox": {
@@ -77,7 +78,7 @@
       },
       "_feedName": "DependencyControl",
       "_feedIdentifier": "7973b7b",
-      "_fetchTime": 1679790684012,
+      "_fetchTime": 1679982069062,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/master/DependencyControl.json",
       "_namespace": "l0.DependencyControl.Toolbox"
     }
@@ -223,13 +224,13 @@
       ],
       "_feedName": "DependencyControl",
       "_feedIdentifier": "7973b7b",
-      "_fetchTime": 1679790684012,
+      "_fetchTime": 1679982069062,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/master/DependencyControl.json",
       "_namespace": "l0.DependencyControl"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/master/DependencyControl.json",
   "_identifier": "7973b7b",
-  "_fetchTime": 1679790684012,
+  "_fetchTime": 1679982069062,
   "_validHash": true
 }

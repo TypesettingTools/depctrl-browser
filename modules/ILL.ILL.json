@@ -1,0 +1,167 @@
+[
+  {
+    "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts",
+    "author": "ILLTeam",
+    "name": "ILL Library",
+    "description": "Module that eases the creation of macros with a focus on handling shapes.",
+    "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/@{channel}/modules/ILL/ILL",
+    "channels": {
+      "main": {
+        "default": true,
+        "version": "1.2.1",
+        "released": "2023-03-28",
+        "files": [
+          {
+            "name": ".moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL.moon",
+            "sha1": "8a31481142635f63546f6d9986f1e2c70a51688b",
+            "_validHash": true
+          },
+          {
+            "name": "/Ass/Shape/Curve.moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Shape/Curve.moon",
+            "sha1": "52f7bc9c3fd98d318962fae909ba80613f46ba26",
+            "_validHash": true
+          },
+          {
+            "name": "/Ass/Shape/Path.moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Shape/Path.moon",
+            "sha1": "89fca49c1049bcbe5aae2c83c005eba4a2a6b2a3",
+            "_validHash": true
+          },
+          {
+            "name": "/Ass/Shape/Point.moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Shape/Point.moon",
+            "sha1": "b486cfc7560ca001ec427f813021a32b7414938f",
+            "_validHash": true
+          },
+          {
+            "name": "/Ass/Shape/Segment.moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Shape/Segment.moon",
+            "sha1": "65520baba964da1a2315921452e8b00c18ff1f41",
+            "_validHash": true
+          },
+          {
+            "name": "/Ass/Text/Tag.moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Text/Tag.moon",
+            "sha1": "962ad42b3ecd57e51c21e9764659e562c8c9c5dc",
+            "_validHash": true
+          },
+          {
+            "name": "/Ass/Text/Tags.moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Text/Tags.moon",
+            "sha1": "950196f6b15082df7e76ea4c378754c3ee53b8d7",
+            "_validHash": true
+          },
+          {
+            "name": "/Ass/Text/Text.moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Text/Text.moon",
+            "sha1": "b63958ebaf1551d6ad3af2158c1778953a77e3d6",
+            "_validHash": true
+          },
+          {
+            "name": "/Ass/Ass.moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Ass.moon",
+            "sha1": "3533db57ab160a2e9bc5cd031d7ac87cd530f7d6",
+            "_validHash": true
+          },
+          {
+            "name": "/Ass/Line.moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Line.moon",
+            "sha1": "4c610d8b982819b78d827072edd63c5756323ba7",
+            "_validHash": true
+          },
+          {
+            "name": "/Font/Font.moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Font/Font.moon",
+            "sha1": "f8b4ff142c945e7a97c0a5ba5a5e5a7590f7840f",
+            "_validHash": true
+          },
+          {
+            "name": "/Font/Init.moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Font/Init.moon",
+            "sha1": "84f8a0f04ea07e888badc7c03c434984750d62f5",
+            "_validHash": true
+          },
+          {
+            "name": "/Font/Unx.moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Font/Unx.moon",
+            "sha1": "74d4ed96ee3dbfbedb59a0706442807710d407da",
+            "_validHash": true
+          },
+          {
+            "name": "/Font/Win.moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Font/Win.moon",
+            "sha1": "1c4b932594fb1e46ca323ba14725dff5d109676a",
+            "_validHash": true
+          },
+          {
+            "name": "/Aegi.moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Aegi.moon",
+            "sha1": "b580218eaf562b008f24cd73d3c56cebceb14319",
+            "_validHash": true
+          },
+          {
+            "name": "/Math.moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Math.moon",
+            "sha1": "478543eff10f7d16b1c2471d384e7593d0e22039",
+            "_validHash": true
+          },
+          {
+            "name": "/Table.moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Table.moon",
+            "sha1": "e73c3f626709e759502e558dc0485978611d3987",
+            "_validHash": true
+          },
+          {
+            "name": "/Util.moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Util.moon",
+            "sha1": "2592061380a8983b6f4856912020d6240d2fdef4",
+            "_validHash": true
+          }
+        ],
+        "requiredModules": [
+          {
+            "moduleName": "ffi"
+          },
+          {
+            "moduleName": "SubInspector.Inspector",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/SubInspector/master/DependencyControl.json",
+            "version": "0.7.2"
+          },
+          {
+            "moduleName": "clipper2.clipper2",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
+            "version": "1.2.0"
+          }
+        ]
+      }
+    },
+    "changelog": {
+      "1.1.2": [
+        "Initial depctrl release"
+      ],
+      "1.1.3": [
+        "Update version representation in modules"
+      ],
+      "1.2.0": [
+        "Update ILL"
+      ],
+      "1.2.1": [
+        "Fix identation"
+      ]
+    },
+    "_validHash": true,
+    "_reverseDependency": [
+      "ILL.EnvelopeDistort",
+      "ILL.Shapery",
+      "ILL.MakeImage",
+      "ILL.ChangeAlign"
+    ],
+    "_feedName": "ILL Aegisub Scripts",
+    "_feedIdentifier": "b2d8509",
+    "_fetchTime": 1679982069304,
+    "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
+    "_namespace": "ILL.ILL"
+  }
+]
