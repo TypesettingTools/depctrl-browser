@@ -19,11 +19,11 @@
       "channels": {
         "main": {
           "default": true,
-          "version": "1.0.4",
-          "released": "2023-03-26",
+          "version": "1.0.5",
+          "released": "2023-03-30",
           "files": [
             {
-              "sha1": "415d24b1f3f1e45967bf1f3c5c1ba4e4cdc8aaab",
+              "sha1": "f458dbaa4b03afdbb48705ca22cc1e569d512a59",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/macros/ILL.EnvelopeDistort.moon",
               "name": ".moon",
               "_validHash": true
@@ -44,24 +44,33 @@
         ],
         "1.0.4": [
           "Update macros"
+        ],
+        "1.0.5": [
+          "Update macro register",
+          "",
+          "Macros can now be installed manually without having to have DepControl",
+          "",
+          "Regardless, it is always recommended to install via DepControl"
         ]
       },
       "name": "Envelope Distort",
       "description": "Allows you to warp and manipulate shapes within a customizable envelope",
       "author": "ILLTeam",
       "_validHash": true,
-      "_defaultVersion": "1.0.4",
+      "_defaultVersion": "1.0.5",
       "_scriptData": {
         "name": "Envelope Distort",
         "description": "Allows you to warp and manipulate shapes within a customizable envelope",
         "author": "ILLTeam",
-        "version": "1.0.4",
+        "version": "1.0.5",
         "namespace": "ILL.EnvelopeDistort",
-        "_feedData": null
+        "_feedData": {
+          "feed": "https://raw.githubusercontent.com/klsruan/ILL-Aegisub-Scripts/main/DependencyControl.json"
+        }
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1680009087447,
+      "_fetchTime": 1680149747318,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.EnvelopeDistort"
     },
@@ -71,11 +80,11 @@
       "channels": {
         "main": {
           "default": true,
-          "version": "2.1.0",
-          "released": "2023-03-26",
+          "version": "2.1.1",
+          "released": "2023-03-30",
           "files": [
             {
-              "sha1": "59c8f747e074bad8f64f52c487a0c2b3315da612",
+              "sha1": "7db2c9cac8da0d16010cad997d93780f6838391e",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/macros/ILL.Shapery.moon",
               "name": ".moon",
               "_validHash": true
@@ -109,24 +118,33 @@
         ],
         "2.1.0": [
           "Update macros"
+        ],
+        "2.1.1": [
+          "Update macro register",
+          "",
+          "Macros can now be installed manually without having to have DepControl",
+          "",
+          "Regardless, it is always recommended to install via DepControl"
         ]
       },
       "name": "Shapery",
       "description": "Does several types of shape manipulations from the simplest to the most complex",
       "author": "ILLTeam",
       "_validHash": true,
-      "_defaultVersion": "2.1.0",
+      "_defaultVersion": "2.1.1",
       "_scriptData": {
         "name": "Shapery",
         "description": "Does several types of shape manipulations from the simplest to the most complex",
         "author": "ILLTeam",
-        "version": "2.1.0",
+        "version": "2.1.1",
         "namespace": "ILL.Shapery",
-        "_feedData": null
+        "_feedData": {
+          "feed": "https://raw.githubusercontent.com/klsruan/ILL-Aegisub-Scripts/main/DependencyControl.json"
+        }
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1680009087447,
+      "_fetchTime": 1680149747318,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.Shapery"
     },
@@ -136,11 +154,11 @@
       "channels": {
         "main": {
           "default": true,
-          "version": "2.0.0",
-          "released": "2023-03-26",
+          "version": "2.0.1",
+          "released": "2023-03-30",
           "files": [
             {
-              "sha1": "dd4b7f738e2be3aeee8fb7c12f5f997dc94bab68",
+              "sha1": "73694a7586b22e98b56a1c672326b579c76b9049",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/macros/ILL.MakeImage.moon",
               "name": ".moon",
               "_validHash": true
@@ -166,24 +184,33 @@
         ],
         "1.0.2": [
           "Update macros"
+        ],
+        "2.0.1": [
+          "Update macro register",
+          "",
+          "Macros can now be installed manually without having to have DepControl",
+          "",
+          "Regardless, it is always recommended to install via DepControl"
         ]
       },
       "name": "Make Image",
       "description": "Does several procedures for converting images to the .ass",
       "author": "ILLTeam",
       "_validHash": true,
-      "_defaultVersion": "2.0.0",
+      "_defaultVersion": "2.0.1",
       "_scriptData": {
         "name": "Make Image",
         "description": "Does several procedures for converting images to the .ass",
         "author": "ILLTeam",
-        "version": "2.0.0",
+        "version": "2.0.1",
         "namespace": "ILL.MakeImage",
-        "_feedData": null
+        "_feedData": {
+          "feed": "https://raw.githubusercontent.com/klsruan/ILL-Aegisub-Scripts/main/DependencyControl.json"
+        }
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1680009087447,
+      "_fetchTime": 1680149747318,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.MakeImage"
     },
@@ -193,11 +220,11 @@
       "channels": {
         "main": {
           "default": true,
-          "version": "1.0.2",
-          "released": "2023-03-26",
+          "version": "1.0.3",
+          "released": "2023-03-30",
           "files": [
             {
-              "sha1": "6ec69c64ce556eed8ac605ee4798ddc0e81b2d5b",
+              "sha1": "288f7dd8c33d4342fbf9ba2f0709ecd0c8cd1391",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/macros/ILL.ChangeAlign.moon",
               "name": ".moon",
               "_validHash": true
@@ -218,24 +245,33 @@
         ],
         "1.0.2": [
           "Update macros"
+        ],
+        "1.0.3": [
+          "Update macro register",
+          "",
+          "Macros can now be installed manually without having to have DepControl",
+          "",
+          "Regardless, it is always recommended to install via DepControl"
         ]
       },
       "name": "ILL - Change Alignment",
       "description": "Changes the alignment of a text or shape without changing its original position",
       "author": "ILLTeam",
       "_validHash": true,
-      "_defaultVersion": "1.0.2",
+      "_defaultVersion": "1.0.3",
       "_scriptData": {
         "name": "Change Alignment",
         "description": "Changes the alignment of a text or shape without changing its original position",
         "author": "ILLTeam",
-        "version": "1.0.2",
+        "version": "1.0.3",
         "namespace": "ILL.ChangeAlign",
-        "_feedData": null
+        "_feedData": {
+          "feed": "https://raw.githubusercontent.com/klsruan/ILL-Aegisub-Scripts/main/DependencyControl.json"
+        }
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1680009087447,
+      "_fetchTime": 1680149747318,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.ChangeAlign"
     }
@@ -319,7 +355,7 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1680009087447,
+      "_fetchTime": 1680149747318,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "clipper2.clipper2"
     },
@@ -484,7 +520,7 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1680009087447,
+      "_fetchTime": 1680149747318,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.ILL"
     },
@@ -640,13 +676,13 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1680009087447,
+      "_fetchTime": 1680149747318,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.IMG"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "b2d8509",
-  "_fetchTime": 1680009087447,
+  "_fetchTime": 1680149747318,
   "_validHash": true
 }

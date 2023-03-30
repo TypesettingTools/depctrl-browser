@@ -5,11 +5,11 @@
     "channels": {
       "main": {
         "default": true,
-        "version": "1.0.2",
-        "released": "2023-03-26",
+        "version": "1.0.3",
+        "released": "2023-03-30",
         "files": [
           {
-            "sha1": "6ec69c64ce556eed8ac605ee4798ddc0e81b2d5b",
+            "sha1": "288f7dd8c33d4342fbf9ba2f0709ecd0c8cd1391",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/macros/ILL.ChangeAlign.moon",
             "name": ".moon",
             "_validHash": true
@@ -30,24 +30,33 @@
       ],
       "1.0.2": [
         "Update macros"
+      ],
+      "1.0.3": [
+        "Update macro register",
+        "",
+        "Macros can now be installed manually without having to have DepControl",
+        "",
+        "Regardless, it is always recommended to install via DepControl"
       ]
     },
     "name": "ILL - Change Alignment",
     "description": "Changes the alignment of a text or shape without changing its original position",
     "author": "ILLTeam",
     "_validHash": true,
-    "_defaultVersion": "1.0.2",
+    "_defaultVersion": "1.0.3",
     "_scriptData": {
       "name": "Change Alignment",
       "description": "Changes the alignment of a text or shape without changing its original position",
       "author": "ILLTeam",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "namespace": "ILL.ChangeAlign",
-      "_feedData": null
+      "_feedData": {
+        "feed": "https://raw.githubusercontent.com/klsruan/ILL-Aegisub-Scripts/main/DependencyControl.json"
+      }
     },
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1680009087447,
+    "_fetchTime": 1680149747318,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ILL.ChangeAlign"
   }

@@ -5,11 +5,11 @@
     "channels": {
       "main": {
         "default": true,
-        "version": "1.0.4",
-        "released": "2023-03-26",
+        "version": "1.0.5",
+        "released": "2023-03-30",
         "files": [
           {
-            "sha1": "415d24b1f3f1e45967bf1f3c5c1ba4e4cdc8aaab",
+            "sha1": "f458dbaa4b03afdbb48705ca22cc1e569d512a59",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/macros/ILL.EnvelopeDistort.moon",
             "name": ".moon",
             "_validHash": true
@@ -30,24 +30,33 @@
       ],
       "1.0.4": [
         "Update macros"
+      ],
+      "1.0.5": [
+        "Update macro register",
+        "",
+        "Macros can now be installed manually without having to have DepControl",
+        "",
+        "Regardless, it is always recommended to install via DepControl"
       ]
     },
     "name": "Envelope Distort",
     "description": "Allows you to warp and manipulate shapes within a customizable envelope",
     "author": "ILLTeam",
     "_validHash": true,
-    "_defaultVersion": "1.0.4",
+    "_defaultVersion": "1.0.5",
     "_scriptData": {
       "name": "Envelope Distort",
       "description": "Allows you to warp and manipulate shapes within a customizable envelope",
       "author": "ILLTeam",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "namespace": "ILL.EnvelopeDistort",
-      "_feedData": null
+      "_feedData": {
+        "feed": "https://raw.githubusercontent.com/klsruan/ILL-Aegisub-Scripts/main/DependencyControl.json"
+      }
     },
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1680009087447,
+    "_fetchTime": 1680149747318,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ILL.EnvelopeDistort"
   }
