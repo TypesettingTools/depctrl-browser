@@ -52,7 +52,7 @@
     },
     "_feedName": "zeref-aegisub-scripts",
     "_feedIdentifier": "fbbbec7",
-    "_fetchTime": 1680423672290,
+    "_fetchTime": 1680425468147,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "zf.gradientCut"
   }
