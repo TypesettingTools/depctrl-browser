@@ -5,11 +5,11 @@
     "channels": {
       "main": {
         "default": true,
-        "version": "1.0.4",
+        "version": "1.0.5",
         "released": "2023-04-02",
         "files": [
           {
-            "sha1": "057690fb6e27437f6f74fa5f14d3332660ff245e",
+            "sha1": "5fcb3214b10d3afcf8a56b7afc0436bf936708f0",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/macros/ILL.ChangeAlign.moon",
             "name": ".moon",
             "_validHash": true
@@ -44,26 +44,29 @@
         "Bugs:",
         "",
         "- Iterators are now aligned with the fixes made in class Ass"
+      ],
+      "1.0.5": [
+        "Fix Dependency Control feed"
       ]
     },
     "name": "ILL - Change Alignment",
     "description": "Changes the alignment of a text or shape without changing its original position",
     "author": "ILLTeam",
     "_validHash": true,
-    "_defaultVersion": "1.0.4",
+    "_defaultVersion": "1.0.5",
     "_scriptData": {
       "name": "Change Alignment",
       "description": "Changes the alignment of a text or shape without changing its original position",
       "author": "ILLTeam",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "namespace": "ILL.ChangeAlign",
       "_feedData": {
-        "feed": "https://raw.githubusercontent.com/klsruan/ILL-Aegisub-Scripts/main/DependencyControl.json"
+        "feed": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json"
       }
     },
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1680423373925,
+    "_fetchTime": 1680423672249,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ILL.ChangeAlign"
   }

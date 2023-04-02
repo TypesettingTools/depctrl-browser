@@ -8,8 +8,8 @@
     "channels": {
       "main": {
         "default": true,
-        "version": "1.3.1",
-        "released": "2023-03-28",
+        "version": "1.3.2",
+        "released": "2023-04-02",
         "platforms": [
           "Windows-x64",
           "OSX-x64",
@@ -17,7 +17,7 @@
         ],
         "files": [
           {
-            "sha1": "202b26beb51e2ba1584b048a2c372cd86041b280",
+            "sha1": "7f62bedfa7616c8074129fdeaf63c983d92b94e5",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/clipper2/clipper2.moon",
             "name": ".moon",
             "_validHash": true
@@ -68,6 +68,9 @@
       ],
       "1.3.1": [
         "Fix identation"
+      ],
+      "1.3.2": [
+        "Fix Dependency Control feed"
       ]
     },
     "_validHash": true,
@@ -77,7 +80,7 @@
     ],
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1680423373925,
+    "_fetchTime": 1680423672249,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "clipper2.clipper2"
   }

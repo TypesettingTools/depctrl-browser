@@ -5,11 +5,11 @@
     "channels": {
       "main": {
         "default": true,
-        "version": "1.0.6",
+        "version": "1.0.7",
         "released": "2023-04-02",
         "files": [
           {
-            "sha1": "365347246d36501e23afef247c86752530cc60d7",
+            "sha1": "cd798191f866243475c26d3e9bc0201a88ce8cb3",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/macros/ILL.EnvelopeDistort.moon",
             "name": ".moon",
             "_validHash": true
@@ -44,26 +44,29 @@
         "Bugs:",
         "",
         "- Iterators are now aligned with the fixes made in class Ass"
+      ],
+      "1.0.7": [
+        "Fix Dependency Control feed"
       ]
     },
     "name": "Envelope Distort",
     "description": "Allows you to warp and manipulate shapes within a customizable envelope",
     "author": "ILLTeam",
     "_validHash": true,
-    "_defaultVersion": "1.0.6",
+    "_defaultVersion": "1.0.7",
     "_scriptData": {
       "name": "Envelope Distort",
       "description": "Allows you to warp and manipulate shapes within a customizable envelope",
       "author": "ILLTeam",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "namespace": "ILL.EnvelopeDistort",
       "_feedData": {
-        "feed": "https://raw.githubusercontent.com/klsruan/ILL-Aegisub-Scripts/main/DependencyControl.json"
+        "feed": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json"
       }
     },
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1680423373925,
+    "_fetchTime": 1680423672249,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ILL.EnvelopeDistort"
   }
