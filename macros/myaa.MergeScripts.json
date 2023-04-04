@@ -102,7 +102,7 @@
     },
     "_feedName": "Myaamori's Aegisub scripts",
     "_feedIdentifier": "d5b4bc1",
-    "_fetchTime": 1680434170151,
+    "_fetchTime": 1680604566985,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Myaamori-Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "myaa.MergeScripts"
   }

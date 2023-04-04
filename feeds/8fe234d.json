@@ -50,7 +50,7 @@
       },
       "_feedName": "PhosCity's Aegisub Scripts",
       "_feedIdentifier": "8fe234d",
-      "_fetchTime": 1680434170142,
+      "_fetchTime": 1680604567071,
       "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "phos.wave"
     },
@@ -126,7 +126,7 @@
       },
       "_feedName": "PhosCity's Aegisub Scripts",
       "_feedIdentifier": "8fe234d",
-      "_fetchTime": 1680434170142,
+      "_fetchTime": 1680604567071,
       "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "phos.wobble"
     },
@@ -169,7 +169,7 @@
       },
       "_feedName": "PhosCity's Aegisub Scripts",
       "_feedIdentifier": "8fe234d",
-      "_fetchTime": 1680434170142,
+      "_fetchTime": 1680604567071,
       "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "phos.snap"
     },
@@ -180,20 +180,20 @@
       "description": "Script that uses svg2ass to convert svg files to ass lines",
       "channels": {
         "main": {
-          "version": "1.2.4",
-          "released": "2023-03-15",
+          "version": "1.2.5",
+          "released": "2023-04-04",
           "default": true,
           "files": [
             {
               "name": ".moon",
               "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.svg2ass.moon",
-              "sha1": "0ead4b6b4927f55e7d4f67b94171f904a46a172d",
+              "sha1": "9f561a529625e0ed6020cf389523856ee4fd8b53",
               "_validHash": true
             },
             {
               "name": ".lua",
               "delete": true,
-              "sha1": "0ead4b6b4927f55e7d4f67b94171f904a46a172d"
+              "sha1": "9f561a529625e0ed6020cf389523856ee4fd8b53"
             }
           ],
           "requiredModules": [
@@ -230,12 +230,12 @@
         ]
       },
       "_validHash": true,
-      "_defaultVersion": "1.2.4",
+      "_defaultVersion": "1.2.5",
       "_scriptData": {
         "name": "svg2ass",
         "description": "Script that uses svg2ass to convert svg files to ass lines",
         "author": "PhosCity",
-        "version": "1.2.4",
+        "version": "1.2.5",
         "namespace": "phos.svg2ass",
         "_feedData": {
           "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
@@ -243,7 +243,7 @@
       },
       "_feedName": "PhosCity's Aegisub Scripts",
       "_feedIdentifier": "8fe234d",
-      "_fetchTime": 1680434170142,
+      "_fetchTime": 1680604567071,
       "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "phos.svg2ass"
     },
@@ -305,7 +305,7 @@
       },
       "_feedName": "PhosCity's Aegisub Scripts",
       "_feedIdentifier": "8fe234d",
-      "_fetchTime": 1680434170142,
+      "_fetchTime": 1680604567071,
       "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "phos.changeAlignment"
     },
@@ -378,7 +378,7 @@
       },
       "_feedName": "PhosCity's Aegisub Scripts",
       "_feedIdentifier": "8fe234d",
-      "_fetchTime": 1680434170142,
+      "_fetchTime": 1680604567071,
       "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "phos.AddGrain"
     },
@@ -454,7 +454,7 @@
       },
       "_feedName": "PhosCity's Aegisub Scripts",
       "_feedIdentifier": "8fe234d",
-      "_fetchTime": 1680434170142,
+      "_fetchTime": 1680604567071,
       "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "phos.RotateGradient"
     },
@@ -497,7 +497,7 @@
       },
       "_feedName": "PhosCity's Aegisub Scripts",
       "_feedIdentifier": "8fe234d",
-      "_fetchTime": 1680434170142,
+      "_fetchTime": 1680604567071,
       "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "phos.TimingAssistant"
     },
@@ -563,14 +563,14 @@
       },
       "_feedName": "PhosCity's Aegisub Scripts",
       "_feedIdentifier": "8fe234d",
-      "_fetchTime": 1680434170142,
+      "_fetchTime": 1680604567071,
       "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "phos.RemoveTags"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "8fe234d",
-  "_fetchTime": 1680434170142,
+  "_fetchTime": 1680604567071,
   "modules": {},
   "_validHash": true
 }
