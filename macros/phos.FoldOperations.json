@@ -1,19 +1,19 @@
 [
   {
-    "url": "https://github.com/PhosCity/Aegisub-Scripts#phos.RemoveTags",
+    "url": "https://github.com/PhosCity/Aegisub-Scripts#phos.FoldOperations",
     "author": "PhosCity",
-    "name": "Remove Tags",
-    "description": "Dynamically remove tags based on selection",
+    "name": "Fold Operations",
+    "description": "Different operations on folds",
     "channels": {
       "main": {
         "version": "1.0.0",
-        "released": "2023-01-11",
+        "released": "2023-04-07",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.RemoveTags.moon",
-            "sha1": "9134e7e4967373bacf84aab6ee0b39aeec02e69e",
+            "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.FoldOperations.moon",
+            "sha1": "b29b3b77b2378c00d00c27c1058357ea41b404f6",
             "_validHash": true
           }
         ],
@@ -24,13 +24,6 @@
             "url": "https://github.com/TypesettingTools/Aegisub-Motion",
             "version": "1.3.0",
             "feed": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json"
-          },
-          {
-            "moduleName": "l0.ASSFoundation",
-            "name": "ASSFoundation",
-            "url": "https://github.com/TypesettingTools/ASSFoundation",
-            "version": "0.5.0",
-            "feed": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json"
           },
           {
             "moduleName": "l0.Functional",
@@ -50,11 +43,11 @@
     "_validHash": true,
     "_defaultVersion": "1.0.0",
     "_scriptData": {
-      "name": "Remove Tags",
-      "description": "Dynamically remove tags based on selection",
+      "name": "Fold Operations",
+      "description": "Different operations on folds",
       "author": "PhosCity",
       "version": "1.0.0",
-      "namespace": "phos.RemoveTags",
+      "namespace": "phos.FoldOperations",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
       }
@@ -63,6 +56,6 @@
     "_feedIdentifier": "8fe234d",
     "_fetchTime": 1680853833850,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
-    "_namespace": "phos.RemoveTags"
+    "_namespace": "phos.FoldOperations"
   }
 ]
