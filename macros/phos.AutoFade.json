@@ -1,19 +1,19 @@
 [
   {
-    "url": "https://github.com/PhosCity/Aegisub-Scripts#phos.FoldOperations",
+    "url": "https://github.com/PhosCity/Aegisub-Scripts#phos.AutoFade",
     "author": "PhosCity",
-    "name": "Fold Operations",
-    "description": "Different operations on folds",
+    "name": "Auto Fade",
+    "description": "Automatically determine fade in and fade out",
     "channels": {
       "main": {
         "version": "1.0.0",
-        "released": "2023-04-07",
+        "released": "2023-04-09",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.FoldOperations.moon",
-            "sha1": "b29b3b77b2378c00d00c27c1058357ea41b404f6",
+            "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.AutoFade.moon",
+            "sha1": "49848b7d6724b4bf35229a44c39b41963e4d29ce",
             "_validHash": true
           }
         ],
@@ -26,10 +26,17 @@
             "feed": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json"
           },
           {
-            "moduleName": "l0.Functional",
-            "name": "(Almost) Functional Suite",
+            "moduleName": "a-mo.DataWrapper",
+            "name": "Aegisub-Motion (DataWrapper)",
+            "url": "https://github.com/TypesettingTools/Aegisub-Motion",
+            "version": "1.0.2",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json"
+          },
+          {
+            "moduleName": "l0.ASSFoundation",
+            "name": "ASSFoundation",
             "url": "https://github.com/TypesettingTools/ASSFoundation",
-            "version": "0.6.0",
+            "version": "0.5.0",
             "feed": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json"
           }
         ]
@@ -43,11 +50,11 @@
     "_validHash": true,
     "_defaultVersion": "1.0.0",
     "_scriptData": {
-      "name": "Fold Operations",
-      "description": "Different operations on folds",
+      "name": "Auto Fade",
+      "description": "Automatically determine fade in and fade out",
       "author": "PhosCity",
       "version": "1.0.0",
-      "namespace": "phos.FoldOperations",
+      "namespace": "phos.AutoFade",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
       }
@@ -56,6 +63,6 @@
     "_feedIdentifier": "8fe234d",
     "_fetchTime": 1681041382201,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
-    "_namespace": "phos.FoldOperations"
+    "_namespace": "phos.AutoFade"
   }
 ]
