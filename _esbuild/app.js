@@ -291,6 +291,17 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/macros/phos.ExtrapolateTracking/",
+        name: "Extrapolate Tracking",
+        description: "Extrapolate the tag values where mocha can't reach",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/macros/a-mo.Aegisub-Motion/",
         name: "Aegisub-Motion",
         description: "The main macro.",
