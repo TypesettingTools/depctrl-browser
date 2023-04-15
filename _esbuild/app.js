@@ -214,17 +214,6 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
-        href: "/depctrl-browser/macros/phos.changeAlignment/",
-        name: "Change Alignment",
-        description: "Change alignment of line without changing it's appearance.",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
         href: "/depctrl-browser/macros/phos.AddGrain/",
         name: "Add Grain",
         description: "Add static and dynamic grain",
