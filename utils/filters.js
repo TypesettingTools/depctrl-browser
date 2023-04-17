@@ -23,6 +23,17 @@ module.exports = {
 
   automationListSort: (obj) => obj.sort((a, b) => a[0]['name'].localeCompare(b[0]['name'])),
 
+  updateListSort: (obj) => obj.sort((a, b) => {
+    if (a['releaseDate'] === undefined) {
+      return 1;
+    } else if (b['releaseDate'] === undefined) {
+      return -1;
+    }
+    let dateA = Date.parse(a['releaseDate']) || 0;
+    let dateB = Date.parse(b['releaseDate']) || 0;
+    return dateB - dateA;
+  }),
+
   singleValue: (list, key) => {
     var lastValue = null;
     for (let elm of list) {
