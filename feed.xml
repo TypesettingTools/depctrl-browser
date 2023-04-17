@@ -1,0 +1,1464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://typesettingtools.github.io/depctrl-browser/">
+  <title>DepCtrl Recent Updates</title>
+  <subtitle>List of recently updated DependencyControl Macros.</subtitle>
+  <link href="feed.xml" rel="self"/>
+  <link href="https://typesettingtools.github.io/depctrl-browser/"/>
+  <updated>2023-04-15T00:00:00Z</updated>
+  <id>https://typesettingtools.github.io/depctrl-browser/</id>
+  <author>
+    <name>DepCtrl Browser</name>
+  </author>
+  <entry>
+    <title>Extrapolate Tracking - 1.0.2</title>
+    <link href="/depctrl-browser/macros/phos.ExtrapolateTracking/"/>
+    <updated>2023-04-15T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.ExtrapolateTracking/#1.0.2</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added to Dependency Control&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Auto Fade - 1.0.0</title>
+    <link href="/depctrl-browser/macros/phos.AutoFade/"/>
+    <updated>2023-04-09T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.AutoFade/#1.0.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added to Dependency Control&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Fold Operations - 1.0.0</title>
+    <link href="/depctrl-browser/macros/phos.FoldOperations/"/>
+    <updated>2023-04-07T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.FoldOperations/#1.0.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added to Dependency Control&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>svg2ass - 1.2.5</title>
+    <link href="/depctrl-browser/macros/phos.svg2ass/"/>
+    <updated>2023-04-04T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.svg2ass/#1.2.5</id>
+    <content xml:lang="en" type="html">
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Add Grain - 1.1.4</title>
+    <link href="/depctrl-browser/macros/phos.AddGrain/"/>
+    <updated>2023-04-04T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.AddGrain/#1.1.4</id>
+    <content xml:lang="en" type="html">
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Envelope Distort - 1.0.7</title>
+    <link href="/depctrl-browser/macros/ILL.EnvelopeDistort/"/>
+    <updated>2023-04-02T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.EnvelopeDistort/#1.0.7</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Fix Dependency Control feed&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Shapery - 2.2.1</title>
+    <link href="/depctrl-browser/macros/ILL.Shapery/"/>
+    <updated>2023-04-02T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.Shapery/#2.2.1</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Fix Dependency Control feed&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Make Image - 2.0.3</title>
+    <link href="/depctrl-browser/macros/ILL.MakeImage/"/>
+    <updated>2023-04-02T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.MakeImage/#2.0.3</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Fix Dependency Control feed&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>ILL - Change Alignment - 1.0.5</title>
+    <link href="/depctrl-browser/macros/ILL.ChangeAlign/"/>
+    <updated>2023-04-02T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.ChangeAlign/#1.0.5</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Fix Dependency Control feed&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Aegisub-Perspective-Motion BETA - 0.3.1</title>
+    <link href="/depctrl-browser/macros/zah.pers-mo_BETA/"/>
+    <updated>2023-03-24T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/zah.pers-mo_BETA/#0.3.1</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Save tracking datas ambient quad to extradata&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Aegisub-Color-Tracking - 2.0.2</title>
+    <link href="/depctrl-browser/macros/zah.aegi-color-track/"/>
+    <updated>2023-03-24T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/zah.aegi-color-track/#2.0.2</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Fix handling of tracking data when using Aegisub built-in frame API&lt;/li&gt;
+      
+        &lt;li&gt;Refactor internal handling of timecodes&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Wobble - 2.0.6</title>
+    <link href="/depctrl-browser/macros/phos.wobble/"/>
+    <updated>2023-03-11T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.wobble/#2.0.6</id>
+    <content xml:lang="en" type="html">
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Rotate Gradient - 2.0.1</title>
+    <link href="/depctrl-browser/macros/phos.RotateGradient/"/>
+    <updated>2023-01-16T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.RotateGradient/#2.0.1</id>
+    <content xml:lang="en" type="html">
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Remove Tags - 1.0.0</title>
+    <link href="/depctrl-browser/macros/phos.RemoveTags/"/>
+    <updated>2023-01-11T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.RemoveTags/#1.0.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added to Dependency Control&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Gradient Cut - 1.3.4</title>
+    <link href="/depctrl-browser/macros/zf.gradientCut/"/>
+    <updated>2023-01-10T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/zf.gradientCut/#1.3.4</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Fix crash due to incomplete clipper2 reversion&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Timing Assistant - 1.0.1</title>
+    <link href="/depctrl-browser/macros/phos.TimingAssistant/"/>
+    <updated>2023-01-06T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.TimingAssistant/#1.0.1</id>
+    <content xml:lang="en" type="html">
+      
+    </content>
+  </entry>
+  <entry>
+    <title>AegisubChain - 0.4.1</title>
+    <link href="/depctrl-browser/macros/arch.AegisubChain/"/>
+    <updated>2022-12-31T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.AegisubChain/#0.4.1</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Move repository to TypesettingTools/arch1t3cht-Aegisub-Scripts&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Resample Perspective - 1.3.3</title>
+    <link href="/depctrl-browser/macros/arch.Resample/"/>
+    <updated>2022-12-31T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.Resample/#1.3.3</id>
+    <content xml:lang="en" type="html">
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Focus Lines - 1.0.1</title>
+    <link href="/depctrl-browser/macros/arch.FocusLines/"/>
+    <updated>2022-12-31T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.FocusLines/#1.0.1</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Move repository to TypesettingTools/arch1t3cht-Aegisub-Scripts&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Rewriting Tools - 1.3.1</title>
+    <link href="/depctrl-browser/macros/arch.RWTools/"/>
+    <updated>2022-12-31T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.RWTools/#1.3.1</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Move repository to TypesettingTools/arch1t3cht-Aegisub-Scripts&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Note Browser - 1.3.5</title>
+    <link href="/depctrl-browser/macros/arch.NoteBrowser/"/>
+    <updated>2022-12-31T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.NoteBrowser/#1.3.5</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Move repository to TypesettingTools/arch1t3cht-Aegisub-Scripts&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Git Signs - 0.2.4</title>
+    <link href="/depctrl-browser/macros/arch.GitSigns/"/>
+    <updated>2022-12-31T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.GitSigns/#0.2.4</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Move repository to TypesettingTools/arch1t3cht-Aegisub-Scripts&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Convert Folds - 1.1.2</title>
+    <link href="/depctrl-browser/macros/arch.ConvertFolds/"/>
+    <updated>2022-12-31T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.ConvertFolds/#1.1.2</id>
+    <content xml:lang="en" type="html">
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Everything Shape - 1.5.4</title>
+    <link href="/depctrl-browser/macros/zf.everythingShape/"/>
+    <updated>2022-12-30T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/zf.everythingShape/#1.5.4</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Fixed depctrl registration&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Line To FBF - 1.1.2</title>
+    <link href="/depctrl-browser/macros/zf.line2fbf/"/>
+    <updated>2022-12-30T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/zf.line2fbf/#1.1.2</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Fixed depctrl registration&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Text in Clip - 2.1.2</title>
+    <link href="/depctrl-browser/macros/zf.textInClip/"/>
+    <updated>2022-12-30T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/zf.textInClip/#2.1.2</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Fixed depctrl registration&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Wave - 1.0.3</title>
+    <link href="/depctrl-browser/macros/phos.wave/"/>
+    <updated>2022-12-28T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.wave/#1.0.3</id>
+    <content xml:lang="en" type="html">
+      
+    </content>
+  </entry>
+  <entry>
+    <title>All Characters To - 1.0.5</title>
+    <link href="/depctrl-browser/macros/zf.allCharsTo/"/>
+    <updated>2022-11-27T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/zf.allCharsTo/#1.0.5</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Initial depctrl release&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Splits Text By - 1.3.1</title>
+    <link href="/depctrl-browser/macros/zf.split/"/>
+    <updated>2022-11-27T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/zf.split/#1.3.1</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Initial depctrl release&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Lua Interpreter - 1.3.1</title>
+    <link href="/depctrl-browser/macros/lyger.LuaInterpret/"/>
+    <updated>2022-11-24T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/lyger.LuaInterpret/#1.3.1</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Fix modify not working for vector clips&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Autowrapper - 0.5.0</title>
+    <link href="/depctrl-browser/macros/petzku.Autowrapper/"/>
+    <updated>2022-11-12T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.Autowrapper/#0.5.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Add options to not add/remove tags in lines (for real this time)&lt;/li&gt;
+      
+        &lt;li&gt;Add three-liner checking&lt;/li&gt;
+      
+        &lt;li&gt;Skip normal checks on \q2 lines, instead just warn of potential overwidth&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Phantom - 1.0.1</title>
+    <link href="/depctrl-browser/macros/petzku.Phantom/"/>
+    <updated>2022-09-05T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.Phantom/#1.0.1</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Fix handling of newlines&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Typewriter - 0.7.0</title>
+    <link href="/depctrl-browser/macros/petzku.Typewriter/"/>
+    <updated>2022-07-09T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.Typewriter/#0.7.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Refactor the partitioning logic in typewrite_line to use a state machine-based approach&lt;/li&gt;
+      
+        &lt;li&gt;For an active_char immediately following an override block, ensure that the override block is put in start (It was previously being deleted accidentally)&lt;/li&gt;
+      
+        &lt;li&gt;Treat text tags \N, \n and \h as single characters and remove the hackfix&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Snapper - 1.0.0</title>
+    <link href="/depctrl-browser/macros/petzku.Snapper/"/>
+    <updated>2022-05-16T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.Snapper/#1.0.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Add to DepCtrl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Encode Clip - 0.8.2</title>
+    <link href="/depctrl-browser/macros/petzku.EncodeClip/"/>
+    <updated>2022-04-25T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.EncodeClip/#0.8.2</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Warn user when file not saved (if on approtriate aegisub versions)&lt;/li&gt;
+      
+        &lt;li&gt;Default to encoding video on Enter press&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Bidirectional Snapping - 1.0.3</title>
+    <link href="/depctrl-browser/macros/phos.snap/"/>
+    <updated>2022-04-24T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.snap/#1.0.3</id>
+    <content xml:lang="en" type="html">
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Hyperdimensional Relocator - 4.5.2</title>
+    <link href="/depctrl-browser/macros/ua.Relocator/"/>
+    <updated>2022-04-24T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.Relocator/#4.5.2</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Follow user defined rounding for vector clips&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Circular text - 0.2.1</title>
+    <link href="/depctrl-browser/macros/lyger.CircleText/"/>
+    <updated>2021-07-24T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/lyger.CircleText/#0.2.1</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Deals with accented characters or special characters&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Margin Position - 2.0.0</title>
+    <link href="/depctrl-browser/macros/petzku.PosToMargin/"/>
+    <updated>2021-06-23T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.PosToMargin/#2.0.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added margin -&amp;gt; pos transform&lt;/li&gt;
+      
+        &lt;li&gt;Renamed from &#39;Position to Margin&#39;&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>SplitTimer - 1.1.1</title>
+    <link href="/depctrl-browser/macros/petzku.SplitTimer/"/>
+    <updated>2021-03-26T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.SplitTimer/#1.1.1</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Fix error in requires for non-depctrl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Combine Gradient Lines - 0.2.5</title>
+    <link href="/depctrl-browser/macros/petzku.CombineGradientLines/"/>
+    <updated>2021-03-15T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.CombineGradientLines/#0.2.5</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Fix broken behaviour on vertical gradients&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Accenter - 0.2.6</title>
+    <link href="/depctrl-browser/macros/petzku.Accenter/"/>
+    <updated>2021-02-08T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.Accenter/#0.2.6</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Make a bunch of variables local&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Extrapolate Move - 0.1.5</title>
+    <link href="/depctrl-browser/macros/petzku.ExtrapolateMove/"/>
+    <updated>2021-02-08T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.ExtrapolateMove/#0.1.5</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Now outputs .01 precision co-ords instead of integer&lt;/li&gt;
+      
+        &lt;li&gt;No longer requires dependencycontrol to work&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Bounce - 0.0.2</title>
+    <link href="/depctrl-browser/macros/myaa.Bounce/"/>
+    <updated>2020-09-25T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/myaa.Bounce/#0.0.2</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Initial release&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Clip Size - 1.3.0</title>
+    <link href="/depctrl-browser/macros/petzku.ClipSize/"/>
+    <updated>2020-08-21T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.ClipSize/#1.3.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Add support for rect clips and subpixel accuracy&lt;/li&gt;
+      
+        &lt;li&gt;Move to &#39;stable&#39; Git branch for DependencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Jump to Next++ - 0.1.5</title>
+    <link href="/depctrl-browser/macros/petzku.JumpToNextPlus/"/>
+    <updated>2020-08-21T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.JumpToNextPlus/#0.1.5</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Add jumping by end time&lt;/li&gt;
+      
+        &lt;li&gt;Move to &#39;stable&#39; Git branch for DependencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Paste From Pad - 0.0.2</title>
+    <link href="/depctrl-browser/macros/myaa.PasteFromPad/"/>
+    <updated>2020-07-16T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/myaa.PasteFromPad/#0.0.2</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Create new lines when going beyond the existing number of lines&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Merge Scripts - 0.0.13</title>
+    <link href="/depctrl-browser/macros/myaa.MergeScripts/"/>
+    <updated>2020-07-15T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/myaa.MergeScripts/#0.0.13</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Add wildcard support for import definitions&lt;/li&gt;
+      
+        &lt;li&gt;Add support for selectively exporting changes to only specified files&lt;/li&gt;
+      
+        &lt;li&gt;Make it possible to export changes even if the target file does not exist&lt;/li&gt;
+      
+        &lt;li&gt;When exporting, resolve the paths of target files using the current location of the template rather than the location when the files were originally imported&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>ASSWipe - 0.5.0</title>
+    <link href="/depctrl-browser/macros/l0.ASSWipe/"/>
+    <updated>2019-10-24T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/l0.ASSWipe/#0.5.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;The &#39;Merge consecutive tag sections&#39; feature now skips sections that contain any tag from a customizable exception list. Defaults to karaoke tags to avoid breaking poorly written karaoke templater scripts.&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Lerp By Character - 0.1.0</title>
+    <link href="/depctrl-browser/macros/l0.LerpByChar/"/>
+    <updated>2019-09-14T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/l0.LerpByChar/#0.1.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Initial release&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>MultiCopy - 4.0.0</title>
+    <link href="/depctrl-browser/macros/ua.MultiCopy/"/>
+    <updated>2019-08-18T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.MultiCopy/#4.0.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>FadeWorkS - 5.0.0</title>
+    <link href="/depctrl-browser/macros/ua.FadeWorks/"/>
+    <updated>2019-08-18T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.FadeWorks/#5.0.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Significance - 3.5.0</title>
+    <link href="/depctrl-browser/macros/ua.Significance/"/>
+    <updated>2019-08-18T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.Significance/#3.5.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>ShiftCut - 3.1.0</title>
+    <link href="/depctrl-browser/macros/ua.ShiftCut/"/>
+    <updated>2019-08-18T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.ShiftCut/#3.1.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>MultiCopy - 4.0.0</title>
+    <link href="/depctrl-browser/macros/ua.MultiCopy/"/>
+    <updated>2019-08-18T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.MultiCopy/#4.0.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>FadeWorkS - 5.0.0</title>
+    <link href="/depctrl-browser/macros/ua.FadeWorks/"/>
+    <updated>2019-08-18T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.FadeWorks/#5.0.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Significance - 3.5.0</title>
+    <link href="/depctrl-browser/macros/ua.Significance/"/>
+    <updated>2019-08-18T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.Significance/#3.5.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>ShiftCut - 3.1.0</title>
+    <link href="/depctrl-browser/macros/ua.ShiftCut/"/>
+    <updated>2019-08-18T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.ShiftCut/#3.1.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Shake It - 0.2.0</title>
+    <link href="/depctrl-browser/macros/l0.ShakeIt/"/>
+    <updated>2019-08-12T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/l0.ShakeIt/#0.2.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added a separate macro for shaking scalar-type tags.&lt;/li&gt;
+      
+        &lt;li&gt;Line grouping can now be guided by a configurable line field or be turned off altogether.&lt;/li&gt;
+      
+        &lt;li&gt;The last dialog choice are now automatically saved and recalled.&lt;/li&gt;
+      
+        &lt;li&gt;Random offset patterns can now be configured to repeat every n line groups.&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Move Along Path - 0.2.1</title>
+    <link href="/depctrl-browser/macros/l0.MoveAlongPath/"/>
+    <updated>2019-03-28T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/l0.MoveAlongPath/#0.2.1</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Entering the automation menu with no lines selected no longer results in an error message. &lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Highlight Substring - 0.1.1</title>
+    <link href="/depctrl-browser/macros/l0.HighlightSubstring/"/>
+    <updated>2019-02-17T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/l0.HighlightSubstring/#0.1.1</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;HighlightSubstring now properly works with ASSFoundation v0.4.0+&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Insert Line Breaks - 0.2.0</title>
+    <link href="/depctrl-browser/macros/l0.InsertLineBreaks/"/>
+    <updated>2019-02-17T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/l0.InsertLineBreaks/#0.2.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;The script was ported to MoonScript and dependencies have been updated to their latest versions.&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Merge Drawings - 0.2.0</title>
+    <link href="/depctrl-browser/macros/l0.MergeDrawings/"/>
+    <updated>2019-02-17T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/l0.MergeDrawings/#0.2.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;The final merged drawing is trimmed in such a way that its top-left-most point is also its origin. Position/Move tags are added/adjusted in order for the drawing to retain its position on the canvas.&lt;/li&gt;
+      
+        &lt;li&gt;Dependencies have been updated to their latest versions.&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Nudge - 0.5.0</title>
+    <link href="/depctrl-browser/macros/l0.Nudge/"/>
+    <updated>2019-02-17T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/l0.Nudge/#0.5.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;The script was ported to MoonScript and dependencies have been updated to their latest versions.&lt;/li&gt;
+      
+        &lt;li&gt;The default align nudgers are now configured to maintain line positioning.&lt;/li&gt;
+      
+        &lt;li&gt;An option was added for a nudger to strip or keep sections left empty after performing the desired operation.&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Paste AI Lines - 0.2.0</title>
+    <link href="/depctrl-browser/macros/l0.PasteAiLines/"/>
+    <updated>2019-02-17T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/l0.PasteAiLines/#0.2.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;The script was ported to MoonScript and dependencies have been updated to their latest versions.&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Split Lines - 0.2.0</title>
+    <link href="/depctrl-browser/macros/l0.SplitLines/"/>
+    <updated>2019-02-17T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/l0.SplitLines/#0.2.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Split lines that would only contain whitespace are no longer written to the script.&lt;/li&gt;
+      
+        &lt;li&gt;Dependencies have been updated to their latest versions.&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Vertical Text - 0.2.0</title>
+    <link href="/depctrl-browser/macros/l0.VerticalText/"/>
+    <updated>2019-02-17T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/l0.VerticalText/#0.2.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;The script was ported to MoonScript and dependencies have been updated to their latest versions.&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>HYDRA - 6.1.0</title>
+    <link href="/depctrl-browser/macros/ua.HYDRA/"/>
+    <updated>2018-08-05T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.HYDRA/#6.1.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Hyperdimensional Relocator - 4.5.0</title>
+    <link href="/depctrl-browser/macros/ua.Relocator/"/>
+    <updated>2018-08-05T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.Relocator/#4.5.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Selectricks - 3.4.0</title>
+    <link href="/depctrl-browser/macros/ua.Selectrix/"/>
+    <updated>2018-08-05T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.Selectrix/#3.4.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>HYDRA - 6.1.0</title>
+    <link href="/depctrl-browser/macros/ua.HYDRA/"/>
+    <updated>2018-08-05T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.HYDRA/#6.1.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Selectricks - 3.4.0</title>
+    <link href="/depctrl-browser/macros/ua.Selectrix/"/>
+    <updated>2018-08-05T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.Selectrix/#3.4.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Line Breaker - 2.4.0</title>
+    <link href="/depctrl-browser/macros/ua.LineBreaker/"/>
+    <updated>2018-06-24T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.LineBreaker/#2.4.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>NecrosCopy - 4.1.0</title>
+    <link href="/depctrl-browser/macros/ua.NecrosCopy/"/>
+    <updated>2018-06-24T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.NecrosCopy/#4.1.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Line Breaker - 2.4.0</title>
+    <link href="/depctrl-browser/macros/ua.LineBreaker/"/>
+    <updated>2018-06-24T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.LineBreaker/#2.4.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>NecrosCopy - 4.1.0</title>
+    <link href="/depctrl-browser/macros/ua.NecrosCopy/"/>
+    <updated>2018-06-24T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.NecrosCopy/#4.1.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Cycles - 2.0.0</title>
+    <link href="/depctrl-browser/macros/ua.Cycles/"/>
+    <updated>2018-06-10T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.Cycles/#2.0.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Script Cleanup - 5.0.0</title>
+    <link href="/depctrl-browser/macros/ua.ScriptCleanup/"/>
+    <updated>2018-06-10T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.ScriptCleanup/#5.0.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Colourise - 5.0.0</title>
+    <link href="/depctrl-browser/macros/ua.Colorize/"/>
+    <updated>2018-06-10T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.Colorize/#5.0.0</id>
+    <content xml:lang="en" type="html">
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Masquerades as a useful script - 3.0.0</title>
+    <link href="/depctrl-browser/macros/ua.Masquerade/"/>
+    <updated>2018-06-10T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.Masquerade/#3.0.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Cycles - 2.0.0</title>
+    <link href="/depctrl-browser/macros/ua.Cycles/"/>
+    <updated>2018-06-10T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.Cycles/#2.0.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Script Cleanup - 5.0.0</title>
+    <link href="/depctrl-browser/macros/ua.ScriptCleanup/"/>
+    <updated>2018-06-10T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.ScriptCleanup/#5.0.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Colourise - 5.0.0</title>
+    <link href="/depctrl-browser/macros/ua.Colorize/"/>
+    <updated>2018-06-10T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.Colorize/#5.0.0</id>
+    <content xml:lang="en" type="html">
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Masquerades as a useful script - 3.0.0</title>
+    <link href="/depctrl-browser/macros/ua.Masquerade/"/>
+    <updated>2018-06-10T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.Masquerade/#3.0.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Recalculator - 4.0.0</title>
+    <link href="/depctrl-browser/macros/ua.Recalculator/"/>
+    <updated>2018-05-13T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.Recalculator/#4.0.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Multi-Line Editor - 1.8.0</title>
+    <link href="/depctrl-browser/macros/ua.MultiLineEditor/"/>
+    <updated>2018-05-13T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.MultiLineEditor/#1.8.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Recalculator - 4.0.0</title>
+    <link href="/depctrl-browser/macros/ua.Recalculator/"/>
+    <updated>2018-05-13T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.Recalculator/#4.0.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Multi-Line Editor - 1.8.0</title>
+    <link href="/depctrl-browser/macros/ua.MultiLineEditor/"/>
+    <updated>2018-05-13T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.MultiLineEditor/#1.8.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Check the Updates page&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Dialog Swapper - 1.4.0</title>
+    <link href="/depctrl-browser/macros/Flux.DialogSwapper/"/>
+    <updated>2017-03-08T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/Flux.DialogSwapper/#1.4.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Remove legacy settings conversion&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Scale Rotation Tags (Incorrectly) - 1.1.0</title>
+    <link href="/depctrl-browser/macros/Flux.ScaleRotTags/"/>
+    <updated>2017-03-08T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/Flux.ScaleRotTags/#1.1.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Add configuration capability&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Frame-by-frame transform - 2.0.1</title>
+    <link href="/depctrl-browser/macros/lyger.FbfTransform/"/>
+    <updated>2016-04-11T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/lyger.FbfTransform/#2.0.1</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Fixed a minor isssue uncovered by Moonscript linter.&lt;/li&gt;
+      
+        &lt;li&gt;Switched to maintained Functional library.&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Gradient Everything - 2.0.3</title>
+    <link href="/depctrl-browser/macros/lyger.GradientEverything/"/>
+    <updated>2016-04-11T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/lyger.GradientEverything/#2.0.3</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Switched to DependencyControl logger module for logging.&lt;/li&gt;
+      
+        &lt;li&gt;Switched to maintained Functional library.&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Title Case - 1.3.3</title>
+    <link href="/depctrl-browser/macros/Flux.TitleCase/"/>
+    <updated>2016-03-22T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/Flux.TitleCase/#1.3.3</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Updated to use single quotes&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Selegator - 1.1.5</title>
+    <link href="/depctrl-browser/macros/Flux.Selegator/"/>
+    <updated>2016-03-22T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/Flux.Selegator/#1.1.5</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Updated to use single quotes&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>JumpScroll - 2.3.0</title>
+    <link href="/depctrl-browser/macros/Flux.JumpScroll/"/>
+    <updated>2016-03-22T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/Flux.JumpScroll/#2.3.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Move platform check to DepCtrl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>DependencyControl Toolbox - 0.1.3</title>
+    <link href="/depctrl-browser/macros/l0.DependencyControl.Toolbox/"/>
+    <updated>2016-01-27T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/l0.DependencyControl.Toolbox/#0.1.3</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Fixed an issue where trying to uninstall an unmanaged script resulted in an error unrelated to the intended error message.&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Encode - Hardsub - 1.2.0</title>
+    <link href="/depctrl-browser/macros/ua.EncodeHardsub/"/>
+    <updated>2015-09-05T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.EncodeHardsub/#1.2.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;fixed an issue with the encode being deleted when not muxing audio; fixed some issues resulting from subtitles not being saved&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Encode - Hardsub - 1.2.0</title>
+    <link href="/depctrl-browser/macros/ua.EncodeHardsub/"/>
+    <updated>2015-09-05T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.EncodeHardsub/#1.2.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;fixed an issue with the encode being deleted when not muxing audio; fixed some issues resulting from subtitles not being saved&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Join / Split / Snap - 1.2.0</title>
+    <link href="/depctrl-browser/macros/ua.JoinSplitSnap/"/>
+    <updated>2015-06-20T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.JoinSplitSnap/#1.2.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;improved snapping to adjacent lines&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Join / Split / Snap - 1.2.0</title>
+    <link href="/depctrl-browser/macros/ua.JoinSplitSnap/"/>
+    <updated>2015-06-20T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.JoinSplitSnap/#1.2.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;improved snapping to adjacent lines&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>iBus - 1.7.0</title>
+    <link href="/depctrl-browser/macros/ua.iBus/"/>
+    <updated>2015-06-01T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.iBus/#1.7.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;merged Italics and Bold scripts and added Underline and Strikeout; added DependencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Jump to Next - 2.0.0</title>
+    <link href="/depctrl-browser/macros/ua.JumpToNext/"/>
+    <updated>2015-06-01T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.JumpToNext/#2.0.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;13 macros; Text/Style/Actor/Effect/Layer/CommentedLine x Next/Previous = 12 hotkeys + 1 for GUI version with all 12 options&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Blur and Glow - 2.5.0</title>
+    <link href="/depctrl-browser/macros/ua.BlurAndGlow/"/>
+    <updated>2015-06-01T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.BlurAndGlow/#2.5.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;default blur part of config; cleaned up the code a bit; added DespondencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Change Case - 3.0.0</title>
+    <link href="/depctrl-browser/macros/ua.ChangeCase/"/>
+    <updated>2015-06-01T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.ChangeCase/#3.0.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;improved; added options; unicode support; added DespondencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>iBus - 1.7.0</title>
+    <link href="/depctrl-browser/macros/ua.iBus/"/>
+    <updated>2015-06-01T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.iBus/#1.7.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;merged Italics and Bold scripts and added Underline and Strikeout; added DependencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Jump to Next - 2.0.0</title>
+    <link href="/depctrl-browser/macros/ua.JumpToNext/"/>
+    <updated>2015-06-01T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.JumpToNext/#2.0.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;13 macros; Text/Style/Actor/Effect/Layer/CommentedLine x Next/Previous = 12 hotkeys + 1 for GUI version with all 12 options&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Blur and Glow - 2.5.0</title>
+    <link href="/depctrl-browser/macros/ua.BlurAndGlow/"/>
+    <updated>2015-06-01T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.BlurAndGlow/#2.5.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;default blur part of config; cleaned up the code a bit; added DespondencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Change Case - 3.0.0</title>
+    <link href="/depctrl-browser/macros/ua.ChangeCase/"/>
+    <updated>2015-06-01T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.ChangeCase/#3.0.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;improved; added options; unicode support; added DespondencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Time Signs - 2.8.0</title>
+    <link href="/depctrl-browser/macros/ua.TimeSigns/"/>
+    <updated>2015-05-28T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.TimeSigns/#2.8.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added DespondencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Time Signs - 2.8.0</title>
+    <link href="/depctrl-browser/macros/ua.TimeSigns/"/>
+    <updated>2015-05-28T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.TimeSigns/#2.8.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added DespondencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Multiplexer - 1.1.0</title>
+    <link href="/depctrl-browser/macros/ua.Multiplexer/"/>
+    <updated>2015-05-26T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.Multiplexer/#1.1.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added DespondencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Multiplexer - 1.1.0</title>
+    <link href="/depctrl-browser/macros/ua.Multiplexer/"/>
+    <updated>2015-05-26T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.Multiplexer/#1.1.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added DespondencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Quality Check - 2.9.0</title>
+    <link href="/depctrl-browser/macros/ua.QC/"/>
+    <updated>2015-05-25T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.QC/#2.9.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added DependencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Quality Check - 2.9.0</title>
+    <link href="/depctrl-browser/macros/ua.QC/"/>
+    <updated>2015-05-25T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.QC/#2.9.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added DependencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Duplicate and Blur - 1.1.0</title>
+    <link href="/depctrl-browser/macros/lyger.BorderSplit/"/>
+    <updated>2015-05-14T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/lyger.BorderSplit/#1.1.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added DependencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Blur clip - 1.2.0</title>
+    <link href="/depctrl-browser/macros/lyger.ClipBlur/"/>
+    <updated>2015-05-14T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/lyger.ClipBlur/#1.2.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added DependencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Gradient along clip edge - 0.2.0</title>
+    <link href="/depctrl-browser/macros/lyger.ClipGrad/"/>
+    <updated>2015-05-14T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/lyger.ClipGrad/#0.2.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added DependencyControl&lt;/li&gt;
+      
+        &lt;li&gt;The color picker dialogs no longer show incorrect default colors.&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Clip shifter - 0.2.0</title>
+    <link href="/depctrl-browser/macros/lyger.ClipShifter/"/>
+    <updated>2015-05-14T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/lyger.ClipShifter/#0.2.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added DependencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Gradient by character - 1.3.1</title>
+    <link href="/depctrl-browser/macros/lyger.GradientByChar/"/>
+    <updated>2015-05-14T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/lyger.GradientByChar/#1.3.1</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Minor bugfixes&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Image to .ass - 2.3.0</title>
+    <link href="/depctrl-browser/macros/lyger.Image2ASS/"/>
+    <updated>2015-05-14T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/lyger.Image2ASS/#2.3.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added DependencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Karaoke helper - 0.2.0</title>
+    <link href="/depctrl-browser/macros/lyger.KaraHelper/"/>
+    <updated>2015-05-14T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/lyger.KaraHelper/#0.2.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added DependencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Karaoke replacer - 0.3.0</title>
+    <link href="/depctrl-browser/macros/lyger.KaraReplacer/"/>
+    <updated>2015-05-14T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/lyger.KaraReplacer/#0.3.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added DependencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Layer increment - 1.1.0</title>
+    <link href="/depctrl-browser/macros/lyger.LayerIncrement/"/>
+    <updated>2015-05-14T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/lyger.LayerIncrement/#1.1.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added DependencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Mass modify mocha lines - 0.2.0</title>
+    <link href="/depctrl-browser/macros/lyger.ModifyMocha/"/>
+    <updated>2015-05-14T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/lyger.ModifyMocha/#0.2.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added DependencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Move with clip - 1.2.0</title>
+    <link href="/depctrl-browser/macros/lyger.MoveClip/"/>
+    <updated>2015-05-14T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/lyger.MoveClip/#1.2.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added DependencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Semitransparent color calculator - 1.1.0</title>
+    <link href="/depctrl-browser/macros/lyger.SemiColorCalc/"/>
+    <updated>2015-05-14T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/lyger.SemiColorCalc/#1.1.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added DependencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Template Manager - 2.1.0</title>
+    <link href="/depctrl-browser/macros/lyger.TemplateManager/"/>
+    <updated>2015-05-14T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/lyger.TemplateManager/#2.1.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added DependencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Vector-Clip Gradient - 1.1.0</title>
+    <link href="/depctrl-browser/macros/lyger.VecClipGradient/"/>
+    <updated>2015-05-14T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/lyger.VecClipGradient/#1.1.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added DependencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Cascade Transforms - 0.1.0</title>
+    <link href="/depctrl-browser/macros/l0.CascadeTransforms/"/>
+    <updated>2015-04-17T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/l0.CascadeTransforms/#0.1.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;initial release&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Aegisub-Motion - 1.0.9</title>
+    <link href="/depctrl-browser/macros/a-mo.Aegisub-Motion/"/>
+    <updated>1970-01-01T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/a-mo.Aegisub-Motion/#1.0.9</id>
+    <content xml:lang="en" type="html">
+      
+    </content>
+  </entry>
+</feed>
