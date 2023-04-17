@@ -21,7 +21,11 @@ permalink: "updates/"
         <th><a href="{{ ["/macros/" , update.namespace, "/"] | join | url }}">{{ update.name }}</a></th>
         <td>{{ update.version }}</td>
         <td>{{ update.releaseDate }}</td>
-        <td>{{ update.changelog }}</td>
+        <td>
+        {% for changelogLine in update.changelog %}
+          <li>{{ changelogLine | markdownify | safe }}</li>
+        {% endfor %}
+        </td>
       </tr>
     {% endfor %}
   </tbody>

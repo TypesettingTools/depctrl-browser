@@ -17,7 +17,7 @@ module.exports = () => {
         updateData["name"] = singleAutomation.name;
         updateData["version"] = defaultChannel.version;
         updateData["releaseDate"] = defaultChannel.released;
-        updateData["changelog"] = ((singleAutomation.changelog || {})[defaultChannel.version] || []).join("\n");
+        updateData["changelog"] = (singleAutomation.changelog || {})[defaultChannel.version] || [];
         return updateData;
       });
     })
