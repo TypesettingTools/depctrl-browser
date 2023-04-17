@@ -1,0 +1,35 @@
+---
+permalink: feed.xml
+metadata:
+  title: DepCtrl Recent Updates
+  subtitle: List of recently updated DependencyControl Macros.
+  language: en
+  url: https://typesettingtools.github.io/depctrl-browser/
+  author:
+    name: DepCtrl Browser
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="{{ metadata.url }}">
+  <title>{{ metadata.title }}</title>
+  <subtitle>{{ metadata.subtitle }}</subtitle>
+  <link href="{{ permalink }}" rel="self"/>
+  <link href="{{ metadata.url }}"/>
+  <updated>{{ updates | getLatestUpdateDate | dateToRfc3339 }}</updated>
+  <id>{{ metadata.url }}</id>
+  <author>
+    <name>{{ metadata.author.name }}</name>
+  </author>
+  {%- for update in updates | updateListSort %}
+  <entry>
+    <title>{{ update.name }} - {{ update.version }}</title>
+    <link href="{{ ["/macros/" , update.namespace, "/"] | join | url }}"/>
+    <updated>{{ update.releaseDate | dateToRfc3339 }}</updated>
+    <id>{{ metadata.url }}{{ ["macros/" , update.namespace, "/"] | join | url }}#{{ update.version }}</id>
+    <content xml:lang="{{ metadata.language }}" type="html">
+      {% for changelogLine in update.changelog %}
+        &lt;li&gt;{{ changelogLine | markdownify }}&lt;/li&gt;
+      {% endfor %}
+    </content>
+  </entry>
+  {%- endfor %}
+</feed>

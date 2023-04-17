@@ -47,4 +47,35 @@ module.exports = {
   },
 
   toFeedIdentifier: (url) => crypto.createHash("sha1").update(url).digest("hex").slice(0, 7),
+
+  getLatestUpdateDate: (updates) => {
+    let latestDate = null;
+    for (let update of updates) {
+      let updateDate = Date.parse(update['releaseDate']) || 0;
+      if (latestDate === null || updateDate > latestDate) {
+        latestDate = updateDate;
+      }
+    }
+    return latestDate;
+  },
+
+  dateToRfc3339: (date) => {
+    let timestamp
+    if (typeof date === "string") {
+      timestamp = Date.parse(date);
+    } else {
+      timestamp = date
+    }
+    let parsedDate = new Date(0);
+    if (!isNaN(timestamp)) {
+      parsedDate = new Date(timestamp);
+    }
+    let s = parsedDate.toISOString();
+
+    // remove milliseconds
+    let split = s.split(".");
+    split.pop();
+
+    return split.join("") + "Z";
+  },
 }
