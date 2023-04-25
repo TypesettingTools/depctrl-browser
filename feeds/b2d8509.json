@@ -80,7 +80,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1682209839942,
+      "_fetchTime": 1682418091531,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.EnvelopeDistort"
     },
@@ -164,7 +164,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1682209839942,
+      "_fetchTime": 1682418091531,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.Shapery"
     },
@@ -240,7 +240,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1682209839942,
+      "_fetchTime": 1682418091531,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.MakeImage"
     },
@@ -311,7 +311,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1682209839942,
+      "_fetchTime": 1682418091531,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.ChangeAlign"
     }
@@ -398,7 +398,7 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1682209839942,
+      "_fetchTime": 1682418091531,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "clipper2.clipper2"
     },
@@ -411,13 +411,13 @@
       "channels": {
         "main": {
           "default": true,
-          "version": "1.3.2",
-          "released": "2023-04-02",
+          "version": "1.3.3",
+          "released": "2023-04-25",
           "files": [
             {
               "name": ".moon",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL.moon",
-              "sha1": "aa4331051c31be5d8c9550a1e09cc6c5bd2dc50c",
+              "sha1": "9e423dfc2c2372128f51b142325cac7dcfc35a44",
               "_validHash": true
             },
             {
@@ -495,7 +495,7 @@
             {
               "name": "/Font/Win.moon",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Font/Win.moon",
-              "sha1": "1c4b932594fb1e46ca323ba14725dff5d109676a",
+              "sha1": "3026f86ab127b652ec7283bb5cf9cefbffa99e83",
               "_validHash": true
             },
             {
@@ -577,6 +577,9 @@
         ],
         "1.3.2": [
           "Fix instance bug"
+        ],
+        "1.3.3": [
+          "Fix incompatibility with Yutils module on Windows"
         ]
       },
       "_validHash": true,
@@ -588,7 +591,7 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1682209839942,
+      "_fetchTime": 1682418091531,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.ILL"
     },
@@ -744,13 +747,13 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1682209839942,
+      "_fetchTime": 1682418091531,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.IMG"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "b2d8509",
-  "_fetchTime": 1682209839942,
+  "_fetchTime": 1682418091531,
   "_validHash": true
 }
