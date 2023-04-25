@@ -336,7 +336,7 @@
       
         &lt;li&gt;Add three-liner checking&lt;/li&gt;
       
-        &lt;li&gt;Skip normal checks on \q2 lines, instead just warn of potential overwidth&lt;/li&gt;
+        &lt;li&gt;Skip normal checks on &#92;q2 lines, instead just warn of potential overwidth&lt;/li&gt;
       
     </content>
   </entry>
@@ -362,7 +362,7 @@
       
         &lt;li&gt;For an active_char immediately following an override block, ensure that the override block is put in start (It was previously being deleted accidentally)&lt;/li&gt;
       
-        &lt;li&gt;Treat text tags \N, \n and \h as single characters and remove the hackfix&lt;/li&gt;
+        &lt;li&gt;Treat text tags &#92;N, &#92;n and &#92;h as single characters and remove the hackfix&lt;/li&gt;
       
     </content>
   </entry>
