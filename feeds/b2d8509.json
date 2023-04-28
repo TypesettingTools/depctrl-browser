@@ -19,11 +19,11 @@
       "channels": {
         "main": {
           "default": true,
-          "version": "1.0.7",
-          "released": "2023-04-02",
+          "version": "1.1.0",
+          "released": "2023-04-28",
           "files": [
             {
-              "sha1": "cd798191f866243475c26d3e9bc0201a88ce8cb3",
+              "sha1": "c69ef145e8801d963a820ce41c0b33235402fcd0",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/macros/ILL.EnvelopeDistort.moon",
               "name": ".moon",
               "_validHash": true
@@ -61,18 +61,24 @@
         ],
         "1.0.7": [
           "Fix Dependency Control feed"
+        ],
+        "1.1.0": [
+          "Update ILL macros",
+          "",
+          "- Fixed some bugs",
+          "- Add save system"
         ]
       },
       "name": "Envelope Distort",
       "description": "Allows you to warp and manipulate shapes within a customizable envelope",
       "author": "ILLTeam",
       "_validHash": true,
-      "_defaultVersion": "1.0.7",
+      "_defaultVersion": "1.1.0",
       "_scriptData": {
         "name": "Envelope Distort",
         "description": "Allows you to warp and manipulate shapes within a customizable envelope",
         "author": "ILLTeam",
-        "version": "1.0.7",
+        "version": "1.1.0",
         "namespace": "ILL.EnvelopeDistort",
         "_feedData": {
           "feed": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json"
@@ -80,7 +86,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1682433517374,
+      "_fetchTime": 1682653236596,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.EnvelopeDistort"
     },
@@ -90,11 +96,11 @@
       "channels": {
         "main": {
           "default": true,
-          "version": "2.2.1",
-          "released": "2023-04-02",
+          "version": "2.3.0",
+          "released": "2023-04-28",
           "files": [
             {
-              "sha1": "66fe98bca6dd4c01450cc4681e1b6476ad403500",
+              "sha1": "53322e84a9de1bba0f2f5de22800080448444ed7",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/macros/ILL.Shapery.moon",
               "name": ".moon",
               "_validHash": true
@@ -145,18 +151,24 @@
         ],
         "2.2.1": [
           "Fix Dependency Control feed"
+        ],
+        "2.3.0": [
+          "Update ILL macros",
+          "",
+          "- Fixed some bugs",
+          "- Add save system"
         ]
       },
       "name": "Shapery",
       "description": "Does several types of shape manipulations from the simplest to the most complex",
       "author": "ILLTeam",
       "_validHash": true,
-      "_defaultVersion": "2.2.1",
+      "_defaultVersion": "2.3.0",
       "_scriptData": {
         "name": "Shapery",
         "description": "Does several types of shape manipulations from the simplest to the most complex",
         "author": "ILLTeam",
-        "version": "2.2.1",
+        "version": "2.3.0",
         "namespace": "ILL.Shapery",
         "_feedData": {
           "feed": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json"
@@ -164,7 +176,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1682433517374,
+      "_fetchTime": 1682653236596,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.Shapery"
     },
@@ -174,11 +186,11 @@
       "channels": {
         "main": {
           "default": true,
-          "version": "2.0.3",
-          "released": "2023-04-02",
+          "version": "2.1.0",
+          "released": "2023-04-28",
           "files": [
             {
-              "sha1": "3e3c4ae0ef84415134e2c5b7dc7c99bfd4583aca",
+              "sha1": "847371812f0ec266c481365597b6d3de44e83e9b",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/macros/ILL.MakeImage.moon",
               "name": ".moon",
               "_validHash": true
@@ -221,18 +233,24 @@
         ],
         "2.0.3": [
           "Fix Dependency Control feed"
+        ],
+        "2.1.0": [
+          "Update ILL macros",
+          "",
+          "- Fixed some bugs",
+          "- Add save system"
         ]
       },
       "name": "Make Image",
       "description": "Does several procedures for converting images to the .ass",
       "author": "ILLTeam",
       "_validHash": true,
-      "_defaultVersion": "2.0.3",
+      "_defaultVersion": "2.1.0",
       "_scriptData": {
         "name": "Make Image",
         "description": "Does several procedures for converting images to the .ass",
         "author": "ILLTeam",
-        "version": "2.0.3",
+        "version": "2.1.0",
         "namespace": "ILL.MakeImage",
         "_feedData": {
           "feed": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json"
@@ -240,7 +258,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1682433517374,
+      "_fetchTime": 1682653236596,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.MakeImage"
     },
@@ -250,11 +268,11 @@
       "channels": {
         "main": {
           "default": true,
-          "version": "1.0.5",
-          "released": "2023-04-02",
+          "version": "1.1.0",
+          "released": "2023-04-28",
           "files": [
             {
-              "sha1": "5fcb3214b10d3afcf8a56b7afc0436bf936708f0",
+              "sha1": "cc8ed9d3be7da6318ec5ce4c8dccc0eb5145cf82",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/macros/ILL.ChangeAlign.moon",
               "name": ".moon",
               "_validHash": true
@@ -292,18 +310,24 @@
         ],
         "1.0.5": [
           "Fix Dependency Control feed"
+        ],
+        "1.1.0": [
+          "Update ILL macros",
+          "",
+          "- Fixed some bugs",
+          "- Add save system"
         ]
       },
       "name": "ILL - Change Alignment",
       "description": "Changes the alignment of a text or shape without changing its original position",
       "author": "ILLTeam",
       "_validHash": true,
-      "_defaultVersion": "1.0.5",
+      "_defaultVersion": "1.1.0",
       "_scriptData": {
         "name": "Change Alignment",
         "description": "Changes the alignment of a text or shape without changing its original position",
         "author": "ILLTeam",
-        "version": "1.0.5",
+        "version": "1.1.0",
         "namespace": "ILL.ChangeAlign",
         "_feedData": {
           "feed": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json"
@@ -311,7 +335,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1682433517374,
+      "_fetchTime": 1682653236596,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.ChangeAlign"
     }
@@ -398,7 +422,7 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1682433517374,
+      "_fetchTime": 1682653236596,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "clipper2.clipper2"
     },
@@ -411,13 +435,13 @@
       "channels": {
         "main": {
           "default": true,
-          "version": "1.3.3",
-          "released": "2023-04-25",
+          "version": "1.3.4",
+          "released": "2023-04-28",
           "files": [
             {
               "name": ".moon",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL.moon",
-              "sha1": "9e423dfc2c2372128f51b142325cac7dcfc35a44",
+              "sha1": "71bad00b80ae3b316028318210c7dcc4870f6200",
               "_validHash": true
             },
             {
@@ -465,13 +489,13 @@
             {
               "name": "/Ass/Ass.moon",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Ass.moon",
-              "sha1": "5795259e345a64279f4171e5817195f449624c04",
+              "sha1": "21208a66700628e019b28524e8cbd078f24d623b",
               "_validHash": true
             },
             {
               "name": "/Ass/Line.moon",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Line.moon",
-              "sha1": "9a856a341abca4657df35402fa5ca3ab7a1f5a02",
+              "sha1": "0083c7643d14e4c5c71da6147b3d3e72e8a8f7bc",
               "_validHash": true
             },
             {
@@ -501,7 +525,7 @@
             {
               "name": "/Aegi.moon",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Aegi.moon",
-              "sha1": "b580218eaf562b008f24cd73d3c56cebceb14319",
+              "sha1": "76c6e38c00fdd5c453a903076613e4985144a969",
               "_validHash": true
             },
             {
@@ -519,7 +543,7 @@
             {
               "name": "/Util.moon",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Util.moon",
-              "sha1": "2592061380a8983b6f4856912020d6240d2fdef4",
+              "sha1": "60e8ad5ff71e95cd096757a6d765d6e6bbfc8e0c",
               "_validHash": true
             }
           ],
@@ -580,6 +604,12 @@
         ],
         "1.3.3": [
           "Fix incompatibility with Yutils module on Windows"
+        ],
+        "1.3.4": [
+          "Update ILL macros",
+          "",
+          "- Fixed some bugs",
+          "- Add save system"
         ]
       },
       "_validHash": true,
@@ -591,7 +621,7 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1682433517374,
+      "_fetchTime": 1682653236596,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.ILL"
     },
@@ -747,13 +777,13 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1682433517374,
+      "_fetchTime": 1682653236596,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.IMG"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "b2d8509",
-  "_fetchTime": 1682433517374,
+  "_fetchTime": 1682653236596,
   "_validHash": true
 }
