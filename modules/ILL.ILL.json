@@ -102,6 +102,12 @@
             "_validHash": true
           },
           {
+            "name": "/Config.moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Config.moon",
+            "sha1": "d4d1b25bea64bd17098acd11749d5d18d4d4ca72",
+            "_validHash": true
+          },
+          {
             "name": "/Math.moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Math.moon",
             "sha1": "478543eff10f7d16b1c2471d384e7593d0e22039",
@@ -200,7 +206,7 @@
     ],
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1682692885474,
+    "_fetchTime": 1682693494279,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ILL.ILL"
   }
