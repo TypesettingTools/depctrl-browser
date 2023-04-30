@@ -85,7 +85,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1682814625425,
+      "_fetchTime": 1682869533362,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.EnvelopeDistort"
     },
@@ -170,7 +170,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1682814625425,
+      "_fetchTime": 1682869533362,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.Shapery"
     },
@@ -252,7 +252,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1682814625425,
+      "_fetchTime": 1682869533362,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.MakeImage"
     },
@@ -329,7 +329,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1682814625425,
+      "_fetchTime": 1682869533362,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.ChangeAlign"
     }
@@ -416,7 +416,7 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1682814625425,
+      "_fetchTime": 1682869533362,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "clipper2.clipper2"
     },
@@ -627,7 +627,7 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1682814625425,
+      "_fetchTime": 1682869533362,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.ILL"
     },
@@ -639,8 +639,8 @@
       "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/@{channel}/modules/ILL/IMG",
       "channels": {
         "main": {
-          "version": "1.0.1",
-          "released": "2023-03-28",
+          "version": "1.0.2",
+          "released": "2023-04-30",
           "default": true,
           "platforms": [
             "Windows-x64",
@@ -651,7 +651,7 @@
             {
               "name": ".moon",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/IMG.moon",
-              "sha1": "bde0def3b732e3355944a139585f3a75b79507fe",
+              "sha1": "8eef6452f0c1dea6f1bc43d1d56b4e65149b9455",
               "_validHash": true
             },
             {
@@ -663,7 +663,7 @@
             {
               "name": "/Tracer.moon",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/IMG/Tracer.moon",
-              "sha1": "30702c6e27ff7a9b1738ce1bc4f9242e3c80f2fe",
+              "sha1": "a516d8373055fa4f96ecc457405ab4ae3856e67e",
               "_validHash": true
             },
             {
@@ -775,6 +775,11 @@
       "changelog": {
         "1.0.1": [
           "Fix identation"
+        ],
+        "1.0.2": [
+          "Update ILL IMG module",
+          "",
+          "- Corrigido inicialização no Aegisub v3.2.2"
         ]
       },
       "_validHash": true,
@@ -783,13 +788,13 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1682814625425,
+      "_fetchTime": 1682869533362,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.IMG"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "b2d8509",
-  "_fetchTime": 1682814625425,
+  "_fetchTime": 1682869533362,
   "_validHash": true
 }
