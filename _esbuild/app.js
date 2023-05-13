@@ -313,9 +313,9 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
-        href: "/depctrl-browser/macros/arch.Resample/",
-        name: "Resample Perspective",
-        description: "Apply after resampling a script in Aegisub to fix any lines with 3D rotations.",
+        href: "/depctrl-browser/macros/arch.DerivePerspTrack/",
+        name: "Derive Perspective Track",
+        description: "Create a power-pin track file from the outer perspective quads of a set of lines.",
       }
     );
     
@@ -327,6 +327,17 @@ document.addEventListener('click', function(event) {
         href: "/depctrl-browser/macros/arch.FocusLines/",
         name: "Focus Lines",
         description: "Draws moving focus lines.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/arch.Resample/",
+        name: "Resample Perspective",
+        description: "Apply after resampling a script in Aegisub to fix any lines with 3D rotations.",
       }
     );
     
