@@ -59,7 +59,7 @@
             "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/zimg-v1.0.0/libgiflib.so",
             "platform": "Linux-x64",
             "sha1": "b26802cdb5f882ced1dc247267e98a0c196353d6",
-            "_validHash": true
+            "_validHash": false
           },
           {
             "name": "/lodepng/lodepng.moon",
@@ -129,13 +129,13 @@
       }
     },
     "changelog": {},
-    "_validHash": true,
+    "_validHash": false,
     "_reverseDependency": [
       "ZF.main"
     ],
     "_feedName": "zeref-aegisub-scripts",
     "_feedIdentifier": "fbbbec7",
-    "_fetchTime": 1685233843685,
+    "_fetchTime": 1685839056293,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "zimg.main"
   }
