@@ -6,14 +6,14 @@
     "description": "Create rotated gradient with clip.",
     "channels": {
       "main": {
-        "version": "2.0.1",
-        "released": "2023-01-16",
+        "version": "2.0.2",
+        "released": "2023-06-06",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.RotateGradient.moon",
-            "sha1": "7d93960e8422f5a4b5e8be4677101a968d159cb6",
+            "sha1": "8fb56b31c262594ae3505beaef677e1f2c599053",
             "_validHash": true
           }
         ],
@@ -58,12 +58,12 @@
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "2.0.1",
+    "_defaultVersion": "2.0.2",
     "_scriptData": {
       "name": "Rotate Gradient",
       "description": "Create rotated gradient with clip.",
       "author": "PhosCity",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "namespace": "phos.RotateGradient",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
@@ -71,7 +71,7 @@
     },
     "_feedName": "PhosCity's Aegisub Scripts",
     "_feedIdentifier": "8fe234d",
-    "_fetchTime": 1685839056273,
+    "_fetchTime": 1686065778012,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "phos.RotateGradient"
   }

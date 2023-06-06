@@ -58,7 +58,7 @@
       },
       "_feedName": "zeref-aegisub-scripts",
       "_feedIdentifier": "fbbbec7",
-      "_fetchTime": 1685839056293,
+      "_fetchTime": 1686065778029,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zf.allCharsTo"
     },
@@ -112,7 +112,7 @@
       },
       "_feedName": "zeref-aegisub-scripts",
       "_feedIdentifier": "fbbbec7",
-      "_fetchTime": 1685839056293,
+      "_fetchTime": 1686065778029,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zf.everythingShape"
     },
@@ -169,7 +169,7 @@
       },
       "_feedName": "zeref-aegisub-scripts",
       "_feedIdentifier": "fbbbec7",
-      "_fetchTime": 1685839056293,
+      "_fetchTime": 1686065778029,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zf.gradientCut"
     },
@@ -223,7 +223,7 @@
       },
       "_feedName": "zeref-aegisub-scripts",
       "_feedIdentifier": "fbbbec7",
-      "_fetchTime": 1685839056293,
+      "_fetchTime": 1686065778029,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zf.line2fbf"
     },
@@ -274,7 +274,7 @@
       },
       "_feedName": "zeref-aegisub-scripts",
       "_feedIdentifier": "fbbbec7",
-      "_fetchTime": 1685839056293,
+      "_fetchTime": 1686065778029,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zf.split"
     },
@@ -328,7 +328,7 @@
       },
       "_feedName": "zeref-aegisub-scripts",
       "_feedIdentifier": "fbbbec7",
-      "_fetchTime": 1685839056293,
+      "_fetchTime": 1686065778029,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zf.textInClip"
     }
@@ -521,7 +521,7 @@
       ],
       "_feedName": "zeref-aegisub-scripts",
       "_feedIdentifier": "fbbbec7",
-      "_fetchTime": 1685839056293,
+      "_fetchTime": 1686065778029,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ZF.main"
     },
@@ -566,7 +566,7 @@
       "_reverseDependency": [],
       "_feedName": "zeref-aegisub-scripts",
       "_feedIdentifier": "fbbbec7",
-      "_fetchTime": 1685839056293,
+      "_fetchTime": 1686065778029,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zgiflib.giflib"
     },
@@ -611,7 +611,7 @@
       "_reverseDependency": [],
       "_feedName": "zeref-aegisub-scripts",
       "_feedIdentifier": "fbbbec7",
-      "_fetchTime": 1685839056293,
+      "_fetchTime": 1686065778029,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zlodepng.lodepng"
     },
@@ -687,7 +687,7 @@
       ],
       "_feedName": "zeref-aegisub-scripts",
       "_feedIdentifier": "fbbbec7",
-      "_fetchTime": 1685839056293,
+      "_fetchTime": 1686065778029,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zpolyclipping.polyclipping"
     },
@@ -732,7 +732,7 @@
       "_reverseDependency": [],
       "_feedName": "zeref-aegisub-scripts",
       "_feedIdentifier": "fbbbec7",
-      "_fetchTime": 1685839056293,
+      "_fetchTime": 1686065778029,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zturbojpeg.turbojpeg"
     },
@@ -796,7 +796,7 @@
               "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/zimg-v1.0.0/libgiflib.so",
               "platform": "Linux-x64",
               "sha1": "b26802cdb5f882ced1dc247267e98a0c196353d6",
-              "_validHash": false
+              "_validHash": true
             },
             {
               "name": "/lodepng/lodepng.moon",
@@ -866,20 +866,19 @@
         }
       },
       "changelog": {},
-      "_validHash": false,
+      "_validHash": true,
       "_reverseDependency": [
         "ZF.main"
       ],
       "_feedName": "zeref-aegisub-scripts",
       "_feedIdentifier": "fbbbec7",
-      "_fetchTime": 1685839056293,
+      "_fetchTime": 1686065778029,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zimg.main"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "fbbbec7",
-  "_fetchTime": 1685839056293,
-  "_defective": "Some files unreachable",
-  "_validHash": false
+  "_fetchTime": 1686065778029,
+  "_validHash": true
 }
