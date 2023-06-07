@@ -10,13 +10,11 @@
     <name>DepCtrl Browser</name>
   </author>
   <entry>
-    <title>Fold Operations - 1.0.0</title>
+    <title>Fold Operations - 1.1.0</title>
     <link href="/depctrl-browser/macros/phos.FoldOperations/"/>
     <updated>2023-06-07T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.FoldOperations/#1.0.0</id>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.FoldOperations/#1.1.0</id>
     <content xml:lang="en" type="html">
-      
-        &lt;li&gt;Added to Dependency Control&lt;/li&gt;
       
     </content>
   </entry>
