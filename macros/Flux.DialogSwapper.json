@@ -72,7 +72,7 @@
     },
     "_feedName": "CoffeeFlux's Aegisub Scripts",
     "_feedIdentifier": "b6a37e0",
-    "_fetchTime": 1687653591157,
+    "_fetchTime": 1688054160033,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "Flux.DialogSwapper"
   }
