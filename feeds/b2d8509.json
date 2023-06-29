@@ -85,7 +85,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1688054160264,
+      "_fetchTime": 1688054755621,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.EnvelopeDistort"
     },
@@ -95,11 +95,11 @@
       "channels": {
         "main": {
           "default": true,
-          "version": "2.3.0",
-          "released": "2023-04-28",
+          "version": "2.4.0",
+          "released": "2023-06-29",
           "files": [
             {
-              "sha1": "53322e84a9de1bba0f2f5de22800080448444ed7",
+              "sha1": "4395aa49ee11bfacda8812cbe08daa5f2e57bc47",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/macros/ILL.Shapery.moon",
               "name": ".moon",
               "_validHash": true
@@ -151,18 +151,21 @@
           "",
           "- Fixed some bugs",
           "- Add save system"
+        ],
+        "2.4.0": [
+          "Update Shapery"
         ]
       },
       "name": "Shapery",
       "description": "Does several types of shape manipulations from the simplest to the most complex",
       "author": "ILLTeam",
       "_validHash": true,
-      "_defaultVersion": "2.3.0",
+      "_defaultVersion": "2.4.0",
       "_scriptData": {
         "name": "Shapery",
         "description": "Does several types of shape manipulations from the simplest to the most complex",
         "author": "ILLTeam",
-        "version": "2.3.0",
+        "version": "2.4.0",
         "namespace": "ILL.Shapery",
         "_feedData": {
           "feed": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json"
@@ -170,7 +173,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1688054160264,
+      "_fetchTime": 1688054755621,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.Shapery"
     },
@@ -252,7 +255,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1688054160264,
+      "_fetchTime": 1688054755621,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.MakeImage"
     },
@@ -329,7 +332,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1688054160264,
+      "_fetchTime": 1688054755621,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.ChangeAlign"
     }
@@ -416,7 +419,7 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1688054160264,
+      "_fetchTime": 1688054755621,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "clipper2.clipper2"
     },
@@ -630,7 +633,7 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1688054160264,
+      "_fetchTime": 1688054755621,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.ILL"
     },
@@ -791,13 +794,13 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1688054160264,
+      "_fetchTime": 1688054755621,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.IMG"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "b2d8509",
-  "_fetchTime": 1688054160264,
+  "_fetchTime": 1688054755621,
   "_validHash": true
 }
