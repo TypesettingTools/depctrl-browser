@@ -10,13 +10,13 @@
     <name>DepCtrl Browser</name>
   </author>
   <entry>
-    <title>Shapery - 2.4.0</title>
+    <title>Shapery - 2.4.1</title>
     <link href="/depctrl-browser/macros/ILL.Shapery/"/>
     <updated>2023-06-29T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.Shapery/#2.4.0</id>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.Shapery/#2.4.1</id>
     <content xml:lang="en" type="html">
       
-        &lt;li&gt;Update Shapery&lt;/li&gt;
+        &lt;li&gt;Remove unnecessary log&lt;/li&gt;
       
     </content>
   </entry>
