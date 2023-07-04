@@ -4,11 +4,22 @@
   <subtitle>List of recently updated DependencyControl Macros.</subtitle>
   <link href="feed.xml" rel="self"/>
   <link href="https://typesettingtools.github.io/depctrl-browser/"/>
-  <updated>2023-06-29T00:00:00Z</updated>
+  <updated>2023-07-04T00:00:00Z</updated>
   <id>https://typesettingtools.github.io/depctrl-browser/</id>
   <author>
     <name>DepCtrl Browser</name>
   </author>
+  <entry>
+    <title>Encode Clip - 0.8.3</title>
+    <link href="/depctrl-browser/macros/petzku.EncodeClip/"/>
+    <updated>2023-07-04T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.EncodeClip/#0.8.3</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Fix handling of audio when from a file different from the video&lt;/li&gt;
+      
+    </content>
+  </entry>
   <entry>
     <title>Shapery - 2.4.1</title>
     <link href="/depctrl-browser/macros/ILL.Shapery/"/>
@@ -401,19 +412,6 @@
     <content xml:lang="en" type="html">
       
         &lt;li&gt;Add to DepCtrl&lt;/li&gt;
-      
-    </content>
-  </entry>
-  <entry>
-    <title>Encode Clip - 0.8.2</title>
-    <link href="/depctrl-browser/macros/petzku.EncodeClip/"/>
-    <updated>2022-04-25T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.EncodeClip/#0.8.2</id>
-    <content xml:lang="en" type="html">
-      
-        &lt;li&gt;Warn user when file not saved (if on approtriate aegisub versions)&lt;/li&gt;
-      
-        &lt;li&gt;Default to encoding video on Enter press&lt;/li&gt;
       
     </content>
   </entry>

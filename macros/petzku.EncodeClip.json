@@ -7,14 +7,14 @@
     "description": "Encode a hardsubbed clip encompassing the current selection",
     "channels": {
       "stable": {
-        "version": "0.8.2",
-        "released": "2022-04-25",
+        "version": "0.8.3",
+        "released": "2023-07-04",
         "default": true,
         "files": [
           {
             "name": ".lua",
             "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/macros/petzku.EncodeClip.lua",
-            "sha1": "a04dd3f068525b8f0422f1a90769528a40bb4a5b",
+            "sha1": "56725629a9fed3184e28940435b8e3aaaa269c33",
             "_validHash": true
           }
         ],
@@ -68,17 +68,20 @@
         "Output audio-only clips as .m4a instead of .aac"
       ],
       "0.8.2": [
-        "Warn user when file not saved (if on approtriate aegisub versions)",
+        "Warn user when file not saved (if on appropriate aegisub versions)",
         "Default to encoding video on Enter press"
+      ],
+      "0.8.3": [
+        "Fix handling of audio when from a file different from the video"
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "0.8.2",
+    "_defaultVersion": "0.8.3",
     "_scriptData": {
       "name": "Encode Clip",
       "description": "Encode various clips from the current selection",
       "author": "petzku",
-      "version": "0.8.2",
+      "version": "0.8.3",
       "namespace": "petzku.EncodeClip",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/DependencyControl.json"
@@ -86,7 +89,7 @@
     },
     "_feedName": "petzku's Automation Scripts",
     "_feedIdentifier": "7161932",
-    "_fetchTime": 1688258285001,
+    "_fetchTime": 1688437576321,
     "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "petzku.EncodeClip"
   }
