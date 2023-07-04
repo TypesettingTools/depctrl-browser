@@ -10,10 +10,10 @@
     <name>DepCtrl Browser</name>
   </author>
   <entry>
-    <title>Encode Clip - 0.8.3</title>
+    <title>Encode Clip - 0.8.4</title>
     <link href="/depctrl-browser/macros/petzku.EncodeClip/"/>
     <updated>2023-07-04T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.EncodeClip/#0.8.3</id>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.EncodeClip/#0.8.4</id>
     <content xml:lang="en" type="html">
       
         &lt;li&gt;Fix handling of audio when from a file different from the video&lt;/li&gt;
