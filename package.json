@@ -13,10 +13,10 @@
   "dependencies": {
     "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-fetch": "^4.0.0",
-    "bootstrap": "^5.2.3",
+    "bootstrap": "^5.3.0",
     "compare-versions": "^4.1.4",
-    "esbuild": "^0.17.17",
-    "esbuild-sass-plugin": "^2.8.0",
+    "esbuild": "^0.18.11",
+    "esbuild-sass-plugin": "^2.10.0",
     "flexsearch": "^0.7.31",
     "html-minifier": "^4.0.0",
     "markdown-it": "^13.0.1",
