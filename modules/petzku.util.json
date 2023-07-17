@@ -7,19 +7,19 @@
     "description": "Various utility functions for use with petzku's Aegisub macros",
     "channels": {
       "stable": {
-        "version": "0.4.0",
-        "released": "2022-09-04",
+        "version": "0.4.1",
+        "released": "2023-07-18",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.4.0/modules/petzku/util.moon",
-            "sha1": "3def7b96613ce775e9e7debec3ca9804f3710c68",
+            "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.4.1/modules/petzku/util.moon",
+            "sha1": "2372f0905257d0c5531cbc6de56a9ed5eb08c561",
             "_validHash": true
           },
           {
             "name": "/tee.exe",
-            "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.4.0/modules/petzku/util/tee.exe",
+            "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.4.1/modules/petzku/util/tee.exe",
             "platform": "Windows-x64",
             "sha1": "054c04d341152311d40aaab4049e6c2c26646b3a",
             "_validHash": true
@@ -37,6 +37,9 @@
       ],
       "0.4.0": [
         "Upgrade run_cmd in a way that handles stderr"
+      ],
+      "0.4.1": [
+        "Fix typo in run_cmd on Unix"
       ]
     },
     "_validHash": true,
@@ -48,7 +51,7 @@
     ],
     "_feedName": "petzku's Automation Scripts",
     "_feedIdentifier": "7161932",
-    "_fetchTime": 1689468056300,
+    "_fetchTime": 1689628539380,
     "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "petzku.util"
   }
