@@ -59,7 +59,7 @@
       },
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1689628539380,
+      "_fetchTime": 1689904863221,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.Accenter"
     },
@@ -117,7 +117,7 @@
       },
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1689628539380,
+      "_fetchTime": 1689904863221,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.Autowrapper"
     },
@@ -165,7 +165,7 @@
       },
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1689628539380,
+      "_fetchTime": 1689904863221,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.ClipSize"
     },
@@ -220,7 +220,7 @@
       },
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1689628539380,
+      "_fetchTime": 1689904863221,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.CombineGradientLines"
     },
@@ -317,7 +317,7 @@
       },
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1689628539380,
+      "_fetchTime": 1689904863221,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.EncodeClip"
     },
@@ -365,7 +365,7 @@
       },
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1689628539380,
+      "_fetchTime": 1689904863221,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.ExtrapolateMove"
     },
@@ -413,7 +413,7 @@
       },
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1689628539380,
+      "_fetchTime": 1689904863221,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.JumpToNextPlus"
     },
@@ -458,7 +458,7 @@
       },
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1689628539380,
+      "_fetchTime": 1689904863221,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.Phantom"
     },
@@ -510,7 +510,7 @@
       },
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1689628539380,
+      "_fetchTime": 1689904863221,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.PosToMargin"
     },
@@ -552,7 +552,7 @@
       },
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1689628539380,
+      "_fetchTime": 1689904863221,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.Snapper"
     },
@@ -561,17 +561,17 @@
       "url": "https://github.com/petzku/Aegisub-Scripts#petzku.SplitTimer",
       "author": "petzku",
       "name": "SplitTimer",
-      "description": "Split lines in selection to shorter segments",
+      "description": "Split lines in selection to shorter segments, preserving any transforms",
       "channels": {
         "stable": {
-          "version": "1.1.1",
-          "released": "2021-03-26",
+          "version": "1.2.0",
+          "released": "2023-07-10",
           "default": true,
           "files": [
             {
               "name": ".moon",
               "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/macros/petzku.SplitTimer.moon",
-              "sha1": "22d28ca1f43d408bf24085adb14ca3c494094a74",
+              "sha1": "05abf61681770eea971210cb34f0f89cb0f7390d",
               "_validHash": true
             }
           ],
@@ -596,21 +596,25 @@
         ],
         "1.1.1": [
           "Fix error in requires for non-depctrl"
+        ],
+        "1.2.0": [
+          "Add 'split on video frame' mode",
+          "Improve macro descriptions to mention preserving transforms"
         ]
       },
       "_validHash": true,
-      "_defaultVersion": "1.1.1",
+      "_defaultVersion": "1.2.0",
       "_scriptData": {
         "name": "SplitTimer",
-        "description": "Split lines in selection into shorter segments",
+        "description": "Split lines in selection into shorter segments, preserving any transforms",
         "author": "petzku",
-        "version": "1.1.1",
+        "version": "1.2.0",
         "namespace": "petzku.SplitTimer",
         "_feedData": null
       },
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1689628539380,
+      "_fetchTime": 1689904863221,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.SplitTimer"
     },
@@ -686,7 +690,7 @@
       },
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1689628539380,
+      "_fetchTime": 1689904863221,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.Typewriter"
     }
@@ -725,7 +729,7 @@
       "_reverseDependency": [],
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1689628539380,
+      "_fetchTime": 1689904863221,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.easings"
     },
@@ -781,13 +785,13 @@
       ],
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1689628539380,
+      "_fetchTime": 1689904863221,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.util"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
   "_identifier": "7161932",
-  "_fetchTime": 1689628539380,
+  "_fetchTime": 1689904863221,
   "_validHash": true
 }

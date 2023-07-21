@@ -21,6 +21,19 @@
     </content>
   </entry>
   <entry>
+    <title>SplitTimer - 1.2.0</title>
+    <link href="/depctrl-browser/macros/petzku.SplitTimer/"/>
+    <updated>2023-07-10T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.SplitTimer/#1.2.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Add &#39;split on video frame&#39; mode&lt;/li&gt;
+      
+        &lt;li&gt;Improve macro descriptions to mention preserving transforms&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
     <title>Shapery - 2.4.1</title>
     <link href="/depctrl-browser/macros/ILL.Shapery/"/>
     <updated>2023-06-29T00:00:00Z</updated>
@@ -456,17 +469,6 @@
         &lt;li&gt;Added margin -&amp;gt; pos transform&lt;/li&gt;
       
         &lt;li&gt;Renamed from &#39;Position to Margin&#39;&lt;/li&gt;
-      
-    </content>
-  </entry>
-  <entry>
-    <title>SplitTimer - 1.1.1</title>
-    <link href="/depctrl-browser/macros/petzku.SplitTimer/"/>
-    <updated>2021-03-26T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.SplitTimer/#1.1.1</id>
-    <content xml:lang="en" type="html">
-      
-        &lt;li&gt;Fix error in requires for non-depctrl&lt;/li&gt;
       
     </content>
   </entry>

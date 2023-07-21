@@ -150,7 +150,7 @@ document.addEventListener('click', function(event) {
         id: i++,
         href: "/depctrl-browser/macros/petzku.SplitTimer/",
         name: "SplitTimer",
-        description: "Split lines in selection to shorter segments",
+        description: "Split lines in selection to shorter segments, preserving any transforms",
       }
     );
     
