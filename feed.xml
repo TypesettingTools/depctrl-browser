@@ -4,11 +4,22 @@
   <subtitle>List of recently updated DependencyControl Macros.</subtitle>
   <link href="feed.xml" rel="self"/>
   <link href="https://typesettingtools.github.io/depctrl-browser/"/>
-  <updated>2023-07-18T00:00:00Z</updated>
+  <updated>2023-07-21T00:00:00Z</updated>
   <id>https://typesettingtools.github.io/depctrl-browser/</id>
   <author>
     <name>DepCtrl Browser</name>
   </author>
+  <entry>
+    <title>SplitTimer - 1.2.1</title>
+    <link href="/depctrl-browser/macros/petzku.SplitTimer/"/>
+    <updated>2023-07-21T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.SplitTimer/#1.2.1</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Fix infinite loop in &#39;split on video frame&#39; mode&lt;/li&gt;
+      
+    </content>
+  </entry>
   <entry>
     <title>Encode Clip - 0.8.5</title>
     <link href="/depctrl-browser/macros/petzku.EncodeClip/"/>
@@ -17,19 +28,6 @@
     <content xml:lang="en" type="html">
       
         &lt;li&gt;Bump util dependency to 0.4.1&lt;/li&gt;
-      
-    </content>
-  </entry>
-  <entry>
-    <title>SplitTimer - 1.2.0</title>
-    <link href="/depctrl-browser/macros/petzku.SplitTimer/"/>
-    <updated>2023-07-10T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.SplitTimer/#1.2.0</id>
-    <content xml:lang="en" type="html">
-      
-        &lt;li&gt;Add &#39;split on video frame&#39; mode&lt;/li&gt;
-      
-        &lt;li&gt;Improve macro descriptions to mention preserving transforms&lt;/li&gt;
       
     </content>
   </entry>
