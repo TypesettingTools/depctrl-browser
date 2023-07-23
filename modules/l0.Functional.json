@@ -128,6 +128,7 @@
       "phos.RemoveTags",
       "phos.FoldOperations",
       "arch.AegisubChain",
+      "arch.DerivePerspTrack",
       "arch.NoteBrowser",
       "arch.GitSigns",
       "l0.ASSFoundation",
@@ -147,7 +148,7 @@
     ],
     "_feedName": "Functional",
     "_feedIdentifier": "c5d5896",
-    "_fetchTime": 1690072446191,
+    "_fetchTime": 1690137082942,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Functional/master/DependencyControl.json",
     "_namespace": "l0.Functional"
   }

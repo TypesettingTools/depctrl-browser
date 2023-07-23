@@ -966,6 +966,7 @@
       "phos.RemoveTags",
       "phos.AutoFade",
       "phos.ExtrapolateTracking",
+      "arch.DerivePerspTrack",
       "arch.Resample",
       "Flux.ScaleRotTags",
       "l0.ASSWipe",
@@ -984,7 +985,7 @@
     ],
     "_feedName": "ASSFoundation",
     "_feedIdentifier": "92c766d",
-    "_fetchTime": 1690072445648,
+    "_fetchTime": 1690137082497,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json",
     "_namespace": "l0.ASSFoundation"
   }

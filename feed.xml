@@ -4,11 +4,20 @@
   <subtitle>List of recently updated DependencyControl Macros.</subtitle>
   <link href="feed.xml" rel="self"/>
   <link href="https://typesettingtools.github.io/depctrl-browser/"/>
-  <updated>2023-07-22T00:00:00Z</updated>
+  <updated>2023-07-23T00:00:00Z</updated>
   <id>https://typesettingtools.github.io/depctrl-browser/</id>
   <author>
     <name>DepCtrl Browser</name>
   </author>
+  <entry>
+    <title>Derive Perspective Track - 1.1.0</title>
+    <link href="/depctrl-browser/macros/arch.DerivePerspTrack/"/>
+    <updated>2023-07-23T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.DerivePerspTrack/#1.1.0</id>
+    <content xml:lang="en" type="html">
+      
+    </content>
+  </entry>
   <entry>
     <title>Auto Fade - 1.1.0</title>
     <link href="/depctrl-browser/macros/phos.AutoFade/"/>
@@ -66,17 +75,6 @@
     <updated>2023-06-06T00:00:00Z</updated>
     <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.RotateGradient/#2.0.2</id>
     <content xml:lang="en" type="html">
-      
-    </content>
-  </entry>
-  <entry>
-    <title>Derive Perspective Track - 1.0.0</title>
-    <link href="/depctrl-browser/macros/arch.DerivePerspTrack/"/>
-    <updated>2023-05-13T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.DerivePerspTrack/#1.0.0</id>
-    <content xml:lang="en" type="html">
-      
-        &lt;li&gt;Initial Release&lt;/li&gt;
       
     </content>
   </entry>

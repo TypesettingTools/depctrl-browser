@@ -7,14 +7,14 @@
     "description": "General-purpose linear algebra functions, approximately matching the patterns of Matlab or numpy",
     "channels": {
       "release": {
-        "version": "0.1.8",
-        "released": "2022-12-31",
+        "version": "0.1.9",
+        "released": "2023-07-23",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Math-v0.1.8/modules/arch/Math.moon",
-            "sha1": "3e328244410c9704ea5c11c58dbd7c1576c2df64",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Math-v0.1.9/modules/arch/Math.moon",
+            "sha1": "9a1702d8fb4ac44873afb97055939eda7b9674ee",
             "_validHash": true
           }
         ]
@@ -56,13 +56,14 @@
     "_validHash": true,
     "_reverseDependency": [
       "phos.ExtrapolateTracking",
+      "arch.DerivePerspTrack",
       "arch.FocusLines",
       "arch.Resample",
       "arch.Perspective"
     ],
     "_feedName": "arch1t3cht's Aegisub Scripts",
     "_feedIdentifier": "b409fc1",
-    "_fetchTime": 1690072446074,
+    "_fetchTime": 1690137082838,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "arch.Math"
   }

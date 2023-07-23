@@ -74,7 +74,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1690072446074,
+      "_fetchTime": 1690137082838,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.AegisubChain"
     },
@@ -86,15 +86,43 @@
       "description": "Create a power-pin track file from the outer perspective quads of a set of lines.",
       "channels": {
         "release": {
-          "version": "1.0.0",
-          "released": "2023-05-13",
+          "version": "1.1.0",
+          "released": "2023-07-23",
           "default": true,
           "files": [
             {
               "name": ".moon",
-              "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.DerivePerspTrack-v1.0.0/macros/arch.DerivePerspTrack.moon",
-              "sha1": "25f9a1ddbd09ca73d0e8e0d8f6ceb0d227ec9f26",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.DerivePerspTrack-v1.1.0/macros/arch.DerivePerspTrack.moon",
+              "sha1": "0b77af4c622e2a322a1fa5ceaa3f42ae1fde81bf",
               "_validHash": true
+            }
+          ],
+          "requiredModules": [
+            {
+              "moduleName": "l0.Functional",
+              "name": "(Almost) Functional Suite",
+              "url": "https://github.com/TypesettingTools/ASSFoundation",
+              "version": "0.6.0",
+              "feed": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json"
+            },
+            {
+              "moduleName": "l0.ASSFoundation",
+              "name": "ASSFoundation",
+              "url": "https://github.com/TypesettingTools/ASSFoundation",
+              "version": "0.5.0",
+              "feed": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json"
+            },
+            {
+              "moduleName": "arch.Math",
+              "name": "ArchMath",
+              "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts",
+              "version": "0.1.9"
+            },
+            {
+              "moduleName": "arch.Perspective",
+              "name": "Perspective",
+              "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts",
+              "version": "0.2.3"
             }
           ]
         }
@@ -105,12 +133,12 @@
         ]
       },
       "_validHash": true,
-      "_defaultVersion": "1.0.0",
+      "_defaultVersion": "1.1.0",
       "_scriptData": {
         "name": "Derive Perspective Track",
         "description": "Create a power-pin track file from the outer perspective quads of a set of lines.",
         "author": "arch1t3cht",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "namespace": "arch.DerivePerspTrack",
         "_feedData": {
           "feed": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json"
@@ -118,7 +146,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1690072446074,
+      "_fetchTime": 1690137082838,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.DerivePerspTrack"
     },
@@ -173,7 +201,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1690072446074,
+      "_fetchTime": 1690137082838,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.FocusLines"
     },
@@ -260,7 +288,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1690072446074,
+      "_fetchTime": 1690137082838,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.Resample"
     },
@@ -316,7 +344,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1690072446074,
+      "_fetchTime": 1690137082838,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.RWTools"
     },
@@ -385,7 +413,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1690072446074,
+      "_fetchTime": 1690137082838,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.NoteBrowser"
     },
@@ -454,7 +482,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1690072446074,
+      "_fetchTime": 1690137082838,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.GitSigns"
     },
@@ -504,7 +532,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1690072446074,
+      "_fetchTime": 1690137082838,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.ConvertFolds"
     }
@@ -518,14 +546,14 @@
       "description": "General-purpose linear algebra functions, approximately matching the patterns of Matlab or numpy",
       "channels": {
         "release": {
-          "version": "0.1.8",
-          "released": "2022-12-31",
+          "version": "0.1.9",
+          "released": "2023-07-23",
           "default": true,
           "files": [
             {
               "name": ".moon",
-              "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Math-v0.1.8/modules/arch/Math.moon",
-              "sha1": "3e328244410c9704ea5c11c58dbd7c1576c2df64",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Math-v0.1.9/modules/arch/Math.moon",
+              "sha1": "9a1702d8fb4ac44873afb97055939eda7b9674ee",
               "_validHash": true
             }
           ]
@@ -567,13 +595,14 @@
       "_validHash": true,
       "_reverseDependency": [
         "phos.ExtrapolateTracking",
+        "arch.DerivePerspTrack",
         "arch.FocusLines",
         "arch.Resample",
         "arch.Perspective"
       ],
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1690072446074,
+      "_fetchTime": 1690137082838,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.Math"
     },
@@ -624,17 +653,18 @@
       },
       "_validHash": true,
       "_reverseDependency": [
+        "arch.DerivePerspTrack",
         "arch.Resample"
       ],
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1690072446074,
+      "_fetchTime": 1690137082838,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.Perspective"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "b409fc1",
-  "_fetchTime": 1690072446074,
+  "_fetchTime": 1690137082838,
   "_validHash": true
 }
