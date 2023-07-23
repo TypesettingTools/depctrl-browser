@@ -51,6 +51,9 @@
       ],
       "0.1.8": [
         "Move repository to TypesettingTools/arch1t3cht-Aegisub-Scripts"
+      ],
+      "0.1.9": [
+        "Add min/max functions to Point class"
       ]
     },
     "_validHash": true,
@@ -63,7 +66,7 @@
     ],
     "_feedName": "arch1t3cht's Aegisub Scripts",
     "_feedIdentifier": "b409fc1",
-    "_fetchTime": 1690137082838,
+    "_fetchTime": 1690137678218,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "arch.Math"
   }

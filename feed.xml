@@ -16,6 +16,8 @@
     <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.DerivePerspTrack/#1.1.0</id>
     <content xml:lang="en" type="html">
       
+        &lt;li&gt;Add option to derive the track from the override tags of the lines&lt;/li&gt;
+      
     </content>
   </entry>
   <entry>

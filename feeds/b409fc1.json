@@ -74,7 +74,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1690137082838,
+      "_fetchTime": 1690137678218,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.AegisubChain"
     },
@@ -130,6 +130,9 @@
       "changelog": {
         "1.0.0": [
           "Initial Release"
+        ],
+        "1.1.0": [
+          "Add option to derive the track from the override tags of the lines"
         ]
       },
       "_validHash": true,
@@ -146,7 +149,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1690137082838,
+      "_fetchTime": 1690137678218,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.DerivePerspTrack"
     },
@@ -201,7 +204,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1690137082838,
+      "_fetchTime": 1690137678218,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.FocusLines"
     },
@@ -288,7 +291,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1690137082838,
+      "_fetchTime": 1690137678218,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.Resample"
     },
@@ -344,7 +347,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1690137082838,
+      "_fetchTime": 1690137678218,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.RWTools"
     },
@@ -413,7 +416,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1690137082838,
+      "_fetchTime": 1690137678218,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.NoteBrowser"
     },
@@ -482,7 +485,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1690137082838,
+      "_fetchTime": 1690137678218,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.GitSigns"
     },
@@ -532,7 +535,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1690137082838,
+      "_fetchTime": 1690137678218,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.ConvertFolds"
     }
@@ -590,6 +593,9 @@
         ],
         "0.1.8": [
           "Move repository to TypesettingTools/arch1t3cht-Aegisub-Scripts"
+        ],
+        "0.1.9": [
+          "Add min/max functions to Point class"
         ]
       },
       "_validHash": true,
@@ -602,7 +608,7 @@
       ],
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1690137082838,
+      "_fetchTime": 1690137678218,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.Math"
     },
@@ -658,13 +664,13 @@
       ],
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1690137082838,
+      "_fetchTime": 1690137678218,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.Perspective"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "b409fc1",
-  "_fetchTime": 1690137082838,
+  "_fetchTime": 1690137678218,
   "_validHash": true
 }
