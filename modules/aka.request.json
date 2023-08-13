@@ -1,0 +1,59 @@
+[
+  {
+    "channels": {
+      "master": {
+        "files": [
+          {
+            "name": "/init.lua",
+            "url": "raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/request/init.lua",
+            "sha1": "113fdbceca698ab41323f0e25207c2c1bf11d6d7",
+            "_validHash": false
+          },
+          {
+            "name": "/libcurl.dll",
+            "url": "raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/request/libcurl.dll",
+            "sha1": "14bfd8c54e87ec8f1ae9bd029b2771bbc086caa0",
+            "platform": "Windows-x64",
+            "_validHash": false
+          },
+          {
+            "name": "/libcurl.dll",
+            "url": "raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/request/libcurl.dll",
+            "sha1": "14bfd8c54e87ec8f1ae9bd029b2771bbc086caa0",
+            "platform": "Windows-arm",
+            "_validHash": false
+          },
+          {
+            "name": "/luajit-curl.lua",
+            "url": "raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/request/luajit-curl.lua",
+            "sha1": "53d19b0c540146d96b21f099b71e57a0252dd6e0",
+            "_validHash": false
+          }
+        ],
+        "version": "1.0.11",
+        "default": true,
+        "requireModules": [
+          {
+            "moduleName": "ffi"
+          },
+          {
+            "moduleName": "requireffi.requireffi",
+            "version": "0.1.2"
+          }
+        ],
+        "released": "2023-07-19"
+      }
+    },
+    "author": "Lucien Greathouse, adapted to Aegisub environment by Akatsumekusa",
+    "name": "request",
+    "description": "Module request",
+    "url": "https://github.com/Akatmks/Akatsumekusa-Aegisub-Scripts",
+    "_validHash": false,
+    "_reverseDependency": [],
+    "_feedName": "Akatsumekusa's Aegisub Scripts",
+    "_feedIdentifier": "c875185",
+    "_fetchTime": 1691952346134,
+    "_sourceUrl": "https://raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/DependencyControl.json",
+    "_namespace": "aka.request"
+  }
+]

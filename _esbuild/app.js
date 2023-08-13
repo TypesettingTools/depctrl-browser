@@ -38,6 +38,61 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/macros/NN.farnhuah/",
+        name: "farnhuah",
+        description: "farn huah jeau been",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/aka.BackupSelection/",
+        name: "BackupSelection",
+        description: "Backup selected lines",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/aka.BoundingBox/",
+        name: "BoundingBox",
+        description: "Create a clip of the bounding box of the subtitle line",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/aka.Cycles/",
+        name: "Cycles",
+        description: "Cycles tags on selected lines",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/aka.dupe-and-not-comment/",
+        name: "Dupe and Not Comment",
+        description: "Duplicate selected line line by line",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/macros/petzku.Accenter/",
         name: "Accenter",
         description: "Automatically create accents for lines",
@@ -1427,7 +1482,128 @@ document.addEventListener('click', function(event) {
     );
     
   
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/macros/zah.autoclip/",
+        name: "Autoclip",
+        description: "Add clips to subtitles 𝓪𝓾𝓽𝓸𝓶𝓪𝓰𝓲𝓬𝓪𝓵𝓵𝔂",
+      }
+    );
+    
+  
 
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/aka.actor/",
+        name: "aka.actor",
+        description: "Module aka.actor",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/aka.config/",
+        name: "aka.config",
+        description: "Module aka.config",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/aka.config2/",
+        name: "aka.config2",
+        description: "Module aka.config2",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/aka.effil/",
+        name: "effil",
+        description: "Module effil",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/aka.optimising/",
+        name: "aka.optimising",
+        description: "Module aka.optimising",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/aka.outcome/",
+        name: "aka.outcome",
+        description: "Module aka.outcome",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/aka.request/",
+        name: "request",
+        description: "Module request",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/aka.singlesimple/",
+        name: "aka.singlesimple",
+        description: "Module aka.singlesimple",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/aka.threads/",
+        name: "aka.threads",
+        description: "Module aka.threads",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
+        href: "/depctrl-browser/modules/aka.unicode/",
+        name: "aka.unicode",
+        description: "Module aka.unicode",
+      }
+    );
+    
   
     
     index.add(
@@ -1884,6 +2060,15 @@ document.addEventListener('click', function(event) {
     
   
 
+  
+  index.add(
+    {
+      id: i++,
+      href: "/depctrl-browser/feeds/c875185/",
+      name: "Akatsumekusa's Aegisub Scripts",
+      description: "Repository for Akatsumekusa's Aegisub Scripts",
+    }
+  );
   
   index.add(
     {

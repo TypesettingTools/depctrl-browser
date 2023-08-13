@@ -214,11 +214,12 @@
       "ILL.EnvelopeDistort",
       "ILL.Shapery",
       "ILL.MakeImage",
-      "ILL.ChangeAlign"
+      "ILL.ChangeAlign",
+      "zah.autoclip"
     ],
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1691886371568,
+    "_fetchTime": 1691952346057,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ILL.ILL"
   }

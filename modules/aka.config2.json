@@ -1,0 +1,56 @@
+[
+  {
+    "channels": {
+      "master": {
+        "files": [
+          {
+            "name": "/config2.lua",
+            "url": "raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/config2/config2.lua",
+            "sha1": "1df0f92294cd5e5493bf43ab7e215664c3d6bc46",
+            "_validHash": false
+          },
+          {
+            "name": "/init.lua",
+            "url": "raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/config2/init.lua",
+            "sha1": "5986a9604e25335c4862a0cf74b6d179f920b3e2",
+            "_validHash": false
+          },
+          {
+            "name": "/json.lua",
+            "url": "raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/config2/json.lua",
+            "sha1": "66004f9373847d877fe0aae5ad8a02bf7e161fef",
+            "_validHash": false
+          }
+        ],
+        "version": "1.0.4",
+        "default": true,
+        "requireModules": [
+          {
+            "moduleName": "aka.outcome"
+          },
+          {
+            "moduleName": "aegisub.re"
+          },
+          {
+            "moduleName": "aegisub.unicode"
+          },
+          {
+            "moduleName": "lfs"
+          }
+        ],
+        "released": "2023-07-19"
+      }
+    },
+    "author": "Akatsumekusa and contributors",
+    "name": "aka.config2",
+    "description": "Module aka.config2",
+    "url": "https://github.com/Akatmks/Akatsumekusa-Aegisub-Scripts",
+    "_validHash": false,
+    "_reverseDependency": [],
+    "_feedName": "Akatsumekusa's Aegisub Scripts",
+    "_feedIdentifier": "c875185",
+    "_fetchTime": 1691952346134,
+    "_sourceUrl": "https://raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/DependencyControl.json",
+    "_namespace": "aka.config2"
+  }
+]

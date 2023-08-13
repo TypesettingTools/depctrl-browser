@@ -1,0 +1,52 @@
+[
+  {
+    "channels": {
+      "master": {
+        "files": [
+          {
+            "name": "/config.lua",
+            "url": "raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/config/config.lua",
+            "sha1": "47ad0bee50bc8505bcc3fa84b00de302849d40f9",
+            "_validHash": false
+          },
+          {
+            "name": "/init.lua",
+            "url": "raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/config/init.lua",
+            "sha1": "3bce239686d9d82f960f4974dfab594d6370afbd",
+            "_validHash": false
+          }
+        ],
+        "version": "1.0.8",
+        "default": true,
+        "requireModules": [
+          {
+            "moduleName": "aka.config2"
+          },
+          {
+            "moduleName": "aka.outcome"
+          },
+          {
+            "moduleName": "aka.unicode"
+          },
+          {
+            "moduleName": "aegisub.re"
+          }
+        ],
+        "released": "2023-07-19"
+      }
+    },
+    "author": "Akatsumekusa and contributors",
+    "name": "aka.config",
+    "description": "Module aka.config",
+    "url": "https://github.com/Akatmks/Akatsumekusa-Aegisub-Scripts",
+    "_validHash": false,
+    "_reverseDependency": [
+      "zah.autoclip"
+    ],
+    "_feedName": "Akatsumekusa's Aegisub Scripts",
+    "_feedIdentifier": "c875185",
+    "_fetchTime": 1691952346134,
+    "_sourceUrl": "https://raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/DependencyControl.json",
+    "_namespace": "aka.config"
+  }
+]

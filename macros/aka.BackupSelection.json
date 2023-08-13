@@ -1,0 +1,50 @@
+[
+  {
+    "channels": {
+      "master": {
+        "files": [
+          {
+            "name": ".lua",
+            "url": "raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/macros/aka.BackupSelection.lua",
+            "sha1": "36d49ce48854e830c4531b05c5b623a86b8b74a4",
+            "_validHash": false
+          }
+        ],
+        "version": "1.0.11",
+        "default": true,
+        "requireModules": [
+          {
+            "moduleName": "aka.actor"
+          },
+          {
+            "moduleName": "aegisub.re"
+          },
+          {
+            "moduleName": "aka.optimising",
+            "optional": true
+          }
+        ],
+        "released": "2023-07-16"
+      }
+    },
+    "author": "Akatsumekusa and contributors",
+    "name": "BackupSelection",
+    "description": "Backup selected lines",
+    "url": "https://github.com/Akatmks/Akatsumekusa-Aegisub-Scripts",
+    "_validHash": false,
+    "_defaultVersion": "1.0.11",
+    "_scriptData": {
+      "name": null,
+      "description": null,
+      "author": null,
+      "version": null,
+      "namespace": null,
+      "_feedData": null
+    },
+    "_feedName": "Akatsumekusa's Aegisub Scripts",
+    "_feedIdentifier": "c875185",
+    "_fetchTime": 1691952346134,
+    "_sourceUrl": "https://raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/DependencyControl.json",
+    "_namespace": "aka.BackupSelection"
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "url": "https://github.com/Zahuczky/Zahuczkys-Aegisub-Scripts#zah.autoclip",
+    "author": "Zahuczky, Akatsumekusa",
+    "name": "Autoclip",
+    "description": "Add clips to subtitles 𝓪𝓾𝓽𝓸𝓶𝓪𝓰𝓲𝓬𝓪𝓵𝓵𝔂",
+    "fileBaseUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/@{channel}/macros/zah.autoclip",
+    "channels": {
+      "main": {
+        "version": "2.0.1",
+        "released": "2023-08-13",
+        "default": true,
+        "files": [
+          {
+            "name": ".lua",
+            "url": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/macros/zah.autoclip.lua",
+            "sha1": "938e7675da1bfde24d8b82ddd185f9aff7e564e6",
+            "_validHash": true
+          }
+        ],
+        "requiredModules": [
+          {
+            "moduleName": "ILL.ILL",
+            "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts",
+            "version": "1.1.0",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json"
+          },
+          {
+            "moduleName": "aka.config",
+            "url": "https://github.com/Akatmks/Akatsumekusa-Aegisub-Scripts",
+            "version": "1.0.8",
+            "feed": "https://raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/DependencyControl.json"
+          },
+          {
+            "moduleName": "aka.outcome",
+            "url": "https://github.com/Akatmks/Akatsumekusa-Aegisub-Scripts",
+            "version": "1.0.7",
+            "feed": "https://raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/DependencyControl.json"
+          }
+        ]
+      }
+    },
+    "_validHash": true,
+    "_defaultVersion": "2.0.1",
+    "_scriptData": {
+      "name": "AutoClip",
+      "description": "Add clips to subtitles 𝓪𝓾𝓽𝓸𝓶𝓪𝓰𝓲𝓬𝓪𝓵𝓵𝔂",
+      "author": "Zahuczky, Akatsumekusa",
+      "version": "2.0.1",
+      "namespace": "zah.autoclip",
+      "_feedData": null
+    },
+    "_feedName": "Zahuczky's Automation Scripts",
+    "_feedIdentifier": "08cbca4",
+    "_fetchTime": 1691952345838,
+    "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
+    "_namespace": "zah.autoclip"
+  }
+]

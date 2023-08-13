@@ -1,0 +1,41 @@
+[
+  {
+    "channels": {
+      "master": {
+        "files": [
+          {
+            "name": "/init.lua",
+            "url": "raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/singlesimple/init.lua",
+            "sha1": "953c0cd83b0182fefffbfa32db6e014204d917fb",
+            "_validHash": false
+          }
+        ],
+        "version": "1.0.9",
+        "default": true,
+        "requireModules": [
+          {
+            "moduleName": "aka.config2"
+          },
+          {
+            "moduleName": "aka.outcome"
+          },
+          {
+            "moduleName": "aka.effil"
+          }
+        ],
+        "released": "2023-07-19"
+      }
+    },
+    "author": "Akatsumekusa and contributors",
+    "name": "aka.singlesimple",
+    "description": "Module aka.singlesimple",
+    "url": "https://github.com/Akatmks/Akatsumekusa-Aegisub-Scripts",
+    "_validHash": false,
+    "_reverseDependency": [],
+    "_feedName": "Akatsumekusa's Aegisub Scripts",
+    "_feedIdentifier": "c875185",
+    "_fetchTime": 1691952346134,
+    "_sourceUrl": "https://raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/DependencyControl.json",
+    "_namespace": "aka.singlesimple"
+  }
+]
