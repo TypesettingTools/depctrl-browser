@@ -7,7 +7,7 @@
             "name": ".moon",
             "url": "raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/macros/aka.BoundingBox.moon",
             "sha1": "9bb29e202dbdb49973b0e01c4292b3ed2179f7fc",
-            "_validHash": false
+            "_validHash": true
           }
         ],
         "version": "1.0.3",
@@ -30,7 +30,7 @@
     "name": "BoundingBox",
     "description": "Create a clip of the bounding box of the subtitle line",
     "url": "https://github.com/Akatmks/Akatsumekusa-Aegisub-Scripts",
-    "_validHash": false,
+    "_validHash": true,
     "_defaultVersion": "1.0.3",
     "_scriptData": {
       "name": null,
@@ -42,7 +42,7 @@
     },
     "_feedName": "Akatsumekusa's Aegisub Scripts",
     "_feedIdentifier": "c875185",
-    "_fetchTime": 1691953315843,
+    "_fetchTime": 1691953509372,
     "_sourceUrl": "https://raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "aka.BoundingBox"
   }

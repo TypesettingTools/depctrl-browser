@@ -7,7 +7,7 @@
             "name": ".moon",
             "url": "raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/macros/aka.Cycles.moon",
             "sha1": "8bb2d24dda1b1a77729e545bf8da8b2be14922ad",
-            "_validHash": false
+            "_validHash": true
           }
         ],
         "version": "1.0.6",
@@ -36,7 +36,7 @@
     "name": "Cycles",
     "description": "Cycles tags on selected lines",
     "url": "https://github.com/Akatmks/Akatsumekusa-Aegisub-Scripts",
-    "_validHash": false,
+    "_validHash": true,
     "_defaultVersion": "1.0.6",
     "_scriptData": {
       "name": null,
@@ -48,7 +48,7 @@
     },
     "_feedName": "Akatsumekusa's Aegisub Scripts",
     "_feedIdentifier": "c875185",
-    "_fetchTime": 1691953315843,
+    "_fetchTime": 1691953509372,
     "_sourceUrl": "https://raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "aka.Cycles"
   }
