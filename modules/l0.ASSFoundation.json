@@ -959,6 +959,7 @@
     },
     "_validHash": true,
     "_reverseDependency": [
+      "aka.Cycles",
       "phos.wobble",
       "phos.svg2ass",
       "phos.AddGrain",
@@ -985,7 +986,7 @@
     ],
     "_feedName": "ASSFoundation",
     "_feedIdentifier": "92c766d",
-    "_fetchTime": 1691953846833,
+    "_fetchTime": 1691955050359,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json",
     "_namespace": "l0.ASSFoundation"
   }

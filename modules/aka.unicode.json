@@ -5,14 +5,14 @@
         "files": [
           {
             "name": "/init.lua",
-            "url": "raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/unicode/init.lua",
+            "url": "https://raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/unicode/init.lua",
             "sha1": "1fe930e848623f0594cc1552c2492e4fe04a9c7d",
             "_validHash": true
           }
         ],
         "version": "1.0.3",
         "default": true,
-        "requireModules": [
+        "requiredModules": [
           {
             "moduleName": "aegisub.unicode"
           },
@@ -28,10 +28,12 @@
     "description": "Module aka.unicode",
     "url": "https://github.com/Akatmks/Akatsumekusa-Aegisub-Scripts",
     "_validHash": true,
-    "_reverseDependency": [],
+    "_reverseDependency": [
+      "aka.config"
+    ],
     "_feedName": "Akatsumekusa's Aegisub Scripts",
     "_feedIdentifier": "c875185",
-    "_fetchTime": 1691953847318,
+    "_fetchTime": 1691955050776,
     "_sourceUrl": "https://raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "aka.unicode"
   }

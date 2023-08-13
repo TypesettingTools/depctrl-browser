@@ -5,14 +5,14 @@
         "files": [
           {
             "name": ".moon",
-            "url": "raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/macros/aka.BoundingBox.moon",
+            "url": "https://raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/macros/aka.BoundingBox.moon",
             "sha1": "9bb29e202dbdb49973b0e01c4292b3ed2179f7fc",
             "_validHash": true
           }
         ],
         "version": "1.0.3",
         "default": true,
-        "requireModules": [
+        "requiredModules": [
           {
             "moduleName": "ILL.ILL"
           },
@@ -42,7 +42,7 @@
     },
     "_feedName": "Akatsumekusa's Aegisub Scripts",
     "_feedIdentifier": "c875185",
-    "_fetchTime": 1691953847318,
+    "_fetchTime": 1691955050776,
     "_sourceUrl": "https://raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "aka.BoundingBox"
   }

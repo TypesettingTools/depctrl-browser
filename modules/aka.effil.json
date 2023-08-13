@@ -5,63 +5,63 @@
         "files": [
           {
             "name": "/effil-osx.so",
-            "url": "raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/effil/effil-osx.so",
+            "url": "https://raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/effil/effil-osx.so",
             "sha1": "8a689d202a8457f7f35f236e3b1afabed00b7551",
             "platform": "OSX-x64",
             "_validHash": true
           },
           {
             "name": "/effil-osx.so",
-            "url": "raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/effil/effil-osx.so",
+            "url": "https://raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/effil/effil-osx.so",
             "sha1": "8a689d202a8457f7f35f236e3b1afabed00b7551",
             "platform": "OSX-arm",
             "_validHash": true
           },
           {
             "name": "/effil.dll",
-            "url": "raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/effil/effil.dll",
+            "url": "https://raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/effil/effil.dll",
             "sha1": "eddc636e421a72f7de7164124828ffc65f065559",
             "platform": "Windows-x64",
             "_validHash": true
           },
           {
             "name": "/effil.dll",
-            "url": "raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/effil/effil.dll",
+            "url": "https://raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/effil/effil.dll",
             "sha1": "eddc636e421a72f7de7164124828ffc65f065559",
             "platform": "Windows-arm",
             "_validHash": true
           },
           {
             "name": "/effil.so",
-            "url": "raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/effil/effil.so",
+            "url": "https://raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/effil/effil.so",
             "sha1": "40aa226581acd5dd7d28d0758cdff61f4ed41bc9",
             "platform": "Linux-x64",
             "_validHash": true
           },
           {
             "name": "/effil.so",
-            "url": "raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/effil/effil.so",
+            "url": "https://raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/effil/effil.so",
             "sha1": "40aa226581acd5dd7d28d0758cdff61f4ed41bc9",
             "platform": "BSD-x64",
             "_validHash": true
           },
           {
             "name": "/effil.so",
-            "url": "raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/effil/effil.so",
+            "url": "https://raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/effil/effil.so",
             "sha1": "40aa226581acd5dd7d28d0758cdff61f4ed41bc9",
             "platform": "POSIX-x64",
             "_validHash": true
           },
           {
             "name": "/init.lua",
-            "url": "raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/effil/init.lua",
+            "url": "https://raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/modules/aka/effil/init.lua",
             "sha1": "540f75827d26c86a6961409ba3cdb0f220a76a50",
             "_validHash": true
           }
         ],
         "version": "1.0.5",
         "default": true,
-        "requireModules": [
+        "requiredModules": [
           {
             "moduleName": "ffi"
           },
@@ -78,10 +78,12 @@
     "description": "Module effil",
     "url": "https://github.com/Akatmks/Akatsumekusa-Aegisub-Scripts",
     "_validHash": true,
-    "_reverseDependency": [],
+    "_reverseDependency": [
+      "aka.singlesimple"
+    ],
     "_feedName": "Akatsumekusa's Aegisub Scripts",
     "_feedIdentifier": "c875185",
-    "_fetchTime": 1691953847318,
+    "_fetchTime": 1691955050776,
     "_sourceUrl": "https://raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "aka.effil"
   }
