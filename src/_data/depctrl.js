@@ -11,7 +11,7 @@ var procesesed = [];
 const limitedWebRequest = async (url, type) => {
   // Limit to  web url
   if (!url.toLowerCase().startsWith("http://") && !url.toLowerCase().startsWith("https://")) {
-    return Promise.reject(new Error("Only http and https urls are allowed"));
+    url = "http://" + url;
   }
 
   return limit((url, type) => EleventyFetch(url, {
@@ -160,9 +160,6 @@ const resolveReverseDependencies = async (feeds) => {
 
 // fetch single feed
 const fetchFeed = (url) => {
-  if (!url.startsWith("https://") && !url.startsWith("http://")) {
-    url = "http://" + url;
-  }
   return limitedWebRequest(url, "text")
     .then((feedResponse) => {
       // remove trailing commas. Not ideal as there can be false positives
