@@ -90,7 +90,6 @@
     },
     "_validHash": true,
     "_reverseDependency": [
-      "aka.BoundingBox",
       "l0.ASSFoundation",
       "ILL.ILL",
       "l0.ASSWipe",
@@ -98,7 +97,7 @@
     ],
     "_feedName": "SubInspector",
     "_feedIdentifier": "881e0ee",
-    "_fetchTime": 1691955050355,
+    "_fetchTime": 1691956242957,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/SubInspector/master/DependencyControl.json",
     "_namespace": "SubInspector.Inspector"
   }

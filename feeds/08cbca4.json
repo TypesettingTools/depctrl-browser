@@ -19,7 +19,6 @@
     "petzku-scripts": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
     "zahuczky-scripts": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
     "zeref-aegisub-scripts": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
-    "akatsumekusa-aegisub-scripts": "https://raw.githubusercontent.com/Akatmks/Akatsumekusa-Aegisub-Scripts/master/DependencyControl.json",
     "phoscity-scripts": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "zeref-scripts": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
     "arch1t3cht-scripts": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
@@ -95,7 +94,7 @@
       },
       "_feedName": "Zahuczky's Automation Scripts",
       "_feedIdentifier": "08cbca4",
-      "_fetchTime": 1691955050588,
+      "_fetchTime": 1691956243069,
       "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zah.pers-mo_BETA"
     },
@@ -166,7 +165,7 @@
       },
       "_feedName": "Zahuczky's Automation Scripts",
       "_feedIdentifier": "08cbca4",
-      "_fetchTime": 1691955050588,
+      "_fetchTime": 1691956243069,
       "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zah.aegi-color-track"
     },
@@ -223,14 +222,14 @@
       },
       "_feedName": "Zahuczky's Automation Scripts",
       "_feedIdentifier": "08cbca4",
-      "_fetchTime": 1691955050588,
+      "_fetchTime": 1691956243069,
       "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zah.autoclip"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "08cbca4",
-  "_fetchTime": 1691955050588,
+  "_fetchTime": 1691956243069,
   "modules": {},
   "_validHash": true
 }

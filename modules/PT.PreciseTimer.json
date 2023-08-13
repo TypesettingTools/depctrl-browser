@@ -62,12 +62,11 @@
     },
     "_validHash": true,
     "_reverseDependency": [
-      "aka.optimising",
       "l0.DependencyControl"
     ],
     "_feedName": "FFI Experiments",
     "_feedIdentifier": "2d000a9",
-    "_fetchTime": 1691955050352,
+    "_fetchTime": 1691956242947,
     "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
     "_namespace": "PT.PreciseTimer"
   },
@@ -134,12 +133,11 @@
     },
     "_validHash": true,
     "_reverseDependency": [
-      "aka.optimising",
       "l0.DependencyControl"
     ],
     "_feedName": "FFI Experiments",
     "_feedIdentifier": "1fe3ac7",
-    "_fetchTime": 1691955050708,
+    "_fetchTime": 1691956243081,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
     "_namespace": "PT.PreciseTimer"
   }

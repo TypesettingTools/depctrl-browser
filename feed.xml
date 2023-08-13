@@ -61,24 +61,6 @@
     </content>
   </entry>
   <entry>
-    <title>farnhuah - 1.0.8</title>
-    <link href="/depctrl-browser/macros/NN.farnhuah/"/>
-    <updated>2023-07-19T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/NN.farnhuah/#1.0.8</id>
-    <content xml:lang="en" type="html">
-      
-    </content>
-  </entry>
-  <entry>
-    <title>Cycles - 1.0.6</title>
-    <link href="/depctrl-browser/macros/aka.Cycles/"/>
-    <updated>2023-07-18T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/aka.Cycles/#1.0.6</id>
-    <content xml:lang="en" type="html">
-      
-    </content>
-  </entry>
-  <entry>
     <title>Encode Clip - 0.8.5</title>
     <link href="/depctrl-browser/macros/petzku.EncodeClip/"/>
     <updated>2023-07-18T00:00:00Z</updated>
@@ -86,33 +68,6 @@
     <content xml:lang="en" type="html">
       
         &lt;li&gt;Bump util dependency to 0.4.1&lt;/li&gt;
-      
-    </content>
-  </entry>
-  <entry>
-    <title>BackupSelection - 1.0.11</title>
-    <link href="/depctrl-browser/macros/aka.BackupSelection/"/>
-    <updated>2023-07-16T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/aka.BackupSelection/#1.0.11</id>
-    <content xml:lang="en" type="html">
-      
-    </content>
-  </entry>
-  <entry>
-    <title>BoundingBox - 1.0.3</title>
-    <link href="/depctrl-browser/macros/aka.BoundingBox/"/>
-    <updated>2023-07-12T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/aka.BoundingBox/#1.0.3</id>
-    <content xml:lang="en" type="html">
-      
-    </content>
-  </entry>
-  <entry>
-    <title>Dupe and Not Comment - 1.0.3</title>
-    <link href="/depctrl-browser/macros/aka.dupe-and-not-comment/"/>
-    <updated>2023-07-12T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/aka.dupe-and-not-comment/#1.0.3</id>
-    <content xml:lang="en" type="html">
       
     </content>
   </entry>
