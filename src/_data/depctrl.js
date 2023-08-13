@@ -160,6 +160,9 @@ const resolveReverseDependencies = async (feeds) => {
 
 // fetch single feed
 const fetchFeed = (url) => {
+  if (!url.startsWith("https://") && !url.startsWith("http://")) {
+    url = "http://" + url;
+  }
   return limitedWebRequest(url, "text")
     .then((feedResponse) => {
       // remove trailing commas. Not ideal as there can be false positives
