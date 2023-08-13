@@ -1487,7 +1487,7 @@ document.addEventListener('click', function(event) {
       {
         id: i++,
         href: "/depctrl-browser/macros/zah.autoclip/",
-        name: "Autoclip",
+        name: "AutoClip",
         description: "Add clips to subtitles 𝓪𝓾𝓽𝓸𝓶𝓪𝓰𝓲𝓬𝓪𝓵𝓵𝔂",
       }
     );
