@@ -7,14 +7,14 @@
     "description": "Create a power-pin track file from the outer perspective quads of a set of lines.",
     "channels": {
       "release": {
-        "version": "1.1.0",
-        "released": "2023-07-23",
+        "version": "1.1.1",
+        "released": "2023-08-31",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.DerivePerspTrack-v1.1.0/macros/arch.DerivePerspTrack.moon",
-            "sha1": "0b77af4c622e2a322a1fa5ceaa3f42ae1fde81bf",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.DerivePerspTrack-v1.1.1/macros/arch.DerivePerspTrack.moon",
+            "sha1": "a2aacc3943fac7189620ef70be6fba64c96da38b",
             "_validHash": true
           }
         ],
@@ -37,7 +37,7 @@
             "moduleName": "arch.Math",
             "name": "ArchMath",
             "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts",
-            "version": "0.1.9"
+            "version": "0.1.10"
           },
           {
             "moduleName": "arch.Perspective",
@@ -57,12 +57,12 @@
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "1.1.0",
+    "_defaultVersion": "1.1.1",
     "_scriptData": {
       "name": "Derive Perspective Track",
       "description": "Create a power-pin track file from the outer perspective quads of a set of lines.",
       "author": "arch1t3cht",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "namespace": "arch.DerivePerspTrack",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json"
@@ -70,7 +70,7 @@
     },
     "_feedName": "arch1t3cht's Aegisub Scripts",
     "_feedIdentifier": "b409fc1",
-    "_fetchTime": 1693096006796,
+    "_fetchTime": 1693515353437,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "arch.DerivePerspTrack"
   }
