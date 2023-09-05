@@ -54,6 +54,9 @@
       ],
       "0.1.9": [
         "Add min/max functions to Point class"
+      ],
+      "0.1.10": [
+        "Fix min/max functions"
       ]
     },
     "_validHash": true,
@@ -66,7 +69,7 @@
     ],
     "_feedName": "arch1t3cht's Aegisub Scripts",
     "_feedIdentifier": "b409fc1",
-    "_fetchTime": 1693700842139,
+    "_fetchTime": 1693954869577,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "arch.Math"
   }

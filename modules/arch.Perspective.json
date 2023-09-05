@@ -7,14 +7,14 @@
     "description": "Math functions for dealing with perspective transformations.",
     "channels": {
       "release": {
-        "version": "0.2.3",
-        "released": "2022-12-31",
+        "version": "0.2.4",
+        "released": "2023-09-05",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Perspective-v0.2.3/modules/arch/Perspective.moon",
-            "sha1": "559655f25aef45ade444702c2a4f91343bf51367",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Perspective-v0.2.4/modules/arch/Perspective.moon",
+            "sha1": "86e451074076f2073a683a6f63c1883d6df2a46b",
             "_validHash": true
           }
         ],
@@ -38,10 +38,16 @@
         "Add function generating .ass tags from transformed quad."
       ],
       "0.2.1": [
-        "Fix version record..."
+        "Add version record"
       ],
       "0.2.2": [
+        "Fix version record..."
+      ],
+      "0.2.3": [
         "Move repository to TypesettingTools/arch1t3cht-Aegisub-Scripts"
+      ],
+      "0.2.4": [
+        "Fix the tagsFromQuad computation when 180 degree rotations are involved"
       ]
     },
     "_validHash": true,
@@ -51,7 +57,7 @@
     ],
     "_feedName": "arch1t3cht's Aegisub Scripts",
     "_feedIdentifier": "b409fc1",
-    "_fetchTime": 1693700842139,
+    "_fetchTime": 1693954869577,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "arch.Perspective"
   }

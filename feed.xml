@@ -4,17 +4,34 @@
   <subtitle>List of recently updated DependencyControl Macros.</subtitle>
   <link href="feed.xml" rel="self"/>
   <link href="https://typesettingtools.github.io/depctrl-browser/"/>
-  <updated>2023-08-31T00:00:00Z</updated>
+  <updated>2023-09-05T00:00:00Z</updated>
   <id>https://typesettingtools.github.io/depctrl-browser/</id>
   <author>
     <name>DepCtrl Browser</name>
   </author>
+  <entry>
+    <title>Resample Perspective - 1.3.4</title>
+    <link href="/depctrl-browser/macros/arch.Resample/"/>
+    <updated>2023-09-05T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.Resample/#1.3.4</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Add proper handling for drawings&lt;/li&gt;
+      
+        &lt;li&gt;Bump Perspective dependency to fix resampling in cases involving 180 degree rotations&lt;/li&gt;
+      
+        &lt;li&gt;Add warning messages for cases where the script is likely to break&lt;/li&gt;
+      
+    </content>
+  </entry>
   <entry>
     <title>Derive Perspective Track - 1.1.1</title>
     <link href="/depctrl-browser/macros/arch.DerivePerspTrack/"/>
     <updated>2023-08-31T00:00:00Z</updated>
     <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.DerivePerspTrack/#1.1.1</id>
     <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Bump ArchMath dependency to fix a bug&lt;/li&gt;
       
     </content>
   </entry>
@@ -250,15 +267,6 @@
     <content xml:lang="en" type="html">
       
         &lt;li&gt;Move repository to TypesettingTools/arch1t3cht-Aegisub-Scripts&lt;/li&gt;
-      
-    </content>
-  </entry>
-  <entry>
-    <title>Resample Perspective - 1.3.3</title>
-    <link href="/depctrl-browser/macros/arch.Resample/"/>
-    <updated>2022-12-31T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.Resample/#1.3.3</id>
-    <content xml:lang="en" type="html">
       
     </content>
   </entry>
