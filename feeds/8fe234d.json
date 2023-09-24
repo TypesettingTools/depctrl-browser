@@ -50,7 +50,7 @@
       },
       "_feedName": "PhosCity's Aegisub Scripts",
       "_feedIdentifier": "8fe234d",
-      "_fetchTime": 1695515273110,
+      "_fetchTime": 1695520239354,
       "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "phos.wave"
     },
@@ -126,7 +126,7 @@
       },
       "_feedName": "PhosCity's Aegisub Scripts",
       "_feedIdentifier": "8fe234d",
-      "_fetchTime": 1695515273110,
+      "_fetchTime": 1695520239354,
       "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "phos.wobble"
     },
@@ -169,7 +169,7 @@
       },
       "_feedName": "PhosCity's Aegisub Scripts",
       "_feedIdentifier": "8fe234d",
-      "_fetchTime": 1695515273110,
+      "_fetchTime": 1695520239354,
       "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "phos.snap"
     },
@@ -243,7 +243,7 @@
       },
       "_feedName": "PhosCity's Aegisub Scripts",
       "_feedIdentifier": "8fe234d",
-      "_fetchTime": 1695515273110,
+      "_fetchTime": 1695520239354,
       "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "phos.svg2ass"
     },
@@ -316,7 +316,7 @@
       },
       "_feedName": "PhosCity's Aegisub Scripts",
       "_feedIdentifier": "8fe234d",
-      "_fetchTime": 1695515273110,
+      "_fetchTime": 1695520239354,
       "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "phos.AddGrain"
     },
@@ -392,7 +392,7 @@
       },
       "_feedName": "PhosCity's Aegisub Scripts",
       "_feedIdentifier": "8fe234d",
-      "_fetchTime": 1695515273110,
+      "_fetchTime": 1695520239354,
       "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "phos.RotateGradient"
     },
@@ -404,13 +404,13 @@
       "channels": {
         "main": {
           "version": "1.0.1",
-          "released": "2023-01-06",
+          "released": "2023-09-24",
           "default": true,
           "files": [
             {
               "name": ".moon",
               "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.TimingAssistant.moon",
-              "sha1": "79d9d478501c5e3c17be380da0cf052e49186f22",
+              "sha1": "ba750b6f6f99771ce6edc43487f8b712cde3f482",
               "_validHash": true
             }
           ]
@@ -435,7 +435,7 @@
       },
       "_feedName": "PhosCity's Aegisub Scripts",
       "_feedIdentifier": "8fe234d",
-      "_fetchTime": 1695515273110,
+      "_fetchTime": 1695520239354,
       "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "phos.TimingAssistant"
     },
@@ -501,7 +501,7 @@
       },
       "_feedName": "PhosCity's Aegisub Scripts",
       "_feedIdentifier": "8fe234d",
-      "_fetchTime": 1695515273110,
+      "_fetchTime": 1695520239354,
       "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "phos.RemoveTags"
     },
@@ -560,7 +560,7 @@
       },
       "_feedName": "PhosCity's Aegisub Scripts",
       "_feedIdentifier": "8fe234d",
-      "_fetchTime": 1695515273110,
+      "_fetchTime": 1695520239354,
       "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "phos.FoldOperations"
     },
@@ -626,7 +626,7 @@
       },
       "_feedName": "PhosCity's Aegisub Scripts",
       "_feedIdentifier": "8fe234d",
-      "_fetchTime": 1695515273110,
+      "_fetchTime": 1695520239354,
       "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "phos.AutoFade"
     },
@@ -706,14 +706,14 @@
       },
       "_feedName": "PhosCity's Aegisub Scripts",
       "_feedIdentifier": "8fe234d",
-      "_fetchTime": 1695515273110,
+      "_fetchTime": 1695520239354,
       "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "phos.ExtrapolateTracking"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "8fe234d",
-  "_fetchTime": 1695515273110,
+  "_fetchTime": 1695520239354,
   "modules": {},
   "_validHash": true
 }

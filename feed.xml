@@ -4,11 +4,20 @@
   <subtitle>List of recently updated DependencyControl Macros.</subtitle>
   <link href="feed.xml" rel="self"/>
   <link href="https://typesettingtools.github.io/depctrl-browser/"/>
-  <updated>2023-09-05T00:00:00Z</updated>
+  <updated>2023-09-24T00:00:00Z</updated>
   <id>https://typesettingtools.github.io/depctrl-browser/</id>
   <author>
     <name>DepCtrl Browser</name>
   </author>
+  <entry>
+    <title>Timing Assistant - 1.0.1</title>
+    <link href="/depctrl-browser/macros/phos.TimingAssistant/"/>
+    <updated>2023-09-24T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.TimingAssistant/#1.0.1</id>
+    <content xml:lang="en" type="html">
+      
+    </content>
+  </entry>
   <entry>
     <title>Resample Perspective - 1.3.4</title>
     <link href="/depctrl-browser/macros/arch.Resample/"/>
@@ -236,15 +245,6 @@
     <content xml:lang="en" type="html">
       
         &lt;li&gt;Fix crash due to incomplete clipper2 reversion&lt;/li&gt;
-      
-    </content>
-  </entry>
-  <entry>
-    <title>Timing Assistant - 1.0.1</title>
-    <link href="/depctrl-browser/macros/phos.TimingAssistant/"/>
-    <updated>2023-01-06T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.TimingAssistant/#1.0.1</id>
-    <content xml:lang="en" type="html">
       
     </content>
   </entry>
