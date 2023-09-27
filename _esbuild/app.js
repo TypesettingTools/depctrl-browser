@@ -335,6 +335,17 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/macros/arch.SplitSections/",
+        name: "Split Tag Sections",
+        description: "Split subtitle lines at tags, creating a separate event for each section",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/macros/arch.Resample/",
         name: "Resample Perspective",
         description: "Apply after resampling a script in Aegisub to fix any lines with 3D rotations.",
