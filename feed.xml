@@ -4,11 +4,22 @@
   <subtitle>List of recently updated DependencyControl Macros.</subtitle>
   <link href="feed.xml" rel="self"/>
   <link href="https://typesettingtools.github.io/depctrl-browser/"/>
-  <updated>2023-09-27T00:00:00Z</updated>
+  <updated>2023-10-17T00:00:00Z</updated>
   <id>https://typesettingtools.github.io/depctrl-browser/</id>
   <author>
     <name>DepCtrl Browser</name>
   </author>
+  <entry>
+    <title>Phantom - 1.1.0</title>
+    <link href="/depctrl-browser/macros/petzku.Phantom/"/>
+    <updated>2023-10-17T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.Phantom/#1.1.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Add DepCtrl support to script itself, allowing for auto-update and submenu configuration&lt;/li&gt;
+      
+    </content>
+  </entry>
   <entry>
     <title>Split Tag Sections - 0.1.0</title>
     <link href="/depctrl-browser/macros/arch.SplitSections/"/>
@@ -410,17 +421,6 @@
         &lt;li&gt;Add three-liner checking&lt;/li&gt;
       
         &lt;li&gt;Skip normal checks on &#92;q2 lines, instead just warn of potential overwidth&lt;/li&gt;
-      
-    </content>
-  </entry>
-  <entry>
-    <title>Phantom - 1.0.1</title>
-    <link href="/depctrl-browser/macros/petzku.Phantom/"/>
-    <updated>2022-09-05T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.Phantom/#1.0.1</id>
-    <content xml:lang="en" type="html">
-      
-        &lt;li&gt;Fix handling of newlines&lt;/li&gt;
       
     </content>
   </entry>
