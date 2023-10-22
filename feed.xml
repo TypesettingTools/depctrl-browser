@@ -4,11 +4,22 @@
   <subtitle>List of recently updated DependencyControl Macros.</subtitle>
   <link href="feed.xml" rel="self"/>
   <link href="https://typesettingtools.github.io/depctrl-browser/"/>
-  <updated>2023-10-17T00:00:00Z</updated>
+  <updated>2023-10-22T00:00:00Z</updated>
   <id>https://typesettingtools.github.io/depctrl-browser/</id>
   <author>
     <name>DepCtrl Browser</name>
   </author>
+  <entry>
+    <title>Shapery - 2.5.1</title>
+    <link href="/depctrl-browser/macros/ILL.Shapery/"/>
+    <updated>2023-10-22T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.Shapery/#2.5.1</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Update Shapery&lt;/li&gt;
+      
+    </content>
+  </entry>
   <entry>
     <title>Phantom - 1.1.0</title>
     <link href="/depctrl-browser/macros/petzku.Phantom/"/>
@@ -72,17 +83,6 @@
     <updated>2023-08-21T00:00:00Z</updated>
     <id>https://typesettingtools.github.io/depctrl-browser/macros/zah.autoclip/#2.0.3</id>
     <content xml:lang="en" type="html">
-      
-    </content>
-  </entry>
-  <entry>
-    <title>Shapery - 2.5.0</title>
-    <link href="/depctrl-browser/macros/ILL.Shapery/"/>
-    <updated>2023-08-04T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.Shapery/#2.5.0</id>
-    <content xml:lang="en" type="html">
-      
-        &lt;li&gt;Update Shapery&lt;/li&gt;
       
     </content>
   </entry>

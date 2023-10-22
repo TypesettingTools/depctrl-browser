@@ -8,13 +8,13 @@
     "channels": {
       "main": {
         "default": true,
-        "version": "1.4.1",
-        "released": "2023-08-11",
+        "version": "1.4.2",
+        "released": "2023-10-22",
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL.moon",
-            "sha1": "0def579e15f51103e398ef8a27dbde5a758f39c8",
+            "sha1": "ec87975abd4734ccfe076b9a0e35d28515e63ff3",
             "_validHash": true
           },
           {
@@ -44,13 +44,13 @@
           {
             "name": "/Ass/Text/Tag.moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Text/Tag.moon",
-            "sha1": "686869dc728ccc4be3dbcbb549b17c062ae933cf",
+            "sha1": "6cbe306afb4f7e7db0bfadfd833283b70cb2fa72",
             "_validHash": true
           },
           {
             "name": "/Ass/Text/Tags.moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Text/Tags.moon",
-            "sha1": "d93f55ccb567fe44ee156272bf75d4183d1e9a42",
+            "sha1": "aa5ca3efb9ec5771b3e90274736243fb0388bb13",
             "_validHash": true
           },
           {
@@ -207,6 +207,9 @@
       ],
       "1.4.1": [
         "Fix empty tags"
+      ],
+      "1.4.2": [
+        "Update Shapery"
       ]
     },
     "_validHash": true,
@@ -219,7 +222,7 @@
     ],
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1697934512388,
+    "_fetchTime": 1698016845356,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ILL.ILL"
   }

@@ -5,11 +5,11 @@
     "channels": {
       "main": {
         "default": true,
-        "version": "2.5.0",
-        "released": "2023-08-04",
+        "version": "2.5.1",
+        "released": "2023-10-22",
         "files": [
           {
-            "sha1": "4e2607fbc1de4427c6fe4db185704abaf4cdaa3b",
+            "sha1": "61e300abfde95ea68341b75c1a39a277e5ccc18e",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/macros/ILL.Shapery.moon",
             "name": ".moon",
             "_validHash": true
@@ -70,18 +70,21 @@
       ],
       "2.5.0": [
         "Update Shapery"
+      ],
+      "2.5.1": [
+        "Update Shapery"
       ]
     },
     "name": "Shapery",
     "description": "Does several types of shape manipulations from the simplest to the most complex",
     "author": "ILLTeam",
     "_validHash": true,
-    "_defaultVersion": "2.5.0",
+    "_defaultVersion": "2.5.1",
     "_scriptData": {
       "name": "Shapery",
       "description": "Does several types of shape manipulations from the simplest to the most complex",
       "author": "ILLTeam",
-      "version": "2.5.0",
+      "version": "2.5.1",
       "namespace": "ILL.Shapery",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json"
@@ -89,7 +92,7 @@
     },
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1697934512388,
+    "_fetchTime": 1698016845356,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ILL.Shapery"
   }
