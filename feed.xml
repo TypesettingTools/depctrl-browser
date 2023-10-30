@@ -4,11 +4,22 @@
   <subtitle>List of recently updated DependencyControl Macros.</subtitle>
   <link href="feed.xml" rel="self"/>
   <link href="https://typesettingtools.github.io/depctrl-browser/"/>
-  <updated>2023-10-24T00:00:00Z</updated>
+  <updated>2023-10-30T00:00:00Z</updated>
   <id>https://typesettingtools.github.io/depctrl-browser/</id>
   <author>
     <name>DepCtrl Browser</name>
   </author>
+  <entry>
+    <title>Shapery - 2.5.2</title>
+    <link href="/depctrl-browser/macros/ILL.Shapery/"/>
+    <updated>2023-10-30T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.Shapery/#2.5.2</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Update Shapery&lt;/li&gt;
+      
+    </content>
+  </entry>
   <entry>
     <title>Envelope Distort - 1.1.1</title>
     <link href="/depctrl-browser/macros/ILL.EnvelopeDistort/"/>
@@ -17,17 +28,6 @@
     <content xml:lang="en" type="html">
       
         &lt;li&gt;Update Envelope Distort&lt;/li&gt;
-      
-    </content>
-  </entry>
-  <entry>
-    <title>Shapery - 2.5.1</title>
-    <link href="/depctrl-browser/macros/ILL.Shapery/"/>
-    <updated>2023-10-22T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.Shapery/#2.5.1</id>
-    <content xml:lang="en" type="html">
-      
-        &lt;li&gt;Update Shapery&lt;/li&gt;
       
     </content>
   </entry>
