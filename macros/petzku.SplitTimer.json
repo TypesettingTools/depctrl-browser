@@ -23,7 +23,7 @@
             "moduleName": "petzku.util",
             "name": "petzkuLib",
             "url": "https://github.com/petzku/Aegisub-Scripts",
-            "version": "0.3.0"
+            "version": "0.4.2"
           }
         ]
       }
@@ -60,7 +60,7 @@
     },
     "_feedName": "petzku's Automation Scripts",
     "_feedIdentifier": "7161932",
-    "_fetchTime": 1700427648849,
+    "_fetchTime": 1700429739260,
     "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "petzku.SplitTimer"
   }

@@ -7,22 +7,22 @@
     "description": "Various utility functions for use with petzku's Aegisub macros",
     "channels": {
       "stable": {
-        "version": "0.4.1",
-        "released": "2023-07-18",
+        "version": "0.4.2",
+        "released": "2023-11-19",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.4.1/modules/petzku/util.moon",
-            "sha1": "2372f0905257d0c5531cbc6de56a9ed5eb08c561",
-            "_validHash": true
+            "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.4.2/modules/petzku/util.moon",
+            "sha1": "9e10a6a761efb2546c7cbc077a9d721ef7dd4dc9",
+            "_validHash": false
           },
           {
             "name": "/tee.exe",
-            "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.4.1/modules/petzku/util/tee.exe",
+            "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.4.2/modules/petzku/util/tee.exe",
             "platform": "Windows-x64",
             "sha1": "054c04d341152311d40aaab4049e6c2c26646b3a",
-            "_validHash": true
+            "_validHash": false
           }
         ]
       }
@@ -40,9 +40,12 @@
       ],
       "0.4.1": [
         "Fix typo in run_cmd on Unix"
+      ],
+      "0.4.2": [
+        "Transforms: change both-negative-times move to pos tag instead"
       ]
     },
-    "_validHash": true,
+    "_validHash": false,
     "_reverseDependency": [
       "petzku.EncodeClip",
       "petzku.SplitTimer",
@@ -51,7 +54,7 @@
     ],
     "_feedName": "petzku's Automation Scripts",
     "_feedIdentifier": "7161932",
-    "_fetchTime": 1700427648849,
+    "_fetchTime": 1700429739260,
     "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "petzku.util"
   }
