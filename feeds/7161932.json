@@ -59,7 +59,7 @@
       },
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1700429739260,
+      "_fetchTime": 1700432444038,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.Accenter"
     },
@@ -71,14 +71,14 @@
       "description": "Automatically set/unset \\q2 on lines with/without manual linebreaks",
       "channels": {
         "stable": {
-          "version": "0.5.0",
-          "released": "2022-11-12",
+          "version": "0.5.1",
+          "released": "2023-11-19",
           "default": true,
           "files": [
             {
               "name": ".moon",
               "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/macros/petzku.Autowrapper.moon",
-              "sha1": "7ad3e14a87b3409f8693f2d866393106be6df4d2",
+              "sha1": "4858da3b774aa3c536e7553c5fc2312bb62e3ad0",
               "_validHash": true
             }
           ]
@@ -103,21 +103,26 @@
           "Add options to not add/remove tags in lines (for real this time)",
           "Add three-liner checking",
           "Skip normal checks on \\q2 lines, instead just warn of potential overwidth"
+        ],
+        "0.5.1": [
+          "Include feed URL for DepCtrl updating"
         ]
       },
       "_validHash": true,
-      "_defaultVersion": "0.5.0",
+      "_defaultVersion": "0.5.1",
       "_scriptData": {
         "name": "Autowrapper",
         "description": "Automatically set/unset \\q2 on lines with/without manual linebreaks",
         "author": "petzku",
-        "version": "0.5.0",
+        "version": "0.5.1",
         "namespace": "petzku.Autowrapper",
-        "_feedData": null
+        "_feedData": {
+          "feed": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/DependencyControl.json"
+        }
       },
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1700429739260,
+      "_fetchTime": 1700432444038,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.Autowrapper"
     },
@@ -165,7 +170,7 @@
       },
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1700429739260,
+      "_fetchTime": 1700432444038,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.ClipSize"
     },
@@ -220,7 +225,7 @@
       },
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1700429739260,
+      "_fetchTime": 1700432444038,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.CombineGradientLines"
     },
@@ -317,7 +322,7 @@
       },
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1700429739260,
+      "_fetchTime": 1700432444038,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.EncodeClip"
     },
@@ -365,7 +370,7 @@
       },
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1700429739260,
+      "_fetchTime": 1700432444038,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.ExtrapolateMove"
     },
@@ -413,7 +418,7 @@
       },
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1700429739260,
+      "_fetchTime": 1700432444038,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.JumpToNextPlus"
     },
@@ -425,14 +430,14 @@
       "description": "Converts the last point of a vectorial clip into a new origin point",
       "channels": {
         "stable": {
-          "version": "0.3.1",
+          "version": "0.3.2",
           "released": "2023-11-19",
           "default": true,
           "files": [
             {
               "name": ".moon",
               "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/macros/petzku.NewClipShape.moon",
-              "sha1": "b7ebc857b56a8c20cc9b93ab10954043074cb811",
+              "sha1": "f6c4a4d912c30c0ab55bcb128c64e359f18d03a1",
               "_validHash": true
             }
           ]
@@ -441,21 +446,26 @@
       "changelog": {
         "0.3.1": [
           "Initial release"
+        ],
+        "0.3.2": [
+          "Include feed URL for DepCtrl updating"
         ]
       },
       "_validHash": true,
-      "_defaultVersion": "0.3.1",
+      "_defaultVersion": "0.3.2",
       "_scriptData": {
         "name": "New Clip Shape",
         "description": "Converts the last point of a vectorial clip into a new origin point",
         "author": "petzku",
-        "version": "0.3.1",
+        "version": "0.3.2",
         "namespace": "petzku.NewClipShape",
-        "_feedData": null
+        "_feedData": {
+          "feed": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/DependencyControl.json"
+        }
       },
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1700429739260,
+      "_fetchTime": 1700432444038,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.NewClipShape"
     },
@@ -467,14 +477,14 @@
       "description": "Align line content to match others by adding text and abusing transparency",
       "channels": {
         "stable": {
-          "version": "1.1.0",
-          "released": "2023-10-17",
+          "version": "1.1.1",
+          "released": "2023-11-19",
           "default": true,
           "files": [
             {
               "name": ".moon",
               "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/macros/petzku.Phantom.moon",
-              "sha1": "d44967267f1a6aff9150e630e5cf90897293b01f",
+              "sha1": "329d2f498869c1cd258bf931424267d3ac3a4a20",
               "_validHash": true
             }
           ]
@@ -489,21 +499,26 @@
         ],
         "1.1.0": [
           "Add DepCtrl support to script itself, allowing for auto-update and submenu configuration"
+        ],
+        "1.1.1": [
+          "Include feed URL for DepCtrl updating"
         ]
       },
       "_validHash": true,
-      "_defaultVersion": "1.1.0",
+      "_defaultVersion": "1.1.1",
       "_scriptData": {
         "name": "Phantom",
         "description": "Align line content to match others by adding text and abusing transparency",
         "author": "petzku",
-        "version": "1.1.0",
+        "version": "1.1.1",
         "namespace": "petzku.Phantom",
-        "_feedData": null
+        "_feedData": {
+          "feed": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/DependencyControl.json"
+        }
       },
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1700429739260,
+      "_fetchTime": 1700432444038,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.Phantom"
     },
@@ -515,14 +530,14 @@
       "description": "Transforms \\pos-based positioning into margin and vice versa",
       "channels": {
         "stable": {
-          "version": "2.0.0",
-          "released": "2021-06-23",
+          "version": "2.0.1",
+          "released": "2023-11-19",
           "default": true,
           "files": [
             {
               "name": ".moon",
               "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/macros/petzku.PosToMargin.moon",
-              "sha1": "8a750eb595f2e4355543e7664184ec54fc3490fb",
+              "sha1": "da47c05cddf7a517c8bceed4d483e768693120bd",
               "_validHash": true
             }
           ]
@@ -541,21 +556,26 @@
         "2.0.0": [
           "Added margin -> pos transform",
           "Renamed from 'Position to Margin'"
+        ],
+        "2.0.1": [
+          "Include feed URL for DepCtrl updating"
         ]
       },
       "_validHash": true,
-      "_defaultVersion": "2.0.0",
+      "_defaultVersion": "2.0.1",
       "_scriptData": {
         "name": "Margin Position",
         "description": "Transforms \\pos-based positioning into margin and vice versa",
         "author": "petzku",
-        "version": "2.0.0",
+        "version": "2.0.1",
         "namespace": "petzku.PosToMargin",
-        "_feedData": null
+        "_feedData": {
+          "feed": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/DependencyControl.json"
+        }
       },
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1700429739260,
+      "_fetchTime": 1700432444038,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.PosToMargin"
     },
@@ -567,14 +587,14 @@
       "description": "Snaps line start and end times to keyframes",
       "channels": {
         "stable": {
-          "version": "1.0.0",
-          "released": "2022-05-16",
+          "version": "1.0.1",
+          "released": "2023-11-19",
           "default": true,
           "files": [
             {
               "name": ".moon",
               "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/macros/petzku.Snapper.moon",
-              "sha1": "69ffcda6834fdf4e6bff576bf62b4ff9185e6ffd",
+              "sha1": "2a7c6aa2c74c12c6271d9ce79c7da2fa0767a9e5",
               "_validHash": true
             }
           ]
@@ -583,21 +603,26 @@
       "changelog": {
         "1.0.0": [
           "Add to DepCtrl"
+        ],
+        "1.0.1": [
+          "Include feed URL for DepCtrl updating"
         ]
       },
       "_validHash": true,
-      "_defaultVersion": "1.0.0",
+      "_defaultVersion": "1.0.1",
       "_scriptData": {
         "name": "Snapper",
         "description": "Snaps line start and end times to keyframes",
         "author": "petzku",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "namespace": "petzku.Snapper",
-        "_feedData": null
+        "_feedData": {
+          "feed": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/DependencyControl.json"
+        }
       },
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1700429739260,
+      "_fetchTime": 1700432444038,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.Snapper"
     },
@@ -609,14 +634,14 @@
       "description": "Split lines in selection to shorter segments, preserving any transforms",
       "channels": {
         "stable": {
-          "version": "1.2.1",
-          "released": "2023-07-21",
+          "version": "1.2.2",
+          "released": "2023-11-19",
           "default": true,
           "files": [
             {
               "name": ".moon",
               "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/macros/petzku.SplitTimer.moon",
-              "sha1": "cb35840d7c066db15010529b9348530d507d6675",
+              "sha1": "41f1f3c2064f8c6a6272e5aa3f16f4e4df669aa7",
               "_validHash": true
             }
           ],
@@ -648,21 +673,26 @@
         ],
         "1.2.1": [
           "Fix infinite loop in 'split on video frame' mode"
+        ],
+        "1.2.2": [
+          "Include feed URL for DepCtrl updating"
         ]
       },
       "_validHash": true,
-      "_defaultVersion": "1.2.1",
+      "_defaultVersion": "1.2.2",
       "_scriptData": {
         "name": "SplitTimer",
         "description": "Split lines in selection into shorter segments, preserving any transforms",
         "author": "petzku",
-        "version": "1.2.1",
+        "version": "1.2.2",
         "namespace": "petzku.SplitTimer",
-        "_feedData": null
+        "_feedData": {
+          "feed": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/DependencyControl.json"
+        }
       },
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1700429739260,
+      "_fetchTime": 1700432444038,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.SplitTimer"
     },
@@ -738,7 +768,7 @@
       },
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1700429739260,
+      "_fetchTime": 1700432444038,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.Typewriter"
     }
@@ -752,15 +782,15 @@
       "description": "A library of easy-to-use easing functions for transforms",
       "channels": {
         "stable": {
-          "version": "0.5.0",
-          "released": "2022-07-23",
+          "version": "0.5.1",
+          "released": "2023-11-19",
           "default": true,
           "files": [
             {
               "name": ".moon",
-              "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.easings-v0.5.0/modules/petzku/easings.moon",
-              "sha1": "84b5507844e193f9257baf8db3d85ff734048e6f",
-              "_validHash": true
+              "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.easings-v0.5.1/modules/petzku/easings.moon",
+              "sha1": "ec6f820670073dfa50b6e2101d35ac1de841cbd0",
+              "_validHash": false
             }
           ]
         }
@@ -771,13 +801,16 @@
         ],
         "0.5.0": [
           "Expose internals and other convenience functions for direct easer manipulation in `easings.raw`"
+        ],
+        "0.5.1": [
+          "Include feed URL for DepCtrl updating"
         ]
       },
-      "_validHash": true,
+      "_validHash": false,
       "_reverseDependency": [],
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1700429739260,
+      "_fetchTime": 1700432444038,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.easings"
     },
@@ -789,19 +822,19 @@
       "description": "Various utility functions for use with petzku's Aegisub macros",
       "channels": {
         "stable": {
-          "version": "0.4.2",
+          "version": "0.4.3",
           "released": "2023-11-19",
           "default": true,
           "files": [
             {
               "name": ".moon",
-              "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.4.2/modules/petzku/util.moon",
-              "sha1": "9e10a6a761efb2546c7cbc077a9d721ef7dd4dc9",
+              "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.4.3/modules/petzku/util.moon",
+              "sha1": "1655512e006c654458a63ffad432309984b5a7dc",
               "_validHash": false
             },
             {
               "name": "/tee.exe",
-              "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.4.2/modules/petzku/util/tee.exe",
+              "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.4.3/modules/petzku/util/tee.exe",
               "platform": "Windows-x64",
               "sha1": "054c04d341152311d40aaab4049e6c2c26646b3a",
               "_validHash": false
@@ -825,6 +858,9 @@
         ],
         "0.4.2": [
           "Transforms: change both-negative-times move to pos tag instead"
+        ],
+        "0.4.3": [
+          "Include feed URL for DepCtrl updating"
         ]
       },
       "_validHash": false,
@@ -836,14 +872,14 @@
       ],
       "_feedName": "petzku's Automation Scripts",
       "_feedIdentifier": "7161932",
-      "_fetchTime": 1700429739260,
+      "_fetchTime": 1700432444038,
       "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "petzku.util"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
   "_identifier": "7161932",
-  "_fetchTime": 1700429739260,
+  "_fetchTime": 1700432444038,
   "_defective": "Some files unreachable",
   "_validHash": false
 }

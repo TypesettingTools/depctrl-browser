@@ -7,19 +7,19 @@
     "description": "Various utility functions for use with petzku's Aegisub macros",
     "channels": {
       "stable": {
-        "version": "0.4.2",
+        "version": "0.4.3",
         "released": "2023-11-19",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.4.2/modules/petzku/util.moon",
-            "sha1": "9e10a6a761efb2546c7cbc077a9d721ef7dd4dc9",
+            "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.4.3/modules/petzku/util.moon",
+            "sha1": "1655512e006c654458a63ffad432309984b5a7dc",
             "_validHash": false
           },
           {
             "name": "/tee.exe",
-            "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.4.2/modules/petzku/util/tee.exe",
+            "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.4.3/modules/petzku/util/tee.exe",
             "platform": "Windows-x64",
             "sha1": "054c04d341152311d40aaab4049e6c2c26646b3a",
             "_validHash": false
@@ -43,6 +43,9 @@
       ],
       "0.4.2": [
         "Transforms: change both-negative-times move to pos tag instead"
+      ],
+      "0.4.3": [
+        "Include feed URL for DepCtrl updating"
       ]
     },
     "_validHash": false,
@@ -54,7 +57,7 @@
     ],
     "_feedName": "petzku's Automation Scripts",
     "_feedIdentifier": "7161932",
-    "_fetchTime": 1700429739260,
+    "_fetchTime": 1700432444038,
     "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "petzku.util"
   }

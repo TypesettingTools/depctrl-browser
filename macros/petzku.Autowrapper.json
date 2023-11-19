@@ -7,14 +7,14 @@
     "description": "Automatically set/unset \\q2 on lines with/without manual linebreaks",
     "channels": {
       "stable": {
-        "version": "0.5.0",
-        "released": "2022-11-12",
+        "version": "0.5.1",
+        "released": "2023-11-19",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/macros/petzku.Autowrapper.moon",
-            "sha1": "7ad3e14a87b3409f8693f2d866393106be6df4d2",
+            "sha1": "4858da3b774aa3c536e7553c5fc2312bb62e3ad0",
             "_validHash": true
           }
         ]
@@ -39,21 +39,26 @@
         "Add options to not add/remove tags in lines (for real this time)",
         "Add three-liner checking",
         "Skip normal checks on \\q2 lines, instead just warn of potential overwidth"
+      ],
+      "0.5.1": [
+        "Include feed URL for DepCtrl updating"
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "0.5.0",
+    "_defaultVersion": "0.5.1",
     "_scriptData": {
       "name": "Autowrapper",
       "description": "Automatically set/unset \\q2 on lines with/without manual linebreaks",
       "author": "petzku",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "namespace": "petzku.Autowrapper",
-      "_feedData": null
+      "_feedData": {
+        "feed": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/DependencyControl.json"
+      }
     },
     "_feedName": "petzku's Automation Scripts",
     "_feedIdentifier": "7161932",
-    "_fetchTime": 1700429739260,
+    "_fetchTime": 1700432444038,
     "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "petzku.Autowrapper"
   }

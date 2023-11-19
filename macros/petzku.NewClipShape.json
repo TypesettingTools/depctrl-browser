@@ -7,14 +7,14 @@
     "description": "Converts the last point of a vectorial clip into a new origin point",
     "channels": {
       "stable": {
-        "version": "0.3.1",
+        "version": "0.3.2",
         "released": "2023-11-19",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/macros/petzku.NewClipShape.moon",
-            "sha1": "b7ebc857b56a8c20cc9b93ab10954043074cb811",
+            "sha1": "f6c4a4d912c30c0ab55bcb128c64e359f18d03a1",
             "_validHash": true
           }
         ]
@@ -23,21 +23,26 @@
     "changelog": {
       "0.3.1": [
         "Initial release"
+      ],
+      "0.3.2": [
+        "Include feed URL for DepCtrl updating"
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "0.3.1",
+    "_defaultVersion": "0.3.2",
     "_scriptData": {
       "name": "New Clip Shape",
       "description": "Converts the last point of a vectorial clip into a new origin point",
       "author": "petzku",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "namespace": "petzku.NewClipShape",
-      "_feedData": null
+      "_feedData": {
+        "feed": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/DependencyControl.json"
+      }
     },
     "_feedName": "petzku's Automation Scripts",
     "_feedIdentifier": "7161932",
-    "_fetchTime": 1700429739260,
+    "_fetchTime": 1700432444038,
     "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "petzku.NewClipShape"
   }

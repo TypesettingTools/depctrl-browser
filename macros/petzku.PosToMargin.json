@@ -7,14 +7,14 @@
     "description": "Transforms \\pos-based positioning into margin and vice versa",
     "channels": {
       "stable": {
-        "version": "2.0.0",
-        "released": "2021-06-23",
+        "version": "2.0.1",
+        "released": "2023-11-19",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/macros/petzku.PosToMargin.moon",
-            "sha1": "8a750eb595f2e4355543e7664184ec54fc3490fb",
+            "sha1": "da47c05cddf7a517c8bceed4d483e768693120bd",
             "_validHash": true
           }
         ]
@@ -33,21 +33,26 @@
       "2.0.0": [
         "Added margin -> pos transform",
         "Renamed from 'Position to Margin'"
+      ],
+      "2.0.1": [
+        "Include feed URL for DepCtrl updating"
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "2.0.0",
+    "_defaultVersion": "2.0.1",
     "_scriptData": {
       "name": "Margin Position",
       "description": "Transforms \\pos-based positioning into margin and vice versa",
       "author": "petzku",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "namespace": "petzku.PosToMargin",
-      "_feedData": null
+      "_feedData": {
+        "feed": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/DependencyControl.json"
+      }
     },
     "_feedName": "petzku's Automation Scripts",
     "_feedIdentifier": "7161932",
-    "_fetchTime": 1700429739260,
+    "_fetchTime": 1700432444038,
     "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "petzku.PosToMargin"
   }
