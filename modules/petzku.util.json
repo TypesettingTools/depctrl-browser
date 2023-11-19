@@ -15,14 +15,14 @@
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.4.3/modules/petzku/util.moon",
             "sha1": "1655512e006c654458a63ffad432309984b5a7dc",
-            "_validHash": false
+            "_validHash": true
           },
           {
             "name": "/tee.exe",
             "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.4.3/modules/petzku/util/tee.exe",
             "platform": "Windows-x64",
             "sha1": "054c04d341152311d40aaab4049e6c2c26646b3a",
-            "_validHash": false
+            "_validHash": true
           }
         ]
       }
@@ -48,7 +48,7 @@
         "Include feed URL for DepCtrl updating"
       ]
     },
-    "_validHash": false,
+    "_validHash": true,
     "_reverseDependency": [
       "petzku.EncodeClip",
       "petzku.SplitTimer",
@@ -57,7 +57,7 @@
     ],
     "_feedName": "petzku's Automation Scripts",
     "_feedIdentifier": "7161932",
-    "_fetchTime": 1700432444038,
+    "_fetchTime": 1700435441918,
     "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "petzku.util"
   }

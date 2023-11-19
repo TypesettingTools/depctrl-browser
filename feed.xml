@@ -4,11 +4,30 @@
   <subtitle>List of recently updated DependencyControl Macros.</subtitle>
   <link href="feed.xml" rel="self"/>
   <link href="https://typesettingtools.github.io/depctrl-browser/"/>
-  <updated>2023-11-19T00:00:00Z</updated>
+  <updated>2023-11-20T00:00:00Z</updated>
   <id>https://typesettingtools.github.io/depctrl-browser/</id>
   <author>
     <name>DepCtrl Browser</name>
   </author>
+  <entry>
+    <title>Encode Clip - 0.9.0</title>
+    <link href="/depctrl-browser/macros/petzku.EncodeClip/"/>
+    <updated>2023-11-20T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.EncodeClip/#0.9.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Add option in config to default to a certain audio track ID (disabled by default)&lt;/li&gt;
+      
+        &lt;li&gt;Refactor command generation logic&lt;/li&gt;
+      
+        &lt;li&gt;Fix some issues with default mpv options&lt;/li&gt;
+      
+        &lt;li&gt;Change GUI Config and Cancel hotkeys (from G/C to C/N)&lt;/li&gt;
+      
+        &lt;li&gt;Improve Config GUI order and labels&lt;/li&gt;
+      
+    </content>
+  </entry>
   <entry>
     <title>Autowrapper - 0.5.1</title>
     <link href="/depctrl-browser/macros/petzku.Autowrapper/"/>
@@ -158,17 +177,6 @@
     <updated>2023-07-22T00:00:00Z</updated>
     <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.AutoFade/#1.1.0</id>
     <content xml:lang="en" type="html">
-      
-    </content>
-  </entry>
-  <entry>
-    <title>Encode Clip - 0.8.5</title>
-    <link href="/depctrl-browser/macros/petzku.EncodeClip/"/>
-    <updated>2023-07-18T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.EncodeClip/#0.8.5</id>
-    <content xml:lang="en" type="html">
-      
-        &lt;li&gt;Bump util dependency to 0.4.1&lt;/li&gt;
       
     </content>
   </entry>
