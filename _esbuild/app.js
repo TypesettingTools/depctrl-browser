@@ -115,6 +115,17 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/macros/petzku.NewClipShape/",
+        name: "New Clip Shape",
+        description: "Converts the last point of a vectorial clip into a new origin point",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/macros/petzku.Phantom/",
         name: "Phantom",
         description: "Align line content to match others by adding text and abusing transparency",
