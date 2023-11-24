@@ -7,14 +7,14 @@
     "description": "Apply after resampling a script in Aegisub to fix any lines with 3D rotations.",
     "channels": {
       "release": {
-        "version": "2.0.0",
-        "released": "2023-11-23",
+        "version": "2.1.0",
+        "released": "2023-11-24",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Resample-v2.0.0/macros/arch.Resample.moon",
-            "sha1": "b9760644db71132f2e70452bb36d49091ee7ab7a",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Resample-v2.1.0/macros/arch.Resample.moon",
+            "sha1": "638c6aa9ed732bc83a4b9d684d71b632f52f24fe",
             "_validHash": true
           }
         ],
@@ -36,7 +36,7 @@
             "moduleName": "arch.Perspective",
             "name": "Perspective",
             "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts",
-            "version": "0.2.5"
+            "version": "1.0.0"
           }
         ]
       }
@@ -74,15 +74,21 @@
         "Add proper handling for drawings",
         "Bump Perspective dependency to fix resampling in cases involving 180 degree rotations",
         "Add warning messages for cases where the script is likely to break"
+      ],
+      "2.0.0": [
+        "Add support for nofax \\org mode"
+      ],
+      "2.1.0": [
+        "Move some more logic over to the Perspective module"
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "2.0.0",
+    "_defaultVersion": "2.1.0",
     "_scriptData": {
       "name": "Resample Perspective",
       "description": "Apply after resampling a script in Aegisub to fix any lines with 3D rotations.",
       "author": "arch1t3cht",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "namespace": "arch.Resample",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json"
@@ -90,7 +96,7 @@
     },
     "_feedName": "arch1t3cht's Aegisub Scripts",
     "_feedIdentifier": "b409fc1",
-    "_fetchTime": 1700765430911,
+    "_fetchTime": 1700787358542,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "arch.Resample"
   }

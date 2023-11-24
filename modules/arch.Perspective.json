@@ -7,14 +7,14 @@
     "description": "Math functions for dealing with perspective transformations.",
     "channels": {
       "release": {
-        "version": "0.2.5",
-        "released": "2023-11-23",
+        "version": "1.0.0",
+        "released": "2023-11-24",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Perspective-v0.2.5/modules/arch/Perspective.moon",
-            "sha1": "010919c5617a2b9245075253b74112ddd85ecf10",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Perspective-v1.0.0/modules/arch/Perspective.moon",
+            "sha1": "52c9fda4efb5046b2465efab33a75bd3528b05dd",
             "_validHash": true
           }
         ],
@@ -48,6 +48,12 @@
       ],
       "0.2.4": [
         "Fix the tagsFromQuad computation when 180 degree rotations are involved"
+      ],
+      "0.2.5": [
+        "Add support for a nofax org mode"
+      ],
+      "1.0.0": [
+        "Add prepareForPerspective function that wraps the remaining logic needed for general perspective computations with ASSFoundation"
       ]
     },
     "_validHash": true,
@@ -57,7 +63,7 @@
     ],
     "_feedName": "arch1t3cht's Aegisub Scripts",
     "_feedIdentifier": "b409fc1",
-    "_fetchTime": 1700765430911,
+    "_fetchTime": 1700787358542,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "arch.Perspective"
   }

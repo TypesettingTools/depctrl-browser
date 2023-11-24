@@ -107,14 +107,14 @@
       ],
       "_feedName": "SubInspector",
       "_feedIdentifier": "881e0ee",
-      "_fetchTime": 1700765430714,
+      "_fetchTime": 1700787358138,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/SubInspector/master/DependencyControl.json",
       "_namespace": "SubInspector.Inspector"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/SubInspector/master/DependencyControl.json",
   "_identifier": "881e0ee",
-  "_fetchTime": 1700765430714,
+  "_fetchTime": 1700787358138,
   "macros": {},
   "_validHash": true
 }

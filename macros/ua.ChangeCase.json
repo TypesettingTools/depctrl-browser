@@ -38,7 +38,7 @@
     },
     "_feedName": "unanimated's Automation Scripts",
     "_feedIdentifier": "720a751",
-    "_fetchTime": 1700765430799,
+    "_fetchTime": 1700787358326,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "ua.ChangeCase"
   },
@@ -81,7 +81,7 @@
     },
     "_feedName": "unanimated's Automation Scripts",
     "_feedIdentifier": "827532f",
-    "_fetchTime": 1700765431095,
+    "_fetchTime": 1700787358674,
     "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
     "_namespace": "ua.ChangeCase"
   }
