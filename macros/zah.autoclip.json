@@ -8,7 +8,7 @@
     "channels": {
       "main": {
         "version": "2.0.5",
-        "released": "2023-09-24",
+        "released": "2023-12-20",
         "default": true,
         "files": [
           {
@@ -52,7 +52,7 @@
     },
     "_feedName": "Zahuczky's Automation Scripts",
     "_feedIdentifier": "08cbca4",
-    "_fetchTime": 1703092552479,
+    "_fetchTime": 1703092850185,
     "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "zah.autoclip"
   }
