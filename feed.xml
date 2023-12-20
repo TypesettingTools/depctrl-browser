@@ -151,6 +151,17 @@
     </content>
   </entry>
   <entry>
+    <title>AutoClip - 2.0.5
+2.0.3</title>
+    <link href="/depctrl-browser/macros/zah.autoclip/"/>
+    <updated>2023-09-24T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/zah.autoclip/#2.0.5
+2.0.3</id>
+    <content xml:lang="en" type="html">
+      
+    </content>
+  </entry>
+  <entry>
     <title>Derive Perspective Track - 1.1.1</title>
     <link href="/depctrl-browser/macros/arch.DerivePerspTrack/"/>
     <updated>2023-08-31T00:00:00Z</updated>
@@ -158,15 +169,6 @@
     <content xml:lang="en" type="html">
       
         &lt;li&gt;Bump ArchMath dependency to fix a bug&lt;/li&gt;
-      
-    </content>
-  </entry>
-  <entry>
-    <title>AutoClip - 2.0.3</title>
-    <link href="/depctrl-browser/macros/zah.autoclip/"/>
-    <updated>2023-08-21T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/zah.autoclip/#2.0.3</id>
-    <content xml:lang="en" type="html">
       
     </content>
   </entry>
