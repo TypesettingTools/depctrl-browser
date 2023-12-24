@@ -38,7 +38,7 @@
     },
     "_feedName": "unanimated's Automation Scripts",
     "_feedIdentifier": "720a751",
-    "_fetchTime": 1703092849810,
+    "_fetchTime": 1703377816781,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "ua.NecrosCopy"
   },
@@ -81,7 +81,7 @@
     },
     "_feedName": "unanimated's Automation Scripts",
     "_feedIdentifier": "827532f",
-    "_fetchTime": 1703092850342,
+    "_fetchTime": 1703377817137,
     "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
     "_namespace": "ua.NecrosCopy"
   }
