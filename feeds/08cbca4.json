@@ -94,7 +94,7 @@
       },
       "_feedName": "Zahuczky's Automation Scripts",
       "_feedIdentifier": "08cbca4",
-      "_fetchTime": 1703982656107,
+      "_fetchTime": 1704196240140,
       "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zah.pers-mo_BETA"
     },
@@ -113,8 +113,8 @@
             {
               "name": ".lua",
               "url": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/macros/zah.aegi-color-track.lua",
-              "sha1": "2662a47b77ef3a34b5e1494dfd7cede4ba293ce4",
-              "_validHash": false
+              "sha1": "a594b9df88269bde3e8ceb8925d6337d64f2efa3",
+              "_validHash": true
             }
           ],
           "requiredModules": [
@@ -151,7 +151,7 @@
           "Refactor internal handling of timecodes"
         ]
       },
-      "_validHash": false,
+      "_validHash": true,
       "_defaultVersion": "2.0.2",
       "_scriptData": {
         "name": "Aegisub-Color-Tracking",
@@ -165,7 +165,7 @@
       },
       "_feedName": "Zahuczky's Automation Scripts",
       "_feedIdentifier": "08cbca4",
-      "_fetchTime": 1703982656107,
+      "_fetchTime": 1704196240140,
       "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zah.aegi-color-track"
     },
@@ -222,14 +222,14 @@
       },
       "_feedName": "Zahuczky's Automation Scripts",
       "_feedIdentifier": "08cbca4",
-      "_fetchTime": 1703982656107,
+      "_fetchTime": 1704196240140,
       "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zah.autoclip"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "08cbca4",
-  "_fetchTime": 1703982656107,
+  "_fetchTime": 1704196240140,
   "modules": {},
-  "_validHash": false
+  "_validHash": true
 }
