@@ -23,13 +23,13 @@
     </content>
   </entry>
   <entry>
-    <title>Aegisub Perspective-Motion - 0.1.0</title>
+    <title>Aegisub Perspective-Motion - 0.1.1</title>
     <link href="/depctrl-browser/macros/arch.PerspectiveMotion/"/>
     <updated>2024-01-16T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.PerspectiveMotion/#0.1.0</id>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.PerspectiveMotion/#0.1.1</id>
     <content xml:lang="en" type="html">
       
-        &lt;li&gt;Initial Release&lt;/li&gt;
+        &lt;li&gt;Fix crash on empty clipboard on Windows&lt;/li&gt;
       
     </content>
   </entry>
