@@ -967,6 +967,7 @@
       "phos.AutoFade",
       "phos.ExtrapolateTracking",
       "arch.DerivePerspTrack",
+      "arch.PerspectiveMotion",
       "arch.SplitSections",
       "arch.Resample",
       "Flux.ScaleRotTags",
@@ -986,7 +987,7 @@
     ],
     "_feedName": "ASSFoundation",
     "_feedIdentifier": "92c766d",
-    "_fetchTime": 1705434935495,
+    "_fetchTime": 1705439767967,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json",
     "_namespace": "l0.ASSFoundation"
   }

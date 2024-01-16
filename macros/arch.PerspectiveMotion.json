@@ -1,0 +1,67 @@
+[
+  {
+    "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.PerspectiveMotion-v@{version}/macros/arch.PerspectiveMotion",
+    "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts#arch.PerspectiveMotion",
+    "author": "arch1t3cht",
+    "name": "Aegisub Perspective-Motion",
+    "description": "Apply perspective motion tracking data",
+    "channels": {
+      "release": {
+        "version": "0.1.0",
+        "released": "2024-01-16",
+        "default": true,
+        "files": [
+          {
+            "name": ".moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.PerspectiveMotion-v0.1.0/macros/arch.PerspectiveMotion.moon",
+            "sha1": "25c9fe23d44f32c52a7c377a91621d1d7d4cb98b",
+            "_validHash": true
+          }
+        ],
+        "requiredModules": [
+          {
+            "moduleName": "l0.ASSFoundation",
+            "name": "ASSFoundation",
+            "url": "https://github.com/TypesettingTools/ASSFoundation",
+            "version": "0.5.0",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json"
+          },
+          {
+            "moduleName": "arch.Math",
+            "name": "ArchMath",
+            "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts",
+            "version": "0.1.8"
+          },
+          {
+            "moduleName": "arch.Perspective",
+            "name": "Perspective",
+            "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts",
+            "version": "1.1.0"
+          }
+        ]
+      }
+    },
+    "changelog": {
+      "0.1.0": [
+        "Initial Release"
+      ]
+    },
+    "_validHash": true,
+    "_defaultVersion": "0.1.0",
+    "_scriptData": {
+      "name": "Aegisub Perspective-Motion",
+      "description": "Apply perspective motion tracking data",
+      "author": "arch1t3cht",
+      "version": "0.1.0",
+      "namespace": "arch.PerspectiveMotion",
+      "_feedData": {
+        "feed": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json"
+      }
+    },
+    "_feedName": "arch1t3cht's Aegisub Scripts",
+    "_feedIdentifier": "b409fc1",
+    "_fetchTime": 1705439768161,
+    "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
+    "_namespace": "arch.PerspectiveMotion"
+  }
+]

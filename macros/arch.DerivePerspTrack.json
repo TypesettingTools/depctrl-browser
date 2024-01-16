@@ -7,14 +7,14 @@
     "description": "Create a power-pin track file from the outer perspective quads of a set of lines.",
     "channels": {
       "release": {
-        "version": "1.1.1",
-        "released": "2023-08-31",
+        "version": "1.1.2",
+        "released": "2024-01-16",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.DerivePerspTrack-v1.1.1/macros/arch.DerivePerspTrack.moon",
-            "sha1": "a2aacc3943fac7189620ef70be6fba64c96da38b",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.DerivePerspTrack-v1.1.2/macros/arch.DerivePerspTrack.moon",
+            "sha1": "5dd6c700cfa148b1cd9d20e97fa59033090c07fe",
             "_validHash": true
           }
         ],
@@ -57,15 +57,19 @@
       ],
       "1.1.1": [
         "Bump ArchMath dependency to fix a bug"
+      ],
+      "1.1.2": [
+        "Remove unused Line dependency",
+        "Switch to prepareForPerspective function"
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "1.1.1",
+    "_defaultVersion": "1.1.2",
     "_scriptData": {
       "name": "Derive Perspective Track",
       "description": "Create a power-pin track file from the outer perspective quads of a set of lines.",
       "author": "arch1t3cht",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "namespace": "arch.DerivePerspTrack",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json"
@@ -73,7 +77,7 @@
     },
     "_feedName": "arch1t3cht's Aegisub Scripts",
     "_feedIdentifier": "b409fc1",
-    "_fetchTime": 1705434935669,
+    "_fetchTime": 1705439768161,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "arch.DerivePerspTrack"
   }

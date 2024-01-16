@@ -346,6 +346,17 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/macros/arch.PerspectiveMotion/",
+        name: "Aegisub Perspective-Motion",
+        description: "Apply perspective motion tracking data",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/macros/arch.SplitSections/",
         name: "Split Tag Sections",
         description: "Split subtitle lines at tags, creating a separate event for each section",

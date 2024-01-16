@@ -7,14 +7,14 @@
     "description": "Math functions for dealing with perspective transformations.",
     "channels": {
       "release": {
-        "version": "1.0.0",
-        "released": "2023-11-24",
+        "version": "1.1.0",
+        "released": "2024-01-16",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Perspective-v1.0.0/modules/arch/Perspective.moon",
-            "sha1": "52c9fda4efb5046b2465efab33a75bd3528b05dd",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Perspective-v1.1.0/modules/arch/Perspective.moon",
+            "sha1": "ed62bc8a13aeacf27da88ed4f266941d4d1915be",
             "_validHash": true
           }
         ],
@@ -54,16 +54,23 @@
       ],
       "1.0.0": [
         "Add prepareForPerspective function that wraps the remaining logic needed for general perspective computations with ASSFoundation"
+      ],
+      "1.1.0": [
+        "Add Quad.rect function",
+        "Remove stray code line in prepareForPerspective",
+        "Fix bounds calculation for drawings",
+        "Export an_xshift and an_yshift"
       ]
     },
     "_validHash": true,
     "_reverseDependency": [
       "arch.DerivePerspTrack",
+      "arch.PerspectiveMotion",
       "arch.Resample"
     ],
     "_feedName": "arch1t3cht's Aegisub Scripts",
     "_feedIdentifier": "b409fc1",
-    "_fetchTime": 1705434935669,
+    "_fetchTime": 1705439768161,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "arch.Perspective"
   }
