@@ -7,14 +7,14 @@
     "description": "Split subtitle lines at tags, creating a separate event for each section",
     "channels": {
       "release": {
-        "version": "0.1.0",
-        "released": "2023-09-27",
+        "version": "0.1.1",
+        "released": "2024-01-16",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.SplitSections-v0.1.0/macros/arch.SplitSections.moon",
-            "sha1": "1613f3158b2b4e34f5f3afbd63e1935427c17e5d",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.SplitSections-v0.1.1/macros/arch.SplitSections.moon",
+            "sha1": "119fcd38eb27753b1e1404520d4deec82f6bfb10",
             "_validHash": true
           }
         ],
@@ -32,15 +32,18 @@
     "changelog": {
       "0.1.0": [
         "Initial Release. Doesn't account for newlines yet."
+      ],
+      "0.1.1": [
+        "Fix bounds calculation for drawings."
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "0.1.0",
+    "_defaultVersion": "0.1.1",
     "_scriptData": {
       "name": "Split Tag Sections",
       "description": "Split subtitle lines at tags, creating a separate event for each section",
       "author": "arch1t3cht",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "namespace": "arch.SplitSections",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json"
@@ -48,7 +51,7 @@
     },
     "_feedName": "arch1t3cht's Aegisub Scripts",
     "_feedIdentifier": "b409fc1",
-    "_fetchTime": 1705192312897,
+    "_fetchTime": 1705434935669,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "arch.SplitSections"
   }
