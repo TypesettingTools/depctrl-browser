@@ -7,14 +7,14 @@
     "description": "Apply perspective motion tracking data",
     "channels": {
       "release": {
-        "version": "0.1.2",
+        "version": "0.1.3",
         "released": "2024-01-17",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.PerspectiveMotion-v0.1.2/macros/arch.PerspectiveMotion.moon",
-            "sha1": "1cc024a40cb0d980065bc96395f2aef08754c61b",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.PerspectiveMotion-v0.1.3/macros/arch.PerspectiveMotion.moon",
+            "sha1": "aed3d8b435bdffb0c84eee9ba001ec84d4f34f8f",
             "_validHash": true
           }
         ],
@@ -47,15 +47,21 @@
       ],
       "0.1.1": [
         "Fix crash on empty clipboard on Windows"
+      ],
+      "0.1.2": [
+        "Fix min version for Math libary"
+      ],
+      "0.1.3": [
+        "Fix line ordering and missing frames in line2fbf"
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "0.1.2",
+    "_defaultVersion": "0.1.3",
     "_scriptData": {
       "name": "Aegisub Perspective-Motion",
       "description": "Apply perspective motion tracking data",
       "author": "arch1t3cht",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "namespace": "arch.PerspectiveMotion",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json"
@@ -63,7 +69,7 @@
     },
     "_feedName": "arch1t3cht's Aegisub Scripts",
     "_feedIdentifier": "b409fc1",
-    "_fetchTime": 1705485359690,
+    "_fetchTime": 1705521378847,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "arch.PerspectiveMotion"
   }
