@@ -4,11 +4,20 @@
   <subtitle>List of recently updated DependencyControl Macros.</subtitle>
   <link href="feed.xml" rel="self"/>
   <link href="https://typesettingtools.github.io/depctrl-browser/"/>
-  <updated>2024-01-16T00:00:00Z</updated>
+  <updated>2024-01-17T00:00:00Z</updated>
   <id>https://typesettingtools.github.io/depctrl-browser/</id>
   <author>
     <name>DepCtrl Browser</name>
   </author>
+  <entry>
+    <title>Aegisub Perspective-Motion - 0.1.2</title>
+    <link href="/depctrl-browser/macros/arch.PerspectiveMotion/"/>
+    <updated>2024-01-17T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.PerspectiveMotion/#0.1.2</id>
+    <content xml:lang="en" type="html">
+      
+    </content>
+  </entry>
   <entry>
     <title>Derive Perspective Track - 1.1.2</title>
     <link href="/depctrl-browser/macros/arch.DerivePerspTrack/"/>
@@ -19,17 +28,6 @@
         &lt;li&gt;Remove unused Line dependency&lt;/li&gt;
       
         &lt;li&gt;Switch to prepareForPerspective function&lt;/li&gt;
-      
-    </content>
-  </entry>
-  <entry>
-    <title>Aegisub Perspective-Motion - 0.1.1</title>
-    <link href="/depctrl-browser/macros/arch.PerspectiveMotion/"/>
-    <updated>2024-01-16T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.PerspectiveMotion/#0.1.1</id>
-    <content xml:lang="en" type="html">
-      
-        &lt;li&gt;Fix crash on empty clipboard on Windows&lt;/li&gt;
       
     </content>
   </entry>
