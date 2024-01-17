@@ -74,7 +74,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1705521378847,
+      "_fetchTime": 1705530053528,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.AegisubChain"
     },
@@ -156,7 +156,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1705521378847,
+      "_fetchTime": 1705530053528,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.DerivePerspTrack"
     },
@@ -211,7 +211,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1705521378847,
+      "_fetchTime": 1705530053528,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.FocusLines"
     },
@@ -223,14 +223,14 @@
       "description": "Apply perspective motion tracking data",
       "channels": {
         "release": {
-          "version": "0.1.3",
+          "version": "0.1.4",
           "released": "2024-01-17",
           "default": true,
           "files": [
             {
               "name": ".moon",
-              "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.PerspectiveMotion-v0.1.3/macros/arch.PerspectiveMotion.moon",
-              "sha1": "aed3d8b435bdffb0c84eee9ba001ec84d4f34f8f",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.PerspectiveMotion-v0.1.4/macros/arch.PerspectiveMotion.moon",
+              "sha1": "f2ec0e51c53cc6832a4e81b597f7b2fa98e34517",
               "_validHash": true
             }
           ],
@@ -269,15 +269,18 @@
         ],
         "0.1.3": [
           "Fix line ordering and missing frames in line2fbf"
+        ],
+        "0.1.4": [
+          "Various fixes and improvements to the line2fbf logic (more robust transform handling, fixing transforms of colors and rect clips, fixing fades for lines without alpha tags)"
         ]
       },
       "_validHash": true,
-      "_defaultVersion": "0.1.3",
+      "_defaultVersion": "0.1.4",
       "_scriptData": {
         "name": "Aegisub Perspective-Motion",
         "description": "Apply perspective motion tracking data",
         "author": "arch1t3cht",
-        "version": "0.1.3",
+        "version": "0.1.4",
         "namespace": "arch.PerspectiveMotion",
         "_feedData": {
           "feed": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json"
@@ -285,7 +288,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1705521378847,
+      "_fetchTime": 1705530053528,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.PerspectiveMotion"
     },
@@ -341,7 +344,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1705521378847,
+      "_fetchTime": 1705530053528,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.SplitSections"
     },
@@ -442,7 +445,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1705521378847,
+      "_fetchTime": 1705530053528,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.Resample"
     },
@@ -498,7 +501,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1705521378847,
+      "_fetchTime": 1705530053528,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.RWTools"
     },
@@ -567,7 +570,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1705521378847,
+      "_fetchTime": 1705530053528,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.NoteBrowser"
     },
@@ -636,7 +639,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1705521378847,
+      "_fetchTime": 1705530053528,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.GitSigns"
     },
@@ -686,7 +689,7 @@
       },
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1705521378847,
+      "_fetchTime": 1705530053528,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.ConvertFolds"
     }
@@ -763,7 +766,7 @@
       ],
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1705521378847,
+      "_fetchTime": 1705530053528,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.Math"
     },
@@ -838,13 +841,13 @@
       ],
       "_feedName": "arch1t3cht's Aegisub Scripts",
       "_feedIdentifier": "b409fc1",
-      "_fetchTime": 1705521378847,
+      "_fetchTime": 1705530053528,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "arch.Perspective"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "b409fc1",
-  "_fetchTime": 1705521378847,
+  "_fetchTime": 1705530053528,
   "_validHash": true
 }

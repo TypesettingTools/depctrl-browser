@@ -10,13 +10,13 @@
     <name>DepCtrl Browser</name>
   </author>
   <entry>
-    <title>Aegisub Perspective-Motion - 0.1.3</title>
+    <title>Aegisub Perspective-Motion - 0.1.4</title>
     <link href="/depctrl-browser/macros/arch.PerspectiveMotion/"/>
     <updated>2024-01-17T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.PerspectiveMotion/#0.1.3</id>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.PerspectiveMotion/#0.1.4</id>
     <content xml:lang="en" type="html">
       
-        &lt;li&gt;Fix line ordering and missing frames in line2fbf&lt;/li&gt;
+        &lt;li&gt;Various fixes and improvements to the line2fbf logic (more robust transform handling, fixing transforms of colors and rect clips, fixing fades for lines without alpha tags)&lt;/li&gt;
       
     </content>
   </entry>
