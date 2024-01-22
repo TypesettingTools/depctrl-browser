@@ -42,6 +42,7 @@
       "phos.ExtrapolateTracking",
       "a-mo.Aegisub-Motion",
       "a-mo.MotionHandler",
+      "arch.Line2Fbf",
       "l0.ASSFoundation",
       "Flux.ScaleRotTags",
       "l0.ASSWipe",
@@ -59,7 +60,7 @@
     ],
     "_feedName": "Aegisub-Motion",
     "_feedIdentifier": "4152f8d",
-    "_fetchTime": 1705964759817,
+    "_fetchTime": 1705966259698,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
     "_namespace": "a-mo.LineCollection"
   }

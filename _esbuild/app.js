@@ -346,6 +346,17 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/macros/arch.Line2Fbf/",
+        name: "FBF-ifier",
+        description: "Convert lines into frame-by-frame chunks",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/macros/arch.PerspectiveMotion/",
         name: "Aegisub Perspective-Motion",
         description: "Apply perspective motion tracking data",

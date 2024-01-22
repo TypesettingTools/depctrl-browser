@@ -10,6 +10,17 @@
     <name>DepCtrl Browser</name>
   </author>
   <entry>
+    <title>FBF-ifier - 0.1.0</title>
+    <link href="/depctrl-browser/macros/arch.Line2Fbf/"/>
+    <updated>2024-01-22T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.Line2Fbf/#0.1.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Initial Release&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
     <title>Aegisub Perspective-Motion - 0.1.5</title>
     <link href="/depctrl-browser/macros/arch.PerspectiveMotion/"/>
     <updated>2024-01-22T00:00:00Z</updated>

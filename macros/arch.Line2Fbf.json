@@ -1,0 +1,68 @@
+[
+  {
+    "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Line2Fbf-v@{version}/macros/arch.Line2Fbf",
+    "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts#arch.Line2Fbf",
+    "author": "arch1t3cht",
+    "name": "FBF-ifier",
+    "description": "Convert lines into frame-by-frame chunks",
+    "channels": {
+      "release": {
+        "version": "0.1.0",
+        "released": "2024-01-22",
+        "default": true,
+        "files": [
+          {
+            "name": ".moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Line2Fbf-v0.1.0/macros/arch.Line2Fbf.moon",
+            "sha1": "c082d49c963152f6e1ad234aea134e178e05e28e",
+            "_validHash": true
+          }
+        ],
+        "requiredModules": [
+          {
+            "moduleName": "a-mo.LineCollection",
+            "version": "1.3.0",
+            "name": "Aegisub-Motion (LineCollection)",
+            "url": "https://github.com/TypesettingTools/Aegisub-Motion",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json"
+          },
+          {
+            "moduleName": "l0.ASSFoundation",
+            "name": "ASSFoundation",
+            "url": "https://github.com/TypesettingTools/ASSFoundation",
+            "version": "0.5.0",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json"
+          },
+          {
+            "moduleName": "arch.Util",
+            "name": "Util",
+            "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts",
+            "version": "0.1.0"
+          }
+        ]
+      }
+    },
+    "changelog": {
+      "0.1.0": [
+        "Initial Release"
+      ]
+    },
+    "_validHash": true,
+    "_defaultVersion": "0.1.0",
+    "_scriptData": {
+      "name": "FBF-ifier",
+      "description": "Convert lines into frame-by-frame chunks",
+      "author": "arch1t3cht",
+      "version": "0.1.0",
+      "namespace": "arch.Line2Fbf",
+      "_feedData": {
+        "feed": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json"
+      }
+    },
+    "_feedName": "arch1t3cht's Aegisub Scripts",
+    "_feedIdentifier": "b409fc1",
+    "_fetchTime": 1705966259901,
+    "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
+    "_namespace": "arch.Line2Fbf"
+  }
+]
