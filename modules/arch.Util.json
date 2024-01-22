@@ -24,7 +24,7 @@
             "version": "1.5.3",
             "name": "Aegisub-Motion (Line)",
             "url": "https://github.com/TypesettingTools/Aegisub-Motion",
-            "feed": "@{feed:a-mo}"
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json"
           },
           {
             "moduleName": "l0.ASSFoundation",
@@ -47,7 +47,7 @@
     ],
     "_feedName": "arch1t3cht's Aegisub Scripts",
     "_feedIdentifier": "b409fc1",
-    "_fetchTime": 1705963560661,
+    "_fetchTime": 1705964759990,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "arch.Util"
   }
