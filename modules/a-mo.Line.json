@@ -46,13 +46,14 @@
       "phos.RotateGradient",
       "a-mo.LineCollection",
       "a-mo.MotionHandler",
+      "arch.Util",
       "l0.ASSFoundation",
       "l0.MoveAlongPath",
       "myaa.Bounce"
     ],
     "_feedName": "Aegisub-Motion",
     "_feedIdentifier": "4152f8d",
-    "_fetchTime": 1705797112378,
+    "_fetchTime": 1705963560450,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
     "_namespace": "a-mo.Line"
   }

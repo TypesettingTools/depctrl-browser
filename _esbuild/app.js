@@ -1744,6 +1744,17 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/modules/arch.Util/",
+        name: "Util",
+        description: "Utility functions used in some of my scripts",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/modules/l0.ASSFoundation/",
         name: "ASSFoundation",
         description: "General purpose ASS processing library.",
