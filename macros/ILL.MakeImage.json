@@ -80,7 +80,7 @@
     },
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1707069640853,
+    "_fetchTime": 1707611384988,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ILL.MakeImage"
   }
