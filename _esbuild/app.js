@@ -1510,6 +1510,17 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/modules/phos.AegiGui/",
+        name: "AegiGui",
+        description: "Create GUI for Aegisub macros.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/modules/BM.BadMutex/",
         name: "BadMutex",
         description: "A bad, global mutex.",
