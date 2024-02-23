@@ -1,6 +1,6 @@
 [
   {
-    "fileBaseUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/@{channel}/macros/phos.AutoFade",
+    "fileBaseUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.AutoFade",
     "url": "https://github.com/PhosCity/Aegisub-Scripts#phos.AutoFade",
     "author": "PhosCity",
     "name": "Auto Fade",
@@ -62,7 +62,7 @@
     },
     "_feedName": "PhosCity's Aegisub Scripts",
     "_feedIdentifier": "8fe234d",
-    "_fetchTime": 1708671951501,
+    "_fetchTime": 1708672548714,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "phos.AutoFade"
   }

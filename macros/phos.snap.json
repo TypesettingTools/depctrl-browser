@@ -1,6 +1,6 @@
 [
   {
-    "fileBaseUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/@{channel}/macros/phos.snap",
+    "fileBaseUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.snap",
     "url": "https://github.com/PhosCity/Aegisub-Scripts#phos.snap",
     "author": "PhosCity",
     "name": "Bidirectional Snapping",
@@ -39,7 +39,7 @@
     },
     "_feedName": "PhosCity's Aegisub Scripts",
     "_feedIdentifier": "8fe234d",
-    "_fetchTime": 1708671951501,
+    "_fetchTime": 1708672548714,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "phos.snap"
   }
