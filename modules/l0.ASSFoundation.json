@@ -966,6 +966,7 @@
       "phos.RemoveTags",
       "phos.AutoFade",
       "phos.ExtrapolateTracking",
+      "phos.EditTags",
       "arch.DerivePerspTrack",
       "arch.Line2Fbf",
       "arch.PerspectiveMotion",
@@ -989,7 +990,7 @@
     ],
     "_feedName": "ASSFoundation",
     "_feedIdentifier": "92c766d",
-    "_fetchTime": 1708672548534,
+    "_fetchTime": 1708674048294,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json",
     "_namespace": "l0.ASSFoundation"
   }

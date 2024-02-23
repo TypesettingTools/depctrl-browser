@@ -302,6 +302,17 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/macros/phos.EditTags/",
+        name: "Edit Tags",
+        description: "Edit tags of current line.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/macros/a-mo.Aegisub-Motion/",
         name: "Aegisub-Motion",
         description: "The main macro.",

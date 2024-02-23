@@ -127,6 +127,7 @@
       "phos.RotateGradient",
       "phos.RemoveTags",
       "phos.FoldOperations",
+      "phos.EditTags",
       "phos.AegiGui",
       "arch.AegisubChain",
       "arch.DerivePerspTrack",
@@ -149,7 +150,7 @@
     ],
     "_feedName": "Functional",
     "_feedIdentifier": "c5d5896",
-    "_fetchTime": 1708672548775,
+    "_fetchTime": 1708674048473,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Functional/master/DependencyControl.json",
     "_namespace": "l0.Functional"
   }
