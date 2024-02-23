@@ -14,7 +14,7 @@
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.AegiGui/modules/phos/AegiGui.moon",
-            "sha1": "2dbf5a839678ba7a3e569f13dcbe04c20567fda7",
+            "sha1": "5a4fff65e539120edbb36e3ba720ecda4b04af21",
             "_validHash": false
           }
         ],
@@ -38,7 +38,7 @@
     "_reverseDependency": [],
     "_feedName": "PhosCity's Aegisub Scripts",
     "_feedIdentifier": "8fe234d",
-    "_fetchTime": 1708667478309,
+    "_fetchTime": 1708668114967,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "phos.AegiGui"
   }
