@@ -43,7 +43,7 @@
     ],
     "_feedName": "Aegisub-Motion",
     "_feedIdentifier": "4152f8d",
-    "_fetchTime": 1708674048302,
+    "_fetchTime": 1708820969986,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
     "_namespace": "a-mo.DataWrapper"
   }
