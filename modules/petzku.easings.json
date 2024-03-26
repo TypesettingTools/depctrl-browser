@@ -7,15 +7,15 @@
     "description": "A library of easy-to-use easing functions for transforms",
     "channels": {
       "stable": {
-        "version": "0.5.1",
-        "released": "2023-11-19",
+        "version": "0.5.2",
+        "released": "2024-03-26",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.easings-v0.5.1/modules/petzku/easings.moon",
-            "sha1": "ec6f820670073dfa50b6e2101d35ac1de841cbd0",
-            "_validHash": true
+            "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.easings-v0.5.2/modules/petzku/easings.moon",
+            "sha1": "046bc692047d92df576dc07f755b928c12a840d7",
+            "_validHash": false
           }
         ]
       }
@@ -29,13 +29,16 @@
       ],
       "0.5.1": [
         "Include feed URL for DepCtrl updating"
+      ],
+      "0.5.2": [
+        "Fix multi-tag calls begin broken"
       ]
     },
-    "_validHash": true,
+    "_validHash": false,
     "_reverseDependency": [],
     "_feedName": "petzku's Automation Scripts",
     "_feedIdentifier": "7161932",
-    "_fetchTime": 1711240227383,
+    "_fetchTime": 1711489275215,
     "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "petzku.easings"
   }

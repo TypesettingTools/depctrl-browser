@@ -40,7 +40,7 @@
     "_reverseDependency": [],
     "_feedName": "zeref-aegisub-scripts",
     "_feedIdentifier": "fbbbec7",
-    "_fetchTime": 1711240227440,
+    "_fetchTime": 1711489275248,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "zgiflib.giflib"
   }
