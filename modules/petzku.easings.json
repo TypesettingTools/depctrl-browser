@@ -15,7 +15,7 @@
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.easings-v0.5.2/modules/petzku/easings.moon",
             "sha1": "046bc692047d92df576dc07f755b928c12a840d7",
-            "_validHash": false
+            "_validHash": true
           }
         ]
       }
@@ -34,11 +34,11 @@
         "Fix multi-tag calls begin broken"
       ]
     },
-    "_validHash": false,
+    "_validHash": true,
     "_reverseDependency": [],
     "_feedName": "petzku's Automation Scripts",
     "_feedIdentifier": "7161932",
-    "_fetchTime": 1711489275215,
+    "_fetchTime": 1711845052244,
     "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "petzku.easings"
   }
