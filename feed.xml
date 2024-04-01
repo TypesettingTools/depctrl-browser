@@ -4,11 +4,20 @@
   <subtitle>List of recently updated DependencyControl Macros.</subtitle>
   <link href="feed.xml" rel="self"/>
   <link href="https://typesettingtools.github.io/depctrl-browser/"/>
-  <updated>2024-03-15T00:00:00Z</updated>
+  <updated>2024-04-01T00:00:00Z</updated>
   <id>https://typesettingtools.github.io/depctrl-browser/</id>
   <author>
     <name>DepCtrl Browser</name>
   </author>
+  <entry>
+    <title>Timing Assistant - 2.0.0</title>
+    <link href="/depctrl-browser/macros/phos.TimingAssistant/"/>
+    <updated>2024-04-01T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.TimingAssistant/#2.0.0</id>
+    <content xml:lang="en" type="html">
+      
+    </content>
+  </entry>
   <entry>
     <title>Fold Operations - 1.2.0</title>
     <link href="/depctrl-browser/macros/phos.FoldOperations/"/>
@@ -224,15 +233,6 @@
     <content xml:lang="en" type="html">
       
         &lt;li&gt;Include feed URL for DepCtrl updating&lt;/li&gt;
-      
-    </content>
-  </entry>
-  <entry>
-    <title>Timing Assistant - 1.1.1</title>
-    <link href="/depctrl-browser/macros/phos.TimingAssistant/"/>
-    <updated>2023-09-24T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.TimingAssistant/#1.1.1</id>
-    <content xml:lang="en" type="html">
       
     </content>
   </entry>
