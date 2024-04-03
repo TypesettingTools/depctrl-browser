@@ -7,14 +7,14 @@
     "description": "Different operations on folds",
     "channels": {
       "main": {
-        "version": "1.2.0",
-        "released": "2024-03-15",
+        "version": "1.3.0",
+        "released": "2024-04-03",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.FoldOperations.moon",
-            "sha1": "7176e549c9ba8b63a46975c09d95ab4937492f7f",
+            "sha1": "48e39f469b16ba579a725704bef60e80f490f0a0",
             "_validHash": true
           }
         ],
@@ -49,12 +49,12 @@
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "1.2.0",
+    "_defaultVersion": "1.3.0",
     "_scriptData": {
       "name": "Fold Operations",
       "description": "Different operations on folds",
       "author": "PhosCity",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "namespace": "phos.FoldOperations",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
@@ -62,7 +62,7 @@
     },
     "_feedName": "PhosCity's Aegisub Scripts",
     "_feedIdentifier": "8fe234d",
-    "_fetchTime": 1711986355649,
+    "_fetchTime": 1712120455095,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "phos.FoldOperations"
   }
