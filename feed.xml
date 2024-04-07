@@ -4,11 +4,22 @@
   <subtitle>List of recently updated DependencyControl Macros.</subtitle>
   <link href="feed.xml" rel="self"/>
   <link href="https://typesettingtools.github.io/depctrl-browser/"/>
-  <updated>2024-04-04T00:00:00Z</updated>
+  <updated>2024-04-07T00:00:00Z</updated>
   <id>https://typesettingtools.github.io/depctrl-browser/</id>
   <author>
     <name>DepCtrl Browser</name>
   </author>
+  <entry>
+    <title>Shapery - 2.5.4</title>
+    <link href="/depctrl-browser/macros/ILL.Shapery/"/>
+    <updated>2024-04-07T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.Shapery/#2.5.4</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Update Shapery&lt;/li&gt;
+      
+    </content>
+  </entry>
   <entry>
     <title>Fold Operations - 1.3.2</title>
     <link href="/depctrl-browser/macros/phos.FoldOperations/"/>
@@ -52,17 +63,6 @@
     <link href="/depctrl-browser/macros/ILL.EnvelopeDistort/"/>
     <updated>2024-02-04T00:00:00Z</updated>
     <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.EnvelopeDistort/#1.1.2</id>
-    <content xml:lang="en" type="html">
-      
-        &lt;li&gt;Update ILL dependency version in macros&lt;/li&gt;
-      
-    </content>
-  </entry>
-  <entry>
-    <title>Shapery - 2.5.3</title>
-    <link href="/depctrl-browser/macros/ILL.Shapery/"/>
-    <updated>2024-02-04T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.Shapery/#2.5.3</id>
     <content xml:lang="en" type="html">
       
         &lt;li&gt;Update ILL dependency version in macros&lt;/li&gt;

@@ -8,13 +8,13 @@
     "channels": {
       "main": {
         "default": true,
-        "version": "1.4.4",
-        "released": "2023-10-30",
+        "version": "1.4.5",
+        "released": "2024-04-07",
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL.moon",
-            "sha1": "f6b5044454f8f56c07bd6e3d1ee296821e072d05",
+            "sha1": "1d2bbaee4ff2e3b85e2122a63511fb23826fbdb5",
             "_validHash": true
           },
           {
@@ -26,7 +26,7 @@
           {
             "name": "/Ass/Shape/Path.moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Shape/Path.moon",
-            "sha1": "a088a8864171a46e5449349f478a353d159253e0",
+            "sha1": "cfce6034db5f5ca80ab1ba7c5e5a3d890d29b795",
             "_validHash": true
           },
           {
@@ -222,6 +222,9 @@
       ],
       "1.4.4": [
         "Update version"
+      ],
+      "1.4.5": [
+        "Add shadow and rounding effects to Path"
       ]
     },
     "_validHash": true,
@@ -234,7 +237,7 @@
     ],
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1712449864506,
+    "_fetchTime": 1712502960425,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ILL.ILL"
   }
