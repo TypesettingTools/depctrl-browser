@@ -1464,17 +1464,6 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
-        href: "/depctrl-browser/macros/zah.pers-mo_BETA/",
-        name: "Aegisub-Perspective-Motion BETA",
-        description: "Applying perspective tracking",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
         href: "/depctrl-browser/macros/zah.aegi-color-track/",
         name: "Aegisub-Color-Tracking",
         description: "Tracking the color from a given pixel or tracking data",

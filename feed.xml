@@ -284,17 +284,6 @@
     </content>
   </entry>
   <entry>
-    <title>Aegisub-Perspective-Motion BETA - 0.3.1</title>
-    <link href="/depctrl-browser/macros/zah.pers-mo_BETA/"/>
-    <updated>2023-03-24T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/zah.pers-mo_BETA/#0.3.1</id>
-    <content xml:lang="en" type="html">
-      
-        &lt;li&gt;Save tracking datas ambient quad to extradata&lt;/li&gt;
-      
-    </content>
-  </entry>
-  <entry>
     <title>Aegisub-Color-Tracking - 2.0.2</title>
     <link href="/depctrl-browser/macros/zah.aegi-color-track/"/>
     <updated>2023-03-24T00:00:00Z</updated>
