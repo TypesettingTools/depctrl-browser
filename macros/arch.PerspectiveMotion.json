@@ -7,14 +7,14 @@
     "description": "Apply perspective motion tracking data",
     "channels": {
       "release": {
-        "version": "0.1.5",
-        "released": "2024-01-22",
+        "version": "0.2.0",
+        "released": "2024-04-14",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.PerspectiveMotion-v0.1.5/macros/arch.PerspectiveMotion.moon",
-            "sha1": "fd6e5fe7d8322b03e9b0eb606da948fed9098b52",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.PerspectiveMotion-v0.2.0/macros/arch.PerspectiveMotion.moon",
+            "sha1": "cd4b455905d23cf0a2ce861c3d91440790df0486",
             "_validHash": true
           }
         ],
@@ -65,15 +65,18 @@
       ],
       "0.1.5": [
         "Move line2fbf function to a separate Util module"
+      ],
+      "0.2.0": [
+        "Allow tracking multiple lines at once as long as they're arranged in some sane way"
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "0.1.5",
+    "_defaultVersion": "0.2.0",
     "_scriptData": {
       "name": "Aegisub Perspective-Motion",
       "description": "Apply perspective motion tracking data",
       "author": "arch1t3cht",
-      "version": "0.1.5",
+      "version": "0.2.0",
       "namespace": "arch.PerspectiveMotion",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json"
@@ -81,7 +84,7 @@
     },
     "_feedName": "arch1t3cht's Aegisub Scripts",
     "_feedIdentifier": "b409fc1",
-    "_fetchTime": 1713054502202,
+    "_fetchTime": 1713106243313,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "arch.PerspectiveMotion"
   }
