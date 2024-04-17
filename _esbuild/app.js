@@ -1521,6 +1521,17 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/modules/phos.AssfPlus/",
+        name: "AssfPlus",
+        description: "Adds more features to ASSFoundation",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/modules/BM.BadMutex/",
         name: "BadMutex",
         description: "A bad, global mutex.",
