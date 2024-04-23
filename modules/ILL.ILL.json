@@ -8,13 +8,13 @@
     "channels": {
       "main": {
         "default": true,
-        "version": "1.4.7",
+        "version": "1.4.8",
         "released": "2024-04-23",
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL.moon",
-            "sha1": "8726fcfa79366141805693bbb28375e62ad36ffe",
+            "sha1": "c8a5e42626842f43105d732eabd9a60cb3b4cedc",
             "_validHash": true
           },
           {
@@ -68,7 +68,7 @@
           {
             "name": "/Ass/Line.moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Line.moon",
-            "sha1": "19bfc0f0a0273682763fb7c12dd440299c1ab1bf",
+            "sha1": "439375a09a18c1cef1329248c050e4e691b24f86",
             "_validHash": true
           },
           {
@@ -86,7 +86,7 @@
           {
             "name": "/Font/Unx.moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Font/Unx.moon",
-            "sha1": "47c96d0d6710c3790b8d8bdf17ce3e30c46a164d",
+            "sha1": "ecf72238235a4d9130e9981676585b5c59b22945",
             "_validHash": true
           },
           {
@@ -226,6 +226,9 @@
       ],
       "1.4.7": [
         "Replace pangocairo with freetype"
+      ],
+      "1.4.8": [
+        "Fix some bugs on unix font"
       ]
     },
     "_validHash": true,
@@ -239,7 +242,7 @@
     ],
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1713848435390,
+    "_fetchTime": 1713886274995,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ILL.ILL"
   }
