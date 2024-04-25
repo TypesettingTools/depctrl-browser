@@ -1001,14 +1001,14 @@
       ],
       "_feedName": "ASSFoundation",
       "_feedIdentifier": "92c766d",
-      "_fetchTime": 1713887468245,
+      "_fetchTime": 1714010725871,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json",
       "_namespace": "l0.ASSFoundation"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json",
   "_identifier": "92c766d",
-  "_fetchTime": 1713887468245,
+  "_fetchTime": 1714010725871,
   "macros": {},
   "_validHash": true
 }
