@@ -4,7 +4,7 @@
     "author": "Zahuczky, Akatsumekusa",
     "name": "AutoClip",
     "description": "Add clips to subtitles 𝓪𝓾𝓽𝓸𝓶𝓪𝓰𝓲𝓬𝓪𝓵𝓵𝔂",
-    "fileBaseUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/@{channel}/macros/zah.autoclip",
+    "fileBaseUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/@{channel}/macros/autoclip/zah.autoclip",
     "channels": {
       "main": {
         "version": "2.0.5",
@@ -13,7 +13,7 @@
         "files": [
           {
             "name": ".lua",
-            "url": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/macros/zah.autoclip.lua",
+            "url": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/macros/autoclip/zah.autoclip.lua",
             "sha1": "710591e3aa20663d62db878e0ca0610c1e814447",
             "_validHash": true
           }
@@ -52,7 +52,7 @@
     },
     "_feedName": "Zahuczky's Automation Scripts",
     "_feedIdentifier": "08cbca4",
-    "_fetchTime": 1714264278560,
+    "_fetchTime": 1714419680428,
     "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "zah.autoclip"
   }
