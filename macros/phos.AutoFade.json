@@ -7,14 +7,14 @@
     "description": "Automatically determine fade in and fade out",
     "channels": {
       "main": {
-        "version": "1.1.0",
-        "released": "2023-07-22",
+        "version": "1.1.1",
+        "released": "2024-05-13",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.AutoFade.moon",
-            "sha1": "16e6595ede11cb81c66ddf599e8f9bbcc6e9bf7e",
+            "sha1": "264340220e72ad8011b6fa5d48580ce9913e0d1e",
             "_validHash": true
           }
         ],
@@ -49,12 +49,12 @@
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "1.1.0",
+    "_defaultVersion": "1.1.1",
     "_scriptData": {
       "name": "Auto Fade",
       "description": "Automatically determine fade in and fade out",
       "author": "PhosCity",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "namespace": "phos.AutoFade",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
@@ -62,7 +62,7 @@
     },
     "_feedName": "PhosCity's Aegisub Scripts",
     "_feedIdentifier": "8fe234d",
-    "_fetchTime": 1715473902049,
+    "_fetchTime": 1715596273392,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "phos.AutoFade"
   }
