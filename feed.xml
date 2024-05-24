@@ -4,11 +4,22 @@
   <subtitle>List of recently updated DependencyControl Macros.</subtitle>
   <link href="feed.xml" rel="self"/>
   <link href="https://typesettingtools.github.io/depctrl-browser/"/>
-  <updated>2024-05-13T00:00:00Z</updated>
+  <updated>2024-05-24T00:00:00Z</updated>
   <id>https://typesettingtools.github.io/depctrl-browser/</id>
   <author>
     <name>DepCtrl Browser</name>
   </author>
+  <entry>
+    <title>Envelope Distort - 1.1.3</title>
+    <link href="/depctrl-browser/macros/ILL.EnvelopeDistort/"/>
+    <updated>2024-05-24T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.EnvelopeDistort/#1.1.3</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;fix default tolerance value&lt;/li&gt;
+      
+    </content>
+  </entry>
   <entry>
     <title>Auto Fade - 1.1.1</title>
     <link href="/depctrl-browser/macros/phos.AutoFade/"/>
@@ -86,17 +97,6 @@
     <content xml:lang="en" type="html">
       
         &lt;li&gt;Added to Dependency Control&lt;/li&gt;
-      
-    </content>
-  </entry>
-  <entry>
-    <title>Envelope Distort - 1.1.2</title>
-    <link href="/depctrl-browser/macros/ILL.EnvelopeDistort/"/>
-    <updated>2024-02-04T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.EnvelopeDistort/#1.1.2</id>
-    <content xml:lang="en" type="html">
-      
-        &lt;li&gt;Update ILL dependency version in macros&lt;/li&gt;
       
     </content>
   </entry>
