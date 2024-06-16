@@ -7,8 +7,8 @@
     "fileBaseUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/@{channel}/macros/aegi-color-track/zah.aegi-color-track",
     "channels": {
       "main": {
-        "version": "2.0.2",
-        "released": "2023-03-24",
+        "version": "2.1.0",
+        "released": "2024-06-16",
         "default": true,
         "files": [
           {
@@ -50,10 +50,13 @@
       "2.0.2": [
         "Fix handling of tracking data when using Aegisub built-in frame API",
         "Refactor internal handling of timecodes"
+      ],
+      "2.1.0": [
+        "Add alpha tracking mode"
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "2.0.2",
+    "_defaultVersion": "2.1.0",
     "_scriptData": {
       "name": "Aegisub-Color-Tracking",
       "description": "Tracking the color from a given pixel or tracking data",
@@ -66,7 +69,7 @@
     },
     "_feedName": "Zahuczky's Automation Scripts",
     "_feedIdentifier": "08cbca4",
-    "_fetchTime": 1718549470122,
+    "_fetchTime": 1718550378678,
     "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "zah.aegi-color-track"
   }
