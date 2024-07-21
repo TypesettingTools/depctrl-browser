@@ -7,15 +7,15 @@
     "description": "Edit tags of current line.",
     "channels": {
       "main": {
-        "version": "1.0.0",
-        "released": "2024-02-23",
+        "version": "1.0.1",
+        "released": "2024-07-21",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.EditTags.moon",
-            "sha1": "c651ed1238f073ea8ce0f44d34258d7877503b8f",
-            "_validHash": true
+            "sha1": "bf8e2d22f4d0e3b366fa85faa622a8e969b579c3",
+            "_validHash": false
           }
         ],
         "requiredModules": [
@@ -58,13 +58,13 @@
         "Added to Dependency Control"
       ]
     },
-    "_validHash": true,
-    "_defaultVersion": "1.0.0",
+    "_validHash": false,
+    "_defaultVersion": "1.0.1",
     "_scriptData": {
       "name": "Edit Tags",
       "description": "Edit tags of current line.",
       "author": "PhosCity",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "namespace": "phos.EditTags",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
@@ -72,7 +72,7 @@
     },
     "_feedName": "PhosCity's Aegisub Scripts",
     "_feedIdentifier": "8fe234d",
-    "_fetchTime": 1721522100210,
+    "_fetchTime": 1721569580059,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "phos.EditTags"
   }
