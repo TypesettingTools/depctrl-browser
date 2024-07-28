@@ -14,8 +14,8 @@
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.EditTags.moon",
-            "sha1": "bf8e2d22f4d0e3b366fa85faa622a8e969b579c3",
-            "_validHash": false
+            "sha1": "6e141fd1b549ec4a1e031f143a094e80bceba85b",
+            "_validHash": true
           }
         ],
         "requiredModules": [
@@ -58,7 +58,7 @@
         "Added to Dependency Control"
       ]
     },
-    "_validHash": false,
+    "_validHash": true,
     "_defaultVersion": "1.0.1",
     "_scriptData": {
       "name": "Edit Tags",
@@ -72,7 +72,7 @@
     },
     "_feedName": "PhosCity's Aegisub Scripts",
     "_feedIdentifier": "8fe234d",
-    "_fetchTime": 1721569877712,
+    "_fetchTime": 1722126923783,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "phos.EditTags"
   }
