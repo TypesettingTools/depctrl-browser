@@ -75,7 +75,7 @@
     },
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1723482070003,
+    "_fetchTime": 1723941307849,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ILL.ChangeAlign"
   }
