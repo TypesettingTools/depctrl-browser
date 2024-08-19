@@ -4,11 +4,22 @@
   <subtitle>List of recently updated DependencyControl Macros.</subtitle>
   <link href="feed.xml" rel="self"/>
   <link href="https://typesettingtools.github.io/depctrl-browser/"/>
-  <updated>2024-07-21T00:00:00Z</updated>
+  <updated>2024-08-19T00:00:00Z</updated>
   <id>https://typesettingtools.github.io/depctrl-browser/</id>
   <author>
     <name>DepCtrl Browser</name>
   </author>
+  <entry>
+    <title>Aegisub Perspective-Motion - 0.3.0</title>
+    <link href="/depctrl-browser/macros/arch.PerspectiveMotion/"/>
+    <updated>2024-08-19T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.PerspectiveMotion/#0.3.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Correctly handle LayoutResY or the video height differing from PlayResY, but yell at the user when they differ&lt;/li&gt;
+      
+    </content>
+  </entry>
   <entry>
     <title>Edit Tags - 1.0.1</title>
     <link href="/depctrl-browser/macros/phos.EditTags/"/>
@@ -77,17 +88,6 @@
     <content xml:lang="en" type="html">
       
         &lt;li&gt;Minor fix&lt;/li&gt;
-      
-    </content>
-  </entry>
-  <entry>
-    <title>Aegisub Perspective-Motion - 0.2.0</title>
-    <link href="/depctrl-browser/macros/arch.PerspectiveMotion/"/>
-    <updated>2024-04-14T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.PerspectiveMotion/#0.2.0</id>
-    <content xml:lang="en" type="html">
-      
-        &lt;li&gt;Allow tracking multiple lines at once as long as they&#39;re arranged in some sane way&lt;/li&gt;
       
     </content>
   </entry>

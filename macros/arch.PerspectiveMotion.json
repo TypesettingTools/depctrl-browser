@@ -7,14 +7,14 @@
     "description": "Apply perspective motion tracking data",
     "channels": {
       "release": {
-        "version": "0.2.0",
-        "released": "2024-04-14",
+        "version": "0.3.0",
+        "released": "2024-08-19",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.PerspectiveMotion-v0.2.0/macros/arch.PerspectiveMotion.moon",
-            "sha1": "cd4b455905d23cf0a2ce861c3d91440790df0486",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.PerspectiveMotion-v0.3.0/macros/arch.PerspectiveMotion.moon",
+            "sha1": "ec5cc2452b3869f31c6232a35c987106aa701b1a",
             "_validHash": true
           }
         ],
@@ -68,15 +68,18 @@
       ],
       "0.2.0": [
         "Allow tracking multiple lines at once as long as they're arranged in some sane way"
+      ],
+      "0.3.0": [
+        "Correctly handle LayoutResY or the video height differing from PlayResY, but yell at the user when they differ"
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "0.2.0",
+    "_defaultVersion": "0.3.0",
     "_scriptData": {
       "name": "Aegisub Perspective-Motion",
       "description": "Apply perspective motion tracking data",
       "author": "arch1t3cht",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "namespace": "arch.PerspectiveMotion",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json"
@@ -84,7 +87,7 @@
     },
     "_feedName": "arch1t3cht's Aegisub Scripts",
     "_feedIdentifier": "b409fc1",
-    "_fetchTime": 1723941307834,
+    "_fetchTime": 1724107542482,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "arch.PerspectiveMotion"
   }

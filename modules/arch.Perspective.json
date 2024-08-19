@@ -7,14 +7,14 @@
     "description": "Math functions for dealing with perspective transformations.",
     "channels": {
       "release": {
-        "version": "1.1.0",
-        "released": "2024-01-16",
+        "version": "1.2.0",
+        "released": "2024-08-19",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Perspective-v1.1.0/modules/arch/Perspective.moon",
-            "sha1": "ed62bc8a13aeacf27da88ed4f266941d4d1915be",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Perspective-v1.2.0/modules/arch/Perspective.moon",
+            "sha1": "0b29db07336fbf299c7db65dc083de55b1c17ddf",
             "_validHash": true
           }
         ],
@@ -60,6 +60,9 @@
         "Remove stray code line in prepareForPerspective",
         "Fix bounds calculation for drawings",
         "Export an_xshift and an_yshift"
+      ],
+      "1.2.0": [
+        "Add layoutScale parameter to account for differing LayoutRes or video resolution"
       ]
     },
     "_validHash": true,
@@ -71,7 +74,7 @@
     ],
     "_feedName": "arch1t3cht's Aegisub Scripts",
     "_feedIdentifier": "b409fc1",
-    "_fetchTime": 1723941307834,
+    "_fetchTime": 1724107542482,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "arch.Perspective"
   }
