@@ -1,7 +1,7 @@
 const filters = require("./utils/filters.js")
 const esbuild = require("esbuild");
 const { sassPlugin } = require("esbuild-sass-plugin");
-const htmlmin = require("html-minifier");
+const htmlmin = require("html-minifier-terser");
 
 module.exports = function (eleventyConfig) {
 
