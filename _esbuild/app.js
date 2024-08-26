@@ -104,6 +104,17 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/macros/petzku.Honorary/",
+        name: "Honorary",
+        description: "Rightfully restore (or remove) honoraries easily by inserting autoswapper bits",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/macros/petzku.JumpToNextPlus/",
         name: "Jump to Next++",
         description: "Jumps to next 'sign' in the subtitle grid",

@@ -4,11 +4,22 @@
   <subtitle>List of recently updated DependencyControl Macros.</subtitle>
   <link href="feed.xml" rel="self"/>
   <link href="https://typesettingtools.github.io/depctrl-browser/"/>
-  <updated>2024-08-19T00:00:00Z</updated>
+  <updated>2024-08-26T00:00:00Z</updated>
   <id>https://typesettingtools.github.io/depctrl-browser/</id>
   <author>
     <name>DepCtrl Browser</name>
   </author>
+  <entry>
+    <title>Honorary - 0.1.0</title>
+    <link href="/depctrl-browser/macros/petzku.Honorary/"/>
+    <updated>2024-08-26T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.Honorary/#0.1.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Add DependencyControl&lt;/li&gt;
+      
+    </content>
+  </entry>
   <entry>
     <title>Aegisub Perspective-Motion - 0.3.0</title>
     <link href="/depctrl-browser/macros/arch.PerspectiveMotion/"/>
