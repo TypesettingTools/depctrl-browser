@@ -7,14 +7,14 @@
     "description": "Rightfully restore (or remove) honoraries easily by inserting autoswapper bits",
     "channels": {
       "stable": {
-        "version": "0.1.0",
-        "released": "2024-08-26",
+        "version": "0.2.0",
+        "released": "2024-09-01",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/macros/petzku.Honorary.moon",
-            "sha1": "373625e67f8d0d87ff606856afb5fa1ce646dd3b",
+            "sha1": "83e703f427f4736bb98e2c5222dcfe4c83e57f53",
             "_validHash": true
           }
         ]
@@ -23,21 +23,24 @@
     "changelog": {
       "0.1.0": [
         "Add DependencyControl"
+      ],
+      "0.2.0": [
+        "Make disabling honos smarter"
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "0.1.0",
+    "_defaultVersion": "0.2.0",
     "_scriptData": {
       "name": "Honorary",
       "description": "Rightfully restore (or remove) honoraries easily by inserting autoswapper bits",
       "author": "petzku",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "namespace": "petzku.Honorary",
       "_feedData": null
     },
     "_feedName": "petzku's Automation Scripts",
     "_feedIdentifier": "7161932",
-    "_fetchTime": 1725151265396,
+    "_fetchTime": 1725158154524,
     "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "petzku.Honorary"
   }
