@@ -1510,6 +1510,17 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/modules/petzku.tags/",
+        name: "Tags",
+        description: "Reads key-value pairs from lines",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/modules/petzku.util/",
         name: "petzkuLib",
         description: "Various utility functions for use with petzku's Aegisub macros",
