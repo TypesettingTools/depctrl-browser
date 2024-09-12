@@ -10,13 +10,11 @@
     <name>DepCtrl Browser</name>
   </author>
   <entry>
-    <title>Chromatic Abberation - 1.0.0</title>
+    <title>Chromatic Abberation - 1.0.1</title>
     <link href="/depctrl-browser/macros/phos.ChromaticAbberation/"/>
     <updated>2024-09-12T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.ChromaticAbberation/#1.0.0</id>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.ChromaticAbberation/#1.0.1</id>
     <content xml:lang="en" type="html">
-      
-        &lt;li&gt;Added to Dependency Control&lt;/li&gt;
       
     </content>
   </entry>
