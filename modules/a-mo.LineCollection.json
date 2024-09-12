@@ -41,6 +41,7 @@
       "phos.AutoFade",
       "phos.ExtrapolateTracking",
       "phos.EditTags",
+      "phos.ChromaticAbberation",
       "a-mo.Aegisub-Motion",
       "a-mo.MotionHandler",
       "arch.Line2Fbf",
@@ -61,7 +62,7 @@
     ],
     "_feedName": "Aegisub-Motion",
     "_feedIdentifier": "4152f8d",
-    "_fetchTime": 1726111833327,
+    "_fetchTime": 1726113042002,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
     "_namespace": "a-mo.LineCollection"
   }
