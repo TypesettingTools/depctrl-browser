@@ -7,14 +7,14 @@
     "description": "Add chromatic abberation to shape and text.",
     "channels": {
       "main": {
-        "version": "1.0.1",
-        "released": "2024-09-12",
+        "version": "1.0.2",
+        "released": "2024-09-13",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.ChromaticAbberation.moon",
-            "sha1": "db0aae8443ebbc7820a68a8ac8e5b3eae7fcad41",
+            "sha1": "50e9c1647e6a32423707929be7be77ed6ce5ef58",
             "_validHash": true
           }
         ],
@@ -56,12 +56,12 @@
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "1.0.1",
+    "_defaultVersion": "1.0.2",
     "_scriptData": {
       "name": "Chromatic Abberation",
       "description": "Add chromatic abberation to shape and text.",
       "author": "PhosCity",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "namespace": "phos.ChromaticAbberation",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
@@ -69,7 +69,7 @@
     },
     "_feedName": "PhosCity's Aegisub Scripts",
     "_feedIdentifier": "8fe234d",
-    "_fetchTime": 1726157779475,
+    "_fetchTime": 1726189532976,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "phos.ChromaticAbberation"
   }
