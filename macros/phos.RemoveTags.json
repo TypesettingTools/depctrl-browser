@@ -7,14 +7,14 @@
     "description": "Dynamically remove tags based on selection",
     "channels": {
       "main": {
-        "version": "1.0.1",
-        "released": "2024-07-15",
+        "version": "1.0.2",
+        "released": "2024-09-16",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.RemoveTags.moon",
-            "sha1": "b473dba0ee6e77ad1b27d8e19f4a92d9d8618a82",
+            "sha1": "dbea567dd56961cb97e1b2c14cc8ec871240823b",
             "_validHash": true
           }
         ],
@@ -49,12 +49,12 @@
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "1.0.1",
+    "_defaultVersion": "1.0.2",
     "_scriptData": {
       "name": "Remove Tags",
       "description": "Dynamically remove tags based on selection",
       "author": "PhosCity",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "namespace": "phos.RemoveTags",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
@@ -62,7 +62,7 @@
     },
     "_feedName": "PhosCity's Aegisub Scripts",
     "_feedIdentifier": "8fe234d",
-    "_fetchTime": 1726470325337,
+    "_fetchTime": 1726505180032,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "phos.RemoveTags"
   }

@@ -109,7 +109,7 @@
     },
     "_feedName": "line0's Aegisub Scripts",
     "_feedIdentifier": "7afe7c4",
-    "_fetchTime": 1726470324919,
+    "_fetchTime": 1726505179883,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/line0-Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "l0.SplitLines"
   }

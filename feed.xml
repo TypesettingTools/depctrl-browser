@@ -10,6 +10,15 @@
     <name>DepCtrl Browser</name>
   </author>
   <entry>
+    <title>Remove Tags - 1.0.2</title>
+    <link href="/depctrl-browser/macros/phos.RemoveTags/"/>
+    <updated>2024-09-16T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.RemoveTags/#1.0.2</id>
+    <content xml:lang="en" type="html">
+      
+    </content>
+  </entry>
+  <entry>
     <title>Chromatic Abberation - 1.0.3</title>
     <link href="/depctrl-browser/macros/phos.ChromaticAbberation/"/>
     <updated>2024-09-16T00:00:00Z</updated>
@@ -54,15 +63,6 @@
     <link href="/depctrl-browser/macros/phos.EditTags/"/>
     <updated>2024-07-21T00:00:00Z</updated>
     <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.EditTags/#1.0.1</id>
-    <content xml:lang="en" type="html">
-      
-    </content>
-  </entry>
-  <entry>
-    <title>Remove Tags - 1.0.1</title>
-    <link href="/depctrl-browser/macros/phos.RemoveTags/"/>
-    <updated>2024-07-15T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.RemoveTags/#1.0.1</id>
     <content xml:lang="en" type="html">
       
     </content>
