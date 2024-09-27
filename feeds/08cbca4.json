@@ -95,7 +95,7 @@
       },
       "_feedName": "Zahuczky's Automation Scripts",
       "_feedIdentifier": "08cbca4",
-      "_fetchTime": 1727460966692,
+      "_fetchTime": 1727461561805,
       "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zah.aegi-color-track"
     },
@@ -152,14 +152,14 @@
       },
       "_feedName": "Zahuczky's Automation Scripts",
       "_feedIdentifier": "08cbca4",
-      "_fetchTime": 1727460966692,
+      "_fetchTime": 1727461561805,
       "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "zah.autoclip"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/Zahuczky/Zahuczkys-Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "08cbca4",
-  "_fetchTime": 1727460966692,
+  "_fetchTime": 1727461561805,
   "modules": {},
   "_validHash": true
 }
