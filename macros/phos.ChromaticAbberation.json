@@ -34,6 +34,13 @@
             "feed": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json"
           },
           {
+            "moduleName": "l0.Functional",
+            "name": "(Almost) Functional Suite",
+            "url": "https://github.com/TypesettingTools/ASSFoundation",
+            "version": "0.6.0",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json"
+          },
+          {
             "moduleName": "phos.AegiGui",
             "name": "AegiGui",
             "url": "https://github.com/PhosCity/Aegisub-Scripts",
@@ -44,7 +51,7 @@
             "moduleName": "phos.AssfPlus",
             "name": "AssfPlus",
             "url": "https://github.com/PhosCity/Aegisub-Scripts",
-            "version": "1.0.3",
+            "version": "1.0.5",
             "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
           }
         ]
@@ -69,7 +76,7 @@
     },
     "_feedName": "PhosCity's Aegisub Scripts",
     "_feedIdentifier": "8fe234d",
-    "_fetchTime": 1726965566954,
+    "_fetchTime": 1727408427237,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "phos.ChromaticAbberation"
   }

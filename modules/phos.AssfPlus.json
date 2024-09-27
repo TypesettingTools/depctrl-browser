@@ -7,14 +7,14 @@
     "description": "Adds more features to ASSFoundation",
     "channels": {
       "main": {
-        "version": "1.0.4",
-        "released": "2024-09-16",
+        "version": "1.0.5",
+        "released": "2024-09-27",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/modules/phos/AssfPlus.moon",
-            "sha1": "444fbfc5ea07a50abee76936f210d7e21e3fed3a",
+            "sha1": "4906983c2a9b26180ff47bfa7b50fd4cf813ba5d",
             "_validHash": true
           }
         ],
@@ -60,11 +60,12 @@
     },
     "_validHash": true,
     "_reverseDependency": [
-      "phos.ChromaticAbberation"
+      "phos.ChromaticAbberation",
+      "phos.Abacus"
     ],
     "_feedName": "PhosCity's Aegisub Scripts",
     "_feedIdentifier": "8fe234d",
-    "_fetchTime": 1726965566954,
+    "_fetchTime": 1727408427237,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "phos.AssfPlus"
   }

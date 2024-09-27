@@ -39,11 +39,12 @@
       "phos.TimingAssistant",
       "phos.FoldOperations",
       "phos.EditTags",
-      "phos.ChromaticAbberation"
+      "phos.ChromaticAbberation",
+      "phos.Abacus"
     ],
     "_feedName": "PhosCity's Aegisub Scripts",
     "_feedIdentifier": "8fe234d",
-    "_fetchTime": 1726965566954,
+    "_fetchTime": 1727408427237,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "phos.AegiGui"
   }
