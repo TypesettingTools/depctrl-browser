@@ -225,15 +225,6 @@
     </content>
   </entry>
   <entry>
-    <title>AutoClip - 2.0.5</title>
-    <link href="/depctrl-browser/macros/zah.autoclip/"/>
-    <updated>2023-12-20T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/zah.autoclip/#2.0.5</id>
-    <content xml:lang="en" type="html">
-      
-    </content>
-  </entry>
-  <entry>
     <title>Resample Perspective - 2.1.0</title>
     <link href="/depctrl-browser/macros/arch.Resample/"/>
     <updated>2023-11-24T00:00:00Z</updated>
@@ -1535,6 +1526,15 @@
     <content xml:lang="en" type="html">
       
         &lt;li&gt;initial release&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>AutoClip - 2.1.1</title>
+    <link href="/depctrl-browser/macros/zah.autoclip/"/>
+    <updated>0205-04-18T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/zah.autoclip/#2.1.1</id>
+    <content xml:lang="en" type="html">
       
     </content>
   </entry>
