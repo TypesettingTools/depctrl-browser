@@ -8,14 +8,14 @@
     "channels": {
       "main": {
         "default": true,
-        "version": "1.5.9",
-        "released": "2025-04-23",
+        "version": "1.6.0",
+        "released": "2025-04-30",
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL.moon",
-            "sha1": "bdcd259509ce6abeee51c4a7597b68f7a265a414",
-            "_validHash": false
+            "sha1": "73d44cd0fbe80929fad05e445d6e5bde1369a122",
+            "_validHash": true
           },
           {
             "name": "/Ass/Shape/Curve.moon",
@@ -26,8 +26,8 @@
           {
             "name": "/Ass/Shape/Path.moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Shape/Path.moon",
-            "sha1": "2b80a3c0ddc088ac25b66fb9391f64b25095c8a3",
-            "_validHash": false
+            "sha1": "f67156cae1a9059a2e5f2794991533079ba48f35",
+            "_validHash": true
           },
           {
             "name": "/Ass/Shape/Point.moon",
@@ -259,9 +259,12 @@
       ],
       "1.5.9": [
         "UUpdate Path getNormalized"
+      ],
+      "1.6.0": [
+        "Update ILL"
       ]
     },
-    "_validHash": false,
+    "_validHash": true,
     "_reverseDependency": [
       "phos.ASS2SVG",
       "phos.AssfPlus",
@@ -273,7 +276,7 @@
     ],
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1746033357105,
+    "_fetchTime": 1746033654645,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ILL.ILL"
   }
