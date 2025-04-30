@@ -15,24 +15,24 @@
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL.moon",
             "sha1": "bdcd259509ce6abeee51c4a7597b68f7a265a414",
-            "_validHash": true
+            "_validHash": false
           },
           {
             "name": "/Ass/Shape/Curve.moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Shape/Curve.moon",
-            "sha1": "48be877a563e33ded0d8e343999ccaf1e62c6e82",
+            "sha1": "5df2fe7d8516b21f3c84a3aad77b756225ffea5d",
             "_validHash": true
           },
           {
             "name": "/Ass/Shape/Path.moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Shape/Path.moon",
             "sha1": "2b80a3c0ddc088ac25b66fb9391f64b25095c8a3",
-            "_validHash": true
+            "_validHash": false
           },
           {
             "name": "/Ass/Shape/Point.moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Shape/Point.moon",
-            "sha1": "8ea0c0a39be5fb05d7496f60a3058a162f493d94",
+            "sha1": "a6a2e2b021b875130283e9297769a6677e38d1c2",
             "_validHash": true
           },
           {
@@ -261,7 +261,7 @@
         "UUpdate Path getNormalized"
       ]
     },
-    "_validHash": true,
+    "_validHash": false,
     "_reverseDependency": [
       "phos.ASS2SVG",
       "phos.AssfPlus",
@@ -273,7 +273,7 @@
     ],
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1745714695827,
+    "_fetchTime": 1746033357105,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ILL.ILL"
   }
