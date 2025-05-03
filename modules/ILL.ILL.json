@@ -8,13 +8,13 @@
     "channels": {
       "main": {
         "default": true,
-        "version": "1.6.0",
-        "released": "2025-04-30",
+        "version": "1.6.1",
+        "released": "2025-05-03",
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL.moon",
-            "sha1": "73d44cd0fbe80929fad05e445d6e5bde1369a122",
+            "sha1": "df46534c2f15632f371c3cfbcc3324fce7a11d5e",
             "_validHash": true
           },
           {
@@ -68,7 +68,7 @@
           {
             "name": "/Ass/Line.moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Line.moon",
-            "sha1": "ed04c07c54cb67c6e083ccaaff543219b1d8f5fc",
+            "sha1": "4b4d55348ab8474f965ca037a600a91afdab9b45",
             "_validHash": true
           },
           {
@@ -262,6 +262,9 @@
       ],
       "1.6.0": [
         "Update ILL"
+      ],
+      "1.6.1": [
+        "Add Split Text"
       ]
     },
     "_validHash": true,
@@ -272,11 +275,12 @@
       "ILL.Shapery",
       "ILL.MakeImage",
       "ILL.ChangeAlign",
+      "ILL.SplitText",
       "zah.autoclip"
     ],
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1746033654645,
+    "_fetchTime": 1746245142496,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ILL.ILL"
   }

@@ -599,6 +599,17 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/macros/ILL.SplitText/",
+        name: "ILL - Split Text",
+        description: "Splits the text in several ways",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/macros/l0.ASSWipe/",
         name: "ASSWipe",
         description: "Performs script cleanup, removes unnecessary tags and lines.",
