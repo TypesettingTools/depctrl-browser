@@ -14,7 +14,7 @@
             "name": ".lua",
             "url": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/macros/lyger.SemiColorCalc.lua",
             "sha1": "489688F4931440B2C45C50B3532F0E57916E3478",
-            "_validHash": true
+            "_validHash": false
           }
         ],
         "requiredModules": [
@@ -29,7 +29,7 @@
         "Added DependencyControl"
       ]
     },
-    "_validHash": true,
+    "_validHash": false,
     "_defaultVersion": "1.1.0",
     "_scriptData": {
       "name": "Semitransparent color calculator",
@@ -43,7 +43,7 @@
     },
     "_feedName": "lyger's Automation Scripts",
     "_feedIdentifier": "41828c0",
-    "_fetchTime": 1746924369100,
+    "_fetchTime": 1747442767859,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "lyger.SemiColorCalc"
   }

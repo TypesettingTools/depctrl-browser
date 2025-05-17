@@ -12,7 +12,7 @@
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main.moon",
             "sha1": "50d9d19c49a684fce391925bb32f6041f151f29e",
-            "_validHash": true
+            "_validHash": false
           },
           {
             "name": "/2D/clipper.moon",
@@ -54,7 +54,7 @@
             "name": "/ass/tags/layer.moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/ass/tags/layer.moon",
             "sha1": "da52d4cb568435fbfce6e81239fc1d08a4b1d3c5",
-            "_validHash": true
+            "_validHash": false
           },
           {
             "name": "/ass/tags/tags.moon",
@@ -84,7 +84,7 @@
             "name": "/ass/line.moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/ass/line.moon",
             "sha1": "4d1fc99b511e31eddcf44b919040a5806bb779aa",
-            "_validHash": true
+            "_validHash": false
           },
           {
             "name": "/img/bmp.moon",
@@ -102,7 +102,7 @@
             "name": "/img/img.moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/img/img.moon",
             "sha1": "901bf218a16364282cb59818a08686d3876aae3c",
-            "_validHash": true
+            "_validHash": false
           },
           {
             "name": "/img/jpg.moon",
@@ -116,7 +116,7 @@
             "name": "/img/potrace.moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/img/potrace.moon",
             "sha1": "58ff21bf77c1d1fba0fa2d17fb237b608d31cb9b",
-            "_validHash": true
+            "_validHash": false
           },
           {
             "name": "/util/config.moon",
@@ -174,7 +174,7 @@
     "name": "ZF main",
     "description": "A library used in zeref's Aegisub scripts.",
     "author": "Zeref",
-    "_validHash": true,
+    "_validHash": false,
     "_reverseDependency": [
       "zf.allCharsTo",
       "zf.everythingShape",
@@ -185,7 +185,7 @@
     ],
     "_feedName": "zeref-aegisub-scripts",
     "_feedIdentifier": "fbbbec7",
-    "_fetchTime": 1746924369249,
+    "_fetchTime": 1747442767971,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ZF.main"
   }
