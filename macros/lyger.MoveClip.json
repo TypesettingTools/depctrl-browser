@@ -14,7 +14,7 @@
             "name": ".lua",
             "url": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/macros/lyger.MoveClip.lua",
             "sha1": "9B58CFA2DCFAC291C9B2A1D2222B35D33D7B9A57",
-            "_validHash": false
+            "_validHash": true
           }
         ],
         "requiredModules": [
@@ -32,7 +32,7 @@
         "Added DependencyControl"
       ]
     },
-    "_validHash": false,
+    "_validHash": true,
     "_defaultVersion": "1.2.0",
     "_scriptData": {
       "name": "Move with clip",
@@ -46,7 +46,7 @@
     },
     "_feedName": "lyger's Automation Scripts",
     "_feedIdentifier": "41828c0",
-    "_fetchTime": 1747442767859,
+    "_fetchTime": 1747529224378,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "lyger.MoveClip"
   }

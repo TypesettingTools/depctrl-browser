@@ -18,7 +18,7 @@
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/line0-Aegisub-Scripts/l0.Nudge-v0.5.0/l0.Nudge.moon",
             "sha1": "E65255219E0C9A29C6DEC27F385DE65F3D2977F7",
-            "_validHash": false
+            "_validHash": true
           }
         ],
         "requiredModules": [
@@ -125,7 +125,7 @@
         "An option was added for a nudger to strip or keep sections left empty after performing the desired operation."
       ]
     },
-    "_validHash": false,
+    "_validHash": true,
     "_defaultVersion": "0.5.0",
     "_scriptData": {
       "name": "Nudge",
@@ -139,7 +139,7 @@
     },
     "_feedName": "line0's Aegisub Scripts",
     "_feedIdentifier": "7afe7c4",
-    "_fetchTime": 1747442767807,
+    "_fetchTime": 1747529224180,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/line0-Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "l0.Nudge"
   }

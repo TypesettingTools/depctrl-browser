@@ -113,7 +113,7 @@
       },
       "_feedName": "Myaamori's Aegisub scripts",
       "_feedIdentifier": "d5b4bc1",
-      "_fetchTime": 1747442767883,
+      "_fetchTime": 1747529224403,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Myaamori-Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "myaa.MergeScripts"
     },
@@ -185,7 +185,7 @@
       },
       "_feedName": "Myaamori's Aegisub scripts",
       "_feedIdentifier": "d5b4bc1",
-      "_fetchTime": 1747442767883,
+      "_fetchTime": 1747529224403,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Myaamori-Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "myaa.Bounce"
     },
@@ -239,7 +239,7 @@
       },
       "_feedName": "Myaamori's Aegisub scripts",
       "_feedIdentifier": "d5b4bc1",
-      "_fetchTime": 1747442767883,
+      "_fetchTime": 1747529224403,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Myaamori-Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "myaa.PasteFromPad"
     }
@@ -289,7 +289,7 @@
       ],
       "_feedName": "Myaamori's Aegisub scripts",
       "_feedIdentifier": "d5b4bc1",
-      "_fetchTime": 1747442767883,
+      "_fetchTime": 1747529224403,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Myaamori-Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "myaa.ASSParser"
     },
@@ -333,7 +333,7 @@
               "name": "/compat.lua",
               "url": "https://raw.githubusercontent.com/TypesettingTools/Penlight/1.6.0-depctrl/lua/pl/compat.lua",
               "sha1": "E623D0BA1ABAEF2C5EF2ED89E83A9AE4EA3D1C5E",
-              "_validHash": false
+              "_validHash": true
             },
             {
               "name": "/comprehension.lua",
@@ -387,13 +387,13 @@
               "name": "/lapp.lua",
               "url": "https://raw.githubusercontent.com/TypesettingTools/Penlight/1.6.0-depctrl/lua/pl/lapp.lua",
               "sha1": "696FC997BD8560D945AE608DCE7E749DF3DF8A2C",
-              "_validHash": false
+              "_validHash": true
             },
             {
               "name": "/lexer.lua",
               "url": "https://raw.githubusercontent.com/TypesettingTools/Penlight/1.6.0-depctrl/lua/pl/lexer.lua",
               "sha1": "DFB4FDFC8FBB956F27DA20F2D9ABDAC5F19BCAF5",
-              "_validHash": false
+              "_validHash": true
             },
             {
               "name": "/List.lua",
@@ -483,7 +483,7 @@
               "name": "/stringx.lua",
               "url": "https://raw.githubusercontent.com/TypesettingTools/Penlight/1.6.0-depctrl/lua/pl/stringx.lua",
               "sha1": "39074D0ED7CD02F42F437BD68E2F8C64C9B5343E",
-              "_validHash": false
+              "_validHash": true
             },
             {
               "name": "/tablex.lua",
@@ -501,7 +501,7 @@
               "name": "/test.lua",
               "url": "https://raw.githubusercontent.com/TypesettingTools/Penlight/1.6.0-depctrl/lua/pl/test.lua",
               "sha1": "47DE45B803EA3CC1B93A64A5756809BC2620E0E7",
-              "_validHash": false
+              "_validHash": true
             },
             {
               "name": "/text.lua",
@@ -513,7 +513,7 @@
               "name": "/types.lua",
               "url": "https://raw.githubusercontent.com/TypesettingTools/Penlight/1.6.0-depctrl/lua/pl/types.lua",
               "sha1": "7180BC5775571C0763610B3F721DA97E025AE886",
-              "_validHash": false
+              "_validHash": true
             },
             {
               "name": "/url.lua",
@@ -536,20 +536,19 @@
           ]
         }
       },
-      "_validHash": false,
+      "_validHash": true,
       "_reverseDependency": [
         "myaa.MergeScripts"
       ],
       "_feedName": "Myaamori's Aegisub scripts",
       "_feedIdentifier": "d5b4bc1",
-      "_fetchTime": 1747442767883,
+      "_fetchTime": 1747529224403,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Myaamori-Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "myaa.pl"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Myaamori-Aegisub-Scripts/master/DependencyControl.json",
   "_identifier": "d5b4bc1",
-  "_fetchTime": 1747442767883,
-  "_defective": "Some files unreachable",
-  "_validHash": false
+  "_fetchTime": 1747529224403,
+  "_validHash": true
 }

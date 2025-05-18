@@ -14,7 +14,7 @@
             "name": ".lua",
             "url": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/macros/lyger.KaraReplacer.lua",
             "sha1": "9F67FF9EA95346EBB73CDBD9698563DA0B03BA01",
-            "_validHash": false
+            "_validHash": true
           }
         ]
       }
@@ -24,7 +24,7 @@
         "Added DependencyControl"
       ]
     },
-    "_validHash": false,
+    "_validHash": true,
     "_defaultVersion": "0.3.0",
     "_scriptData": {
       "name": "Karaoke replacer",
@@ -38,7 +38,7 @@
     },
     "_feedName": "lyger's Automation Scripts",
     "_feedIdentifier": "41828c0",
-    "_fetchTime": 1747442767859,
+    "_fetchTime": 1747529224378,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/lyger-Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "lyger.KaraReplacer"
   }

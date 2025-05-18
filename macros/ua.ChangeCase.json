@@ -14,7 +14,7 @@
             "name": ".lua",
             "url": "https://raw.githubusercontent.com/unanimated/luaegisub/master/ua.ChangeCase.lua",
             "sha1": "6f429be4c75ea4fa6f49481ba99a9eef437d2db7",
-            "_validHash": false
+            "_validHash": true
           }
         ]
       }
@@ -24,7 +24,7 @@
         "improved; added options; unicode support; added DespondencyControl"
       ]
     },
-    "_validHash": false,
+    "_validHash": true,
     "_defaultVersion": "3.0.0",
     "_scriptData": {
       "name": "Change Case",
@@ -38,7 +38,7 @@
     },
     "_feedName": "unanimated's Automation Scripts",
     "_feedIdentifier": "720a751",
-    "_fetchTime": 1747442767840,
+    "_fetchTime": 1747529224372,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "ua.ChangeCase"
   },
@@ -81,7 +81,7 @@
     },
     "_feedName": "unanimated's Automation Scripts",
     "_feedIdentifier": "827532f",
-    "_fetchTime": 1747442768066,
+    "_fetchTime": 1747529224742,
     "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
     "_namespace": "ua.ChangeCase"
   }

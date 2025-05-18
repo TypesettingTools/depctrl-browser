@@ -14,7 +14,7 @@
             "name": ".lua",
             "url": "https://raw.githubusercontent.com/unanimated/luaegisub/master/ua.MultiCopy.lua",
             "sha1": "eba606e5893845ddc2a6065bc4c1d11fadea38c8",
-            "_validHash": false
+            "_validHash": true
           }
         ]
       }
@@ -24,7 +24,7 @@
         "Check the Updates page"
       ]
     },
-    "_validHash": false,
+    "_validHash": true,
     "_defaultVersion": "4.0.0",
     "_scriptData": {
       "name": "MultiCopy",
@@ -38,7 +38,7 @@
     },
     "_feedName": "unanimated's Automation Scripts",
     "_feedIdentifier": "720a751",
-    "_fetchTime": 1747442767840,
+    "_fetchTime": 1747529224372,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "ua.MultiCopy"
   },
@@ -81,7 +81,7 @@
     },
     "_feedName": "unanimated's Automation Scripts",
     "_feedIdentifier": "827532f",
-    "_fetchTime": 1747442768066,
+    "_fetchTime": 1747529224742,
     "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
     "_namespace": "ua.MultiCopy"
   }
