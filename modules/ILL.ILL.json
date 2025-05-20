@@ -8,13 +8,13 @@
     "channels": {
       "main": {
         "default": true,
-        "version": "1.6.2",
-        "released": "2025-05-17",
+        "version": "1.6.3",
+        "released": "2025-05-20",
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL.moon",
-            "sha1": "f0e599506de3307721b37dd895420891f659f423",
+            "sha1": "56b640f25953f9e40a9839e85f3ccc6485e19ec7",
             "_validHash": true
           },
           {
@@ -68,7 +68,7 @@
           {
             "name": "/Ass/Line.moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Line.moon",
-            "sha1": "4b4d55348ab8474f965ca037a600a91afdab9b45",
+            "sha1": "d498928ad8aa0e3f4aa6dfff38d41945e07b0ad5",
             "_validHash": true
           },
           {
@@ -268,6 +268,9 @@
       ],
       "1.6.2": [
         "Improved Path.simplify"
+      ],
+      "1.6.3": [
+        "Update Split Text"
       ]
     },
     "_validHash": true,
@@ -283,7 +286,7 @@
     ],
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1747529224601,
+    "_fetchTime": 1747701928906,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ILL.ILL"
   }

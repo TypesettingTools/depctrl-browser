@@ -128,19 +128,19 @@
             "name": "/util/math.moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/util/math.moon",
             "sha1": "3dbc26c42952d1f1c102ffcdc10677774415ce44",
-            "_validHash": true
+            "_validHash": false
           },
           {
             "name": "/util/table.moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/util/table.moon",
             "sha1": "523fb18651f2534938793ba583dcd129e77f5f16",
-            "_validHash": true
+            "_validHash": false
           },
           {
             "name": "/util/util.moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/modules/ZF/main/util/util.moon",
             "sha1": "44e0373ea7f152f8c1ec770337acd8b6135a8a7e",
-            "_validHash": true
+            "_validHash": false
           }
         ],
         "requiredModules": [
@@ -174,7 +174,7 @@
     "name": "ZF main",
     "description": "A library used in zeref's Aegisub scripts.",
     "author": "Zeref",
-    "_validHash": true,
+    "_validHash": false,
     "_reverseDependency": [
       "zf.allCharsTo",
       "zf.everythingShape",
@@ -185,7 +185,7 @@
     ],
     "_feedName": "zeref-aegisub-scripts",
     "_feedIdentifier": "fbbbec7",
-    "_fetchTime": 1747529224594,
+    "_fetchTime": 1747701928893,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ZF.main"
   }
