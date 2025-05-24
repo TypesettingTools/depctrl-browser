@@ -5,11 +5,11 @@
     "channels": {
       "main": {
         "default": true,
-        "version": "2.1.0",
-        "released": "2025-05-20",
+        "version": "2.1.2",
+        "released": "2025-05-24",
         "files": [
           {
-            "sha1": "1d3b312db282727e6bac7f1bba7f3eeac10766cf",
+            "sha1": "73c9a8f443981506f4410b730671cfa14a704baf",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/macros/ILL.SplitText.moon",
             "name": ".moon",
             "_validHash": true
@@ -30,18 +30,21 @@
       ],
       "2.1.0": [
         "Update Split Text"
+      ],
+      "2.1.2": [
+        "Update Files"
       ]
     },
     "name": "ILL - Split Text",
     "description": "Splits the text in several ways",
     "author": "ILLTeam",
     "_validHash": true,
-    "_defaultVersion": "2.1.0",
+    "_defaultVersion": "2.1.2",
     "_scriptData": {
       "name": "ILL - Split Text",
       "description": "Splits the text in several ways",
       "author": "ILLTeam",
-      "version": "2.1.0",
+      "version": "2.1.2",
       "namespace": "ILL.SplitText",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json"
@@ -49,7 +52,7 @@
     },
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1747701928906,
+    "_fetchTime": 1748113592356,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ILL.SplitText"
   }

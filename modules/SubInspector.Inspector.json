@@ -20,7 +20,7 @@
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/SubInspector/c2db2971c9f959b6dcd84ea8438eef8e5702f400/examples/Aegisub/Inspector.moon",
             "sha1": "112009C60FFF28FD56B47AE51F562E306272AFF6",
-            "_validHash": false
+            "_validHash": true
           },
           {
             "name": "/SubInspector.dll",
@@ -88,7 +88,7 @@
         "All inputs are hashed (CRC32) to provide a measure of uniqueness."
       ]
     },
-    "_validHash": false,
+    "_validHash": true,
     "_reverseDependency": [
       "l0.ASSFoundation",
       "l0.ASSWipe",
@@ -96,7 +96,7 @@
     ],
     "_feedName": "SubInspector",
     "_feedIdentifier": "881e0ee",
-    "_fetchTime": 1747701928691,
+    "_fetchTime": 1748113591796,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/SubInspector/master/DependencyControl.json",
     "_namespace": "SubInspector.Inspector"
   }

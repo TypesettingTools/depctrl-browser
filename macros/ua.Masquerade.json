@@ -14,7 +14,7 @@
             "name": ".lua",
             "url": "https://raw.githubusercontent.com/unanimated/luaegisub/master/ua.Masquerade.lua",
             "sha1": "49b217a9706196222719ff25117907d8c9c08f07",
-            "_validHash": false
+            "_validHash": true
           }
         ]
       }
@@ -24,7 +24,7 @@
         "Check the Updates page"
       ]
     },
-    "_validHash": false,
+    "_validHash": true,
     "_defaultVersion": "3.0.0",
     "_scriptData": {
       "name": "Masquerade",
@@ -38,7 +38,7 @@
     },
     "_feedName": "unanimated's Automation Scripts",
     "_feedIdentifier": "720a751",
-    "_fetchTime": 1747701928792,
+    "_fetchTime": 1748113591993,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "ua.Masquerade"
   },
@@ -81,7 +81,7 @@
     },
     "_feedName": "unanimated's Automation Scripts",
     "_feedIdentifier": "827532f",
-    "_fetchTime": 1747701928980,
+    "_fetchTime": 1748113592440,
     "_sourceUrl": "https://raw.githubusercontent.com/unanimated/luaegisub/master/DependencyControl.json",
     "_namespace": "ua.Masquerade"
   }
