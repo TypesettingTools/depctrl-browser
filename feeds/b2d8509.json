@@ -93,7 +93,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1748134137206,
+      "_fetchTime": 1748321132504,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.EnvelopeDistort"
     },
@@ -103,11 +103,11 @@
       "channels": {
         "main": {
           "default": true,
-          "version": "2.5.8",
-          "released": "2025-05-17",
+          "version": "2.6.0",
+          "released": "2025-05-27",
           "files": [
             {
-              "sha1": "07a069882f3f1f5cc13e1970d0900ea91d20db78",
+              "sha1": "3d266eb40c61ba93f62c519d7d1a7b1b89d231ad",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/macros/ILL.Shapery.moon",
               "name": ".moon",
               "_validHash": true
@@ -192,18 +192,21 @@
         ],
         "2.5.8": [
           "Improved Path.simplify"
+        ],
+        "2.6.0": [
+          "New Features for Shapery"
         ]
       },
       "name": "Shapery",
       "description": "Does several types of shape manipulations from the simplest to the most complex",
       "author": "ILLTeam",
       "_validHash": true,
-      "_defaultVersion": "2.5.8",
+      "_defaultVersion": "2.6.0",
       "_scriptData": {
         "name": "Shapery",
         "description": "Does several types of shape manipulations from the simplest to the most complex",
         "author": "ILLTeam",
-        "version": "2.5.8",
+        "version": "2.6.0",
         "namespace": "ILL.Shapery",
         "_feedData": {
           "feed": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json"
@@ -211,7 +214,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1748134137206,
+      "_fetchTime": 1748321132504,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.Shapery"
     },
@@ -296,7 +299,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1748134137206,
+      "_fetchTime": 1748321132504,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.MakeImage"
     },
@@ -376,7 +379,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1748134137206,
+      "_fetchTime": 1748321132504,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.ChangeAlign"
     },
@@ -433,7 +436,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1748134137206,
+      "_fetchTime": 1748321132504,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.SplitText"
     }
@@ -523,7 +526,7 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1748134137206,
+      "_fetchTime": 1748321132504,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "clipper2.clipper2"
     },
@@ -536,13 +539,13 @@
       "channels": {
         "main": {
           "default": true,
-          "version": "1.6.4",
-          "released": "2025-05-24",
+          "version": "1.6.5",
+          "released": "2025-05-27",
           "files": [
             {
               "name": ".moon",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL.moon",
-              "sha1": "a4314334a8660dbbb6c54ce055417aea9792711a",
+              "sha1": "eff3689dc22048df2404ce62327b889f3407b262",
               "_validHash": true
             },
             {
@@ -554,7 +557,7 @@
             {
               "name": "/Ass/Shape/Path.moon",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Shape/Path.moon",
-              "sha1": "7688baa8a2f976acaad68088d998728032d4375d",
+              "sha1": "124c1fed87acde3ddb892979fd1014a1d799c38b",
               "_validHash": true
             },
             {
@@ -596,7 +599,7 @@
             {
               "name": "/Ass/Line.moon",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Line.moon",
-              "sha1": "e3a5fd0d7c307a0f7df515fec41129d9109df18c",
+              "sha1": "a687cfb2a01e24fb3fcdc68d517a93bda628d2a2",
               "_validHash": true
             },
             {
@@ -802,6 +805,9 @@
         ],
         "1.6.4": [
           "Update Files"
+        ],
+        "1.6.5": [
+          "New Features for Shapery"
         ]
       },
       "_validHash": true,
@@ -817,7 +823,7 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1748134137206,
+      "_fetchTime": 1748321132504,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.ILL"
     },
@@ -978,13 +984,13 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1748134137206,
+      "_fetchTime": 1748321132504,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.IMG"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "b2d8509",
-  "_fetchTime": 1748134137206,
+  "_fetchTime": 1748321132504,
   "_validHash": true
 }
