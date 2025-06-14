@@ -489,6 +489,17 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/macros/arch.FixKFXBoilerplate/",
+        name: "Fix KFX Boilerplate",
+        description: "Fix certain errors in boilerplate lines in old KFX templates on new Aegisub versions",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/macros/Flux.DialogSwapper/",
         name: "Dialog Swapper",
         description: "Perform text swapping operations on a script",

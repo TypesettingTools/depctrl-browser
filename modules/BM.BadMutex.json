@@ -45,7 +45,7 @@
             "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex-osx64.dylib",
             "platform": "OSX-x64",
             "sha1": "941E122E7A2E0BCCCFEB38CC87F4A2DD92838C2D",
-            "_validHash": false
+            "_validHash": true
           }
         ],
         "requiredModules": [
@@ -60,13 +60,13 @@
         ]
       }
     },
-    "_validHash": false,
+    "_validHash": true,
     "_reverseDependency": [
       "l0.DependencyControl"
     ],
     "_feedName": "FFI Experiments",
     "_feedIdentifier": "2d000a9",
-    "_fetchTime": 1749644179384,
+    "_fetchTime": 1749939336378,
     "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
     "_namespace": "BM.BadMutex"
   },
@@ -137,7 +137,7 @@
     ],
     "_feedName": "FFI Experiments",
     "_feedIdentifier": "1fe3ac7",
-    "_fetchTime": 1749644179652,
+    "_fetchTime": 1749939336893,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
     "_namespace": "BM.BadMutex"
   }
