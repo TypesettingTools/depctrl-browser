@@ -7,14 +7,14 @@
     "description": "Export ass shapes to svg path",
     "channels": {
       "main": {
-        "version": "1.0.0",
-        "released": "2024-11-04",
+        "version": "1.0.2",
+        "released": "2025-06-23",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.ASS2SVG.moon",
-            "sha1": "8d33fe9c0879d51f1d98c145bfd83c31c2153c3b",
+            "sha1": "be31779f08657264216799023bbbfe8a2c57bebd",
             "_validHash": true
           }
         ],
@@ -35,12 +35,12 @@
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "1.0.0",
+    "_defaultVersion": "1.0.2",
     "_scriptData": {
       "name": "ASS2SVG",
       "description": "Export ass shapes to svg path",
       "author": "PhosCity",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "namespace": "phos.ASS2SVG",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
@@ -48,7 +48,7 @@
     },
     "_feedName": "PhosCity's Aegisub Scripts",
     "_feedIdentifier": "8fe234d",
-    "_fetchTime": 1750553428214,
+    "_fetchTime": 1750659324616,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "phos.ASS2SVG"
   }
