@@ -7,8 +7,8 @@
     "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/@{channel}/modules/ILL/IMG",
     "channels": {
       "main": {
-        "version": "1.0.2",
-        "released": "2023-04-30",
+        "version": "1.0.4",
+        "released": "2025-07-17",
         "default": true,
         "platforms": [
           "Windows-x64",
@@ -19,7 +19,7 @@
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/IMG.moon",
-            "sha1": "8eef6452f0c1dea6f1bc43d1d56b4e65149b9455",
+            "sha1": "54252f6e9f958464ca98c53a94b6ba92d97b413a",
             "_validHash": true
           },
           {
@@ -148,6 +148,12 @@
         "Update ILL IMG module",
         "",
         "- Corrigido inicialização no Aegisub v3.2.2"
+      ],
+      "1.0.3": [
+        "Update ILL.IMG - Fix reduce pixels for ass"
+      ],
+      "1.0.4": [
+        "Update ILL.IMG - Fix reduce pixels for ass"
       ]
     },
     "_validHash": true,
@@ -156,7 +162,7 @@
     ],
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1752367960871,
+    "_fetchTime": 1752712881036,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ILL.IMG"
   }
