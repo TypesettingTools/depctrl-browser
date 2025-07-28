@@ -26,7 +26,7 @@
           {
             "name": "/Ass/Shape/Path.moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Shape/Path.moon",
-            "sha1": "8fc450f9daf37abaa7abd7f8fcd0eddc972461b6",
+            "sha1": "454ceff83da31113720ac29596ab31378c4141ca",
             "_validHash": true
           },
           {
@@ -304,7 +304,7 @@
     ],
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1753671672325,
+    "_fetchTime": 1753671968906,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ILL.ILL"
   }
