@@ -7,14 +7,14 @@
     "description": "Apply after resampling a script in Aegisub to fix any lines with 3D rotations.",
     "channels": {
       "release": {
-        "version": "2.1.0",
-        "released": "2023-11-24",
+        "version": "2.1.1",
+        "released": "2025-08-05",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Resample-v2.1.0/macros/arch.Resample.moon",
-            "sha1": "638c6aa9ed732bc83a4b9d684d71b632f52f24fe",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.Resample-v2.1.1/macros/arch.Resample.moon",
+            "sha1": "1d6d35e350a34111707095b77ab58e1b5a9832c8",
             "_validHash": true
           }
         ],
@@ -36,7 +36,7 @@
             "moduleName": "arch.Perspective",
             "name": "Perspective",
             "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts",
-            "version": "1.0.0"
+            "version": "1.2.1"
           }
         ]
       }
@@ -80,15 +80,18 @@
       ],
       "2.1.0": [
         "Move some more logic over to the Perspective module"
+      ],
+      "2.1.1": [
+        "Fix \fscx/y being broken with drawings"
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "2.1.0",
+    "_defaultVersion": "2.1.1",
     "_scriptData": {
       "name": "Resample Perspective",
       "description": "Apply after resampling a script in Aegisub to fix any lines with 3D rotations.",
       "author": "arch1t3cht",
-      "version": "2.1.0",
+      "version": "2.1.1",
       "namespace": "arch.Resample",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json"
@@ -96,7 +99,7 @@
     },
     "_feedName": "arch1t3cht's Aegisub Scripts",
     "_feedIdentifier": "b409fc1",
-    "_fetchTime": 1754182476589,
+    "_fetchTime": 1754394673197,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "arch.Resample"
   }

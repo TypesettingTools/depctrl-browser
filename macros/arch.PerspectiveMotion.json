@@ -7,14 +7,14 @@
     "description": "Apply perspective motion tracking data",
     "channels": {
       "release": {
-        "version": "0.3.0",
-        "released": "2024-08-19",
+        "version": "0.3.1",
+        "released": "2025-08-05",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.PerspectiveMotion-v0.3.0/macros/arch.PerspectiveMotion.moon",
-            "sha1": "ec5cc2452b3869f31c6232a35c987106aa701b1a",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.PerspectiveMotion-v0.3.1/macros/arch.PerspectiveMotion.moon",
+            "sha1": "6f31b0958a6648b55d5a6e545e126e3a2fbc801a",
             "_validHash": true
           }
         ],
@@ -36,7 +36,7 @@
             "moduleName": "arch.Perspective",
             "name": "Perspective",
             "url": "https://github.com/TypesettingTools/arch1t3cht-Aegisub-Scripts",
-            "version": "1.1.0"
+            "version": "1.2.1"
           },
           {
             "moduleName": "arch.Util",
@@ -71,15 +71,18 @@
       ],
       "0.3.0": [
         "Correctly handle LayoutResY or the video height differing from PlayResY, but yell at the user when they differ"
+      ],
+      "0.3.1": [
+        "Fix \fscx/y being broken with drawings"
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "0.3.0",
+    "_defaultVersion": "0.3.1",
     "_scriptData": {
       "name": "Aegisub Perspective-Motion",
       "description": "Apply perspective motion tracking data",
       "author": "arch1t3cht",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "namespace": "arch.PerspectiveMotion",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json"
@@ -87,7 +90,7 @@
     },
     "_feedName": "arch1t3cht's Aegisub Scripts",
     "_feedIdentifier": "b409fc1",
-    "_fetchTime": 1754182476589,
+    "_fetchTime": 1754394673197,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "arch.PerspectiveMotion"
   }
