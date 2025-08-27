@@ -148,6 +148,17 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/macros/petzku.PlainText/",
+        name: "PlainText",
+        description: "Copy script text in plaintext format",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/macros/petzku.PosToMargin/",
         name: "Margin Position",
         description: "Transforms \\pos-based positioning into margin and vice versa",
