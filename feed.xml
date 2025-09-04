@@ -27,7 +27,7 @@
     <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.DerivePerspTrack/#1.1.3</id>
     <content xml:lang="en" type="html">
       
-        &lt;li&gt;Fix scx/y being broken with drawings&lt;/li&gt;
+        &lt;li&gt;Fix &#92;fscx/y being broken with drawings&lt;/li&gt;
       
     </content>
   </entry>
@@ -38,7 +38,7 @@
     <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.PerspectiveMotion/#0.3.1</id>
     <content xml:lang="en" type="html">
       
-        &lt;li&gt;Fix scx/y being broken with drawings&lt;/li&gt;
+        &lt;li&gt;Fix &#92;fscx/y being broken with drawings&lt;/li&gt;
       
     </content>
   </entry>
@@ -49,7 +49,7 @@
     <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.Resample/#2.1.1</id>
     <content xml:lang="en" type="html">
       
-        &lt;li&gt;Fix scx/y being broken with drawings&lt;/li&gt;
+        &lt;li&gt;Fix &#92;fscx/y being broken with drawings&lt;/li&gt;
       
     </content>
   </entry>

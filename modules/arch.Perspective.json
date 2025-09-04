@@ -65,7 +65,7 @@
         "Add layoutScale parameter to account for differing LayoutRes or video resolution"
       ],
       "1.2.1": [
-        "Fix \fscx/y being broken with drawings"
+        "Fix \\fscx/y being broken with drawings"
       ]
     },
     "_validHash": true,
@@ -77,7 +77,7 @@
     ],
     "_feedName": "arch1t3cht's Aegisub Scripts",
     "_feedIdentifier": "b409fc1",
-    "_fetchTime": 1756601078847,
+    "_fetchTime": 1756992685065,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "arch.Perspective"
   }
