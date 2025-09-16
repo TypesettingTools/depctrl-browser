@@ -14,7 +14,7 @@
           {
             "name": ".lua",
             "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/macros/petzku.EncodeClip.lua",
-            "sha1": "1ab4b6405955353f826df3bfe4baec49f61a58ad",
+            "sha1": "573739aabddd587a9506b412f29d089467532081",
             "_validHash": true
           }
         ],
@@ -60,7 +60,7 @@
     },
     "_feedName": "petzku's Automation Scripts",
     "_feedIdentifier": "7161932",
-    "_fetchTime": 1758052541973,
+    "_fetchTime": 1758053444859,
     "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "petzku.EncodeClip"
   }
