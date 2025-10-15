@@ -4,19 +4,21 @@
   <subtitle>List of recently updated DependencyControl Macros.</subtitle>
   <link href="feed.xml" rel="self"/>
   <link href="https://typesettingtools.github.io/depctrl-browser/"/>
-  <updated>2025-09-16T00:00:00Z</updated>
+  <updated>2025-10-16T00:00:00Z</updated>
   <id>https://typesettingtools.github.io/depctrl-browser/</id>
   <author>
     <name>DepCtrl Browser</name>
   </author>
   <entry>
-    <title>Encode Clip - 1.2.0</title>
+    <title>Encode Clip - 1.2.1</title>
     <link href="/depctrl-browser/macros/petzku.EncodeClip/"/>
-    <updated>2025-09-16T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.EncodeClip/#1.2.0</id>
+    <updated>2025-10-16T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.EncodeClip/#1.2.1</id>
     <content xml:lang="en" type="html">
       
-        &lt;li&gt;Check and warn if user missing libx264&lt;/li&gt;
+        &lt;li&gt;Improve logging&lt;/li&gt;
+      
+        &lt;li&gt;Bump util dependency (fixes some issues on POSIX)&lt;/li&gt;
       
     </content>
   </entry>
