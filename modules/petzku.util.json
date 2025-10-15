@@ -14,7 +14,7 @@
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.5.1/modules/petzku/util.moon",
-            "sha1": "0755d4c089ac064cb42948247933799b7155ff6e",
+            "sha1": "39bc5733bdc12c4ff4c812781f6272d9be6c48f0",
             "_validHash": true
           },
           {
@@ -56,7 +56,8 @@
         "Improve trace logging"
       ],
       "0.5.1": [
-        "Fix run_cmd always outputting logs on success"
+        "Fix run_cmd always outputting logs on success",
+        "Fix lack of blank lines in command logs output"
       ]
     },
     "_validHash": true,
@@ -68,7 +69,7 @@
     ],
     "_feedName": "petzku's Automation Scripts",
     "_feedIdentifier": "7161932",
-    "_fetchTime": 1760569244121,
+    "_fetchTime": 1760570145414,
     "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "petzku.util"
   }
