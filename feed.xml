@@ -10,15 +10,13 @@
     <name>DepCtrl Browser</name>
   </author>
   <entry>
-    <title>Encode Clip - 1.2.1</title>
+    <title>Encode Clip - 1.2.2</title>
     <link href="/depctrl-browser/macros/petzku.EncodeClip/"/>
     <updated>2025-10-16T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.EncodeClip/#1.2.1</id>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/petzku.EncodeClip/#1.2.2</id>
     <content xml:lang="en" type="html">
       
-        &lt;li&gt;Improve logging&lt;/li&gt;
-      
-        &lt;li&gt;Bump util dependency (fixes some issues on POSIX)&lt;/li&gt;
+        &lt;li&gt;Fix crash caused by logging&lt;/li&gt;
       
     </content>
   </entry>

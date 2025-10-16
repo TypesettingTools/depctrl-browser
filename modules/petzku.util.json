@@ -7,19 +7,19 @@
     "description": "Various utility functions for use with petzku's Aegisub macros",
     "channels": {
       "stable": {
-        "version": "0.5.1",
+        "version": "0.5.2",
         "released": "2025-10-16",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.5.1/modules/petzku/util.moon",
-            "sha1": "39bc5733bdc12c4ff4c812781f6272d9be6c48f0",
+            "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.5.2/modules/petzku/util.moon",
+            "sha1": "9ffd8cd60144cd6027cec5d2b2ba70af0755f68b",
             "_validHash": true
           },
           {
             "name": "/tee.exe",
-            "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.5.1/modules/petzku/util/tee.exe",
+            "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.5.2/modules/petzku/util/tee.exe",
             "platform": "Windows-x64",
             "sha1": "054c04d341152311d40aaab4049e6c2c26646b3a",
             "_validHash": true
@@ -58,6 +58,9 @@
       "0.5.1": [
         "Fix run_cmd always outputting logs on success",
         "Fix lack of blank lines in command logs output"
+      ],
+      "0.5.2": [
+        "Fix crash caused by above"
       ]
     },
     "_validHash": true,
@@ -69,7 +72,7 @@
     ],
     "_feedName": "petzku's Automation Scripts",
     "_feedIdentifier": "7161932",
-    "_fetchTime": 1760570745473,
+    "_fetchTime": 1760604053497,
     "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "petzku.util"
   }
