@@ -4,11 +4,20 @@
   <subtitle>List of recently updated DependencyControl Macros.</subtitle>
   <link href="feed.xml" rel="self"/>
   <link href="https://typesettingtools.github.io/depctrl-browser/"/>
-  <updated>2025-10-16T00:00:00Z</updated>
+  <updated>2025-10-26T00:00:00Z</updated>
   <id>https://typesettingtools.github.io/depctrl-browser/</id>
   <author>
     <name>DepCtrl Browser</name>
   </author>
+  <entry>
+    <title>Add Grain - 1.1.5</title>
+    <link href="/depctrl-browser/macros/phos.AddGrain/"/>
+    <updated>2025-10-26T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.AddGrain/#1.1.5</id>
+    <content xml:lang="en" type="html">
+      
+    </content>
+  </entry>
   <entry>
     <title>Encode Clip - 1.2.2</title>
     <link href="/depctrl-browser/macros/petzku.EncodeClip/"/>
@@ -355,15 +364,6 @@
     <link href="/depctrl-browser/macros/phos.svg2ass/"/>
     <updated>2023-04-04T00:00:00Z</updated>
     <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.svg2ass/#1.2.5</id>
-    <content xml:lang="en" type="html">
-      
-    </content>
-  </entry>
-  <entry>
-    <title>Add Grain - 1.1.4</title>
-    <link href="/depctrl-browser/macros/phos.AddGrain/"/>
-    <updated>2023-04-04T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.AddGrain/#1.1.4</id>
     <content xml:lang="en" type="html">
       
     </content>
