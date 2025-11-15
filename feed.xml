@@ -10,13 +10,11 @@
     <name>DepCtrl Browser</name>
   </author>
   <entry>
-    <title>Aegisub-Color-Tracking - 2.1.1</title>
+    <title>Aegisub-Color-Tracking - 2.1.2</title>
     <link href="/depctrl-browser/macros/zah.aegi-color-track/"/>
     <updated>2025-11-15T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/zah.aegi-color-track/#2.1.1</id>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/zah.aegi-color-track/#2.1.2</id>
     <content xml:lang="en" type="html">
-      
-        &lt;li&gt;Get rid of conflicting colors/alpha tags in the tag block where the transform is placed.&lt;/li&gt;
       
     </content>
   </entry>
