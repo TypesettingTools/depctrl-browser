@@ -39,6 +39,17 @@
     </content>
   </entry>
   <entry>
+    <title>Gradient Everything - 2.0.4</title>
+    <link href="/depctrl-browser/macros/lyger.GradientEverything/"/>
+    <updated>2025-11-09T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/lyger.GradientEverything/#2.0.4</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Now extends clips to video edges.&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
     <title>Add Grain - 1.1.5</title>
     <link href="/depctrl-browser/macros/phos.AddGrain/"/>
     <updated>2025-10-26T00:00:00Z</updated>
@@ -1129,19 +1140,6 @@
     <content xml:lang="en" type="html">
       
         &lt;li&gt;Fixed a minor isssue uncovered by Moonscript linter.&lt;/li&gt;
-      
-        &lt;li&gt;Switched to maintained Functional library.&lt;/li&gt;
-      
-    </content>
-  </entry>
-  <entry>
-    <title>Gradient Everything - 2.0.3</title>
-    <link href="/depctrl-browser/macros/lyger.GradientEverything/"/>
-    <updated>2016-04-11T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/lyger.GradientEverything/#2.0.3</id>
-    <content xml:lang="en" type="html">
-      
-        &lt;li&gt;Switched to DependencyControl logger module for logging.&lt;/li&gt;
       
         &lt;li&gt;Switched to maintained Functional library.&lt;/li&gt;
       
