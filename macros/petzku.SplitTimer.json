@@ -7,14 +7,14 @@
     "description": "Split lines in selection to shorter segments, preserving any transforms",
     "channels": {
       "stable": {
-        "version": "1.2.2",
-        "released": "2023-11-19",
+        "version": "1.2.3",
+        "released": "2025-11-25",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/macros/petzku.SplitTimer.moon",
-            "sha1": "41f1f3c2064f8c6a6272e5aa3f16f4e4df669aa7",
+            "sha1": "76e44ec5e8cd3079c6408b7f434128d34356bdb2",
             "_validHash": true
           }
         ],
@@ -23,7 +23,7 @@
             "moduleName": "petzku.util",
             "name": "petzkuLib",
             "url": "https://github.com/petzku/Aegisub-Scripts",
-            "version": "0.4.2"
+            "version": "0.5.3"
           }
         ]
       }
@@ -49,15 +49,18 @@
       ],
       "1.2.2": [
         "Include feed URL for DepCtrl updating"
+      ],
+      "1.2.3": [
+        "Bump petzku.util dependency to 0.5.3 (fixes zero-end-time transforms breaking)"
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "1.2.2",
+    "_defaultVersion": "1.2.3",
     "_scriptData": {
       "name": "SplitTimer",
       "description": "Split lines in selection into shorter segments, preserving any transforms",
       "author": "petzku",
-      "version": "1.2.2",
+      "version": "1.2.3",
       "namespace": "petzku.SplitTimer",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/DependencyControl.json"
@@ -65,7 +68,7 @@
     },
     "_feedName": "petzku's Automation Scripts",
     "_feedIdentifier": "7161932",
-    "_fetchTime": 1763859055101,
+    "_fetchTime": 1764044123632,
     "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "petzku.SplitTimer"
   }

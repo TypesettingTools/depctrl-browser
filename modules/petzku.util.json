@@ -7,22 +7,22 @@
     "description": "Various utility functions for use with petzku's Aegisub macros",
     "channels": {
       "stable": {
-        "version": "0.5.2",
-        "released": "2025-10-16",
+        "version": "0.5.3",
+        "released": "2025-11-25",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.5.2/modules/petzku/util.moon",
-            "sha1": "9ffd8cd60144cd6027cec5d2b2ba70af0755f68b",
-            "_validHash": true
+            "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.5.3/modules/petzku/util.moon",
+            "sha1": "d2f5754ac42173096d55f55b046856a27a05e0c3",
+            "_validHash": false
           },
           {
             "name": "/tee.exe",
-            "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.5.2/modules/petzku/util/tee.exe",
+            "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.5.3/modules/petzku/util/tee.exe",
             "platform": "Windows-x64",
             "sha1": "054c04d341152311d40aaab4049e6c2c26646b3a",
-            "_validHash": true
+            "_validHash": false
           }
         ]
       }
@@ -61,9 +61,12 @@
       ],
       "0.5.2": [
         "Fix crash caused by above"
+      ],
+      "0.5.3": [
+        "Fix transform.retime not handling zero-end-time correctly"
       ]
     },
-    "_validHash": true,
+    "_validHash": false,
     "_reverseDependency": [
       "petzku.EncodeClip",
       "petzku.SplitTimer",
@@ -72,7 +75,7 @@
     ],
     "_feedName": "petzku's Automation Scripts",
     "_feedIdentifier": "7161932",
-    "_fetchTime": 1763859055101,
+    "_fetchTime": 1764044123632,
     "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "petzku.util"
   }
