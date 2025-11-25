@@ -14,15 +14,15 @@
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.5.3/modules/petzku/util.moon",
-            "sha1": "d2f5754ac42173096d55f55b046856a27a05e0c3",
-            "_validHash": false
+            "sha1": "07b7c81c3fca04809b658025526d7597add3f8ae",
+            "_validHash": true
           },
           {
             "name": "/tee.exe",
             "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/petzku.util-v0.5.3/modules/petzku/util/tee.exe",
             "platform": "Windows-x64",
             "sha1": "054c04d341152311d40aaab4049e6c2c26646b3a",
-            "_validHash": false
+            "_validHash": true
           }
         ]
       }
@@ -63,10 +63,11 @@
         "Fix crash caused by above"
       ],
       "0.5.3": [
-        "Fix transform.retime not handling zero-end-time correctly"
+        "Fix transform.retime not handling zero-end-time correctly",
+        "Add proper print-like function"
       ]
     },
-    "_validHash": false,
+    "_validHash": true,
     "_reverseDependency": [
       "petzku.EncodeClip",
       "petzku.SplitTimer",
@@ -75,7 +76,7 @@
     ],
     "_feedName": "petzku's Automation Scripts",
     "_feedIdentifier": "7161932",
-    "_fetchTime": 1764044123632,
+    "_fetchTime": 1764045025741,
     "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "petzku.util"
   }
