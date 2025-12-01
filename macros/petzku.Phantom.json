@@ -7,14 +7,14 @@
     "description": "Align line content to match others by adding text and abusing transparency",
     "channels": {
       "stable": {
-        "version": "1.1.1",
-        "released": "2023-11-19",
+        "version": "1.1.2",
+        "released": "2025-12-01",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/macros/petzku.Phantom.moon",
-            "sha1": "329d2f498869c1cd258bf931424267d3ac3a4a20",
+            "sha1": "8a90c085a0571aee00fbae326b9128e4f699c3f1",
             "_validHash": true
           }
         ]
@@ -32,15 +32,18 @@
       ],
       "1.1.1": [
         "Include feed URL for DepCtrl updating"
+      ],
+      "1.1.2": [
+        "Fix doubled-up name when using depctrl (was Phantom/Phantom/...)"
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "1.1.1",
+    "_defaultVersion": "1.1.2",
     "_scriptData": {
       "name": "Phantom",
       "description": "Align line content to match others by adding text and abusing transparency",
       "author": "petzku",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "namespace": "petzku.Phantom",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/stable/DependencyControl.json"
@@ -48,7 +51,7 @@
     },
     "_feedName": "petzku's Automation Scripts",
     "_feedIdentifier": "7161932",
-    "_fetchTime": 1764463863935,
+    "_fetchTime": 1764624056598,
     "_sourceUrl": "https://raw.githubusercontent.com/petzku/Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "petzku.Phantom"
   }
