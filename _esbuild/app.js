@@ -170,6 +170,17 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/macros/petzku.QuantizeKara/",
+        name: "Quantize K-timing",
+        description: "Quantize \\k-tags to discrete beats",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/macros/petzku.Snapper/",
         name: "Snapper",
         description: "Snaps line start and end times to keyframes",
