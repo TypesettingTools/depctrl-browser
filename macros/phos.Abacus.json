@@ -7,14 +7,14 @@
     "description": "Recalculates values of tags.",
     "channels": {
       "main": {
-        "version": "1.0.3",
-        "released": "2025-07-27",
+        "version": "1.1.0",
+        "released": "2025-12-09",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.Abacus.moon",
-            "sha1": "25dffb86d6bf0e6c8198327ae768818beb4574d8",
+            "sha1": "cc4ec63e0706af99ba4bd485f12dea390a7f1e29",
             "_validHash": true
           }
         ],
@@ -56,12 +56,12 @@
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "1.0.3",
+    "_defaultVersion": "1.1.0",
     "_scriptData": {
       "name": "Abacus",
       "description": "Recalculates values of tags.",
       "author": "PhosCity",
-      "version": "1.0.3",
+      "version": "1.1.0",
       "namespace": "phos.Abacus",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
@@ -69,7 +69,7 @@
     },
     "_feedName": "PhosCity's Aegisub Scripts",
     "_feedIdentifier": "8fe234d",
-    "_fetchTime": 1765068668311,
+    "_fetchTime": 1765284647059,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "phos.Abacus"
   }
