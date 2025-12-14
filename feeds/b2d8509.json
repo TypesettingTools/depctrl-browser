@@ -93,7 +93,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1765673494734,
+      "_fetchTime": 1765739175004,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.EnvelopeDistort"
     },
@@ -217,7 +217,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1765673494734,
+      "_fetchTime": 1765739175004,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.Shapery"
     },
@@ -227,11 +227,11 @@
       "channels": {
         "main": {
           "default": true,
-          "version": "2.1.1",
-          "released": "2024-02-04",
+          "version": "2.2.0",
+          "released": "2025-12-14",
           "files": [
             {
-              "sha1": "e70cb345fb76721ebfd4ca8e7850208653007a39",
+              "sha1": "67c2e71bb8f9b2181ed333da82e399d5a3541c18",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/macros/ILL.MakeImage.moon",
               "name": ".moon",
               "_validHash": true
@@ -283,18 +283,21 @@
         ],
         "2.1.1": [
           "Update ILL dependency version in macros"
+        ],
+        "2.2.0": [
+          "Add GIF support to Make Image"
         ]
       },
       "name": "Make Image",
       "description": "Does several procedures for converting images to the .ass",
       "author": "ILLTeam",
       "_validHash": true,
-      "_defaultVersion": "2.1.1",
+      "_defaultVersion": "2.2.0",
       "_scriptData": {
         "name": "Make Image",
         "description": "Does several procedures for converting images to the .ass",
         "author": "ILLTeam",
-        "version": "2.1.1",
+        "version": "2.2.0",
         "namespace": "ILL.MakeImage",
         "_feedData": {
           "feed": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json"
@@ -302,7 +305,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1765673494734,
+      "_fetchTime": 1765739175004,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.MakeImage"
     },
@@ -382,7 +385,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1765673494734,
+      "_fetchTime": 1765739175004,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.ChangeAlign"
     },
@@ -439,7 +442,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1765673494734,
+      "_fetchTime": 1765739175004,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.SplitText"
     }
@@ -529,7 +532,7 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1765673494734,
+      "_fetchTime": 1765739175004,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "clipper2.clipper2"
     },
@@ -844,7 +847,7 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1765673494734,
+      "_fetchTime": 1765739175004,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.ILL"
     },
@@ -1011,13 +1014,13 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1765673494734,
+      "_fetchTime": 1765739175004,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.IMG"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "b2d8509",
-  "_fetchTime": 1765673494734,
+  "_fetchTime": 1765739175004,
   "_validHash": true
 }
