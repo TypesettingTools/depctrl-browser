@@ -118,7 +118,7 @@
             "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts/releases/download/image-v1.0.0/libturbojpeg.dylib",
             "platform": "OSX-x64",
             "sha1": "d99df3508622fa757adff37a782e67a6cd33fda1",
-            "_validHash": true
+            "_validHash": false
           },
           {
             "name": "/turbojpeg/turbojpeg/libturbojpeg.so",
@@ -156,13 +156,13 @@
         "Update ILL.IMG - Fix reduce pixels for ass"
       ]
     },
-    "_validHash": true,
+    "_validHash": false,
     "_reverseDependency": [
       "ILL.MakeImage"
     ],
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1765739175004,
+    "_fetchTime": 1766071888926,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ILL.IMG"
   }
