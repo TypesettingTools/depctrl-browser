@@ -93,7 +93,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1766681167720,
+      "_fetchTime": 1766681469551,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.EnvelopeDistort"
     },
@@ -217,7 +217,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1766681167720,
+      "_fetchTime": 1766681469551,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.Shapery"
     },
@@ -305,7 +305,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1766681167720,
+      "_fetchTime": 1766681469551,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.MakeImage"
     },
@@ -385,7 +385,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1766681167720,
+      "_fetchTime": 1766681469551,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.ChangeAlign"
     },
@@ -442,7 +442,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1766681167720,
+      "_fetchTime": 1766681469551,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.SplitText"
     }
@@ -532,7 +532,7 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1766681167720,
+      "_fetchTime": 1766681469551,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "clipper2.clipper2"
     },
@@ -545,13 +545,13 @@
       "channels": {
         "main": {
           "default": true,
-          "version": "1.7.3",
+          "version": "1.7.4",
           "released": "2025-12-25",
           "files": [
             {
               "name": ".moon",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL.moon",
-              "sha1": "f9078b401b4d365f9ed43ace34e26e8b83115221",
+              "sha1": "9fe09ed72b0e8b055b71b49efc45b3dbdbc4d45a",
               "_validHash": true
             },
             {
@@ -623,7 +623,7 @@
             {
               "name": "/Font/Unx.moon",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Font/Unx.moon",
-              "sha1": "fba1a3ee809721acd12e9b5433c87a23b92fc96e",
+              "sha1": "0b75072544ee3faa4b86c12b3eeaa17d14800f19",
               "_validHash": true
             },
             {
@@ -838,6 +838,9 @@
         ],
         "1.7.3": [
           "improved font selection for Unix (no fallback)"
+        ],
+        "1.7.4": [
+          "fix waste"
         ]
       },
       "_validHash": true,
@@ -853,7 +856,7 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1766681167720,
+      "_fetchTime": 1766681469551,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.ILL"
     },
@@ -1020,13 +1023,13 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1766681167720,
+      "_fetchTime": 1766681469551,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.IMG"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "b2d8509",
-  "_fetchTime": 1766681167720,
+  "_fetchTime": 1766681469551,
   "_validHash": true
 }
