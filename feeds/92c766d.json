@@ -979,6 +979,7 @@
         "phos.EditTags",
         "phos.ChromaticAbberation",
         "phos.Abacus",
+        "phos.AlignAndDistribute",
         "phos.AssfPlus",
         "arch.DerivePerspTrack",
         "arch.Line2Fbf",
@@ -1003,14 +1004,14 @@
       ],
       "_feedName": "ASSFoundation",
       "_feedIdentifier": "92c766d",
-      "_fetchTime": 1766883224840,
+      "_fetchTime": 1767024049033,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json",
       "_namespace": "l0.ASSFoundation"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json",
   "_identifier": "92c766d",
-  "_fetchTime": 1766883224840,
+  "_fetchTime": 1767024049033,
   "macros": {},
   "_validHash": true
 }
