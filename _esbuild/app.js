@@ -654,6 +654,17 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/macros/ILL.Line2FBF/",
+        name: "ILL - Line2FBF",
+        description: "It calculates line transformations frame by frame or given a step frame.",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/macros/l0.ASSWipe/",
         name: "ASSWipe",
         description: "Performs script cleanup, removes unnecessary tags and lines.",

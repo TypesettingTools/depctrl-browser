@@ -4,11 +4,22 @@
   <subtitle>List of recently updated DependencyControl Macros.</subtitle>
   <link href="feed.xml" rel="self"/>
   <link href="https://typesettingtools.github.io/depctrl-browser/"/>
-  <updated>2025-12-30T00:00:00Z</updated>
+  <updated>2026-01-05T00:00:00Z</updated>
   <id>https://typesettingtools.github.io/depctrl-browser/</id>
   <author>
     <name>DepCtrl Browser</name>
   </author>
+  <entry>
+    <title>ILL - Line2FBF - 1.0.1</title>
+    <link href="/depctrl-browser/macros/ILL.Line2FBF/"/>
+    <updated>2026-01-05T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.Line2FBF/#1.0.1</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Add FBF to DepControl and fix FBF&lt;/li&gt;
+      
+    </content>
+  </entry>
   <entry>
     <title>Align and Distribute - 0.0.2</title>
     <link href="/depctrl-browser/macros/phos.AlignAndDistribute/"/>

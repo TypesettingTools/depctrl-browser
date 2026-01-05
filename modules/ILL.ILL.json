@@ -321,11 +321,12 @@
       "ILL.MakeImage",
       "ILL.ChangeAlign",
       "ILL.SplitText",
+      "ILL.Line2FBF",
       "zah.autoclip"
     ],
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1767587454979,
+    "_fetchTime": 1767588645402,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ILL.ILL"
   }
