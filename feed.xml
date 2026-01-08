@@ -482,17 +482,6 @@
     </content>
   </entry>
   <entry>
-    <title>Line To FBF - 1.1.2</title>
-    <link href="/depctrl-browser/macros/zf.line2fbf/"/>
-    <updated>2022-12-30T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/zf.line2fbf/#1.1.2</id>
-    <content xml:lang="en" type="html">
-      
-        &lt;li&gt;Fixed depctrl registration&lt;/li&gt;
-      
-    </content>
-  </entry>
-  <entry>
     <title>Text in Clip - 2.1.2</title>
     <link href="/depctrl-browser/macros/zf.textInClip/"/>
     <updated>2022-12-30T00:00:00Z</updated>

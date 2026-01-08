@@ -1541,17 +1541,6 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
-        href: "/depctrl-browser/macros/zf.line2fbf/",
-        name: "Line To FBF",
-        description: "Splits the line frame by frame interpolating all transformations present in it",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
         href: "/depctrl-browser/macros/zf.split/",
         name: "Splits Text By",
         description: "Splits the text in several ways",
