@@ -655,7 +655,7 @@ document.addEventListener('click', function(event) {
       {
         id: i++,
         href: "/depctrl-browser/macros/ILL.Line2FBF/",
-        name: "ILL - Line2FBF",
+        name: "Line To FBF",
         description: "It calculates line transformations frame by frame or given a step frame.",
       }
     );
