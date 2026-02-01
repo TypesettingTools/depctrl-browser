@@ -119,7 +119,7 @@
     },
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1769302485148,
+    "_fetchTime": 1769908046851,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ILL.Shapery"
   }
