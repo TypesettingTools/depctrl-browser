@@ -8,14 +8,14 @@
     "channels": {
       "main": {
         "version": "0.0.1",
-        "released": "2025-12-30",
+        "released": "2026-02-03",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.terrain.moon",
-            "sha1": "a8e6e36297a61f56984834dd15d1ae11d3970ac7",
-            "_validHash": false
+            "sha1": "093fe40b38c39b08ca009de0622bc4ecbbd316c0",
+            "_validHash": true
           }
         ],
         "requiredModules": [
@@ -48,7 +48,7 @@
         "Added to Dependency Control"
       ]
     },
-    "_validHash": false,
+    "_validHash": true,
     "_defaultVersion": "0.0.1",
     "_scriptData": {
       "name": "terrain",
@@ -62,7 +62,7 @@
     },
     "_feedName": "PhosCity's Aegisub Scripts",
     "_feedIdentifier": "8fe234d",
-    "_fetchTime": 1770130528983,
+    "_fetchTime": 1770132339638,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "phos.terrain"
   }
