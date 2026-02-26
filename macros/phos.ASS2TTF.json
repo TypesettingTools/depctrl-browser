@@ -7,15 +7,15 @@
     "description": "Convert shapes to a TTF font",
     "channels": {
       "main": {
-        "version": "1.0.2",
-        "released": "2025-06-23",
+        "version": "0.0.1",
+        "released": "2026-02-26",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.ASS2TTF.moon",
-            "sha1": "be31779f08657264216799023bbbfe8a2c57bebd",
-            "_validHash": false
+            "sha1": "25e1f56c3ee6133da66bb6fe24e42c3600451728",
+            "_validHash": true
           }
         ],
         "requiredModules": [
@@ -34,8 +34,8 @@
         "Added to Dependency Control"
       ]
     },
-    "_validHash": false,
-    "_defaultVersion": "1.0.2",
+    "_validHash": true,
+    "_defaultVersion": "0.0.1",
     "_scriptData": {
       "name": "ASS2TTF",
       "description": "Convert shapes to a TTF font",
@@ -48,7 +48,7 @@
     },
     "_feedName": "PhosCity's Aegisub Scripts",
     "_feedIdentifier": "8fe234d",
-    "_fetchTime": 1772081777286,
+    "_fetchTime": 1772082082478,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "phos.ASS2TTF"
   }

@@ -4,11 +4,20 @@
   <subtitle>List of recently updated DependencyControl Macros.</subtitle>
   <link href="feed.xml" rel="self"/>
   <link href="https://typesettingtools.github.io/depctrl-browser/"/>
-  <updated>2026-02-03T00:00:00Z</updated>
+  <updated>2026-02-26T00:00:00Z</updated>
   <id>https://typesettingtools.github.io/depctrl-browser/</id>
   <author>
     <name>DepCtrl Browser</name>
   </author>
+  <entry>
+    <title>ASS2TTF - 0.0.1</title>
+    <link href="/depctrl-browser/macros/phos.ASS2TTF/"/>
+    <updated>2026-02-26T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.ASS2TTF/#0.0.1</id>
+    <content xml:lang="en" type="html">
+      
+    </content>
+  </entry>
   <entry>
     <title>terrain - 0.0.1</title>
     <link href="/depctrl-browser/macros/phos.terrain/"/>
@@ -207,15 +216,6 @@
     <link href="/depctrl-browser/macros/phos.ASS2SVG/"/>
     <updated>2025-06-23T00:00:00Z</updated>
     <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.ASS2SVG/#1.0.2</id>
-    <content xml:lang="en" type="html">
-      
-    </content>
-  </entry>
-  <entry>
-    <title>ASS2TTF - 1.0.2</title>
-    <link href="/depctrl-browser/macros/phos.ASS2TTF/"/>
-    <updated>2025-06-23T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.ASS2TTF/#1.0.2</id>
     <content xml:lang="en" type="html">
       
     </content>
