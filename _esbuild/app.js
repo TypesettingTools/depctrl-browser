@@ -401,6 +401,17 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
+        href: "/depctrl-browser/macros/phos.ASS2TTF/",
+        name: "ASS2TTF",
+        description: "Convert shapes to a TTF font",
+      }
+    );
+    
+  
+    
+    index.add(
+      {
+        id: i++,
         href: "/depctrl-browser/macros/a-mo.Aegisub-Motion/",
         name: "Aegisub-Motion",
         description: "The main macro.",
