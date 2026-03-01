@@ -19,6 +19,17 @@
     </content>
   </entry>
   <entry>
+    <title>Vector Gradient - 1.0.0</title>
+    <link href="/depctrl-browser/macros/phos.VectorGradient/"/>
+    <updated>2026-02-26T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.VectorGradient/#1.0.0</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Added to Dependency Control&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
     <title>terrain - 0.0.1</title>
     <link href="/depctrl-browser/macros/phos.terrain/"/>
     <updated>2026-02-03T00:00:00Z</updated>
