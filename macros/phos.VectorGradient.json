@@ -8,13 +8,13 @@
     "channels": {
       "main": {
         "version": "1.0.0",
-        "released": "2026-02-26",
+        "released": "2026-03-01",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.VectorGradient.moon",
-            "sha1": "25e1f56c3ee6133da66bb6fe24e42c3600451728",
+            "sha1": "25a377d616791db51d9410a4868e490a66d9eccc",
             "_validHash": false
           }
         ],
@@ -62,7 +62,7 @@
     },
     "_feedName": "PhosCity's Aegisub Scripts",
     "_feedIdentifier": "8fe234d",
-    "_fetchTime": 1772340925269,
+    "_fetchTime": 1772341223905,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "phos.VectorGradient"
   }
