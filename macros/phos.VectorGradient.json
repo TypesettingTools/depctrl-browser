@@ -14,8 +14,8 @@
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.VectorGradient.moon",
-            "sha1": "25a377d616791db51d9410a4868e490a66d9eccc",
-            "_validHash": false
+            "sha1": "79f39a57918fc89d852dde25b941e5a3bf9bedc4",
+            "_validHash": true
           }
         ],
         "requiredModules": [
@@ -48,7 +48,7 @@
         "Added to Dependency Control"
       ]
     },
-    "_validHash": false,
+    "_validHash": true,
     "_defaultVersion": "1.0.0",
     "_scriptData": {
       "name": "Vector Gradient",
@@ -62,7 +62,7 @@
     },
     "_feedName": "PhosCity's Aegisub Scripts",
     "_feedIdentifier": "8fe234d",
-    "_fetchTime": 1772341223905,
+    "_fetchTime": 1772341822207,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "phos.VectorGradient"
   }
