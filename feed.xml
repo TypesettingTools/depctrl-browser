@@ -10,13 +10,13 @@
     <name>DepCtrl Browser</name>
   </author>
   <entry>
-    <title>Shapery - 2.6.3</title>
+    <title>Shapery - 2.6.5</title>
     <link href="/depctrl-browser/macros/ILL.Shapery/"/>
     <updated>2026-03-03T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.Shapery/#2.6.3</id>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.Shapery/#2.6.5</id>
     <content xml:lang="en" type="html">
       
-        &lt;li&gt;Fix &#39;Shapery/Offsetting&#39; stroke color&lt;/li&gt;
+        &lt;li&gt;Add simplify to offsetting and back to old simplify (stable)&lt;/li&gt;
       
     </content>
   </entry>

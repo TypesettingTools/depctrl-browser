@@ -5,11 +5,11 @@
     "channels": {
       "main": {
         "default": true,
-        "version": "2.6.3",
+        "version": "2.6.5",
         "released": "2026-03-03",
         "files": [
           {
-            "sha1": "ce27979dc7e7436156fc43db96ea8ecc6e3bc883",
+            "sha1": "84fdd5db9317f3a138103b6da02299499dd70927",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/macros/ILL.Shapery.moon",
             "name": ".moon",
             "_validHash": true
@@ -109,18 +109,24 @@
       ],
       "2.6.3": [
         "Fix 'Shapery/Offsetting' stroke color"
+      ],
+      "2.6.4": [
+        "Fixed stroke color on Shapery/offsetting"
+      ],
+      "2.6.5": [
+        "Add simplify to offsetting and back to old simplify (stable)"
       ]
     },
     "name": "Shapery",
     "description": "Does several types of shape manipulations from the simplest to the most complex",
     "author": "ILLTeam",
     "_validHash": true,
-    "_defaultVersion": "2.6.3",
+    "_defaultVersion": "2.6.5",
     "_scriptData": {
       "name": "Shapery",
       "description": "Does several types of shape manipulations from the simplest to the most complex",
       "author": "ILLTeam",
-      "version": "2.6.3",
+      "version": "2.6.5",
       "namespace": "ILL.Shapery",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json"
@@ -128,7 +134,7 @@
     },
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1772563286955,
+    "_fetchTime": 1772567778889,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ILL.Shapery"
   }
