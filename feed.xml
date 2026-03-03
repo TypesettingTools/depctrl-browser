@@ -10,19 +10,13 @@
     <name>DepCtrl Browser</name>
   </author>
   <entry>
-    <title>Shapery - 2.6.2</title>
+    <title>Shapery - 2.6.3</title>
     <link href="/depctrl-browser/macros/ILL.Shapery/"/>
     <updated>2026-03-03T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.Shapery/#2.6.2</id>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.Shapery/#2.6.3</id>
     <content xml:lang="en" type="html">
       
-        &lt;li&gt;Fix bugs in Shapery module&lt;/li&gt;
-      
-        &lt;li&gt;&lt;/li&gt;
-      
-        &lt;li&gt;- Fixed &#39;Shapery/Offsetting&#39;: Now works in a more simplified way.&lt;/li&gt;
-      
-        &lt;li&gt;- Moved &#39;Shapery macros:/Shape without holes&#39; to a Path class function.&lt;/li&gt;
+        &lt;li&gt;Fix &#39;Shapery/Offsetting&#39; stroke color&lt;/li&gt;
       
     </content>
   </entry>
