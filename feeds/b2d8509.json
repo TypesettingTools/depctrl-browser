@@ -93,7 +93,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1772553381366,
+      "_fetchTime": 1772562383457,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.EnvelopeDistort"
     },
@@ -103,11 +103,11 @@
       "channels": {
         "main": {
           "default": true,
-          "version": "2.6.1",
-          "released": "2025-06-06",
+          "version": "2.6.2",
+          "released": "2026-03-03",
           "files": [
             {
-              "sha1": "251f2f95886319c820694c1ddf34c84ed75c1202",
+              "sha1": "7d9fd459e1caf01bb42659ef10b3aa90cf2bc98e",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/macros/ILL.Shapery.moon",
               "name": ".moon",
               "_validHash": true
@@ -198,18 +198,24 @@
         ],
         "2.6.1": [
           "Add Reverse points"
+        ],
+        "2.6.2": [
+          "Fix bugs in Shapery module",
+          "",
+          "- Fixed 'Shapery/Offsetting': Now works in a more simplified way.",
+          "- Moved 'Shapery macros:/Shape without holes' to a Path class function."
         ]
       },
       "name": "Shapery",
       "description": "Does several types of shape manipulations from the simplest to the most complex",
       "author": "ILLTeam",
       "_validHash": true,
-      "_defaultVersion": "2.6.1",
+      "_defaultVersion": "2.6.2",
       "_scriptData": {
         "name": "Shapery",
         "description": "Does several types of shape manipulations from the simplest to the most complex",
         "author": "ILLTeam",
-        "version": "2.6.1",
+        "version": "2.6.2",
         "namespace": "ILL.Shapery",
         "_feedData": {
           "feed": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json"
@@ -217,7 +223,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1772553381366,
+      "_fetchTime": 1772562383457,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.Shapery"
     },
@@ -305,7 +311,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1772553381366,
+      "_fetchTime": 1772562383457,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.MakeImage"
     },
@@ -385,7 +391,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1772553381366,
+      "_fetchTime": 1772562383457,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.ChangeAlign"
     },
@@ -442,7 +448,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1772553381366,
+      "_fetchTime": 1772562383457,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.SplitText"
     },
@@ -499,7 +505,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1772553381366,
+      "_fetchTime": 1772562383457,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.Line2FBF"
     }
@@ -589,7 +595,7 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1772553381366,
+      "_fetchTime": 1772562383457,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "clipper2.clipper2"
     },
@@ -602,25 +608,25 @@
       "channels": {
         "main": {
           "default": true,
-          "version": "1.7.9",
+          "version": "1.8.0",
           "released": "2026-03-03",
           "files": [
             {
               "name": ".moon",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL.moon",
-              "sha1": "61be4eb795304d101c93faf64ceafa3b7dafb800",
+              "sha1": "88c9bdd2dafa09ad624eb5f123a888111ba8ada9",
               "_validHash": true
             },
             {
               "name": "/Ass/Shape/Curve.moon",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Shape/Curve.moon",
-              "sha1": "5df2fe7d8516b21f3c84a3aad77b756225ffea5d",
+              "sha1": "1fe1ce4ac37d9c9b608117f53638b20254f86ab1",
               "_validHash": true
             },
             {
               "name": "/Ass/Shape/Path.moon",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Shape/Path.moon",
-              "sha1": "082d5c424366396fa8f98605c05459afbf4b1657",
+              "sha1": "592b7e880a45c3efcf3182d8c592bd0a68601cc2",
               "_validHash": true
             },
             {
@@ -632,7 +638,7 @@
             {
               "name": "/Ass/Shape/Segment.moon",
               "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Shape/Segment.moon",
-              "sha1": "0c2fe706b3367bc33425458816d27bbe7cd758d9",
+              "sha1": "1000fb198159c3f92ceaa109f6ccedacb15eb864",
               "_validHash": true
             },
             {
@@ -913,6 +919,12 @@
         ],
         "1.7.9": [
           "Prevent GDI handle leak attempt"
+        ],
+        "1.8.0": [
+          "Fix bugs in Shapery module",
+          "",
+          "- Fixed 'Shapery/Offsetting': Now works in a more simplified way.",
+          "- Moved 'Shapery macros:/Shape without holes' to a Path class function."
         ]
       },
       "_validHash": true,
@@ -930,7 +942,7 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1772553381366,
+      "_fetchTime": 1772562383457,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.ILL"
     },
@@ -1097,13 +1109,13 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1772553381366,
+      "_fetchTime": 1772562383457,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.IMG"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "b2d8509",
-  "_fetchTime": 1772553381366,
+  "_fetchTime": 1772562383457,
   "_validHash": true
 }

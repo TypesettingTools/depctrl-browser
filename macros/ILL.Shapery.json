@@ -5,11 +5,11 @@
     "channels": {
       "main": {
         "default": true,
-        "version": "2.6.1",
-        "released": "2025-06-06",
+        "version": "2.6.2",
+        "released": "2026-03-03",
         "files": [
           {
-            "sha1": "251f2f95886319c820694c1ddf34c84ed75c1202",
+            "sha1": "7d9fd459e1caf01bb42659ef10b3aa90cf2bc98e",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/macros/ILL.Shapery.moon",
             "name": ".moon",
             "_validHash": true
@@ -100,18 +100,24 @@
       ],
       "2.6.1": [
         "Add Reverse points"
+      ],
+      "2.6.2": [
+        "Fix bugs in Shapery module",
+        "",
+        "- Fixed 'Shapery/Offsetting': Now works in a more simplified way.",
+        "- Moved 'Shapery macros:/Shape without holes' to a Path class function."
       ]
     },
     "name": "Shapery",
     "description": "Does several types of shape manipulations from the simplest to the most complex",
     "author": "ILLTeam",
     "_validHash": true,
-    "_defaultVersion": "2.6.1",
+    "_defaultVersion": "2.6.2",
     "_scriptData": {
       "name": "Shapery",
       "description": "Does several types of shape manipulations from the simplest to the most complex",
       "author": "ILLTeam",
-      "version": "2.6.1",
+      "version": "2.6.2",
       "namespace": "ILL.Shapery",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json"
@@ -119,7 +125,7 @@
     },
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1772553381366,
+    "_fetchTime": 1772562383457,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ILL.Shapery"
   }
