@@ -4,11 +4,20 @@
   <subtitle>List of recently updated DependencyControl Macros.</subtitle>
   <link href="feed.xml" rel="self"/>
   <link href="https://typesettingtools.github.io/depctrl-browser/"/>
-  <updated>2026-03-03T00:00:00Z</updated>
+  <updated>2026-03-07T00:00:00Z</updated>
   <id>https://typesettingtools.github.io/depctrl-browser/</id>
   <author>
     <name>DepCtrl Browser</name>
   </author>
+  <entry>
+    <title>Add Grain - 1.1.6</title>
+    <link href="/depctrl-browser/macros/phos.AddGrain/"/>
+    <updated>2026-03-07T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.AddGrain/#1.1.6</id>
+    <content xml:lang="en" type="html">
+      
+    </content>
+  </entry>
   <entry>
     <title>Shapery - 2.6.5</title>
     <link href="/depctrl-browser/macros/ILL.Shapery/"/>
@@ -157,15 +166,6 @@
     <content xml:lang="en" type="html">
       
         &lt;li&gt;Now extends clips to video edges.&lt;/li&gt;
-      
-    </content>
-  </entry>
-  <entry>
-    <title>Add Grain - 1.1.5</title>
-    <link href="/depctrl-browser/macros/phos.AddGrain/"/>
-    <updated>2025-10-26T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/phos.AddGrain/#1.1.5</id>
-    <content xml:lang="en" type="html">
       
     </content>
   </entry>
