@@ -4,11 +4,22 @@
   <subtitle>List of recently updated DependencyControl Macros.</subtitle>
   <link href="feed.xml" rel="self"/>
   <link href="https://typesettingtools.github.io/depctrl-browser/"/>
-  <updated>2026-03-07T00:00:00Z</updated>
+  <updated>2026-04-02T00:00:00Z</updated>
   <id>https://typesettingtools.github.io/depctrl-browser/</id>
   <author>
     <name>DepCtrl Browser</name>
   </author>
+  <entry>
+    <title>ILL - Change Alignment - 1.1.2</title>
+    <link href="/depctrl-browser/macros/ILL.ChangeAlign/"/>
+    <updated>2026-04-02T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.ChangeAlign/#1.1.2</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;[ChangeAlign] Improve dialog logic (#8)&lt;/li&gt;
+      
+    </content>
+  </entry>
   <entry>
     <title>Add Grain - 1.1.6</title>
     <link href="/depctrl-browser/macros/phos.AddGrain/"/>
@@ -337,17 +348,6 @@
     <updated>2024-03-14T00:00:00Z</updated>
     <id>https://typesettingtools.github.io/depctrl-browser/macros/arch.NoteBrowser/#1.3.6</id>
     <content xml:lang="en" type="html">
-      
-    </content>
-  </entry>
-  <entry>
-    <title>ILL - Change Alignment - 1.1.1</title>
-    <link href="/depctrl-browser/macros/ILL.ChangeAlign/"/>
-    <updated>2024-02-04T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.ChangeAlign/#1.1.1</id>
-    <content xml:lang="en" type="html">
-      
-        &lt;li&gt;Update ILL dependency version in macros&lt;/li&gt;
       
     </content>
   </entry>
