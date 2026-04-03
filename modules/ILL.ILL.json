@@ -8,13 +8,13 @@
     "channels": {
       "main": {
         "default": true,
-        "version": "1.8.3",
-        "released": "2026-03-07",
+        "version": "1.8.4",
+        "released": "2026-04-03",
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL.moon",
-            "sha1": "e288dc170a65ad33e8716a4b1687b1b9e9aabb68",
+            "sha1": "9ce3b28e545bed115ed6dd18dbb5865f155e8b0d",
             "_validHash": true
           },
           {
@@ -26,7 +26,7 @@
           {
             "name": "/Ass/Shape/Path.moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/modules/ILL/ILL/Ass/Shape/Path.moon",
-            "sha1": "6307e532c49d34f8b44b2f052381f9cbe6f7894a",
+            "sha1": "e810feeb29503a179d30a895fce99b7ea54d8aa3",
             "_validHash": true
           },
           {
@@ -334,6 +334,9 @@
       ],
       "1.8.3": [
         "Fix Line.callBackFBF"
+      ],
+      "1.8.4": [
+        "Add Mix mode to Envelope Distort"
       ]
     },
     "_validHash": true,
@@ -351,7 +354,7 @@
     ],
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1775132455189,
+    "_fetchTime": 1775231760776,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "ILL.ILL"
   }
