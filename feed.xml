@@ -10,13 +10,13 @@
     <name>DepCtrl Browser</name>
   </author>
   <entry>
-    <title>Envelope Distort - 1.1.4</title>
+    <title>Envelope Distort - 1.1.5</title>
     <link href="/depctrl-browser/macros/ILL.EnvelopeDistort/"/>
     <updated>2026-04-03T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.EnvelopeDistort/#1.1.4</id>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.EnvelopeDistort/#1.1.5</id>
     <content xml:lang="en" type="html">
       
-        &lt;li&gt;Add Mix mode to Envelope Distort&lt;/li&gt;
+        &lt;li&gt;Fix Mix mode mesh points&lt;/li&gt;
       
     </content>
   </entry>
