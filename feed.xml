@@ -4,19 +4,31 @@
   <subtitle>List of recently updated DependencyControl Macros.</subtitle>
   <link href="feed.xml" rel="self"/>
   <link href="https://typesettingtools.github.io/depctrl-browser/"/>
-  <updated>2026-04-03T00:00:00Z</updated>
+  <updated>2026-04-04T00:00:00Z</updated>
   <id>https://typesettingtools.github.io/depctrl-browser/</id>
   <author>
     <name>DepCtrl Browser</name>
   </author>
   <entry>
-    <title>Envelope Distort - 1.1.6</title>
+    <title>Envelope Distort - 1.1.7</title>
     <link href="/depctrl-browser/macros/ILL.EnvelopeDistort/"/>
-    <updated>2026-04-03T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.EnvelopeDistort/#1.1.6</id>
+    <updated>2026-04-04T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ILL.EnvelopeDistort/#1.1.7</id>
     <content xml:lang="en" type="html">
       
-        &lt;li&gt;Minor fix&lt;/li&gt;
+        &lt;li&gt;Fix many bugs&lt;/li&gt;
+      
+        &lt;li&gt;&lt;/li&gt;
+      
+        &lt;li&gt;Fix Unix font crash&lt;/li&gt;
+      
+        &lt;li&gt;&lt;/li&gt;
+      
+        &lt;li&gt;Add fonts cache&lt;/li&gt;
+      
+        &lt;li&gt;&lt;/li&gt;
+      
+        &lt;li&gt;Add setFont&lt;/li&gt;
       
     </content>
   </entry>
