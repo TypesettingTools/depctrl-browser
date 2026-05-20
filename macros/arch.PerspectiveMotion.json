@@ -7,14 +7,14 @@
     "description": "Apply perspective motion tracking data",
     "channels": {
       "release": {
-        "version": "0.3.1",
-        "released": "2025-08-05",
+        "version": "0.4.0",
+        "released": "2026-05-20",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.PerspectiveMotion-v0.3.1/macros/arch.PerspectiveMotion.moon",
-            "sha1": "6f31b0958a6648b55d5a6e545e126e3a2fbc801a",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/arch.PerspectiveMotion-v0.4.0/macros/arch.PerspectiveMotion.moon",
+            "sha1": "de894f7b1209e25ba2ea4e38a7c1c84a71814bb1",
             "_validHash": true
           }
         ],
@@ -74,15 +74,18 @@
       ],
       "0.3.1": [
         "Fix \\fscx/y being broken with drawings"
+      ],
+      "0.4.0": [
+        "Make \"Apply Perspective\" option respect rotation tags"
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "0.3.1",
+    "_defaultVersion": "0.4.0",
     "_scriptData": {
       "name": "Aegisub Perspective-Motion",
       "description": "Apply perspective motion tracking data",
       "author": "arch1t3cht",
-      "version": "0.3.1",
+      "version": "0.4.0",
       "namespace": "arch.PerspectiveMotion",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json"
@@ -90,7 +93,7 @@
     },
     "_feedName": "arch1t3cht's Aegisub Scripts",
     "_feedIdentifier": "b409fc1",
-    "_fetchTime": 1778982491131,
+    "_fetchTime": 1779281149036,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/arch1t3cht-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "arch.PerspectiveMotion"
   }
