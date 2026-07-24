@@ -10,17 +10,13 @@
     <name>DepCtrl Browser</name>
   </author>
   <entry>
-    <title>DependencyControl Toolbox - 0.7.0</title>
+    <title>DependencyControl Toolbox - 0.8.1</title>
     <link href="/depctrl-browser/macros/l0.DependencyControl.Toolbox/"/>
     <updated>2026-07-24T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/l0.DependencyControl.Toolbox/#0.7.0</id>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/l0.DependencyControl.Toolbox/#0.8.1</id>
     <content xml:lang="en" type="html">
       
-        &lt;li&gt;feat: Added a Global Configuration macro to view and edit DependencyControl&#39;s global settings ΓÇö update behavior, feed discovery and caching, logging, and file paths ΓÇö in one dialog, so common tweaks no longer need hand-editing the config file. The feed lists stay in the Manage Feeds macro.&lt;/li&gt;
-      
-        &lt;li&gt;change: The Toolbox now updates from a &lt;code&gt;stable&lt;/code&gt; channel by default; installations on the previous &lt;code&gt;alpha&lt;/code&gt; channel are migrated automatically.&lt;/li&gt;
-      
-        &lt;li&gt;fix: The Install, Uninstall, and Update script dropdowns now start empty on macOS instead of defaulting to, and being stuck on, their first entry.&lt;/li&gt;
+        &lt;li&gt;fix: The Install Script macro no longer fails while scanning feeds that set URL templates per section, DependencyControl&#39;s own feed among them.&lt;/li&gt;
       
     </content>
   </entry>
