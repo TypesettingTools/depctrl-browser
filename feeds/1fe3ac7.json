@@ -71,12 +71,10 @@
         }
       },
       "_validHash": true,
-      "_reverseDependency": [
-        "l0.DependencyControl"
-      ],
+      "_reverseDependency": [],
       "_feedName": "FFI Experiments",
       "_feedIdentifier": "1fe3ac7",
-      "_fetchTime": 1784867766708,
+      "_fetchTime": 1784888760028,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
       "_namespace": "BM.BadMutex"
     },
@@ -142,12 +140,10 @@
         }
       },
       "_validHash": true,
-      "_reverseDependency": [
-        "l0.DependencyControl"
-      ],
+      "_reverseDependency": [],
       "_feedName": "FFI Experiments",
       "_feedIdentifier": "1fe3ac7",
-      "_fetchTime": 1784867766708,
+      "_fetchTime": 1784888760028,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
       "_namespace": "PT.PreciseTimer"
     },
@@ -213,12 +209,10 @@
         }
       },
       "_validHash": true,
-      "_reverseDependency": [
-        "l0.DependencyControl"
-      ],
+      "_reverseDependency": [],
       "_feedName": "FFI Experiments",
       "_feedIdentifier": "1fe3ac7",
-      "_fetchTime": 1784867766708,
+      "_fetchTime": 1784888760028,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
       "_namespace": "DM.DownloadManager"
     },
@@ -253,7 +247,6 @@
         "BM.BadMutex",
         "PT.PreciseTimer",
         "DM.DownloadManager",
-        "l0.DependencyControl",
         "BM.BadMutex",
         "PT.PreciseTimer",
         "DM.DownloadManager",
@@ -265,14 +258,14 @@
       ],
       "_feedName": "FFI Experiments",
       "_feedIdentifier": "1fe3ac7",
-      "_fetchTime": 1784867766708,
+      "_fetchTime": 1784888760028,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
       "_namespace": "requireffi.requireffi"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
   "_identifier": "1fe3ac7",
-  "_fetchTime": 1784867766708,
+  "_fetchTime": 1784888760028,
   "macros": {},
   "_validHash": true
 }

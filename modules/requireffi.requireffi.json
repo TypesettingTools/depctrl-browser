@@ -30,7 +30,6 @@
       "BM.BadMutex",
       "PT.PreciseTimer",
       "DM.DownloadManager",
-      "l0.DependencyControl",
       "BM.BadMutex",
       "PT.PreciseTimer",
       "DM.DownloadManager",
@@ -42,7 +41,7 @@
     ],
     "_feedName": "FFI Experiments",
     "_feedIdentifier": "2d000a9",
-    "_fetchTime": 1784867761962,
+    "_fetchTime": 1784888759755,
     "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
     "_namespace": "requireffi.requireffi"
   },
@@ -77,7 +76,6 @@
       "BM.BadMutex",
       "PT.PreciseTimer",
       "DM.DownloadManager",
-      "l0.DependencyControl",
       "BM.BadMutex",
       "PT.PreciseTimer",
       "DM.DownloadManager",
@@ -89,7 +87,7 @@
     ],
     "_feedName": "FFI Experiments",
     "_feedIdentifier": "1fe3ac7",
-    "_fetchTime": 1784867766708,
+    "_fetchTime": 1784888760028,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
     "_namespace": "requireffi.requireffi"
   }

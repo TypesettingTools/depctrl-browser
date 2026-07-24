@@ -1,0 +1,61 @@
+[
+  {
+    "name": "dkjson",
+    "description": "David Kolf's JSON module for Lua, vendored with and managed by DependencyControl.",
+    "author": "David Kolf",
+    "url": "http://dkolf.de/dkjson-lua/",
+    "channels": {
+      "stable": {
+        "version": "0.8.0",
+        "released": "2026-07-24",
+        "default": true,
+        "files": [
+          {
+            "name": ".moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/v0.8.0/modules/l0/dkjson.moon",
+            "sha1": "3FACCD40F487E8205300E576B78F10D5AFFDDEE4",
+            "_validHash": true
+          },
+          {
+            "name": "/vendor/dkjson.lua",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/v0.8.0/modules/l0/dkjson/vendor/dkjson.lua",
+            "sha1": "A0597E1AEEB14D42DABB3A0E8C05129EB024EDCA",
+            "_validHash": true
+          },
+          {
+            "name": ".moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/v0.8.0/modules/l0/dkjson/test.moon",
+            "sha1": "46F563422E13C4D74FA630887DE0DEA917D767EB",
+            "type": "test",
+            "_validHash": true
+          }
+        ],
+        "provides": [
+          {
+            "name": "json"
+          },
+          {
+            "name": "dkjson"
+          }
+        ]
+      }
+    },
+    "changelog": {
+      "0.7.0": [
+        "feat: Vendored dkjson v2.10 with a DependencyControl version record and json/dkjson self-registration."
+      ],
+      "0.8.0": [
+        "fix: Upgrading from a DependencyControl v0.6.x install no longer fails when dkjson is pulled in as a new dependency; dkjson now skips a self-registration step that breaks pre-0.7.0 loaders."
+      ]
+    },
+    "_validHash": true,
+    "_reverseDependency": [
+      "l0.DependencyControl"
+    ],
+    "_feedName": "DependencyControl",
+    "_feedIdentifier": "7973b7b",
+    "_fetchTime": 1784888759661,
+    "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/master/DependencyControl.json",
+    "_namespace": "l0.dkjson"
+  }
+]
