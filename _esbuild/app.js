@@ -1964,28 +1964,6 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
-        href: "/depctrl-browser/modules/l0.dkjson/",
-        name: "dkjson",
-        description: "David Kolf's JSON module for Lua, vendored with and managed by DependencyControl.",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
-        href: "/depctrl-browser/modules/l0.MoonCats/",
-        name: "MoonCATS",
-        description: "Extracts LuaCATS annotations from MoonScript sources into LuaLS type definitions for IntelliSense and API-doc generation.",
-      }
-    );
-    
-  
-    
-    index.add(
-      {
-        id: i++,
         href: "/depctrl-browser/modules/l0.Functional/",
         name: "(Almost) Functional Suite",
         description: "Collection of commonly used functions",

@@ -61,10 +61,12 @@
       }
     },
     "_validHash": true,
-    "_reverseDependency": [],
+    "_reverseDependency": [
+      "l0.DependencyControl"
+    ],
     "_feedName": "FFI Experiments",
     "_feedIdentifier": "2d000a9",
-    "_fetchTime": 1784866857518,
+    "_fetchTime": 1784867761962,
     "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
     "_namespace": "DM.DownloadManager"
   },
@@ -130,10 +132,12 @@
       }
     },
     "_validHash": true,
-    "_reverseDependency": [],
+    "_reverseDependency": [
+      "l0.DependencyControl"
+    ],
     "_feedName": "FFI Experiments",
     "_feedIdentifier": "1fe3ac7",
-    "_fetchTime": 1784866857731,
+    "_fetchTime": 1784867766708,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
     "_namespace": "DM.DownloadManager"
   }

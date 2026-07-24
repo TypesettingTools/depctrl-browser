@@ -71,10 +71,12 @@
         }
       },
       "_validHash": true,
-      "_reverseDependency": [],
+      "_reverseDependency": [
+        "l0.DependencyControl"
+      ],
       "_feedName": "FFI Experiments",
       "_feedIdentifier": "2d000a9",
-      "_fetchTime": 1784866857518,
+      "_fetchTime": 1784867761962,
       "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
       "_namespace": "BM.BadMutex"
     },
@@ -140,10 +142,12 @@
         }
       },
       "_validHash": true,
-      "_reverseDependency": [],
+      "_reverseDependency": [
+        "l0.DependencyControl"
+      ],
       "_feedName": "FFI Experiments",
       "_feedIdentifier": "2d000a9",
-      "_fetchTime": 1784866857518,
+      "_fetchTime": 1784867761962,
       "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
       "_namespace": "PT.PreciseTimer"
     },
@@ -209,10 +213,12 @@
         }
       },
       "_validHash": true,
-      "_reverseDependency": [],
+      "_reverseDependency": [
+        "l0.DependencyControl"
+      ],
       "_feedName": "FFI Experiments",
       "_feedIdentifier": "2d000a9",
-      "_fetchTime": 1784866857518,
+      "_fetchTime": 1784867761962,
       "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
       "_namespace": "DM.DownloadManager"
     },
@@ -247,6 +253,7 @@
         "BM.BadMutex",
         "PT.PreciseTimer",
         "DM.DownloadManager",
+        "l0.DependencyControl",
         "BM.BadMutex",
         "PT.PreciseTimer",
         "DM.DownloadManager",
@@ -258,14 +265,14 @@
       ],
       "_feedName": "FFI Experiments",
       "_feedIdentifier": "2d000a9",
-      "_fetchTime": 1784866857518,
+      "_fetchTime": 1784867761962,
       "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
       "_namespace": "requireffi.requireffi"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
   "_identifier": "2d000a9",
-  "_fetchTime": 1784866857518,
+  "_fetchTime": 1784867761962,
   "macros": {},
   "_validHash": true
 }

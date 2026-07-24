@@ -1,59 +1,27 @@
 [
   {
+    "url": "https://github.com/TypesettingTools/DependencyControl#l0.DependencyControl.Toolbox",
+    "author": "line0",
     "name": "DependencyControl Toolbox",
     "description": "Provides DependencyControl maintenance and configuration utilities.",
-    "author": "line0",
-    "url": "https://github.com/TypesettingTools/DependencyControl#l0.DependencyControl.Toolbox",
+    "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/macros-v@{version}-@{channel}/macros/l0.DependencyControl.Toolbox",
     "channels": {
       "alpha": {
-        "version": "0.7.0",
-        "released": "2026-07-24",
-        "default": false,
-        "files": [
-          {
-            "name": ".moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/v0.7.0-alpha/macros/l0.DependencyControl.Toolbox.moon",
-            "sha1": "ABAB9B3A82C6B47144ED160F484B3617651DDF81",
-            "_validHash": true
-          },
-          {
-            "name": ".moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/v0.7.0-alpha/macros/l0.DependencyControl.Toolbox/test.moon",
-            "sha1": "59B666472F097BE5D71ADB788A96D7A650830BB5",
-            "type": "test",
-            "_validHash": true
-          }
-        ],
-        "requiredModules": [
-          {
-            "moduleName": "l0.DependencyControl",
-            "version": "0.7.0"
-          }
-        ]
-      },
-      "stable": {
-        "version": "0.7.0",
-        "released": "2026-07-24",
+        "version": "0.1.3",
+        "released": "2016-01-27",
         "default": true,
         "files": [
           {
             "name": ".moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/v0.7.0/macros/l0.DependencyControl.Toolbox.moon",
-            "sha1": "ABAB9B3A82C6B47144ED160F484B3617651DDF81",
-            "_validHash": true
-          },
-          {
-            "name": ".moon",
-            "url": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/v0.7.0/macros/l0.DependencyControl.Toolbox/test.moon",
-            "sha1": "59B666472F097BE5D71ADB788A96D7A650830BB5",
-            "type": "test",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/macros-v0.1.3-alpha/macros/l0.DependencyControl.Toolbox.moon",
+            "sha1": "3677B2817C3D1FFE86981C8ABCC092B3D2CCEE7B",
             "_validHash": true
           }
         ],
         "requiredModules": [
           {
             "moduleName": "l0.DependencyControl",
-            "version": "0.7.0"
+            "version": "0.6.1"
           }
         ]
       }
@@ -71,37 +39,21 @@
       ],
       "0.1.3": [
         "Fixed an issue where trying to uninstall an unmanaged script resulted in an error unrelated to the intended error message."
-      ],
-      "0.2.0": [
-        "Centralized automatic update scheduling for all installed scripts, including modules not loaded by any automation script, eliminating redundant per-environment checks at startup.",
-        "Unit test menus for installed modules with a DependencyControl test suite are now registered automatically at startup."
-      ],
-      "0.3.0": [
-        "Added a Manage Feeds macro to review and manage the feeds DependencyControl knows about and their trust status: trust, block (with a reason), unblock, or remove feeds; discover feeds advertised by other feeds; and manage your extra feeds and block list in dedicated panels. It warns before an action would change an installed package's update source, opens feed details in the DepCtrl Browser, and won't let you block DependencyControl's own feed.",
-        "Manage Feeds now shows a Fetched column with how long ago each feed was last retrieved into the cache, read straight from the cache so it's visible even before Discover ΓÇö letting you see at a glance which feeds have recent data.",
-        "The Toolbox now ships a DependencyControl unit test suite, adding it to the Run Tests menu.",
-        "The startup update sweep no longer reports expected conditions, such as skipping the update of an unmanaged module, as unexpected scheduling errors.",
-        "Fixed the install/uninstall pickers erroring when an installed package's config entry lacks a version or name, as can happen with orphaned or unmanaged records."
-      ],
-      "0.7.0": [
-        "feat: Added a Global Configuration macro to view and edit DependencyControl's global settings ΓÇö update behavior, feed discovery and caching, logging, and file paths ΓÇö in one dialog, so common tweaks no longer need hand-editing the config file. The feed lists stay in the Manage Feeds macro.",
-        "change: The Toolbox now updates from a `stable` channel by default; installations on the previous `alpha` channel are migrated automatically.",
-        "fix: The Install, Uninstall, and Update script dropdowns now start empty on macOS instead of defaulting to, and being stuck on, their first entry."
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "0.7.0",
+    "_defaultVersion": "0.1.3",
     "_scriptData": {
       "name": "DependencyControl Toolbox",
       "description": "Provides DependencyControl maintenance and configuration tools.",
       "author": "line0",
-      "version": "0.7.0",
+      "version": "0.1.3",
       "namespace": "l0.DependencyControl.Toolbox",
       "_feedData": null
     },
     "_feedName": "DependencyControl",
     "_feedIdentifier": "7973b7b",
-    "_fetchTime": 1784866857454,
+    "_fetchTime": 1784867761794,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/DependencyControl/master/DependencyControl.json",
     "_namespace": "l0.DependencyControl.Toolbox"
   }
