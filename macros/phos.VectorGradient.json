@@ -7,14 +7,14 @@
     "description": "Magic triangles + blur gradients",
     "channels": {
       "main": {
-        "version": "1.0.0",
-        "released": "2026-03-01",
+        "version": "1.0.1",
+        "released": "2026-07-30",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/macros/phos.VectorGradient.moon",
-            "sha1": "79f39a57918fc89d852dde25b941e5a3bf9bedc4",
+            "sha1": "0962b9df7dba03aee038743fc72c4c94f10aacfd",
             "_validHash": true
           }
         ],
@@ -49,12 +49,12 @@
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "1.0.0",
+    "_defaultVersion": "1.0.1",
     "_scriptData": {
       "name": "Vector Gradient",
       "description": "Magic triangles + blur gradients",
       "author": "PhosCity",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "namespace": "phos.VectorGradient",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json"
@@ -62,7 +62,7 @@
     },
     "_feedName": "PhosCity's Aegisub Scripts",
     "_feedIdentifier": "8fe234d",
-    "_fetchTime": 1785029018238,
+    "_fetchTime": 1785417381765,
     "_sourceUrl": "https://raw.githubusercontent.com/PhosCity/Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "phos.VectorGradient"
   }
