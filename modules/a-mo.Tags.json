@@ -6,13 +6,13 @@
     "description": "A mess for manipulating tags.",
     "channels": {
       "DepCtrl": {
-        "version": "1.3.4",
+        "version": "1.3.5",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/src/Tags.moon",
-            "sha1": "F19FAE978BCBBB41D6F5F6245E2675D7A15FF1E5",
+            "sha1": "61DBA1897497B72B5AD3A68ED1BFAD20D68E6911",
             "_validHash": true
           }
         ],
@@ -38,7 +38,7 @@
     ],
     "_feedName": "Aegisub-Motion",
     "_feedIdentifier": "4152f8d",
-    "_fetchTime": 1785633763677,
+    "_fetchTime": 1786132226042,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
     "_namespace": "a-mo.Tags"
   }
