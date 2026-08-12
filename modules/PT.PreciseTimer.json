@@ -20,7 +20,7 @@
             "name": ".lua",
             "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer.lua",
             "sha1": "C4ABF9A8BCF8DC4DFEEFEE1EC00172846BADC52A",
-            "_validHash": true
+            "_validHash": false
           },
           {
             "name": ".dll",
@@ -31,21 +31,21 @@
             "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer-win32.dll",
             "platform": "Windows-x86",
             "sha1": "8629E147DEC486D2190140C04F0B0C5465B764E9",
-            "_validHash": true
+            "_validHash": false
           },
           {
             "name": "/PreciseTimer.dll",
             "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer-win64.dll",
             "platform": "Windows-x64",
             "sha1": "17FBBDC997CFF596FC55260B684126DCCF45EFDC",
-            "_validHash": true
+            "_validHash": false
           },
           {
             "name": "/libPreciseTimer.dylib",
             "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer-osx64.dylib",
             "platform": "OSX-x64",
             "sha1": "602ECB3EB2783BD490A6FA8D4AB3FCD15F213FEF",
-            "_validHash": true
+            "_validHash": false
           }
         ],
         "requiredModules": [
@@ -60,11 +60,11 @@
         ]
       }
     },
-    "_validHash": true,
+    "_validHash": false,
     "_reverseDependency": [],
     "_feedName": "FFI Experiments",
     "_feedIdentifier": "2d000a9",
-    "_fetchTime": 1786554361644,
+    "_fetchTime": 1786556759727,
     "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
     "_namespace": "PT.PreciseTimer"
   },
@@ -89,7 +89,7 @@
             "name": ".lua",
             "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer.lua",
             "sha1": "C4ABF9A8BCF8DC4DFEEFEE1EC00172846BADC52A",
-            "_validHash": true
+            "_validHash": false
           },
           {
             "name": ".dll",
@@ -100,21 +100,21 @@
             "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer-win32.dll",
             "platform": "Windows-x86",
             "sha1": "8629E147DEC486D2190140C04F0B0C5465B764E9",
-            "_validHash": true
+            "_validHash": false
           },
           {
             "name": "/PreciseTimer.dll",
             "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer-win64.dll",
             "platform": "Windows-x64",
             "sha1": "17FBBDC997CFF596FC55260B684126DCCF45EFDC",
-            "_validHash": true
+            "_validHash": false
           },
           {
             "name": "/libPreciseTimer.dylib",
             "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/PreciseTimer-osx64.dylib",
             "platform": "OSX-x64",
             "sha1": "602ECB3EB2783BD490A6FA8D4AB3FCD15F213FEF",
-            "_validHash": true
+            "_validHash": false
           }
         ],
         "requiredModules": [
@@ -129,11 +129,11 @@
         ]
       }
     },
-    "_validHash": true,
+    "_validHash": false,
     "_reverseDependency": [],
     "_feedName": "FFI Experiments",
     "_feedIdentifier": "1fe3ac7",
-    "_fetchTime": 1786554361887,
+    "_fetchTime": 1786556759900,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
     "_namespace": "PT.PreciseTimer"
   }

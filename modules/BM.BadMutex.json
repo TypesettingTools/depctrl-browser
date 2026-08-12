@@ -20,7 +20,7 @@
             "name": ".lua",
             "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex.lua",
             "sha1": "351D94BCF03F4640C589A7BA9683DBF5CC6D749C",
-            "_validHash": true
+            "_validHash": false
           },
           {
             "name": ".dll",
@@ -31,21 +31,21 @@
             "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex-win32.dll",
             "platform": "Windows-x86",
             "sha1": "1FDA8C0F5D848120DC269FFE4081C873E8B8085C",
-            "_validHash": true
+            "_validHash": false
           },
           {
             "name": "/BadMutex.dll",
             "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex-win64.dll",
             "platform": "Windows-x64",
             "sha1": "00D3A65927D9A2F6B960B549D60BF12ED75F0A9F",
-            "_validHash": true
+            "_validHash": false
           },
           {
             "name": "/libBadMutex.dylib",
             "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex-osx64.dylib",
             "platform": "OSX-x64",
             "sha1": "941E122E7A2E0BCCCFEB38CC87F4A2DD92838C2D",
-            "_validHash": true
+            "_validHash": false
           }
         ],
         "requiredModules": [
@@ -60,11 +60,11 @@
         ]
       }
     },
-    "_validHash": true,
+    "_validHash": false,
     "_reverseDependency": [],
     "_feedName": "FFI Experiments",
     "_feedIdentifier": "2d000a9",
-    "_fetchTime": 1786554361644,
+    "_fetchTime": 1786556759727,
     "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
     "_namespace": "BM.BadMutex"
   },
@@ -89,7 +89,7 @@
             "name": ".lua",
             "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex.lua",
             "sha1": "351D94BCF03F4640C589A7BA9683DBF5CC6D749C",
-            "_validHash": true
+            "_validHash": false
           },
           {
             "name": ".dll",
@@ -100,21 +100,21 @@
             "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex-win32.dll",
             "platform": "Windows-x86",
             "sha1": "1FDA8C0F5D848120DC269FFE4081C873E8B8085C",
-            "_validHash": true
+            "_validHash": false
           },
           {
             "name": "/BadMutex.dll",
             "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex-win64.dll",
             "platform": "Windows-x64",
             "sha1": "00D3A65927D9A2F6B960B549D60BF12ED75F0A9F",
-            "_validHash": true
+            "_validHash": false
           },
           {
             "name": "/libBadMutex.dylib",
             "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/BadMutex-osx64.dylib",
             "platform": "OSX-x64",
             "sha1": "941E122E7A2E0BCCCFEB38CC87F4A2DD92838C2D",
-            "_validHash": true
+            "_validHash": false
           }
         ],
         "requiredModules": [
@@ -129,11 +129,11 @@
         ]
       }
     },
-    "_validHash": true,
+    "_validHash": false,
     "_reverseDependency": [],
     "_feedName": "FFI Experiments",
     "_feedIdentifier": "1fe3ac7",
-    "_fetchTime": 1786554361887,
+    "_fetchTime": 1786556759900,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
     "_namespace": "BM.BadMutex"
   }
