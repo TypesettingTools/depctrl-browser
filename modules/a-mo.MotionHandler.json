@@ -6,13 +6,13 @@
     "description": "A class for applying motion data to a LineCollection.",
     "channels": {
       "DepCtrl": {
-        "version": "1.1.8",
+        "version": "1.1.9",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/src/MotionHandler.moon",
-            "sha1": "689E4D0FDB4DAA600D8B76E5F6A33AE49A5401D1",
+            "sha1": "B6670EA8F78D9C54D6143B1986B8309A274432EC",
             "_validHash": true
           }
         ],
@@ -57,7 +57,7 @@
     ],
     "_feedName": "Aegisub-Motion",
     "_feedIdentifier": "4152f8d",
-    "_fetchTime": 1786236117091,
+    "_fetchTime": 1786554361626,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
     "_namespace": "a-mo.MotionHandler"
   }

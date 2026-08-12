@@ -6,13 +6,13 @@
     "description": "A class for encoding video clips.",
     "channels": {
       "DepCtrl": {
-        "version": "1.1.0",
+        "version": "1.2.0",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/src/TrimHandler.moon",
-            "sha1": "392CEF2D1B62BE7B4B88214C9833173C8A802B10",
+            "sha1": "B7DC2B9892E753938D3F40A59B294B52CF2CB08F",
             "_validHash": true
           }
         ],
@@ -31,7 +31,7 @@
     ],
     "_feedName": "Aegisub-Motion",
     "_feedIdentifier": "4152f8d",
-    "_fetchTime": 1786236117091,
+    "_fetchTime": 1786554361626,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
     "_namespace": "a-mo.TrimHandler"
   }
