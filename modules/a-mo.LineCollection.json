@@ -6,20 +6,20 @@
     "description": "A class for handling collections of lines.",
     "channels": {
       "DepCtrl": {
-        "version": "1.4.0",
+        "version": "1.4.1",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/src/LineCollection.moon",
-            "sha1": "E39881A7F0F5B72609E886B9C4D67AC3AEBF20EA",
+            "sha1": "4DE794F88168F5B73BFE27A0BD9114A710BD2CEA",
             "_validHash": true
           }
         ],
         "requiredModules": [
           {
             "moduleName": "a-mo.Line",
-            "version": "1.5.4",
+            "version": "1.5.5",
             "feed": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json"
           },
           {
@@ -66,7 +66,7 @@
     ],
     "_feedName": "Aegisub-Motion",
     "_feedIdentifier": "4152f8d",
-    "_fetchTime": 1786556759773,
+    "_fetchTime": 1786579561558,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
     "_namespace": "a-mo.LineCollection"
   }

@@ -6,13 +6,13 @@
     "description": "A class for managing the transform tag.",
     "channels": {
       "DepCtrl": {
-        "version": "1.2.4",
+        "version": "1.2.5",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/src/Transform.moon",
-            "sha1": "F7E2A0841EC74C6DBA588A1B73F20C8C633D52A8",
+            "sha1": "A8F5FF467E8BE51D6A9BF493B2CB2CA55C338185",
             "_validHash": true
           }
         ],
@@ -24,7 +24,7 @@
           },
           {
             "moduleName": "a-mo.Tags",
-            "version": "1.3.5",
+            "version": "1.3.6",
             "feed": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json"
           }
         ]
@@ -38,7 +38,7 @@
     ],
     "_feedName": "Aegisub-Motion",
     "_feedIdentifier": "4152f8d",
-    "_fetchTime": 1786556759773,
+    "_fetchTime": 1786579561558,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
     "_namespace": "a-mo.Transform"
   }

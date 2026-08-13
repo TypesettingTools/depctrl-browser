@@ -27,21 +27,21 @@
             "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts/releases/download/clipper2-1.4.0/clipper2.dll",
             "platform": "Windows-x64",
             "sha1": "216f1184a4af52f206c4c98b3d999e2f3518643d",
-            "_validHash": false
+            "_validHash": true
           },
           {
             "name": "/libclipper2.dylib",
             "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts/releases/download/clipper2-1.4.0/libclipper2.dylib",
             "platform": "OSX-x64",
             "sha1": "01a8267bc1e54d925c822225ea9cd18a528af455",
-            "_validHash": false
+            "_validHash": true
           },
           {
             "name": "/libclipper2.so",
             "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts/releases/download/clipper2-1.4.0/libclipper2.so",
             "platform": "Linux-x64",
             "sha1": "8dfaaf80906e534a66bf2bacc32f2914d27fa84e",
-            "_validHash": false
+            "_validHash": true
           }
         ],
         "requiredModules": [
@@ -76,14 +76,14 @@
         "Update Clipper2"
       ]
     },
-    "_validHash": false,
+    "_validHash": true,
     "_reverseDependency": [
       "ILL.Shapery",
       "ILL.ILL"
     ],
     "_feedName": "ILL Aegisub Scripts",
     "_feedIdentifier": "b2d8509",
-    "_fetchTime": 1786556759777,
+    "_fetchTime": 1786579561581,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "clipper2.clipper2"
   }

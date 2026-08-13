@@ -111,7 +111,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1786556759777,
+      "_fetchTime": 1786579561581,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.EnvelopeDistort"
     },
@@ -253,7 +253,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1786556759777,
+      "_fetchTime": 1786579561581,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.Shapery"
     },
@@ -341,7 +341,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1786556759777,
+      "_fetchTime": 1786579561581,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.MakeImage"
     },
@@ -424,7 +424,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1786556759777,
+      "_fetchTime": 1786579561581,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.ChangeAlign"
     },
@@ -481,7 +481,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1786556759777,
+      "_fetchTime": 1786579561581,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.SplitText"
     },
@@ -538,7 +538,7 @@
       },
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1786556759777,
+      "_fetchTime": 1786579561581,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.Line2FBF"
     }
@@ -572,21 +572,21 @@
               "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts/releases/download/clipper2-1.4.0/clipper2.dll",
               "platform": "Windows-x64",
               "sha1": "216f1184a4af52f206c4c98b3d999e2f3518643d",
-              "_validHash": false
+              "_validHash": true
             },
             {
               "name": "/libclipper2.dylib",
               "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts/releases/download/clipper2-1.4.0/libclipper2.dylib",
               "platform": "OSX-x64",
               "sha1": "01a8267bc1e54d925c822225ea9cd18a528af455",
-              "_validHash": false
+              "_validHash": true
             },
             {
               "name": "/libclipper2.so",
               "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts/releases/download/clipper2-1.4.0/libclipper2.so",
               "platform": "Linux-x64",
               "sha1": "8dfaaf80906e534a66bf2bacc32f2914d27fa84e",
-              "_validHash": false
+              "_validHash": true
             }
           ],
           "requiredModules": [
@@ -621,14 +621,14 @@
           "Update Clipper2"
         ]
       },
-      "_validHash": false,
+      "_validHash": true,
       "_reverseDependency": [
         "ILL.Shapery",
         "ILL.ILL"
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1786556759777,
+      "_fetchTime": 1786579561581,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "clipper2.clipper2"
     },
@@ -996,7 +996,7 @@
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1786556759777,
+      "_fetchTime": 1786579561581,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.ILL"
     },
@@ -1058,21 +1058,21 @@
               "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts/releases/download/image-v1.0.0/giflib.dll",
               "platform": "Windows-x64",
               "sha1": "bbbbbf7940a1d8f112c4db08a1680075bfe59fad",
-              "_validHash": false
+              "_validHash": true
             },
             {
               "name": "/giflib/giflib/libgiflib.dylib",
               "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts/releases/download/image-v1.0.0/libgiflib.dylib",
               "platform": "OSX-x64",
               "sha1": "8b7b7bc9ef42f6256cc770274a117655a475e77b",
-              "_validHash": false
+              "_validHash": true
             },
             {
               "name": "/giflib/giflib/libgiflib.so",
               "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts/releases/download/image-v1.0.0/libgiflib.so",
               "platform": "Linux-x64",
               "sha1": "5fc0374a1f89d0f786cac5bbce5ce4cb512a3902",
-              "_validHash": false
+              "_validHash": true
             },
             {
               "name": "/lodepng/lodepng.moon",
@@ -1085,21 +1085,21 @@
               "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts/releases/download/image-v1.0.0/lodepng.dll",
               "platform": "Windows-x64",
               "sha1": "61a65e04b034ee094637e23720718791ca1865f5",
-              "_validHash": false
+              "_validHash": true
             },
             {
               "name": "/lodepng/lodepng/liblodepng.dylib",
               "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts/releases/download/image-v1.0.0/liblodepng.dylib",
               "platform": "OSX-x64",
               "sha1": "4d7452a0a77551437062d59d9ef01f141422b562",
-              "_validHash": false
+              "_validHash": true
             },
             {
               "name": "/lodepng/lodepng/liblodepng.so",
               "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts/releases/download/image-v1.0.0/liblodepng.so",
               "platform": "Linux-x64",
               "sha1": "22a58b4cce2f202c7e96d3518fa35868793aac43",
-              "_validHash": false
+              "_validHash": true
             },
             {
               "name": "/turbojpeg/turbojpeg.moon",
@@ -1112,21 +1112,21 @@
               "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts/releases/download/image-v1.0.0/turbojpeg.dll",
               "platform": "Windows-x64",
               "sha1": "4d11a21b550768f4cc497a53b09a436c75f426d5",
-              "_validHash": false
+              "_validHash": true
             },
             {
               "name": "/turbojpeg/turbojpeg/libturbojpeg.dylib",
               "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts/releases/download/image-v1.0.0/libturbojpeg.dylib",
               "platform": "OSX-x64",
               "sha1": "d99df3508622fa757adff37a782e67a6cd33fda1",
-              "_validHash": false
+              "_validHash": true
             },
             {
               "name": "/turbojpeg/turbojpeg/libturbojpeg.so",
               "url": "https://github.com/TypesettingTools/ILL-Aegisub-Scripts/releases/download/image-v1.0.0/libturbojpeg.so",
               "platform": "Linux-x64",
               "sha1": "c76a65d5a0433eeaa67e9b1ea4739b6118dfeb29",
-              "_validHash": false
+              "_validHash": true
             }
           ],
           "requiredModules": [
@@ -1157,20 +1157,19 @@
           "Update ILL.IMG - Fix reduce pixels for ass"
         ]
       },
-      "_validHash": false,
+      "_validHash": true,
       "_reverseDependency": [
         "ILL.MakeImage"
       ],
       "_feedName": "ILL Aegisub Scripts",
       "_feedIdentifier": "b2d8509",
-      "_fetchTime": 1786556759777,
+      "_fetchTime": 1786579561581,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
       "_namespace": "ILL.IMG"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ILL-Aegisub-Scripts/main/DependencyControl.json",
   "_identifier": "b2d8509",
-  "_fetchTime": 1786556759777,
-  "_defective": "Some files unreachable",
-  "_validHash": false
+  "_fetchTime": 1786579561581,
+  "_validHash": true
 }

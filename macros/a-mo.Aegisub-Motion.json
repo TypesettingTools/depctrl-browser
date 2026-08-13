@@ -6,13 +6,13 @@
     "description": "The main macro.",
     "channels": {
       "DepCtrl": {
-        "version": "1.1.0",
+        "version": "1.1.1",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/a-mo.Aegisub-Motion.moon",
-            "sha1": "A81AF9BC14C14AC4BC94FCE9FE4F563536F7D2B7",
+            "sha1": "A56D73DDD0A77993D43D39E06ED72F8D756B899B",
             "_validHash": true
           }
         ],
@@ -29,7 +29,7 @@
           },
           {
             "moduleName": "a-mo.LineCollection",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "feed": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json"
           },
           {
@@ -44,7 +44,7 @@
           },
           {
             "moduleName": "a-mo.MotionHandler",
-            "version": "1.1.9",
+            "version": "1.1.10",
             "feed": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json"
           },
           {
@@ -54,7 +54,7 @@
           },
           {
             "moduleName": "a-mo.TrimHandler",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "feed": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json"
           },
           {
@@ -67,12 +67,12 @@
       }
     },
     "_validHash": true,
-    "_defaultVersion": "1.1.0",
+    "_defaultVersion": "1.1.1",
     "_scriptData": {
       "name": "Aegisub-Motion",
       "description": "A set of tools for simplifying the process of creating and applying motion tracking data with Aegisub.",
       "author": "torque",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "namespace": "a-mo.Aegisub-Motion",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json"
@@ -80,7 +80,7 @@
     },
     "_feedName": "Aegisub-Motion",
     "_feedIdentifier": "4152f8d",
-    "_fetchTime": 1786556759773,
+    "_fetchTime": 1786579561558,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
     "_namespace": "a-mo.Aegisub-Motion"
   }

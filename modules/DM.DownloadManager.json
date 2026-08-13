@@ -20,7 +20,7 @@
             "name": ".lua",
             "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager.lua",
             "sha1": "E4785E4ACAD637905ACF2B83F687FF9465784669",
-            "_validHash": false
+            "_validHash": true
           },
           {
             "name": ".dll",
@@ -31,21 +31,21 @@
             "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager-win32.dll",
             "platform": "Windows-x86",
             "sha1": "BE4B6D559312A0EE23216FFBCF45160737A6A757",
-            "_validHash": false
+            "_validHash": true
           },
           {
             "name": "/DownloadManager.dll",
             "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager-win64.dll",
             "platform": "Windows-x64",
             "sha1": "8540C49CF0AE81085034154AAA6A089E05DF419E",
-            "_validHash": false
+            "_validHash": true
           },
           {
             "name": "/libDownloadManager.dylib",
             "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager-osx64.dylib",
             "platform": "OSX-x64",
             "sha1": "364050E938726F79DF7C1EB9C29B8219B06572A7",
-            "_validHash": false
+            "_validHash": true
           }
         ],
         "requiredModules": [
@@ -60,11 +60,11 @@
         ]
       }
     },
-    "_validHash": false,
+    "_validHash": true,
     "_reverseDependency": [],
     "_feedName": "FFI Experiments",
     "_feedIdentifier": "2d000a9",
-    "_fetchTime": 1786556759727,
+    "_fetchTime": 1786579561591,
     "_sourceUrl": "https://raw.githubusercontent.com/torque/ffi-experiments/master/DependencyControl.json",
     "_namespace": "DM.DownloadManager"
   },
@@ -89,7 +89,7 @@
             "name": ".lua",
             "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager.lua",
             "sha1": "E4785E4ACAD637905ACF2B83F687FF9465784669",
-            "_validHash": false
+            "_validHash": true
           },
           {
             "name": ".dll",
@@ -100,21 +100,21 @@
             "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager-win32.dll",
             "platform": "Windows-x86",
             "sha1": "BE4B6D559312A0EE23216FFBCF45160737A6A757",
-            "_validHash": false
+            "_validHash": true
           },
           {
             "name": "/DownloadManager.dll",
             "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager-win64.dll",
             "platform": "Windows-x64",
             "sha1": "8540C49CF0AE81085034154AAA6A089E05DF419E",
-            "_validHash": false
+            "_validHash": true
           },
           {
             "name": "/libDownloadManager.dylib",
             "url": "https://github.com/TypesettingTools/ffi-experiments/releases/download/r3/DownloadManager-osx64.dylib",
             "platform": "OSX-x64",
             "sha1": "364050E938726F79DF7C1EB9C29B8219B06572A7",
-            "_validHash": false
+            "_validHash": true
           }
         ],
         "requiredModules": [
@@ -129,11 +129,11 @@
         ]
       }
     },
-    "_validHash": false,
+    "_validHash": true,
     "_reverseDependency": [],
     "_feedName": "FFI Experiments",
     "_feedIdentifier": "1fe3ac7",
-    "_fetchTime": 1786556759900,
+    "_fetchTime": 1786579561700,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ffi-experiments/master/DependencyControl.json",
     "_namespace": "DM.DownloadManager"
   }

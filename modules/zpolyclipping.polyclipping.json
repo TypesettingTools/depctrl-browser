@@ -28,28 +28,28 @@
             "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-win-x64-polyclipping.dll",
             "platform": "Windows-x64",
             "sha1": "db6eed51964b77f6002629aa80cd54f025dc125e",
-            "_validHash": false
+            "_validHash": true
           },
           {
             "name": "/polyclipping.dll",
             "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.0.0/v2.0.0-win-x86-polyclipping.dll",
             "platform": "Windows-x86",
             "sha1": "5d282aefdad636bfddf145d2eb698763b64be0d9",
-            "_validHash": false
+            "_validHash": true
           },
           {
             "name": "/libpolyclipping.dylib",
             "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-macOS-x64-libpolyclipping.dylib",
             "platform": "OSX-x64",
             "sha1": "f66d41ddd815aa918800e1db87f0007a1ebae6c5",
-            "_validHash": false
+            "_validHash": true
           },
           {
             "name": "/libpolyclipping.so",
             "url": "https://github.com/TypesettingTools/zeref-Aegisub-Scripts/releases/download/v2.1.0/v2.1.0-linux-x64-libpolyclipping.so",
             "platform": "Linux-x64",
             "sha1": "778def6b486500a5f56b4a115aceaaa64ff707d7",
-            "_validHash": false
+            "_validHash": true
           }
         ],
         "requiredModules": [
@@ -65,13 +65,13 @@
       }
     },
     "changelog": {},
-    "_validHash": false,
+    "_validHash": true,
     "_reverseDependency": [
       "ZF.main"
     ],
     "_feedName": "zeref-aegisub-scripts",
     "_feedIdentifier": "fbbbec7",
-    "_fetchTime": 1786556759876,
+    "_fetchTime": 1786579561686,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/zeref-Aegisub-Scripts/main/DependencyControl.json",
     "_namespace": "zpolyclipping.polyclipping"
   }
