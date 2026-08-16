@@ -620,6 +620,17 @@
     </content>
   </entry>
   <entry>
+    <title>Hyperdimensional Relocator - 4.5.2</title>
+    <link href="/depctrl-browser/macros/ua.Relocator/"/>
+    <updated>2022-04-24T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.Relocator/#4.5.2</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Follow user defined rounding for vector clips&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
     <title>Circular text - 0.2.1</title>
     <link href="/depctrl-browser/macros/lyger.CircleText/"/>
     <updated>2021-07-24T00:00:00Z</updated>
@@ -958,17 +969,6 @@
     <link href="/depctrl-browser/macros/ua.HYDRA/"/>
     <updated>2018-08-05T00:00:00Z</updated>
     <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.HYDRA/#6.1.0</id>
-    <content xml:lang="en" type="html">
-      
-        &lt;li&gt;Check the Updates page&lt;/li&gt;
-      
-    </content>
-  </entry>
-  <entry>
-    <title>Hyperdimensional Relocator - 4.5.0</title>
-    <link href="/depctrl-browser/macros/ua.Relocator/"/>
-    <updated>2018-08-05T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/ua.Relocator/#4.5.0</id>
     <content xml:lang="en" type="html">
       
         &lt;li&gt;Check the Updates page&lt;/li&gt;
