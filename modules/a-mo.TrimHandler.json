@@ -4,15 +4,20 @@
     "author": "torque",
     "name": "TrimHandler",
     "description": "A class for encoding video clips.",
+    "changelog": {
+      "1.2.4": [
+        "Fixed TrimHandler loading with Aegisub 3.5.0's bundled MoonScript compiler."
+      ]
+    },
     "channels": {
       "DepCtrl": {
-        "version": "1.2.3",
+        "version": "1.2.4",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/src/TrimHandler.moon",
-            "sha1": "9FAB41D88A98B5D0C4616CC881EE08AAC6F33119",
+            "sha1": "39B88E376359AAD806E68A195F65C888703EBB25",
             "_validHash": true
           }
         ],
@@ -31,7 +36,7 @@
     ],
     "_feedName": "Aegisub-Motion",
     "_feedIdentifier": "4152f8d",
-    "_fetchTime": 1791685594455,
+    "_fetchTime": 1791918081366,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
     "_namespace": "a-mo.TrimHandler"
   }

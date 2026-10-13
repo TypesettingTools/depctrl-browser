@@ -12,7 +12,7 @@
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/a-mo.Aegisub-Motion.moon",
-            "sha1": "1E914E83EBA668A5CE752AA510BB9D18F8EAD0ED",
+            "sha1": "E00C3D4E4E3105518DEB18C37469091C59E965E1",
             "_validHash": true
           }
         ],
@@ -54,7 +54,7 @@
           },
           {
             "moduleName": "a-mo.TrimHandler",
-            "version": "1.2.3",
+            "version": "1.2.4",
             "feed": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json"
           },
           {
@@ -80,7 +80,7 @@
     },
     "_feedName": "Aegisub-Motion",
     "_feedIdentifier": "4152f8d",
-    "_fetchTime": 1791685594455,
+    "_fetchTime": 1791918081366,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
     "_namespace": "a-mo.Aegisub-Motion"
   }
