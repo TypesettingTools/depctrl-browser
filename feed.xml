@@ -4,11 +4,33 @@
   <subtitle>List of recently updated DependencyControl Macros.</subtitle>
   <link href="feed.xml" rel="self"/>
   <link href="https://typesettingtools.github.io/depctrl-browser/"/>
-  <updated>2026-08-22T00:00:00Z</updated>
+  <updated>2026-10-18T00:00:00Z</updated>
   <id>https://typesettingtools.github.io/depctrl-browser/</id>
   <author>
     <name>DepCtrl Browser</name>
   </author>
+  <entry>
+    <title>Frame-by-frame transform - 2.0.2</title>
+    <link href="/depctrl-browser/macros/lyger.FbfTransform/"/>
+    <updated>2026-10-18T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/lyger.FbfTransform/#2.0.2</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Fixed a bug that caused last used presets to not save properly.&lt;/li&gt;
+      
+    </content>
+  </entry>
+  <entry>
+    <title>Gradient Everything - 2.0.5</title>
+    <link href="/depctrl-browser/macros/lyger.GradientEverything/"/>
+    <updated>2026-10-18T00:00:00Z</updated>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/lyger.GradientEverything/#2.0.5</id>
+    <content xml:lang="en" type="html">
+      
+        &lt;li&gt;Fixed a bug that caused last used presets to not save properly.&lt;/li&gt;
+      
+    </content>
+  </entry>
   <entry>
     <title>Aegisub Perspective-Motion - 0.4.1</title>
     <link href="/depctrl-browser/macros/arch.PerspectiveMotion/"/>
@@ -209,17 +231,6 @@
     <updated>2025-11-15T00:00:00Z</updated>
     <id>https://typesettingtools.github.io/depctrl-browser/macros/zah.aegi-color-track/#2.1.2</id>
     <content xml:lang="en" type="html">
-      
-    </content>
-  </entry>
-  <entry>
-    <title>Gradient Everything - 2.0.4</title>
-    <link href="/depctrl-browser/macros/lyger.GradientEverything/"/>
-    <updated>2025-11-09T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/lyger.GradientEverything/#2.0.4</id>
-    <content xml:lang="en" type="html">
-      
-        &lt;li&gt;Now extends clips to video edges.&lt;/li&gt;
       
     </content>
   </entry>
@@ -1199,19 +1210,6 @@
     <content xml:lang="en" type="html">
       
         &lt;li&gt;Add configuration capability&lt;/li&gt;
-      
-    </content>
-  </entry>
-  <entry>
-    <title>Frame-by-frame transform - 2.0.1</title>
-    <link href="/depctrl-browser/macros/lyger.FbfTransform/"/>
-    <updated>2016-04-11T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/lyger.FbfTransform/#2.0.1</id>
-    <content xml:lang="en" type="html">
-      
-        &lt;li&gt;Fixed a minor isssue uncovered by Moonscript linter.&lt;/li&gt;
-      
-        &lt;li&gt;Switched to maintained Functional library.&lt;/li&gt;
       
     </content>
   </entry>
