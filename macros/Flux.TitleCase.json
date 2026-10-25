@@ -65,7 +65,7 @@
     },
     "_feedName": "CoffeeFlux's Aegisub Scripts",
     "_feedIdentifier": "b6a37e0",
-    "_fetchTime": 1792349777547,
+    "_fetchTime": 1792893361280,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "Flux.TitleCase"
   }
