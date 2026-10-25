@@ -88,7 +88,7 @@
       },
       "_feedName": "CoffeeFlux's Aegisub Scripts",
       "_feedIdentifier": "b6a37e0",
-      "_fetchTime": 1792965367233,
+      "_fetchTime": 1792967762750,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "Flux.DialogSwapper"
     },
@@ -100,14 +100,14 @@
       "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/@{channel}/macros/Flux.TitleCase",
       "channels": {
         "master": {
-          "version": "1.4.0",
+          "version": "1.4.1",
           "released": "2026-10-25",
           "default": true,
           "files": [
             {
               "name": ".moon",
               "url": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/macros/Flux.TitleCase.moon",
-              "sha1": "B72A6E30F0A5FD08C59C35BF3E7F64950BB39A4E",
+              "sha1": "BFA2668514A4AF5A882AD95D29114FCC178AE371",
               "_validHash": true
             }
           ],
@@ -119,6 +119,9 @@
         }
       },
       "changelog": {
+        "1.4.1": [
+          "Match how renderers split override blocks: nested braces, unclosed braces and negative \\p values"
+        ],
         "1.4.0": [
           "Fixed minor words never being lowercased",
           "Fixed sentence detection across tag blocks and \\h",
@@ -151,12 +154,12 @@
         ]
       },
       "_validHash": true,
-      "_defaultVersion": "1.4.0",
+      "_defaultVersion": "1.4.1",
       "_scriptData": {
         "name": "Title Case",
         "description": "Applies English Title Case to selected lines",
         "author": "tophf",
-        "version": "1.4.0",
+        "version": "1.4.1",
         "namespace": "Flux.TitleCase",
         "_feedData": {
           "feed": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json"
@@ -164,7 +167,7 @@
       },
       "_feedName": "CoffeeFlux's Aegisub Scripts",
       "_feedIdentifier": "b6a37e0",
-      "_fetchTime": 1792965367233,
+      "_fetchTime": 1792967762750,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "Flux.TitleCase"
     },
@@ -223,7 +226,7 @@
       },
       "_feedName": "CoffeeFlux's Aegisub Scripts",
       "_feedIdentifier": "b6a37e0",
-      "_fetchTime": 1792965367233,
+      "_fetchTime": 1792967762750,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "Flux.Selegator"
     },
@@ -295,7 +298,7 @@
       },
       "_feedName": "CoffeeFlux's Aegisub Scripts",
       "_feedIdentifier": "b6a37e0",
-      "_fetchTime": 1792965367233,
+      "_fetchTime": 1792967762750,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "Flux.JumpScroll"
     },
@@ -353,7 +356,7 @@
       },
       "_feedName": "CoffeeFlux's Aegisub Scripts",
       "_feedIdentifier": "b6a37e0",
-      "_fetchTime": 1792965367233,
+      "_fetchTime": 1792967762750,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "Flux.LineSeparator"
     }
@@ -409,13 +412,13 @@
       ],
       "_feedName": "CoffeeFlux's Aegisub Scripts",
       "_feedIdentifier": "b6a37e0",
-      "_fetchTime": 1792965367233,
+      "_fetchTime": 1792967762750,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "Flux.ScrollHandler"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
   "_identifier": "b6a37e0",
-  "_fetchTime": 1792965367233,
+  "_fetchTime": 1792967762750,
   "_validHash": true
 }

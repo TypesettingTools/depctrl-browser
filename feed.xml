@@ -21,25 +21,13 @@
     </content>
   </entry>
   <entry>
-    <title>Title Case - 1.4.0</title>
+    <title>Title Case - 1.4.1</title>
     <link href="/depctrl-browser/macros/Flux.TitleCase/"/>
     <updated>2026-10-25T00:00:00Z</updated>
-    <id>https://typesettingtools.github.io/depctrl-browser/macros/Flux.TitleCase/#1.4.0</id>
+    <id>https://typesettingtools.github.io/depctrl-browser/macros/Flux.TitleCase/#1.4.1</id>
     <content xml:lang="en" type="html">
       
-        &lt;li&gt;Fixed minor words never being lowercased&lt;/li&gt;
-      
-        &lt;li&gt;Fixed sentence detection across tag blocks and &#92;h&lt;/li&gt;
-      
-        &lt;li&gt;Handle curly quotes, guillemets and inverted punctuation&lt;/li&gt;
-      
-        &lt;li&gt;Skip drawings&lt;/li&gt;
-      
-        &lt;li&gt;Always capitalize the last word and the word after a colon&lt;/li&gt;
-      
-        &lt;li&gt;Preserve acronyms and words like iPhone unless the whole line is in caps&lt;/li&gt;
-      
-        &lt;li&gt;Removed the aegisub.re dependency&lt;/li&gt;
+        &lt;li&gt;Match how renderers split override blocks: nested braces, unclosed braces and negative &#92;p values&lt;/li&gt;
       
     </content>
   </entry>
