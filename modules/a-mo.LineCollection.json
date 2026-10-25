@@ -50,7 +50,7 @@
       "a-mo.MotionHandler",
       "arch.Line2Fbf",
       "l0.ASSFoundation",
-      "Flux.ScaleRotTags",
+      "Flux.LineSeparator",
       "l0.ASSWipe",
       "l0.CascadeTransforms",
       "l0.HighlightSubstring",
@@ -66,7 +66,7 @@
     ],
     "_feedName": "Aegisub-Motion",
     "_feedIdentifier": "4152f8d",
-    "_fetchTime": 1792893361348,
+    "_fetchTime": 1792965367409,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
     "_namespace": "a-mo.LineCollection"
   }

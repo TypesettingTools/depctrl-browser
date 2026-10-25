@@ -7,21 +7,18 @@
     "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/@{channel}/macros/Flux.TitleCase",
     "channels": {
       "master": {
-        "version": "1.3.3",
-        "released": "2016-03-22",
+        "version": "1.4.0",
+        "released": "2026-10-25",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/macros/Flux.TitleCase.moon",
-            "sha1": "987FC1507D63059DFBF54C3AE162367A79A7977B",
+            "sha1": "B72A6E30F0A5FD08C59C35BF3E7F64950BB39A4E",
             "_validHash": true
           }
         ],
         "requiredModules": [
-          {
-            "moduleName": "aegisub.re"
-          },
           {
             "moduleName": "unicode"
           }
@@ -29,6 +26,15 @@
       }
     },
     "changelog": {
+      "1.4.0": [
+        "Fixed minor words never being lowercased",
+        "Fixed sentence detection across tag blocks and \\h",
+        "Handle curly quotes, guillemets and inverted punctuation",
+        "Skip drawings",
+        "Always capitalize the last word and the word after a colon",
+        "Preserve acronyms and words like iPhone unless the whole line is in caps",
+        "Removed the aegisub.re dependency"
+      ],
       "1.3.3": [
         "Updated to use single quotes"
       ],
@@ -52,12 +58,12 @@
       ]
     },
     "_validHash": true,
-    "_defaultVersion": "1.3.3",
+    "_defaultVersion": "1.4.0",
     "_scriptData": {
       "name": "Title Case",
       "description": "Applies English Title Case to selected lines",
       "author": "tophf",
-      "version": "1.3.3",
+      "version": "1.4.0",
       "namespace": "Flux.TitleCase",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json"
@@ -65,7 +71,7 @@
     },
     "_feedName": "CoffeeFlux's Aegisub Scripts",
     "_feedIdentifier": "b6a37e0",
-    "_fetchTime": 1792893361280,
+    "_fetchTime": 1792965367233,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
     "_namespace": "Flux.TitleCase"
   }

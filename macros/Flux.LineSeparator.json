@@ -1,0 +1,60 @@
+[
+  {
+    "url": "https://github.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts#Flux.LineSeparator",
+    "author": "CoffeeFlux",
+    "name": "Line Separator",
+    "description": "Break apart consecutive lines",
+    "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/@{channel}/macros/Flux.LineSeparator",
+    "channels": {
+      "master": {
+        "version": "1.1.0",
+        "released": "2026-10-25",
+        "default": true,
+        "files": [
+          {
+            "name": ".moon",
+            "url": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/macros/Flux.LineSeparator.moon",
+            "sha1": "53F9FA034E93F3AC96EF07B12EDE40D1B98E7966",
+            "_validHash": true
+          }
+        ],
+        "requiredModules": [
+          {
+            "moduleName": "a-mo.LineCollection",
+            "name": "Aegisub-Motion (LineCollection)",
+            "url": "https://github.com/TypesettingTools/Aegisub-Motion",
+            "version": "1.2.0",
+            "feed": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json"
+          }
+        ]
+      }
+    },
+    "changelog": {
+      "1.1.0": [
+        "Added to DepCtrl",
+        "Require video or timecodes to be loaded",
+        "Never shorten a line to zero or negative duration"
+      ],
+      "1.0.0": [
+        "Script creation"
+      ]
+    },
+    "_validHash": true,
+    "_defaultVersion": "1.1.0",
+    "_scriptData": {
+      "name": "Line Separator",
+      "description": "Break apart consecutive lines",
+      "author": "CoffeeFlux",
+      "version": "1.1.0",
+      "namespace": "Flux.LineSeparator",
+      "_feedData": {
+        "feed": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json"
+      }
+    },
+    "_feedName": "CoffeeFlux's Aegisub Scripts",
+    "_feedIdentifier": "b6a37e0",
+    "_fetchTime": 1792965367233,
+    "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
+    "_namespace": "Flux.LineSeparator"
+  }
+]

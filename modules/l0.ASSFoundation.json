@@ -979,7 +979,6 @@
       "arch.SplitSections",
       "arch.Resample",
       "arch.Util",
-      "Flux.ScaleRotTags",
       "l0.ASSWipe",
       "l0.CascadeTransforms",
       "l0.HighlightSubstring",
@@ -996,7 +995,7 @@
     ],
     "_feedName": "ASSFoundation",
     "_feedIdentifier": "92c766d",
-    "_fetchTime": 1792893361337,
+    "_fetchTime": 1792965367377,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json",
     "_namespace": "l0.ASSFoundation"
   }

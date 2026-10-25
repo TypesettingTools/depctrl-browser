@@ -610,9 +610,9 @@ document.addEventListener('click', function(event) {
     index.add(
       {
         id: i++,
-        href: "/depctrl-browser/macros/Flux.ScaleRotTags/",
-        name: "Scale Rotation Tags (Incorrectly)",
-        description: "Adjust frx/fry in lines post-upsample to be less terrible, though still wrong",
+        href: "/depctrl-browser/macros/Flux.LineSeparator/",
+        name: "Line Separator",
+        description: "Break apart consecutive lines",
       }
     );
     

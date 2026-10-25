@@ -20,20 +20,23 @@
       "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/@{channel}/macros/Flux.DialogSwapper",
       "channels": {
         "master": {
-          "version": "1.4.0",
-          "released": "2017-03-08",
+          "version": "1.4.1",
+          "released": "2026-10-25",
           "default": true,
           "files": [
             {
               "name": ".moon",
               "url": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/macros/Flux.DialogSwapper.moon",
-              "sha1": "F9533DAE70F9062FBB3733E9766F80A407242DE2",
+              "sha1": "D75F738C9442A5170417808C3222BA2C6C56DC66",
               "_validHash": true
             }
           ]
         }
       },
       "changelog": {
+        "1.4.1": [
+          "Fixed swapping never running (or crashing with style verification off), fixed escaping of alphanumeric delimiters"
+        ],
         "1.4.0": [
           "Remove legacy settings conversion"
         ],
@@ -72,12 +75,12 @@
         ]
       },
       "_validHash": true,
-      "_defaultVersion": "1.4.0",
+      "_defaultVersion": "1.4.1",
       "_scriptData": {
         "name": "Dialog Swapper",
         "description": "Perform text swapping operations on a script",
         "author": "CoffeeFlux",
-        "version": "1.4.0",
+        "version": "1.4.1",
         "namespace": "Flux.DialogSwapper",
         "_feedData": {
           "feed": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json"
@@ -85,7 +88,7 @@
       },
       "_feedName": "CoffeeFlux's Aegisub Scripts",
       "_feedIdentifier": "b6a37e0",
-      "_fetchTime": 1792893361280,
+      "_fetchTime": 1792965367233,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "Flux.DialogSwapper"
     },
@@ -97,21 +100,18 @@
       "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/@{channel}/macros/Flux.TitleCase",
       "channels": {
         "master": {
-          "version": "1.3.3",
-          "released": "2016-03-22",
+          "version": "1.4.0",
+          "released": "2026-10-25",
           "default": true,
           "files": [
             {
               "name": ".moon",
               "url": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/macros/Flux.TitleCase.moon",
-              "sha1": "987FC1507D63059DFBF54C3AE162367A79A7977B",
+              "sha1": "B72A6E30F0A5FD08C59C35BF3E7F64950BB39A4E",
               "_validHash": true
             }
           ],
           "requiredModules": [
-            {
-              "moduleName": "aegisub.re"
-            },
             {
               "moduleName": "unicode"
             }
@@ -119,6 +119,15 @@
         }
       },
       "changelog": {
+        "1.4.0": [
+          "Fixed minor words never being lowercased",
+          "Fixed sentence detection across tag blocks and \\h",
+          "Handle curly quotes, guillemets and inverted punctuation",
+          "Skip drawings",
+          "Always capitalize the last word and the word after a colon",
+          "Preserve acronyms and words like iPhone unless the whole line is in caps",
+          "Removed the aegisub.re dependency"
+        ],
         "1.3.3": [
           "Updated to use single quotes"
         ],
@@ -142,12 +151,12 @@
         ]
       },
       "_validHash": true,
-      "_defaultVersion": "1.3.3",
+      "_defaultVersion": "1.4.0",
       "_scriptData": {
         "name": "Title Case",
         "description": "Applies English Title Case to selected lines",
         "author": "tophf",
-        "version": "1.3.3",
+        "version": "1.4.0",
         "namespace": "Flux.TitleCase",
         "_feedData": {
           "feed": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json"
@@ -155,7 +164,7 @@
       },
       "_feedName": "CoffeeFlux's Aegisub Scripts",
       "_feedIdentifier": "b6a37e0",
-      "_fetchTime": 1792893361280,
+      "_fetchTime": 1792965367233,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "Flux.TitleCase"
     },
@@ -214,7 +223,7 @@
       },
       "_feedName": "CoffeeFlux's Aegisub Scripts",
       "_feedIdentifier": "b6a37e0",
-      "_fetchTime": 1792893361280,
+      "_fetchTime": 1792965367233,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "Flux.Selegator"
     },
@@ -226,8 +235,8 @@
       "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/@{channel}/macros/Flux.JumpScroll",
       "channels": {
         "master": {
-          "version": "2.3.0",
-          "released": "2016-03-22",
+          "version": "2.3.1",
+          "released": "2026-10-25",
           "default": true,
           "platforms": [
             "Windows-x86",
@@ -237,7 +246,7 @@
             {
               "name": ".moon",
               "url": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/macros/Flux.JumpScroll.moon",
-              "sha1": "59ECC92F208E9B08E51D560C2A8D3963FBE55319",
+              "sha1": "5CF6431B427ECD1D47E57DA8A33EAF0ECBED992B",
               "_validHash": true
             }
           ],
@@ -246,13 +255,16 @@
               "moduleName": "Flux.ScrollHandler",
               "name": "ScrollHandler",
               "url": "https://github.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts",
-              "version": "1.0.0",
+              "version": "1.1.1",
               "feed": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json"
             }
           ]
         }
       },
       "changelog": {
+        "2.3.1": [
+          "Require fixed ScrollHandler, fixed script URL"
+        ],
         "2.3.0": [
           "Move platform check to DepCtrl"
         ],
@@ -270,12 +282,12 @@
         ]
       },
       "_validHash": true,
-      "_defaultVersion": "2.3.0",
+      "_defaultVersion": "2.3.1",
       "_scriptData": {
         "name": "JumpScroll",
         "description": "Save and load subtitle grid scrollbar positions",
         "author": "CoffeeFlux",
-        "version": "2.3.0",
+        "version": "2.3.1",
         "namespace": "Flux.JumpScroll",
         "_feedData": {
           "feed": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json"
@@ -283,26 +295,26 @@
       },
       "_feedName": "CoffeeFlux's Aegisub Scripts",
       "_feedIdentifier": "b6a37e0",
-      "_fetchTime": 1792893361280,
+      "_fetchTime": 1792965367233,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "Flux.JumpScroll"
     },
-    "Flux.ScaleRotTags": {
-      "url": "https://github.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts#Flux.ScaleRotTags",
+    "Flux.LineSeparator": {
+      "url": "https://github.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts#Flux.LineSeparator",
       "author": "CoffeeFlux",
-      "name": "Scale Rotation Tags (Incorrectly)",
-      "description": "Adjust frx/fry in lines post-upsample to be less terrible, though still wrong",
-      "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/@{channel}/macros/Flux.ScaleRotTags",
+      "name": "Line Separator",
+      "description": "Break apart consecutive lines",
+      "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/@{channel}/macros/Flux.LineSeparator",
       "channels": {
         "master": {
           "version": "1.1.0",
-          "released": "2017-03-08",
+          "released": "2026-10-25",
           "default": true,
           "files": [
             {
               "name": ".moon",
-              "url": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/macros/Flux.ScaleRotTags.moon",
-              "sha1": "B20E4D01F97D863C79EB7ECFDFF4F876F047FE96",
+              "url": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/macros/Flux.LineSeparator.moon",
+              "sha1": "53F9FA034E93F3AC96EF07B12EDE40D1B98E7966",
               "_validHash": true
             }
           ],
@@ -310,23 +322,18 @@
             {
               "moduleName": "a-mo.LineCollection",
               "name": "Aegisub-Motion (LineCollection)",
-              "url": "https://github.com/torque/Aegisub-Motion",
-              "version": "1.1.4",
+              "url": "https://github.com/TypesettingTools/Aegisub-Motion",
+              "version": "1.2.0",
               "feed": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json"
-            },
-            {
-              "moduleName": "l0.ASSFoundation",
-              "name": "ASSFoundation",
-              "url": "https://github.com/TypesettingTools/ASSFoundation",
-              "version": "0.3.3",
-              "feed": "https://raw.githubusercontent.com/TypesettingTools/ASSFoundation/master/DependencyControl.json"
             }
           ]
         }
       },
       "changelog": {
         "1.1.0": [
-          "Add configuration capability"
+          "Added to DepCtrl",
+          "Require video or timecodes to be loaded",
+          "Never shorten a line to zero or negative duration"
         ],
         "1.0.0": [
           "Script creation"
@@ -335,18 +342,20 @@
       "_validHash": true,
       "_defaultVersion": "1.1.0",
       "_scriptData": {
-        "name": "Scale Rotation Tags (Incorrectly)",
-        "description": "Adjust frx/fry in lines post-upsample to be less terrible, though still wrong",
+        "name": "Line Separator",
+        "description": "Break apart consecutive lines",
         "author": "CoffeeFlux",
         "version": "1.1.0",
-        "namespace": "Flux.ScaleRotTags",
-        "_feedData": null
+        "namespace": "Flux.LineSeparator",
+        "_feedData": {
+          "feed": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json"
+        }
       },
       "_feedName": "CoffeeFlux's Aegisub Scripts",
       "_feedIdentifier": "b6a37e0",
-      "_fetchTime": 1792893361280,
+      "_fetchTime": 1792965367233,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
-      "_namespace": "Flux.ScaleRotTags"
+      "_namespace": "Flux.LineSeparator"
     }
   },
   "modules": {
@@ -358,8 +367,8 @@
       "fileBaseUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/@{channel}/modules/Flux.ScrollHandler",
       "channels": {
         "master": {
-          "version": "1.1.0",
-          "released": "2016-03-22",
+          "version": "1.1.1",
+          "released": "2026-10-25",
           "default": true,
           "platforms": [
             "Windows-x86",
@@ -369,7 +378,7 @@
             {
               "name": ".moon",
               "url": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/modules/Flux.ScrollHandler.moon",
-              "sha1": "8D0729EAE5B484C8F5C9057E4D1F296FF050A8DA",
+              "sha1": "460BB9C0961F0D1E1808085C23D5A24B01310554",
               "_validHash": true
             }
           ],
@@ -381,6 +390,9 @@
         }
       },
       "changelog": {
+        "1.1.1": [
+          "Fixed crash when saving or loading positions"
+        ],
         "1.1.0": [
           "Move platform check to DepCtrl"
         ],
@@ -397,13 +409,13 @@
       ],
       "_feedName": "CoffeeFlux's Aegisub Scripts",
       "_feedIdentifier": "b6a37e0",
-      "_fetchTime": 1792893361280,
+      "_fetchTime": 1792965367233,
       "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
       "_namespace": "Flux.ScrollHandler"
     }
   },
   "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/CoffeeFlux-Aegisub-Scripts/master/DependencyControl.json",
   "_identifier": "b6a37e0",
-  "_fetchTime": 1792893361280,
+  "_fetchTime": 1792965367233,
   "_validHash": true
 }
