@@ -6,13 +6,13 @@
     "description": "The main macro.",
     "channels": {
       "DepCtrl": {
-        "version": "1.1.1",
+        "version": "1.1.2",
         "default": true,
         "files": [
           {
             "name": ".moon",
             "url": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/a-mo.Aegisub-Motion.moon",
-            "sha1": "E00C3D4E4E3105518DEB18C37469091C59E965E1",
+            "sha1": "3ADBCB0BB4A4CAFCF8647540485DD9D6D2FB9069",
             "_validHash": true
           }
         ],
@@ -67,12 +67,12 @@
       }
     },
     "_validHash": true,
-    "_defaultVersion": "1.1.1",
+    "_defaultVersion": "1.1.2",
     "_scriptData": {
       "name": "Aegisub-Motion",
       "description": "A set of tools for simplifying the process of creating and applying motion tracking data with Aegisub.",
       "author": "torque",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "namespace": "a-mo.Aegisub-Motion",
       "_feedData": {
         "feed": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json"
@@ -80,7 +80,7 @@
     },
     "_feedName": "Aegisub-Motion",
     "_feedIdentifier": "4152f8d",
-    "_fetchTime": 1793501288421,
+    "_fetchTime": 1793837732563,
     "_sourceUrl": "https://raw.githubusercontent.com/TypesettingTools/Aegisub-Motion/DepCtrl/DependencyControl.json",
     "_namespace": "a-mo.Aegisub-Motion"
   }
